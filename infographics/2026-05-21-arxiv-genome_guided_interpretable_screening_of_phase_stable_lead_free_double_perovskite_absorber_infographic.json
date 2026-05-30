@@ -1,24 +1,24 @@
 {
-  "key_insight": "A genome-guided framework enables the discovery of stable, lead-free double perovskite absorbers with strong optical properties for various optoelectronic applications.",
-  "engineering_relevance": "The findings provide actionable design rules for developing sustainable and efficient materials for photovoltaics and sensors.",
+  "key_insight": "A genome-guided, physics-informed ML pipeline can screen vast lead-free double perovskite space and identify phase-stable absorbers using interpretable descriptor families tied to structure and optoelectronic behavior.",
+  "engineering_relevance": "This provides practical design rules for discovering non-toxic, all-inorganic semiconductor candidates for photovoltaics, sensors, and transparent electronics with DFT-validated stability.",
   "method": [
-    "Used 1,221 DFT-calculated compounds to train machine-learning models.",
-    "Implemented a staged inverse-design constraint stack on 13,088 compositions.",
-    "Identified five phase-stable semiconductor candidates through predictive modeling."
+    "Train ML surrogates on 1,221 DFT-calculated A2BB'X6 compounds using packing, bonding, polarization, and electronic-identity descriptors.",
+    "Use a staged inverse-design constraint stack to filter 13,088 charge-balanced lead-free compositions.",
+    "Validate top candidates with DFT and convex-hull stability checks."
   ],
-  "evidence_signal": "The machine-learning surrogates achieved a ROC-AUC of 0.92 for stability and an R2 of 0.93 for band-gap prediction.",
-  "watch_item": "Careful validation is needed to ensure that the identified compositions maintain stability in practical applications.",
+  "evidence_signal": "The stability classifier achieved ROC-AUC 0.92, the band-gap regressor reached R2 = 0.93 on held-out data, and five final candidates were DFT-validated on the convex hull.",
+  "watch_item": "The workflow is strong for screening, but practical deployment still depends on experimental synthesis, defect tolerance, and real-device stability beyond DFT thermodynamics.",
   "hashtags": [
+    "#Perovskites",
     "#MaterialsDiscovery",
-    "#LeadFreePerovskites",
-    "#Optoelectronics",
     "#MachineLearning",
-    "#SustainableEnergy"
+    "#SolarCells",
+    "#LeadFree"
   ],
   "paper_id": "2026-05-21-arxiv-genome_guided_interpretable_screening_of_phase_stable_lead_free_double_perovskite_absorber",
   "paper_title": "Genome-Guided Interpretable Screening of Phase-Stable, Lead-Free Double Perovskite Absorbers for All-Inorganic Semiconductors, Sensors, and Photovoltaics with DFT-Validated Design Rules",
   "paper_date": "2026-05-21",
   "paper_category": "Materials Discovery",
-  "generated_at": "2026-05-30T19:27:02",
+  "generated_at": "2026-05-30T23:21:13",
   "generator": "openai"
 }

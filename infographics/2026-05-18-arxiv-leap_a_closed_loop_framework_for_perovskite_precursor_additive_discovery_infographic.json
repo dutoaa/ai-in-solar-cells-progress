@@ -1,24 +1,24 @@
 {
-  "key_insight": "LEAP is a novel framework that leverages a specialized LLM and active learning to efficiently identify perovskite precursor additives.",
-  "engineering_relevance": "This research improves the performance of perovskite solar cells, which are crucial for sustainable energy technologies.",
+  "key_insight": "LEAP combines a perovskite-focused LLM with active learning to prioritize precursor additives using mechanism-aware, literature-grounded descriptors.",
+  "engineering_relevance": "The framework can reduce trial-and-error screening in perovskite solar cell development by guiding additive selection under low-data, uncertainty-aware conditions.",
   "method": [
-    "Integration of a domain-specialized LLM for knowledge extraction from literature.",
-    "Utilization of Bayesian optimization for uncertainty-aware prioritization of additives.",
-    "Incorporation of expert review in the additive screening process."
+    "Trains a domain-specialized LLM on additive literature to extract mechanism-relevant knowledge.",
+    "Encodes candidate molecules with interpretable descriptors for downstream ranking.",
+    "Uses Bayesian optimization plus expert feasibility review in a closed-loop screening workflow."
   ],
-  "evidence_signal": "LEAP demonstrated improved average device PCEs of 20.13% and 20.87% compared to a control PCE of 19.25%.",
-  "watch_item": "Future scalability of the framework may be limited by the availability of mechanistic insights in the literature.",
+  "evidence_signal": "On unseen literature, the specialized model outperformed general-purpose models in mechanism-consistent reasoning, and the proof-of-concept screening achieved average PCEs of 20.13% and 20.87% in later rounds versus 19.25% for the control, with a best device at 21.32%.",
+  "watch_item": "The approach still depends on the quality of literature-derived knowledge and expert review, so generalization and practical throughput may be limited by data bias and human-in-the-loop bottlenecks.",
   "hashtags": [
-    "#Perovskite",
-    "#SolarCells",
-    "#MaterialsDiscovery",
-    "#MachineLearning",
-    "#ActiveLearning"
+    "#Perovskites",
+    "#ActiveLearning",
+    "#LLMforMaterials",
+    "#BayesianOptimization",
+    "#SolarCells"
   ],
   "paper_id": "2026-05-18-arxiv-leap_a_closed_loop_framework_for_perovskite_precursor_additive_discovery",
   "paper_title": "LEAP: A closed-loop framework for perovskite precursor additive discovery",
   "paper_date": "2026-05-18",
   "paper_category": "Materials Discovery",
-  "generated_at": "2026-05-30T19:26:40",
+  "generated_at": "2026-05-30T23:21:00",
   "generator": "openai"
 }
