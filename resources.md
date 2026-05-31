@@ -1,6 +1,6 @@
 # AI solar cells Progress Public Resources
 
-Generated: 2026-05-30
+Generated: 2026-05-31
 Public site: https://dutoaa.github.io/ai-in-solar-cells-progress/
 
 ## 1. LEAP: A closed-loop framework for perovskite precursor additive discovery
@@ -27,15 +27,7 @@ Public site: https://dutoaa.github.io/ai-in-solar-cells-progress/
 - PDF: https://arxiv.org/pdf/2605.30182v1
 - Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-05-28-arxiv-more_than_just_light_management_the_multiple_advantages_of_nano_and_micro_textures_in_pero_infographic.json
 
-## 4. Thin single-crystal perovskite detector for high-energy charged particles
-
-- Date: 2026-05-28
-- Category: Perovskite Solar Cells
-- arXiv: https://arxiv.org/abs/2605.29764v1
-- PDF: https://arxiv.org/pdf/2605.29764v1
-- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-05-28-arxiv-thin_single_crystal_perovskite_detector_for_high_energy_charged_particles_infographic.json
-
-## 5. Photovoltaic Possibility of Cu2SiSe3 and Cu2SnS3 Ternary Chalcogenides- Single Junction to Tandem Architecture
+## 4. Photovoltaic Possibility of Cu2SiSe3 and Cu2SnS3 Ternary Chalcogenides- Single Junction to Tandem Architecture
 
 - Date: 2026-05-08
 - Category: Device Optimization
@@ -43,7 +35,7 @@ Public site: https://dutoaa.github.io/ai-in-solar-cells-progress/
 - PDF: https://arxiv.org/pdf/2605.08312v1
 - Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-05-08-arxiv-photovoltaic_possibility_of_cu2sise3_and_cu2sns3_ternary_chalcogenides_single_junction_to_infographic.json
 
-## 6. Genome-Guided Interpretable Screening of Phase-Stable, Lead-Free Double Perovskite Absorbers for All-Inorganic Semiconductors, Sensors, and Photovoltaics with DFT-Validated Design Rules
+## 5. Genome-Guided Interpretable Screening of Phase-Stable, Lead-Free Double Perovskite Absorbers for All-Inorganic Semiconductors, Sensors, and Photovoltaics with DFT-Validated Design Rules
 
 - Date: 2026-05-21
 - Category: Materials Discovery
@@ -51,15 +43,15 @@ Public site: https://dutoaa.github.io/ai-in-solar-cells-progress/
 - PDF: https://arxiv.org/pdf/2605.22887v1
 - Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-05-21-arxiv-genome_guided_interpretable_screening_of_phase_stable_lead_free_double_perovskite_absorber_infographic.json
 
-## 7. Decision-focused learning for optimal PV-Battery scheduling
+## 6. Thin single-crystal perovskite detector for high-energy charged particles
 
-- Date: 2026-05-27
-- Category: Device Optimization
-- arXiv: https://arxiv.org/abs/2605.28340v1
-- PDF: https://arxiv.org/pdf/2605.28340v1
-- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-05-27-arxiv-decision_focused_learning_for_optimal_pv_battery_scheduling_infographic.json
+- Date: 2026-05-28
+- Category: Perovskite Solar Cells
+- arXiv: https://arxiv.org/abs/2605.29764v1
+- PDF: https://arxiv.org/pdf/2605.29764v1
+- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-05-28-arxiv-thin_single_crystal_perovskite_detector_for_high_energy_charged_particles_infographic.json
 
-## 8. Carrier Localization in Pnictogen-Based Chalcohalides from Defect-Bound Hot Polarons
+## 7. Carrier Localization in Pnictogen-Based Chalcohalides from Defect-Bound Hot Polarons
 
 - Date: 2026-05-28
 - Category: Perovskite Solar Cells
@@ -67,13 +59,21 @@ Public site: https://dutoaa.github.io/ai-in-solar-cells-progress/
 - PDF: https://arxiv.org/pdf/2605.29925v1
 - Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-05-28-arxiv-carrier_localization_in_pnictogen_based_chalcohalides_from_defect_bound_hot_polarons_infographic.json
 
-## 9. Exploring the Potential of Ternary Blending for Two and Three-Junction RAINBOW Solar Cells
+## 8. Exploring the Potential of Ternary Blending for Two and Three-Junction RAINBOW Solar Cells
 
 - Date: 2026-05-07
 - Category: Device Optimization
 - arXiv: https://arxiv.org/abs/2605.07718v2
 - PDF: https://arxiv.org/pdf/2605.07718v2
 - Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-05-07-arxiv-exploring_the_potential_of_ternary_blending_for_two_and_three_junction_rainbow_solar_cells_infographic.json
+
+## 9. Decision-focused learning for optimal PV-Battery scheduling
+
+- Date: 2026-05-27
+- Category: Device Optimization
+- arXiv: https://arxiv.org/abs/2605.28340v1
+- PDF: https://arxiv.org/pdf/2605.28340v1
+- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-05-27-arxiv-decision_focused_learning_for_optimal_pv_battery_scheduling_infographic.json
 
 ## 10. Beyond lead halide perovskites: visible light photovoltaics with phase engineered bismuth-based oxide double-perovskites, Bi2MCrO6 (M = Fe, Mn)
 
@@ -123,15 +123,7 @@ Public site: https://dutoaa.github.io/ai-in-solar-cells-progress/
 - PDF: https://arxiv.org/pdf/2605.13991v1
 - Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-05-13-arxiv-circularity_in_perovskite_based_tandem_photovoltaics_for_terawatt_scale_deployment_infographic.json
 
-## 16. Integrating Hydrogen into Ontario's Energy Hub: A Robust, Carbon-Aware Framework for Power-Heat-Transport
-
-- Date: 2026-05-25
-- Category: Device Optimization
-- arXiv: https://arxiv.org/abs/2605.26392v1
-- PDF: https://arxiv.org/pdf/2605.26392v1
-- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-05-25-arxiv-integrating_hydrogen_into_ontario_s_energy_hub_a_robust_carbon_aware_framework_for_power_h_infographic.json
-
-## 17. Security Metrics for Nonlinear Optical Light Sources from Interferometric Field Reconstruction
+## 16. Security Metrics for Nonlinear Optical Light Sources from Interferometric Field Reconstruction
 
 - Date: 2026-05-27
 - Category: Perovskite Solar Cells
@@ -139,15 +131,7 @@ Public site: https://dutoaa.github.io/ai-in-solar-cells-progress/
 - PDF: https://arxiv.org/pdf/2605.28695v1
 - Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-05-27-arxiv-security_metrics_for_nonlinear_optical_light_sources_from_interferometric_field_reconstruc_infographic.json
 
-## 18. Alignment-free ultra-broadband parametric frequency conversion in lead-halide perovskites
-
-- Date: 2026-05-25
-- Category: Perovskite Solar Cells
-- arXiv: https://arxiv.org/abs/2605.25718v1
-- PDF: https://arxiv.org/pdf/2605.25718v1
-- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-05-25-arxiv-alignment_free_ultra_broadband_parametric_frequency_conversion_in_lead_halide_perovskites_infographic.json
-
-## 19. Predicting Organic Solar Cell Performance and Stability from Fast, Morphology-aware Current-Voltage Modeling
+## 17. Predicting Organic Solar Cell Performance and Stability from Fast, Morphology-aware Current-Voltage Modeling
 
 - Date: 2026-05-19
 - Category: Organic Photovoltaics
@@ -155,10 +139,26 @@ Public site: https://dutoaa.github.io/ai-in-solar-cells-progress/
 - PDF: https://arxiv.org/pdf/2605.19603v1
 - Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-05-19-arxiv-predicting_organic_solar_cell_performance_and_stability_from_fast_morphology_aware_current_infographic.json
 
-## 20. Ferroelectric domains in methylammonium lead iodide perovskite thin-films
+## 18. Integrating Hydrogen into Ontario's Energy Hub: A Robust, Carbon-Aware Framework for Power-Heat-Transport
+
+- Date: 2026-05-25
+- Category: Device Optimization
+- arXiv: https://arxiv.org/abs/2605.26392v1
+- PDF: https://arxiv.org/pdf/2605.26392v1
+- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-05-25-arxiv-integrating_hydrogen_into_ontario_s_energy_hub_a_robust_carbon_aware_framework_for_power_h_infographic.json
+
+## 19. Ferroelectric domains in methylammonium lead iodide perovskite thin-films
 
 - Date: 2026-05-08
 - Category: Perovskite Solar Cells
 - arXiv: https://arxiv.org/abs/2605.07780v1
 - PDF: https://arxiv.org/pdf/2605.07780v1
 - Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-05-08-arxiv-ferroelectric_domains_in_methylammonium_lead_iodide_perovskite_thin_films_infographic.json
+
+## 20. Phonon Interactions in Metal Halide Perovskites elucidated by Raman Scattering
+
+- Date: 2026-05-20
+- Category: Perovskite Solar Cells
+- arXiv: https://arxiv.org/abs/2605.21415v1
+- PDF: https://arxiv.org/pdf/2605.21415v1
+- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-05-20-arxiv-phonon_interactions_in_metal_halide_perovskites_elucidated_by_raman_scattering_infographic.json

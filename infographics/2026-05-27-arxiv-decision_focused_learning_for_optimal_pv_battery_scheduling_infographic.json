@@ -1,24 +1,24 @@
 {
-  "key_insight": "Training the PV forecaster to optimize battery scheduling, not just forecast accuracy, produced lower electricity costs even with worse prediction error.",
-  "engineering_relevance": "For residential PV-battery systems, decision-focused learning can improve operational savings by aligning forecasting models with downstream control objectives.",
+  "key_insight": "Training the PV forecaster to optimize battery scheduling decisions, not just forecast accuracy, produced lower electricity costs.",
+  "engineering_relevance": "For residential PV-battery systems, decision-focused learning can improve operational savings even when standard prediction metrics get worse.",
   "method": [
-    "LSTM PV forecasting model embedded in a battery scheduling optimization loop",
-    "Compared decision-focused training against a standard two-phase forecast-then-optimize approach",
-    "Tested warm-started and non-warm-started variants"
+    "Train an LSTM PV forecast model end-to-end with the downstream battery scheduling objective.",
+    "Compare decision-focused learning against a standard two-phase forecast-then-optimize pipeline.",
+    "Test warm-starting to improve optimization cost and stabilize forecast error."
   ],
-  "evidence_signal": "Across 20 buildings over 14 months, the decision-focused method cut average electricity costs by 3.6% versus performance bounds, and warm-starting improved savings to about 8%.",
-  "watch_item": "The approach improved cost outcomes but increased RMSE versus the decoupled baseline, so deployment should verify that lower forecast accuracy does not hurt system reliability or constraints.",
+  "evidence_signal": "Over a 14-month evaluation on 20 buildings, the decision-focused method reduced average electricity costs by 3.6% versus bounds from perfect forecast and no optimization, with statistically significant results at p<0.001.",
+  "watch_item": "The approach improved cost while increasing RMSE in the main setting, so deployment must balance economic gains against reduced forecast accuracy and possible sensitivity to dataset-specific conditions.",
   "hashtags": [
-    "#SolarEnergy",
     "#PVBattery",
     "#DecisionFocusedLearning",
-    "#Optimization",
-    "#MachineLearning"
+    "#EnergyOptimization",
+    "#SolarForecasting",
+    "#SmartGrid"
   ],
   "paper_id": "2026-05-27-arxiv-decision_focused_learning_for_optimal_pv_battery_scheduling",
   "paper_title": "Decision-focused learning for optimal PV-Battery scheduling",
   "paper_date": "2026-05-27",
   "paper_category": "Device Optimization",
-  "generated_at": "2026-05-30T23:21:16",
+  "generated_at": "2026-05-31T13:20:46",
   "generator": "openai"
 }
