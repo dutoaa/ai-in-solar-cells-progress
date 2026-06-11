@@ -1,24 +1,24 @@
 {
-  "key_insight": "At commissioning time, Photovoltaic (PV) operators must forecast production before target-site observations are available, limiting the direct use of standard supervised forecasters.",
-  "engineering_relevance": "Potential relevance: ai solar cells workflows and research evaluation.",
+  "key_insight": "Cold-start PV forecasting can be made feasible by generating a synthetic site history from metadata and weather, then conditioning time-series foundation models at inference time.",
+  "engineering_relevance": "This enables PV operators to produce early forecasts at commissioning without waiting for local historical measurements, improving deployment readiness for new plants.",
   "method": [
-    "AI solar cells paper selected from recent arXiv submissions.",
-    "Ranked by recency plus AI and solar cells relevance signals.",
-    "Use the linked paper for methods, data, and validation details."
+    "Create physics-informed synthetic production histories from plant metadata and meteorological covariates.",
+    "Feed the synthetic history into five time-series foundation models for zero-shot forecasting.",
+    "Benchmark against classical baselines under Cold-Start Baseline, Real Feedback, and Self-Forecast Feedback settings."
   ],
-  "evidence_signal": "Evidence details are summarized from the public abstract only.",
-  "watch_item": "Review the full paper for governing assumptions, validation data, and generalization limits.",
+  "evidence_signal": "Across 440 PV sites in four datasets, covariate-aware foundation models beat baselines by about 1.7–2×, with TabPFN-TS best under Real Feedback and Chronos-2 most robust under Self-Forecast Feedback.",
+  "watch_item": "Results suggest the pipeline depends more on having plausible temporal context than on the exact synthetic-history generator, so production deployment should verify generator stability across new climates and site types.",
   "hashtags": [
-    "#AISolarCells",
-    "#SolarCells",
-    "#Turbulence",
-    "#SolarML",
-    "#arXiv"
+    "#Photovoltaics",
+    "#TimeSeriesForecasting",
+    "#FoundationModels",
+    "#ColdStartLearning",
+    "#RenewableEnergyAI"
   ],
   "paper_id": "2026-06-05-arxiv-time_series_foundation_models_based_on_physics_informed_synthetic_histories_for_cold_start",
   "paper_title": "Time series Foundation Models based on Physics-Informed Synthetic Histories for Cold-Start Photovoltaic Forecasting",
   "paper_date": "2026-06-05",
   "paper_category": "AI solar cells",
-  "generated_at": "2026-06-10T14:57:38",
+  "generated_at": "2026-06-11T15:40:22",
   "generator": "openai"
 }
