@@ -1,24 +1,24 @@
 {
-  "key_insight": "A genome-guided, physics-informed screening framework can interpret and prune a massive lead-free double-perovskite search space down to a few phase-stable, optoelectrically promising absorbers.",
-  "engineering_relevance": "The study provides actionable design rules for selecting stable, lead-free halide perovskites for photovoltaics, sensors, and all-inorganic semiconductor devices.",
+  "key_insight": "A genome-guided, physics-informed screening framework can efficiently narrow thousands of lead-free double perovskite compositions to a small set of phase-stable, optoelectronically promising absorbers.",
+  "engineering_relevance": "The resulting DFT-validated design rules offer a practical route to discover safer semiconductors for photovoltaics, sensors, and transparent electronics without relying on lead-containing perovskites.",
   "method": [
-    "Built ML surrogates from four interpretable descriptor families: packing, bonding, polarization, and electronic identity.",
-    "Trained on 1,221 DFT-calculated A2BB'X6 compounds to predict stability and band gap.",
-    "Applied staged inverse-design constraints to 13,088 charge-balanced compositions and DFT-validated the finalists."
+    "Built interpretable descriptors for packing, bonding, polarization, and electronic identity.",
+    "Trained ML surrogates on 1,221 DFT-calculated A2BB'X6 compounds for stability and band-gap prediction.",
+    "Applied staged inverse-design filters to 13,088 charge-balanced compositions and validated top candidates with DFT."
   ],
-  "evidence_signal": "The stability classifier achieved ROC-AUC 0.92 and the XGBoost band-gap model reached R2 = 0.93 on held-out data, leading to five convex-hull-stable candidates.",
-  "watch_item": "The final candidates are DFT-validated but still require experimental synthesis, defect, and device-level testing before practical deployment.",
+  "evidence_signal": "The models achieved ROC-AUC = 0.92 for phase stability and R2 = 0.93 for band-gap prediction, and five candidates were found on the convex hull with Ehull <= 0 meV/atom.",
+  "watch_item": "The workflow still depends on DFT-derived labels and charge-balanced composition rules, so experimental synthesis, defect tolerance, and long-term environmental stability remain to be validated.",
   "hashtags": [
     "#Perovskites",
     "#MaterialsDiscovery",
     "#MachineLearning",
     "#DFT",
-    "#SolarCells"
+    "#Photovoltaics"
   ],
   "paper_id": "2026-05-21-arxiv-genome_guided_interpretable_screening_of_phase_stable_lead_free_double_perovskite_absorber",
   "paper_title": "Genome-Guided Interpretable Screening of Phase-Stable, Lead-Free Double Perovskite Absorbers for All-Inorganic Semiconductors, Sensors, and Photovoltaics with DFT-Validated Design Rules",
   "paper_date": "2026-05-21",
   "paper_category": "Materials Discovery",
-  "generated_at": "2026-06-11T15:39:58",
+  "generated_at": "2026-06-12T14:40:27",
   "generator": "openai"
 }
