@@ -1,24 +1,24 @@
 {
-  "key_insight": "A two-level machine-learning workflow can efficiently map phase stability across complex hybrid perovskite alloy compositions, revealing that Sn-based alloys are less stable than Pb-based ones.",
-  "engineering_relevance": "The stability maps provide design rules for selecting alloy compositions that maximize thermodynamic stability in perovskite solar cells, especially by favoring high-iodide regions.",
+  "key_insight": "A two-level machine-learning framework can map the thermodynamic stability of complex hybrid perovskite alloys across composition space, revealing that Sn-based alloys have a much narrower stable region than Pb-based alloys.",
+  "engineering_relevance": "The stability maps directly inform compositional engineering for perovskite solar cells, pointing to high-iodide compositions as the most promising route for robust materials.",
   "method": [
-    "Graph neural network interatomic potentials were trained on DFT data to perform fast structure relaxations.",
-    "Secondary ML models predicted energies directly from unrelaxed structures.",
-    "The approach computed free-energy landscapes across compositions and phases while capturing disorder and FA orientations."
+    "Graph neural network interatomic potentials were trained on DFT data to speed up structure relaxations.",
+    "Secondary ML models predicted energies directly from unrelaxed alloy structures.",
+    "Free-energy landscapes were computed for (Cs/FA)Pb(Br/I)3 and (Cs/FA)Sn(Br/I)3, including disorder and FA orientations."
   ],
-  "evidence_signal": "The models were used to evaluate free-energy landscapes across the full composition space of (Cs/FA)Pb(Br/I)3 and (Cs/FA)Sn(Br/I)3, showing narrower stable regions for the Sn system and no stabilization near the center of composition space.",
-  "watch_item": "Because the workflow relies on trained ML models, predictions should be validated carefully when extending to compositions, phases, or temperature regimes not well represented in the DFT training data.",
+  "evidence_signal": "The model was evaluated by generating free-energy landscapes across compositions and phases, showing maximum stability at high I content and no stabilization near the center of composition space.",
+  "watch_item": "Because the approach depends on ML models trained on DFT data, accuracy may degrade outside the composition and phase space covered by training.",
   "hashtags": [
     "#PerovskiteSolarCells",
     "#MachineLearning",
+    "#Thermodynamics",
     "#MaterialsInformatics",
-    "#ThermodynamicStability",
-    "#HybridPerovskites"
+    "#StabilityMapping"
   ],
   "paper_id": "2026-05-28-arxiv-charting_the_thermodynamic_stability_of_hybrid_perovskite_alloys_with_machine_learning",
   "paper_title": "Charting the thermodynamic stability of hybrid perovskite alloys with machine learning",
   "paper_date": "2026-05-28",
   "paper_category": "Perovskite Solar Cells",
-  "generated_at": "2026-06-13T13:30:52",
+  "generated_at": "2026-06-14T13:44:48",
   "generator": "openai"
 }

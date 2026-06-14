@@ -1,13 +1,13 @@
 {
-  "key_insight": "A backward-mapping, genome-guided pipeline can translate device targets into chemically interpretable rules to discover phase-stable, lead-free double perovskites.",
-  "engineering_relevance": "The workflow offers a practical inverse-design route for scalable screening of halide perovskites with stability, optical, and transport properties aligned to photovoltaic and optoelectronic device needs.",
+  "key_insight": "The paper shows that backward mapping from desired device targets to chemically interpretable descriptors can identify phase-stable, lead-free double perovskites with DFT-validated properties.",
+  "engineering_relevance": "This provides an interpretable inverse-design workflow for screening large halide perovskite spaces and accelerating selection of safer, stable materials for optoelectronic devices.",
   "method": [
-    "Start with 13,088 charge-balanced A2BB'X6 compositions and apply halide-aware formability filtering.",
-    "Encode six families of chemical-genome descriptors and train evolutionary-optimized ML surrogates for stability and band gap.",
-    "Use SHAP interpretation plus DFT closure to validate and refine candidate materials."
+    "Filter 13,088 charge-balanced A2BB'X6 compositions with halide-aware geometric formability rules.",
+    "Encode compounds with six chemical-genome descriptor families and train evolutionary-optimized ML surrogates for stability and band gap.",
+    "Use SHAP interpretation plus DFT phenotype closure to validate top candidates and extract design rules."
   ],
-  "evidence_signal": "From the abstract, the funnel narrows 13,088 compositions to seven DFT-validated candidates, with stability labeled by Ehull and band gaps predicted for target-driven selection.",
-  "watch_item": "Results rely on PBE-based surrogate targets and DFT validation, so experimental synthesis, phase purity, and temperature-dependent stability still need confirmation.",
+  "evidence_signal": "The workflow narrows the search to seven DFT-validated candidates and evaluates them for stability, band structure, effective mass, dielectric response, optical absorption, conductivity, reflectivity, energy loss, and XRD fingerprints.",
+  "watch_item": "Because the band-gap surrogate is trained on scalar-relativistic PBE labels, practical deployment may need higher-level corrections and experimental validation of synthesized phases.",
   "hashtags": [
     "#MaterialsDiscovery",
     "#Perovskites",
@@ -19,6 +19,6 @@
   "paper_title": "Backward Mapping from Device Targets to Chemical Genomes for Interpretable Discovery of Phase-Stable Lead-Free Double Perovskites with DFT-Validated Design Rules",
   "paper_date": "2026-05-20",
   "paper_category": "Materials Discovery",
-  "generated_at": "2026-06-11T15:40:17",
+  "generated_at": "2026-06-14T13:45:16",
   "generator": "openai"
 }

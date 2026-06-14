@@ -1,17 +1,17 @@
 {
-  "key_insight": "LEAP combines a domain-specialized LLM with active learning to prioritize perovskite precursor additives in a closed loop, making additive discovery more mechanism-aware and data-efficient.",
-  "engineering_relevance": "For solar-cell engineering, the framework can reduce experimental screening effort while improving the odds of finding additives that boost device efficiency under low-data conditions.",
+  "key_insight": "LEAP combines a domain-specialized LLM with active learning to prioritize perovskite precursor additives more intelligently than trial-and-error screening.",
+  "engineering_relevance": "The framework can speed up additive selection for perovskite solar cells by using literature-grounded mechanistic descriptors and uncertainty-aware optimization to reduce experimental search cost.",
   "method": [
-    "LLM extracts mechanism-relevant knowledge from perovskite additive literature.",
-    "Molecules are encoded with interpretable descriptors and fed into Bayesian optimization for uncertainty-aware ranking.",
-    "Experts review feasibility and guide iterative screening across rounds."
+    "Train an LLM on perovskite additive literature to extract mechanism-relevant knowledge.",
+    "Convert candidate molecules into interpretable descriptors for downstream ranking.",
+    "Use Bayesian optimization plus expert feasibility review to iteratively prioritize additives in closed loop."
   ],
-  "evidence_signal": "On unseen literature, the domain-specialized model outperformed general-purpose models, and the proof-of-concept screening achieved average PCEs of 20.13% and 20.87% in later rounds versus 19.25% for control, with a 21.32% champion device.",
-  "watch_item": "Performance depends on the quality and coverage of literature-derived descriptors plus expert feasibility review, so transfer to new chemistries may be limited by data and bias.",
+  "evidence_signal": "On unseen literature, the domain-specialized model outperformed general-purpose models, and the proof-of-concept screening across three rounds yielded average PCEs of 20.13% and 20.87% for later-round treated devices versus 19.25% for control, with a champion PCE of 21.32%.",
+  "watch_item": "The reported gains come from a proof-of-concept study with expert-in-the-loop filtering, so broader generalization and automation-level robustness still need validation.",
   "hashtags": [
     "#PerovskiteSolarCells",
     "#ActiveLearning",
-    "#LargeLanguageModels",
+    "#LLMforScience",
     "#BayesianOptimization",
     "#MaterialsDiscovery"
   ],
@@ -19,6 +19,6 @@
   "paper_title": "LEAP: A closed-loop framework for perovskite precursor additive discovery",
   "paper_date": "2026-05-18",
   "paper_category": "Materials Discovery",
-  "generated_at": "2026-06-13T13:30:25",
+  "generated_at": "2026-06-14T13:44:25",
   "generator": "openai"
 }
