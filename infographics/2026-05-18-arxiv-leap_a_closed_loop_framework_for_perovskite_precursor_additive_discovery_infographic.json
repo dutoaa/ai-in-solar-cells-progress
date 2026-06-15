@@ -1,24 +1,24 @@
 {
-  "key_insight": "LEAP combines a domain-specialized LLM with active learning to prioritize perovskite precursor additives more intelligently than trial-and-error screening.",
-  "engineering_relevance": "The framework can speed up additive selection for perovskite solar cells by using literature-grounded mechanistic descriptors and uncertainty-aware optimization to reduce experimental search cost.",
+  "key_insight": "LEAP combines a domain-trained LLM with active learning to prioritize perovskite precursor additives using mechanism-aware, uncertainty-guided decisions.",
+  "engineering_relevance": "This framework can reduce trial-and-error screening by focusing experiments on additives that are both literature-consistent and practically feasible for device fabrication.",
   "method": [
-    "Train an LLM on perovskite additive literature to extract mechanism-relevant knowledge.",
-    "Convert candidate molecules into interpretable descriptors for downstream ranking.",
-    "Use Bayesian optimization plus expert feasibility review to iteratively prioritize additives in closed loop."
+    "Trains a specialized LLM to extract mechanism-relevant knowledge from perovskite additive literature.",
+    "Represents candidate molecules with interpretable descriptors and feeds them into Bayesian optimization.",
+    "Uses expert-in-the-loop feasibility review to refine additive prioritization across screening rounds."
   ],
-  "evidence_signal": "On unseen literature, the domain-specialized model outperformed general-purpose models, and the proof-of-concept screening across three rounds yielded average PCEs of 20.13% and 20.87% for later-round treated devices versus 19.25% for control, with a champion PCE of 21.32%.",
-  "watch_item": "The reported gains come from a proof-of-concept study with expert-in-the-loop filtering, so broader generalization and automation-level robustness still need validation.",
+  "evidence_signal": "On unseen literature, the domain-specific model outperformed general-purpose models in mechanism-consistent reasoning, and later-round experimental devices reached average PCEs of 20.13% and 20.87% versus 19.25% for the control, with a champion PCE of 21.32%.",
+  "watch_item": "The reported gains come from a proof-of-concept study, so broader validation is still needed to confirm robustness across different perovskite chemistries and experimental settings.",
   "hashtags": [
-    "#PerovskiteSolarCells",
+    "#Perovskites",
     "#ActiveLearning",
     "#LLMforScience",
-    "#BayesianOptimization",
-    "#MaterialsDiscovery"
+    "#MaterialsDiscovery",
+    "#SolarCells"
   ],
   "paper_id": "2026-05-18-arxiv-leap_a_closed_loop_framework_for_perovskite_precursor_additive_discovery",
   "paper_title": "LEAP: A closed-loop framework for perovskite precursor additive discovery",
   "paper_date": "2026-05-18",
   "paper_category": "Materials Discovery",
-  "generated_at": "2026-06-14T13:44:25",
+  "generated_at": "2026-06-15T17:02:27",
   "generator": "openai"
 }

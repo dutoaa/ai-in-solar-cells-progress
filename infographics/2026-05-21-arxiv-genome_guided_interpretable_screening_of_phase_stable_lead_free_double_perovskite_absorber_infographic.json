@@ -1,13 +1,13 @@
 {
-  "key_insight": "A genome-guided, physics-informed screening pipeline can rapidly narrow a huge lead-free double-perovskite design space to a handful of phase-stable, optoelectronically promising absorbers with DFT-validated design rules.",
-  "engineering_relevance": "The study provides interpretable screening rules for discovering stable, lead-free semiconductor materials for solar cells, sensors, and transparent electronics without relying on trial-and-error synthesis.",
+  "key_insight": "A genome-guided, physics-informed ML pipeline can narrow thousands of lead-free double perovskite candidates to a handful of phase-stable absorbers with good optical properties and DFT validation.",
+  "engineering_relevance": "The study offers interpretable design rules for screening stable, lead-free semiconductors for photovoltaics, sensors, and transparent electronic devices.",
   "method": [
     "Train surrogate models on 1,221 DFT-calculated A2BB'X6 compounds using four descriptor families: packing, bonding, polarization, and electronic identity.",
-    "Use a recall-optimized stability classifier and XGBoost band-gap regressor to rank 13,088 charge-balanced compositions.",
-    "Apply staged inverse-design constraints and validate the top candidates with DFT and convex-hull analysis."
+    "Apply an inverse-design constraint stack to 13,088 charge-balanced compositions to filter for stability and band-gap targets.",
+    "Validate top hits with DFT and convex-hull thermodynamic analysis."
   ],
-  "evidence_signal": "The abstract reports strong model performance (ROC-AUC = 0.92 for stability, R2 = 0.93 for band-gap prediction) and identifies five DFT-validated compounds on or at the convex hull with strong absorption (~10^5 cm^-1).",
-  "watch_item": "The pipeline is trained on DFT data and candidate discovery still depends on computational labels, so experimental synthesis stability and defect tolerance remain to be confirmed.",
+  "evidence_signal": "The stability classifier achieved ROC-AUC = 0.92 and the band-gap regressor reached R2 = 0.93 on held-out data, with five final candidates lying on the convex hull.",
+  "watch_item": "The workflow is strong for screening, but experimental synthesis and long-term operational stability still need to confirm the predicted phase-stable candidates.",
   "hashtags": [
     "#Perovskites",
     "#MaterialsDiscovery",
@@ -19,6 +19,6 @@
   "paper_title": "Genome-Guided Interpretable Screening of Phase-Stable, Lead-Free Double Perovskite Absorbers for All-Inorganic Semiconductors, Sensors, and Photovoltaics with DFT-Validated Design Rules",
   "paper_date": "2026-05-21",
   "paper_category": "Materials Discovery",
-  "generated_at": "2026-06-14T13:44:56",
+  "generated_at": "2026-06-15T17:02:53",
   "generator": "openai"
 }
