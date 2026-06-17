@@ -1,24 +1,24 @@
 {
-  "key_insight": "Energy-cost-only HEMS optimisation can hide large battery degradation costs, making apparent savings misleading and sometimes far smaller than the true lifecycle expense.",
-  "engineering_relevance": "For residential PV-battery systems, controllers should account for degradation explicitly, because ignoring it can produce economically poor operating schedules even when energy bills look lower.",
+  "key_insight": "Energy-cost-only MPC for residential PV-battery HEMS can look economical on paper but hides battery wear costs that may overwhelm the apparent savings.",
+  "engineering_relevance": "For practical HEMS deployment, optimisation should account for degradation so control policies reflect true lifecycle cost rather than just short-term electricity bills.",
   "method": [
-    "Receding-horizon mixed-integer linear programming (MILP) baseline for a UK residential HEMS",
-    "3×3 sensitivity study over three battery sizes and three PV array sizes",
-    "Post-hoc degradation estimation using the Naumann stress model with rainflow cycle counting"
+    "Receding-horizon MILP baseline for a UK residential HEMS",
+    "3×3 sensitivity study over battery and PV sizes",
+    "Post-hoc degradation estimated with Naumann stress model and rainflow cycle counting"
   ],
-  "evidence_signal": "Using REFIT residential demand data, the study found degradation cost stayed constant for each battery size and could exceed energy cost savings by up to 1,060%.",
-  "watch_item": "The degradation cost was estimated after optimisation rather than included directly in the control objective, so real-world performance may differ once degradation-aware constraints are enforced.",
+  "evidence_signal": "Using REFIT household demand data, the study found degradation cost stayed constant for each battery size and could exceed energy-cost savings by up to 1,060%.",
+  "watch_item": "Post-hoc degradation accounting is informative but not yet a substitute for embedding battery wear directly in the control objective.",
   "hashtags": [
     "#HEMS",
     "#BatteryDegradation",
-    "#SolarPV",
+    "#PV",
     "#MILP",
-    "#MPC"
+    "#ModelPredictiveControl"
   ],
   "paper_id": "2026-06-14-arxiv-hidden_degradation_costs_in_energy_cost_only_hems_optimisation_study_on_battery_and_pv_sen",
   "paper_title": "Hidden Degradation Costs in Energy-Cost-Only HEMS Optimisation: Study on Battery and PV Sensitivity",
   "paper_date": "2026-06-14",
   "paper_category": "Degradation and Stability",
-  "generated_at": "2026-06-16T16:28:13",
+  "generated_at": "2026-06-17T14:56:13",
   "generator": "openai"
 }

@@ -1,24 +1,24 @@
 {
-  "key_insight": "Explainable deep reinforcement learning can optimize residential building energy management while making battery-control decisions understandable to operators.",
-  "engineering_relevance": "The framework supports lower electricity costs and more reliable operation in PV-battery-equipped buildings by combining forecasting, control, and post-hoc explainability.",
+  "key_insight": "Explainable deep reinforcement learning can optimize building energy management and battery charging more effectively when it is paired with post-hoc explanations that reveal why the controller acts as it does.",
+  "engineering_relevance": "For PV-equipped buildings, this approach offers a practical way to cut electricity costs while improving operator trust in autonomous energy control systems.",
   "method": [
-    "Trained and compared on-policy and off-policy DRL agents for building energy control.",
-    "Used an expanded state space with demand, PV output, battery status, electricity price, weather, and calendar/holiday signals.",
-    "Applied post-hoc interpretation methods to explain learned policies and decision behavior."
+    "Train on-policy and off-policy DRL agents on an expanded state space with demand, PV output, battery state, tariffs, weather, calendars, and forecasts.",
+    "Compare A2C and PPO against off-policy methods for reward and policy stability.",
+    "Use post-hoc interpretation techniques to explain learned control policies."
   ],
-  "evidence_signal": "The abstract reports evaluation on both synthetic data and real-world Living Lab Energy Campus data, with A2C and PPO achieving the best cumulative rewards and policy stability.",
-  "watch_item": "Results are shown for one building-management setting, so transferability to other sites, tariffs, and hardware configurations should be validated before deployment.",
+  "evidence_signal": "The abstract reports experiments on both synthetic data and real-world Living Lab Energy Campus data, with A2C and PPO performing best in cumulative rewards and stability.",
+  "watch_item": "Explainability is post-hoc, so the insights depend on the fidelity of the explanation method and may not fully capture the true internal policy logic.",
   "hashtags": [
     "#DeepReinforcementLearning",
+    "#EnergyManagement",
     "#ExplainableAI",
-    "#BuildingEnergyManagement",
-    "#PVBatteryControl",
-    "#SmartGrids"
+    "#SmartBuildings",
+    "#PVBatteryControl"
   ],
   "paper_id": "2026-06-01-arxiv-explainable_data_driven_deep_reinforcement_learning_methods_for_optimal_energy_management",
   "paper_title": "Explainable Data-driven Deep Reinforcement Learning Methods for Optimal Energy Management in Buildings",
   "paper_date": "2026-06-01",
   "paper_category": "Perovskite Solar Cells",
-  "generated_at": "2026-06-16T16:28:37",
+  "generated_at": "2026-06-17T14:56:35",
   "generator": "openai"
 }

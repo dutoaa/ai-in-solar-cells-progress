@@ -1,13 +1,13 @@
 {
-  "key_insight": "A physics-informed CNN-LSTM can forecast long-term photoluminescence degradation in metal halide perovskites from early time-series data, enabling faster stability prediction for unseen samples.",
-  "engineering_relevance": "This offers a practical screening tool for perovskite solar-cell materials by reducing the time and experimental cost needed to assess stability under heat and light stress.",
+  "key_insight": "A physics-informed CNN-LSTM can forecast long-term perovskite photoluminescence degradation from early time-series data, enabling faster stability prediction on unseen materials.",
+  "engineering_relevance": "This could cut experimental screening time for perovskite solar-cell materials by reducing reliance on lengthy heat-and-light ageing tests while preserving interpretable stability insights.",
   "method": [
-    "Collected 167 perovskite samples spanning diverse compositions and crystallinities.",
-    "Stressed samples with elevated temperature and illumination while monitoring photoluminescence over time.",
-    "Featurized more than 86,000 PL spectra with a physics-informed model and trained a hybrid CNN-LSTM forecaster."
+    "Collected 86k+ photoluminescence spectra from 167 metal halide perovskites under elevated temperature and illumination.",
+    "Converted spectra into physics-informed features to encode degradation behavior and material descriptors.",
+    "Trained a hybrid CNN-LSTM model to predict future PL intensity for samples not seen during training."
   ],
-  "evidence_signal": "The model was evaluated on samples unseen during training and outperformed baseline benchmarks while generalizing across material groups.",
-  "watch_item": "Forecast quality may depend on how well the training dataset covers new compositions, crystallinities, and stress conditions encountered in deployment.",
+  "evidence_signal": "The approach was evaluated on a diverse 167-sample dataset and reportedly outperformed baseline benchmarks while generalizing across material groups.",
+  "watch_item": "Performance may depend on the quality and coverage of the physics-based featurization, so transfer to new compositions or measurement conditions should be validated carefully.",
   "hashtags": [
     "#PerovskiteSolarCells",
     "#MachineLearning",
@@ -19,6 +19,6 @@
   "paper_title": "Physics-informed time-series forecasting of perovskite photoluminescence stability",
   "paper_date": "2026-06-11",
   "paper_category": "Perovskite Solar Cells",
-  "generated_at": "2026-06-16T16:27:59",
+  "generated_at": "2026-06-17T14:55:57",
   "generator": "openai"
 }
