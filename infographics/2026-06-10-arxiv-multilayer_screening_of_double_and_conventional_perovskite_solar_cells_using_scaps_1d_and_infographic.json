@@ -1,24 +1,24 @@
 {
-  "key_insight": "A SCAPS-1D plus machine-learning workflow can rapidly rank multilayer perovskite solar-cell designs and pinpoint the most influential layer properties for high-efficiency devices.",
-  "engineering_relevance": "This provides a practical design map for optimizing ETL, absorber, and HTL choices in conventional and lead-free double perovskite solar cells without exhaustive simulation or experimentation.",
+  "key_insight": "A SCAPS-1D + machine learning workflow can rapidly rank multilayer perovskite solar-cell stacks and uncover high-efficiency, lead-free architectures with clear physical drivers.",
+  "engineering_relevance": "The study provides a practical design strategy for screening ETL/absorber/HTL combinations, reducing trial-and-error while guiding interface-aware optimization for scalable perovskite PV devices.",
   "method": [
-    "Simulated 125 ETL/absorber/HTL architectures with SCAPS-1D.",
-    "Trained an ML model on a representative subset to predict PCE for unseen configurations.",
-    "Used SHAP to identify the most important descriptors: HTL band gap, absorber band gap, and ETL electron affinity."
+    "Simulated 125 device architectures across 5 ETLs, 5 absorbers, and 5 HTLs using SCAPS-1D.",
+    "Trained an ML model on a representative subset to predict PCE for untested structures.",
+    "Used Leave-One-Group-Out cross-validation and SHAP to validate ranking performance and identify key descriptors."
   ],
-  "evidence_signal": "Leave-One-Group-Out cross-validation showed reliable ranking via Spearman correlation, and the best verified architectures reached 28.85% PCE and 28.62% PCE in full SCAPS-1D simulations.",
-  "watch_item": "The ML predictions depend on the simulated design space and may not fully capture real-device fabrication effects, defect variability, or stability constraints.",
+  "evidence_signal": "The workflow identified and then confirmed high-performing devices, including FTO/TiO2/Cs2AgBiBr6/NiO/Ag at 28.85% PCE and FTO/SnO2/Cs2AgInBr6/NiO/Ag at 28.62%, with eight of the top-11 designs using Cs2AgInBr6.",
+  "watch_item": "The results depend on the fidelity of SCAPS assumptions and the training coverage of the sampled design space, so transfer to fabricated devices may require experimental validation.",
   "hashtags": [
     "#PerovskiteSolarCells",
     "#MachineLearning",
     "#SCAPS1D",
     "#DeviceOptimization",
-    "#CleanEnergy"
+    "#LeadFreePV"
   ],
   "paper_id": "2026-06-10-arxiv-multilayer_screening_of_double_and_conventional_perovskite_solar_cells_using_scaps_1d_and",
   "paper_title": "Multilayer Screening of Double and Conventional Perovskite Solar Cells Using SCAPS-1D and Machine Learning: Optimization of ETL, HTL, and Absorber for High-Efficiency Architectures",
   "paper_date": "2026-06-10",
   "paper_category": "Device Optimization",
-  "generated_at": "2026-06-17T14:55:45",
+  "generated_at": "2026-06-18T14:51:18",
   "generator": "openai"
 }

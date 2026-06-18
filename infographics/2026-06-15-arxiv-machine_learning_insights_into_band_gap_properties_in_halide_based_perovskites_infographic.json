@@ -1,13 +1,13 @@
 {
-  "key_insight": "Machine learning can accurately predict band gaps across diverse halide perovskite families and reveal which atomic descriptors most strongly control them.",
-  "engineering_relevance": "The models provide a fast screening tool for designing lower-toxicity perovskites with target optoelectronic band gaps, reducing trial-and-error synthesis.",
+  "key_insight": "Tree-based machine learning models can accurately predict halide-perovskite band gaps from atomic and structural descriptors, with B-site and X-site chemistry being the strongest drivers.",
+  "engineering_relevance": "These models can speed up lead-free perovskite screening by guiding composition design toward target band gaps for optoelectronic and solar-cell applications.",
   "method": [
-    "Trained tree-based regressors on atomic and structural descriptors for multiple halide perovskite compositions.",
-    "Compared random forest regression, gradient-boosted regression trees, and XGBoost for band-gap prediction.",
-    "Used feature importance analysis to identify dominant B-site/X-site properties and site occupancy counts."
+    "Trained ensemble tree-based regressors on atomic and structural features.",
+    "Compared RFR, GBRT, and XGB for band-gap prediction.",
+    "Used feature-importance analysis to identify dominant descriptors."
   ],
-  "evidence_signal": "The abstract reports strong predictive accuracy across a broad band-gap dataset spanning several perovskite structure types.",
-  "watch_item": "Feature-importance findings may be composition- and dataset-dependent, so external validation is needed before using the model for new chemistries.",
+  "evidence_signal": "The abstract reports strong predictive accuracy across multiple halide-perovskite families and highlights consistent feature-importance patterns.",
+  "watch_item": "Model performance may depend on the diversity and coverage of the training data, so extrapolation to unseen perovskite chemistries should be treated cautiously.",
   "hashtags": [
     "#Perovskites",
     "#MachineLearning",
@@ -19,6 +19,6 @@
   "paper_title": "Machine learning insights into band gap properties in halide-based perovskites",
   "paper_date": "2026-06-15",
   "paper_category": "Perovskite Solar Cells",
-  "generated_at": "2026-06-17T14:55:51",
+  "generated_at": "2026-06-18T14:51:31",
   "generator": "openai"
 }

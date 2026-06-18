@@ -1,24 +1,24 @@
 {
-  "key_insight": "Explainable deep reinforcement learning can optimize building energy management and battery charging more effectively when it is paired with post-hoc explanations that reveal why the controller acts as it does.",
-  "engineering_relevance": "For PV-equipped buildings, this approach offers a practical way to cut electricity costs while improving operator trust in autonomous energy control systems.",
+  "key_insight": "Explainable deep reinforcement learning can lower building electricity costs by learning transparent battery-control policies from real-time PV, demand, price, and forecast signals.",
+  "engineering_relevance": "This work is relevant for smart building energy management because it combines optimization performance with post-hoc explanations that can improve trust and deployment of DRL controllers.",
   "method": [
-    "Train on-policy and off-policy DRL agents on an expanded state space with demand, PV output, battery state, tariffs, weather, calendars, and forecasts.",
-    "Compare A2C and PPO against off-policy methods for reward and policy stability.",
-    "Use post-hoc interpretation techniques to explain learned control policies."
+    "Trained on-policy and off-policy DRL agents for residential energy scheduling",
+    "Used an expanded state space with PV, battery, demand, tariff, weather, calendar, and forecast inputs",
+    "Applied post-hoc interpretation to explain learned control decisions"
   ],
-  "evidence_signal": "The abstract reports experiments on both synthetic data and real-world Living Lab Energy Campus data, with A2C and PPO performing best in cumulative rewards and stability.",
-  "watch_item": "Explainability is post-hoc, so the insights depend on the fidelity of the explanation method and may not fully capture the true internal policy logic.",
+  "evidence_signal": "The authors evaluated the framework on both synthetic data and real-world Living Lab Energy Campus data, finding A2C and PPO more stable and higher-reward than off-policy methods.",
+  "watch_item": "Performance depends on forecast quality and operational data fidelity, so real-world deployment may be sensitive to noisy measurements and changing tariff or weather conditions.",
   "hashtags": [
     "#DeepReinforcementLearning",
-    "#EnergyManagement",
     "#ExplainableAI",
     "#SmartBuildings",
-    "#PVBatteryControl"
+    "#EnergyManagement",
+    "#BatteryOptimization"
   ],
   "paper_id": "2026-06-01-arxiv-explainable_data_driven_deep_reinforcement_learning_methods_for_optimal_energy_management",
   "paper_title": "Explainable Data-driven Deep Reinforcement Learning Methods for Optimal Energy Management in Buildings",
   "paper_date": "2026-06-01",
   "paper_category": "Perovskite Solar Cells",
-  "generated_at": "2026-06-17T14:56:35",
+  "generated_at": "2026-06-18T14:52:10",
   "generator": "openai"
 }
