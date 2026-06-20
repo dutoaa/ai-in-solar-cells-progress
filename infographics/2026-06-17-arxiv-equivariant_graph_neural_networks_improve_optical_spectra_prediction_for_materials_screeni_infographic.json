@@ -1,13 +1,13 @@
 {
   "key_insight": "Equivariant graph neural networks capture 3D geometry more effectively than rotation-invariant models, improving optical spectra prediction for materials screening.",
-  "engineering_relevance": "Better spectra and static permittivity prediction can accelerate high-throughput discovery of optoelectronic materials, including candidates for solar cell and thin-film applications.",
+  "engineering_relevance": "This enables faster, more accurate pre-screening of optoelectronic materials such as solar-cell candidates using predicted optical response instead of costly calculations.",
   "method": [
-    "Adapted GotenNet into an equivariant GNN for optical spectra prediction.",
+    "Adapted GotenNet to predict optical spectra from crystal structures using equivariant message passing.",
     "Evaluated the model on multiple datasets, including a new 10,533-structure RPA spectra collection.",
-    "Compared against current state-of-the-art surrogate models for spectral prediction."
+    "Compared against current state-of-the-art surrogate models focused on scalar or lower-fidelity representations."
   ],
-  "evidence_signal": "The model outperformed prior methods, with the strongest improvements in the 0–8 eV spectral range and for static real permittivity.",
-  "watch_item": "Performance gains are shown on benchmark datasets, so practical deployment still depends on transferability to new chemistries and spectrum calculation settings.",
+  "evidence_signal": "The model outperformed prior methods, with the largest gains in the 0–8 eV range and for static real permittivity, both important for thin-film optics.",
+  "watch_item": "Performance depends on the quality and coverage of available training spectra, so transfer to materials outside the training distribution may still be limited.",
   "hashtags": [
     "#SolarCells",
     "#MaterialsInformatics",
@@ -19,6 +19,6 @@
   "paper_title": "Equivariant Graph Neural Networks Improve Optical Spectra Prediction for Materials Screening",
   "paper_date": "2026-06-17",
   "paper_category": "Manufacturing and Modules",
-  "generated_at": "2026-06-19T14:47:12",
+  "generated_at": "2026-06-20T13:44:17",
   "generator": "openai"
 }
