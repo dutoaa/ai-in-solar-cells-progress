@@ -1,24 +1,24 @@
 {
-  "key_insight": "An agent-guided multi-fidelity learning workflow can detect and correct numerical instabilities in GW-BSE excited-state calculations, yielding more reliable quasiparticle gaps and exciton binding energies without removing real strain effects.",
-  "engineering_relevance": "This enables faster and more trustworthy high-throughput screening of optoelectronic materials, especially where expensive many-body simulations are prone to convergence failures or spurious artifacts.",
+  "key_insight": "An agent-guided multi-fidelity learning pipeline can detect and correct unstable GW-BSE calculations, improving quasiparticle and excitonic predictions without washing out real strain trends.",
+  "engineering_relevance": "This enables more reliable high-throughput screening of optoelectronic materials by reducing the impact of numerical failures in expensive excited-state simulations.",
   "method": [
-    "Use a structural agent to flag fragile calculations and assign confidence weights.",
-    "Combine a small set of high-accuracy reference points with machine learning transfer across related strain, stacking, and k-point settings.",
-    "Apply Gaussian process corrections with calibrated uncertainty estimates to recover improved excited-state properties."
+    "Structural agent flags low-confidence or anomalous calculations across strain, stacking, and k-point branches.",
+    "Small sets of high-fidelity reference points anchor Gaussian process corrections.",
+    "Multi-fidelity transfer learns improved quasiparticle gaps and exciton binding energies with uncertainty calibration."
   ],
-  "evidence_signal": "The abstract reports improved agreement with higher-fidelity references than a no-agent baseline across stacking registries, strain branches, and reciprocal-space samplings.",
-  "watch_item": "The approach depends on correctly identifying numerical fragility; if the agent misclassifies cases, corrections could underweight valid physics or miss hidden convergence issues.",
+  "evidence_signal": "Across strained MoS2-WS2 bilayers, the workflow identified spike-like excursions, near-zero-gap collapse, and cross-fidelity inconsistencies, and it improved agreement with higher-fidelity references versus a no-agent baseline.",
+  "watch_item": "Performance depends on the agent correctly identifying fragile calculations; missed instabilities or poorly chosen reference points could still bias the surrogate.",
   "hashtags": [
-    "#PerovskiteSolarCells",
     "#MachineLearning",
-    "#GW_BSE",
-    "#ExcitonicMaterials",
-    "#HighThroughputSimulation"
+    "#GWBSE",
+    "#Excitons",
+    "#2DMaterials",
+    "#Multifidelity"
   ],
   "paper_id": "2026-06-05-arxiv-agentic_multi_fidelity_learning_of_quasiparticle_and_excitonic_properties",
   "paper_title": "Agentic multi-fidelity learning of quasiparticle and excitonic properties",
   "paper_date": "2026-06-05",
   "paper_category": "Perovskite Solar Cells",
-  "generated_at": "2026-06-20T13:44:35",
+  "generated_at": "2026-06-21T13:52:20",
   "generator": "openai"
 }
