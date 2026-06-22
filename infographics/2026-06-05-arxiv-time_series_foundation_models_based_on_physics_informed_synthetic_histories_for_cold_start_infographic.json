@@ -1,24 +1,24 @@
 {
-  "key_insight": "Physics-informed synthetic histories can warm-start PV time-series foundation models and deliver strong zero-shot forecasting before any site measurements exist.",
-  "engineering_relevance": "This enables commissioning-time PV production forecasting for new plants, supporting grid planning and operational decisions in cold-start deployments.",
+  "key_insight": "Generating a plausible synthetic PV history from site metadata and weather lets time-series foundation models make strong cold-start forecasts before any real target-site measurements exist.",
+  "engineering_relevance": "This offers a practical commissioning-time forecasting workflow for new photovoltaic plants, reducing the need to wait for historical production data while improving early operational planning.",
   "method": [
-    "Generate a synthetic PV production history from plant metadata and meteorological covariates.",
-    "Feed the synthetic history into time-series foundation models via inference-time conditioning.",
-    "Benchmark five TSFMs against classical baselines under Cold-Start Baseline, Real Feedback, and Self-Forecast Feedback settings."
+    "Create synthetic production histories from plant metadata plus meteorological covariates.",
+    "Condition five time-series foundation models at inference time on the synthetic context.",
+    "Benchmark against classical baselines under Cold-Start Baseline, Real Feedback, and Self-Forecast Feedback settings."
   ],
-  "evidence_signal": "Across 440 PV sites in four datasets, covariate-aware foundation models outperformed baselines by about 1.7–2×, with TabPFN-TS best under Real Feedback and Chronos-2 most robust under Self-Forecast Feedback.",
-  "watch_item": "Results suggest performance depends more on having plausible temporal context than on the exact synthetic-history generator, so deployment quality may be sensitive to how realistic the generated history is.",
+  "evidence_signal": "The study evaluates 440 PV sites across four datasets and finds covariate-aware foundation models outperform baselines by about 1.7–2×, with TabPFN-TS best under Real Feedback and Chronos-2 most robust under Self-Forecast Feedback.",
+  "watch_item": "The approach depends on having plausible metadata and weather covariates, and the gains appear tied more to the presence of synthetic temporal context than to the specific history generator.",
   "hashtags": [
-    "#SolarForecasting",
     "#Photovoltaics",
     "#TimeSeriesFoundationModels",
-    "#ColdStartAI",
-    "#PhysicsInformedML"
+    "#ColdStartForecasting",
+    "#PhysicsInformedAI",
+    "#SolarEnergy"
   ],
   "paper_id": "2026-06-05-arxiv-time_series_foundation_models_based_on_physics_informed_synthetic_histories_for_cold_start",
   "paper_title": "Time series Foundation Models based on Physics-Informed Synthetic Histories for Cold-Start Photovoltaic Forecasting",
   "paper_date": "2026-06-05",
   "paper_category": "AI solar cells",
-  "generated_at": "2026-06-21T13:52:22",
+  "generated_at": "2026-06-22T16:41:33",
   "generator": "openai"
 }
