@@ -1,24 +1,24 @@
 {
-  "key_insight": "Placing trainable nonlinear functions on the connections of analogue neural networks makes them much better at representing smooth continuous targets than conventional weight-only physical networks.",
-  "engineering_relevance": "This could enable ultra-low-power edge control and energy-management hardware, with a projected CMOS implementation around 30 µW and hardware-friendly analogue realizations.",
+  "key_insight": "Putting trainable nonlinear functions on the connections of a physical neural network lets analogue hardware learn smooth continuous mappings efficiently, instead of using devices only as scalar weights.",
+  "engineering_relevance": "This could enable ultra-low-power control and energy-management hardware, with a projected CMOS implementation around 30 microwatts and transfer across about 35,000 connections.",
   "method": [
-    "Use Kolmogorov-Arnold-inspired connections with trainable nonlinear functions instead of scalar weights.",
-    "Implement the nonlinear connections as analogue band-pass filters on field-programmable analogue arrays.",
-    "Validate transfer of trained networks to hardware and compare against MLPs and memristive simulations."
+    "Implemented trainable nonlinear connection functions as analogue band-pass filters on field-programmable analogue arrays.",
+    "Compared performance across smooth regression/control tasks and classification-like decision boundaries.",
+    "Also evaluated transfer to hardware and a memristive simulation to isolate the effect of connection nonlinearity."
   ],
-  "evidence_signal": "The abstract reports improved efficiency on smooth tasks such as robotic kinematics, continuous control, and photovoltaic maximum-power-point tracking, with quantified transfer across about 35,000 connections.",
-  "watch_item": "The advantage is task-dependent and does not extend to classification-like decision boundaries, so it is not a universal replacement for standard neural architectures.",
+  "evidence_signal": "The abstract reports strong parameter-efficiency gains on smooth targets such as robotic kinematics, continuous control, and photovoltaic maximum-power-point tracking, but not on classification-like boundaries.",
+  "watch_item": "The advantage is task-dependent, so the approach may not improve all problems and requires careful hardware calibration/fidelity over large connection counts.",
   "hashtags": [
-    "#AnalogueAI",
+    "#AnalogAI",
     "#PhysicalNeuralNetworks",
+    "#LowPowerML",
     "#ContinuousControl",
-    "#EdgeComputing",
-    "#SolarMPPT"
+    "#Photovoltaics"
   ],
   "paper_id": "2026-06-21-arxiv-low_power_analogue_neural_networks_with_trainable_nonlinear_connections_for_continuous_con",
   "paper_title": "Low-power analogue neural networks with trainable nonlinear connections for continuous control",
   "paper_date": "2026-06-21",
   "paper_category": "Device Optimization",
-  "generated_at": "2026-06-27T13:16:08",
+  "generated_at": "2026-06-28T13:21:27",
   "generator": "openai"
 }
