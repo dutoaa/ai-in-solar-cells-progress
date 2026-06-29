@@ -1,24 +1,24 @@
 {
-  "key_insight": "A SCAPS-1D plus machine-learning workflow can rapidly rank multilayer perovskite solar cell stacks and pinpoint the most influential layer descriptors for efficiency.",
-  "engineering_relevance": "The study provides a practical design rule for optimizing ETL, absorber, and HTL combinations to accelerate discovery of high-efficiency, lead-free perovskite solar cells.",
+  "key_insight": "A SCAPS-1D plus machine-learning workflow can rapidly screen multilayer perovskite solar cells and pinpoint high-efficiency, lead-free double-perovskite architectures.",
+  "engineering_relevance": "The study provides a practical optimization framework for selecting ETL/absorber/HTL combinations that improve power conversion efficiency while reducing the need for exhaustive simulations.",
   "method": [
     "Simulated 125 ETL/absorber/HTL architectures in SCAPS-1D.",
-    "Trained an ML model on a representative subset to predict PCE for unexplored stacks.",
-    "Used Leave-One-Group-Out validation and SHAP to assess ranking quality and feature importance."
+    "Trained an ML model on a representative subset to predict PCE for unseen structures.",
+    "Used SHAP to identify the most influential descriptors and verify top candidates with full device simulations."
   ],
-  "evidence_signal": "The model showed reliable ranking under Leave-One-Group-Out cross-validation, and the best ML-suggested devices were confirmed by full SCAPS-1D simulations, including a top PCE of 28.85% for FTO/TiO2/Cs2AgBiBr6/NiO/Ag.",
-  "watch_item": "Performance depends on the quality and coverage of the simulated training set, so predictions may be less reliable when extrapolating to material systems outside the sampled design space.",
+  "evidence_signal": "Leave-One-Group-Out cross-validation showed strong ranking performance via Spearman correlation, and the best verified devices reached 28.85% and 28.62% PCE.",
+  "watch_item": "Predictions depend on the representativeness of the training subset and the fidelity of SCAPS-1D assumptions, so experimental validation is still needed before deployment.",
   "hashtags": [
     "#PerovskiteSolarCells",
     "#MachineLearning",
     "#SCAPS1D",
     "#DeviceOptimization",
-    "#SHAP"
+    "#LeadFreePhotovoltaics"
   ],
   "paper_id": "2026-06-10-arxiv-multilayer_screening_of_double_and_conventional_perovskite_solar_cells_using_scaps_1d_and",
   "paper_title": "Multilayer Screening of Double and Conventional Perovskite Solar Cells Using SCAPS-1D and Machine Learning: Optimization of ETL, HTL, and Absorber for High-Efficiency Architectures",
   "paper_date": "2026-06-10",
   "paper_category": "Device Optimization",
-  "generated_at": "2026-06-28T13:20:41",
+  "generated_at": "2026-06-29T15:33:44",
   "generator": "openai"
 }
