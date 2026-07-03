@@ -1,6 +1,6 @@
 # AI solar cells Progress Public Resources
 
-Generated: 2026-07-02
+Generated: 2026-07-03
 Public site: https://dutoaa.github.io/ai-in-solar-cells-progress/
 
 ## 1. Multilayer Screening of Double and Conventional Perovskite Solar Cells Using SCAPS-1D and Machine Learning: Optimization of ETL, HTL, and Absorber for High-Efficiency Architectures
@@ -43,31 +43,7 @@ Public site: https://dutoaa.github.io/ai-in-solar-cells-progress/
 - PDF: https://arxiv.org/pdf/2606.30359v1
 - Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-06-29-arxiv-decision_support_strategies_for_photovoltaic_self_consumption_under_declining_electricity_infographic.json
 
-## 6. Dependence of charge separation efficiency on the exciton-charge transfer offset and Gaussian disorder in organic solar cells
-
-- Date: 2026-07-01
-- Category: Organic Photovoltaics
-- arXiv: https://arxiv.org/abs/2607.00699v1
-- PDF: https://arxiv.org/pdf/2607.00699v1
-- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-07-01-arxiv-dependence_of_charge_separation_efficiency_on_the_exciton_charge_transfer_offset_and_gauss_infographic.json
-
-## 7. First-principles calculations of spin-split bands in chiral hybrid organic-inorganic perovskites ($R$/$S$-PEA)PbI$_3$ and ($R$/$S$-NEA)PbI$_3$
-
-- Date: 2026-07-01
-- Category: Perovskite Solar Cells
-- arXiv: https://arxiv.org/abs/2607.00933v1
-- PDF: https://arxiv.org/pdf/2607.00933v1
-- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-07-01-arxiv-first_principles_calculations_of_spin_split_bands_in_chiral_hybrid_organic_inorganic_perov_infographic.json
-
-## 8. Photon Statistics from Yb3+-Doped CsPbCl3 are Inconsistent with Quantum Cutting
-
-- Date: 2026-06-30
-- Category: Materials Discovery
-- arXiv: https://arxiv.org/abs/2606.31359v1
-- PDF: https://arxiv.org/pdf/2606.31359v1
-- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-06-30-arxiv-photon_statistics_from_yb3_doped_cspbcl3_are_inconsistent_with_quantum_cutting_infographic.json
-
-## 9. Physics-informed time-series forecasting of perovskite photoluminescence stability
+## 6. Physics-informed time-series forecasting of perovskite photoluminescence stability
 
 - Date: 2026-06-11
 - Category: Perovskite Solar Cells
@@ -75,31 +51,39 @@ Public site: https://dutoaa.github.io/ai-in-solar-cells-progress/
 - PDF: https://arxiv.org/pdf/2606.13414v1
 - Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-06-11-arxiv-physics_informed_time_series_forecasting_of_perovskite_photoluminescence_stability_infographic.json
 
-## 10. Smart charging of large fleets of Electric Vehicles: Independent Multi-Agent Reinforcement Learning approaches
+## 7. Dependence of charge separation efficiency on the exciton-charge transfer offset and Gaussian disorder in organic solar cells
 
-- Date: 2026-06-30
+- Date: 2026-07-01
+- Category: Organic Photovoltaics
+- arXiv: https://arxiv.org/abs/2607.00699v1
+- PDF: https://arxiv.org/pdf/2607.00699v1
+- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-07-01-arxiv-dependence_of_charge_separation_efficiency_on_the_exciton_charge_transfer_offset_and_gauss_infographic.json
+
+## 8. First-principles calculations of spin-split bands in chiral hybrid organic-inorganic perovskites ($R$/$S$-PEA)PbI$_3$ and ($R$/$S$-NEA)PbI$_3$
+
+- Date: 2026-07-01
+- Category: Perovskite Solar Cells
+- arXiv: https://arxiv.org/abs/2607.00933v1
+- PDF: https://arxiv.org/pdf/2607.00933v1
+- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-07-01-arxiv-first_principles_calculations_of_spin_split_bands_in_chiral_hybrid_organic_inorganic_perov_infographic.json
+
+## 9. An unsupervised kernel norm monitoring for fault detection in a time series photovoltaic system
+
+- Date: 2026-07-01
 - Category: Device Optimization
-- arXiv: https://arxiv.org/abs/2606.31347v1
-- PDF: https://arxiv.org/pdf/2606.31347v1
-- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-06-30-arxiv-smart_charging_of_large_fleets_of_electric_vehicles_independent_multi_agent_reinforcement_infographic.json
+- arXiv: https://arxiv.org/abs/2607.01541v1
+- PDF: https://arxiv.org/pdf/2607.01541v1
+- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-07-01-arxiv-an_unsupervised_kernel_norm_monitoring_for_fault_detection_in_a_time_series_photovoltaic_s_infographic.json
 
-## 11. Boron-assisted stabilization of low-resistivity mixed-valence Cu-O thin films prepared by reactive magnetron sputtering
-
-- Date: 2026-06-29
-- Category: Perovskite Solar Cells
-- arXiv: https://arxiv.org/abs/2606.30234v1
-- PDF: https://arxiv.org/pdf/2606.30234v1
-- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-06-29-arxiv-boron_assisted_stabilization_of_low_resistivity_mixed_valence_cu_o_thin_films_prepared_by_infographic.json
-
-## 12. Fast and bright scintillators for ultrafast materials dynamics using 4th generation synchrotron
+## 10. Photon Statistics from Yb3+-Doped CsPbCl3 are Inconsistent with Quantum Cutting
 
 - Date: 2026-06-30
-- Category: Perovskite Solar Cells
-- arXiv: https://arxiv.org/abs/2607.00112v1
-- PDF: https://arxiv.org/pdf/2607.00112v1
-- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-06-30-arxiv-fast_and_bright_scintillators_for_ultrafast_materials_dynamics_using_4th_generation_synchr_infographic.json
+- Category: Materials Discovery
+- arXiv: https://arxiv.org/abs/2606.31359v1
+- PDF: https://arxiv.org/pdf/2606.31359v1
+- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-06-30-arxiv-photon_statistics_from_yb3_doped_cspbcl3_are_inconsistent_with_quantum_cutting_infographic.json
 
-## 13. Spin-Polarized Electronic Structure and Chemical Bonding Data for 2,500+ Halide Double Perovskites
+## 11. Spin-Polarized Electronic Structure and Chemical Bonding Data for 2,500+ Halide Double Perovskites
 
 - Date: 2026-06-10
 - Category: Perovskite Solar Cells
@@ -107,23 +91,23 @@ Public site: https://dutoaa.github.io/ai-in-solar-cells-progress/
 - PDF: https://arxiv.org/pdf/2606.11928v1
 - Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-06-10-arxiv-spin_polarized_electronic_structure_and_chemical_bonding_data_for_2_500_halide_double_pero_infographic.json
 
-## 14. Strongly frustrated 2D magnetism in a 3D hexagonal perovskite
+## 12. Smart charging of large fleets of Electric Vehicles: Independent Multi-Agent Reinforcement Learning approaches
 
-- Date: 2026-07-01
+- Date: 2026-06-30
+- Category: Device Optimization
+- arXiv: https://arxiv.org/abs/2606.31347v1
+- PDF: https://arxiv.org/pdf/2606.31347v1
+- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-06-30-arxiv-smart_charging_of_large_fleets_of_electric_vehicles_independent_multi_agent_reinforcement_infographic.json
+
+## 13. Boron-assisted stabilization of low-resistivity mixed-valence Cu-O thin films prepared by reactive magnetron sputtering
+
+- Date: 2026-06-29
 - Category: Perovskite Solar Cells
-- arXiv: https://arxiv.org/abs/2607.00532v1
-- PDF: https://arxiv.org/pdf/2607.00532v1
-- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-07-01-arxiv-strongly_frustrated_2d_magnetism_in_a_3d_hexagonal_perovskite_infographic.json
+- arXiv: https://arxiv.org/abs/2606.30234v1
+- PDF: https://arxiv.org/pdf/2606.30234v1
+- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-06-29-arxiv-boron_assisted_stabilization_of_low_resistivity_mixed_valence_cu_o_thin_films_prepared_by_infographic.json
 
-## 15. Electrical control of spin photocurrent in a magnetoelectric oxide Cr$_2$O$_3$
-
-- Date: 2026-07-01
-- Category: AI solar cells
-- arXiv: https://arxiv.org/abs/2607.00807v1
-- PDF: https://arxiv.org/pdf/2607.00807v1
-- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-07-01-arxiv-electrical_control_of_spin_photocurrent_in_a_magnetoelectric_oxide_cr_2_o_3_infographic.json
-
-## 16. A green solvent screening tool for emerging materials via uncertainty aware, transformer enhanced transfer learning
+## 14. A green solvent screening tool for emerging materials via uncertainty aware, transformer enhanced transfer learning
 
 - Date: 2026-06-11
 - Category: Organic Photovoltaics
@@ -131,13 +115,29 @@ Public site: https://dutoaa.github.io/ai-in-solar-cells-progress/
 - PDF: https://arxiv.org/pdf/2606.13060v1
 - Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-06-11-arxiv-a_green_solvent_screening_tool_for_emerging_materials_via_uncertainty_aware_transformer_en_infographic.json
 
-## 17. Accelerated development of amorphous InZnO thin films as transparent conductive Cu diffusion barriers
+## 15. Resonant cooling of nuclear spins by optically-oriented holes in MAPbI$_3$ perovskite crystals
+
+- Date: 2026-07-01
+- Category: Perovskite Solar Cells
+- arXiv: https://arxiv.org/abs/2607.01441v1
+- PDF: https://arxiv.org/pdf/2607.01441v1
+- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-07-01-arxiv-resonant_cooling_of_nuclear_spins_by_optically_oriented_holes_in_mapbi_3_perovskite_crysta_infographic.json
+
+## 16. Fast and bright scintillators for ultrafast materials dynamics using 4th generation synchrotron
 
 - Date: 2026-06-30
-- Category: Materials Discovery
-- arXiv: https://arxiv.org/abs/2606.31605v1
-- PDF: https://arxiv.org/pdf/2606.31605v1
-- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-06-30-arxiv-accelerated_development_of_amorphous_inzno_thin_films_as_transparent_conductive_cu_diffusi_infographic.json
+- Category: Perovskite Solar Cells
+- arXiv: https://arxiv.org/abs/2607.00112v1
+- PDF: https://arxiv.org/pdf/2607.00112v1
+- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-06-30-arxiv-fast_and_bright_scintillators_for_ultrafast_materials_dynamics_using_4th_generation_synchr_infographic.json
+
+## 17. Strongly frustrated 2D magnetism in a 3D hexagonal perovskite
+
+- Date: 2026-07-01
+- Category: Perovskite Solar Cells
+- arXiv: https://arxiv.org/abs/2607.00532v1
+- PDF: https://arxiv.org/pdf/2607.00532v1
+- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-07-01-arxiv-strongly_frustrated_2d_magnetism_in_a_3d_hexagonal_perovskite_infographic.json
 
 ## 18. First-Principles Study of Novel Lead-Free Double Perovskite \b{eta}2SnGeX6 (\b{eta} = K, Rb; X = Cl, Br, I) for thermomechanical, optoelectronic and outstanding thermoelectric applications
 
