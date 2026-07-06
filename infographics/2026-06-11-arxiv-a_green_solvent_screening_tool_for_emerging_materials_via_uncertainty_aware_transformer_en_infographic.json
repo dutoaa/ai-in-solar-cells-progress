@@ -1,24 +1,24 @@
 {
-  "key_insight": "A transformer-enhanced transfer learning model can predict solvent solubility descriptors from scarce data while quantifying uncertainty, enabling greener solvent discovery.",
-  "engineering_relevance": "This provides a practical screening tool for high-throughput materials workflows in organic photovoltaics and other emerging technologies to replace hazardous solvents with eco-friendlier alternatives.",
+  "key_insight": "A transfer-learned, uncertainty-aware transformer can screen greener solvent substitutes for emerging materials with strong accuracy even when target data are sparse.",
+  "engineering_relevance": "The tool helps high-throughput labs rapidly rank eco-friendly solvents for organic photovoltaics and related technologies, reducing reliance on trial-and-error solvent selection.",
   "method": [
-    "Pre-train on QM9 molecular targets, then transfer to solvent-property prediction with minimal new data.",
-    "Add uncertainty quantification so users can rank candidates by both predicted performance and confidence.",
-    "Deploy the model as an easy-to-integrate screening pipeline for solvent substitution and discovery."
+    "Pre-train on QM9 molecular targets, then transfer the model to solvent-property prediction with minimal new data.",
+    "Add uncertainty quantification so users can assess confidence in each solvent ranking.",
+    "Predict key descriptors including Hansen solubility parameters, dielectric constant, and poorly populated Gutmann donor/acceptor numbers."
   ],
-  "evidence_signal": "The abstract reports strong performance on well-studied properties like Hansen solubility parameters and dielectric constant, and also on sparse targets such as Gutmann donor/acceptor numbers.",
-  "watch_item": "Predictions are only as reliable as the limited training data and domain match, so uncertain out-of-distribution solvents may still require experimental validation.",
+  "evidence_signal": "The abstract reports high performance on well-studied targets and strong results on data-poor properties, while also rediscovering known green solvents and proposing new candidates.",
+  "watch_item": "Prediction quality may still depend on the scarcity and coverage of training data, so uncertainty estimates should be checked before experimental adoption.",
   "hashtags": [
     "#OrganicPhotovoltaics",
     "#MachineLearning",
     "#TransferLearning",
-    "#UncertaintyQuantification",
-    "#GreenChemistry"
+    "#GreenChemistry",
+    "#SolventScreening"
   ],
   "paper_id": "2026-06-11-arxiv-a_green_solvent_screening_tool_for_emerging_materials_via_uncertainty_aware_transformer_en",
   "paper_title": "A green solvent screening tool for emerging materials via uncertainty aware, transformer enhanced transfer learning",
   "paper_date": "2026-06-11",
   "paper_category": "Organic Photovoltaics",
-  "generated_at": "2026-07-05T13:14:00",
+  "generated_at": "2026-07-06T15:15:45",
   "generator": "openai"
 }
