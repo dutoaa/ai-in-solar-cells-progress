@@ -1,24 +1,24 @@
 {
-  "key_insight": "The combinatorial design space of multilayer perovskite solar cells is vast, yet exhaustive experimental or computational screening of all possible material combinations remains impractical.",
-  "engineering_relevance": "Potential relevance: device optimization workflows and research evaluation.",
+  "key_insight": "A SCAPS-1D plus machine-learning workflow can efficiently rank multilayer perovskite solar-cell stacks and identify high-efficiency, lead-free designs with strong explanatory insight.",
+  "engineering_relevance": "The study provides a practical optimization framework for selecting ETL, absorber, and HTL combinations that can reduce trial-and-error in perovskite device engineering.",
   "method": [
-    "AI solar cells paper selected from recent arXiv submissions.",
-    "Ranked by recency plus AI and solar cells relevance signals.",
-    "Use the linked paper for methods, data, and validation details."
+    "Simulated 125 ETL/absorber/HTL architectures with SCAPS-1D.",
+    "Trained an ML model on a representative subset to predict PCE for unexplored stacks.",
+    "Used SHAP to identify the most influential descriptors and verify top candidates with full device simulations."
   ],
-  "evidence_signal": "Evidence details are summarized from the public abstract only.",
-  "watch_item": "Review the full paper for governing assumptions, validation data, and generalization limits.",
+  "evidence_signal": "Leave-One-Group-Out cross-validation showed reliable ranking performance, and the top predicted structures were confirmed by SCAPS-1D, including FTO/TiO2/Cs2AgBiBr6/NiO/Ag at 28.85% PCE.",
+  "watch_item": "The approach depends on the quality and representativeness of the simulated training subset, so predictions may be less reliable for material combinations outside the sampled design space.",
   "hashtags": [
-    "#AISolarCells",
-    "#SolarCells",
-    "#Turbulence",
-    "#SolarML",
-    "#arXiv"
+    "#PerovskiteSolarCells",
+    "#MachineLearning",
+    "#SCAPS1D",
+    "#DeviceOptimization",
+    "#SHAP"
   ],
   "paper_id": "2026-06-10-arxiv-multilayer_screening_of_double_and_conventional_perovskite_solar_cells_using_scaps_1d_and",
   "paper_title": "Multilayer Screening of Double and Conventional Perovskite Solar Cells Using SCAPS-1D and Machine Learning: Optimization of ETL, HTL, and Absorber for High-Efficiency Architectures",
   "paper_date": "2026-06-10",
   "paper_category": "Device Optimization",
-  "generated_at": "2026-07-06T15:15:29",
+  "generated_at": "2026-07-07T14:11:06",
   "generator": "openai"
 }
