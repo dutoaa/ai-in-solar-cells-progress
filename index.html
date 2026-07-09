@@ -22,7 +22,7 @@
     <header>
       <div>
         <h1>AI solar cells Research Papers - Daily Top 20</h1>
-        <p class="sub">Collected 2026-07-08. Ranked from recent arXiv AI solar cells papers, with OpenAI infographic summaries where credentials are available.</p>
+        <p class="sub">Collected 2026-07-09. Ranked from recent arXiv AI solar cells papers, with OpenAI infographic summaries where credentials are available.</p>
       </div>
       <nav class="actions">
         <a href="papers.json">Data JSON</a>
@@ -30,6 +30,25 @@
       </nav>
     </header>
     <section class="grid">
+      <article class="paper">
+        <div class="meta"><span>Materials Discovery</span><span>arXiv</span><strong>91</strong></div>
+        <p class="date">2026-07-08</p>
+        <h2>Human and LLM Collaboration for Accelerated Materials Synthesis and Discovery</h2>
+        <p class="authors">Gregory Bassen, Wyatt Bunstine, Sarah Okandey, Sarah Cheung, Elaine Flowers, Ritwik Bose</p>
+        <p class="abstract">Although Large Language Models (LLM) and Artificial Intelligence (AI) tools have enabled a rapid increase in the generation rate of predicted materials, the rate of new materials discovery has lagged behind. This is due to the challenges associated with designing a sequence of chemical reactions to predictably produce new materials, especially in new structure types. Here, we report a study of human and LLM generated recipes for the synthesis of known and new materials. The success of the recipes is determined through in-lab experimentation, and the results are passed back to the humans and LLMs in a closed-loop process to study the effects of their collaboration. The Ruddlesden-Popper homologous series was selected for all material candidates to provide a materials phase space that is simultaneously well studied and likely to host undiscovered materials. We find that humans (H) and LLM (L) have similar success rates: 83(8)% (H) and 75(9)% (L) [known materials, round one], 17(9)% (H) and 22(10)% (L) [unknown materials, round one], 79(8)% (H) and 71(9)% (L) [known materials, round two], and 22(7)% (H) and 14(6)% (L) [unknown materials, round two]. Through this collaborative human-LLM effort, we discovered Ba3PtO5, a material with a new structural prototype that constitutes the missing 1D member of the herein reported dimensionally tunable Rock-Salt Perovskite (RSP) homologous series of the form (AX)m(ABX3)p, of which the Ruddlesden-Popper series is a subset.</p>
+        <div class="links"><a href="https://arxiv.org/abs/2607.07604v1" target="_blank" rel="noreferrer">arXiv</a> <a href="https://arxiv.org/pdf/2607.07604v1" target="_blank" rel="noreferrer">PDF</a></div>
+        <section class="info">
+          <h3>OpenAI Infographic Summary</h3>
+          <p><b>Key insight:</b> Human and LLM collaboration produced comparable synthesis success rates and enabled discovery of a new material prototype, Ba3PtO5, in a closed-loop experimental workflow.</p>
+          <p><b>Engineering relevance:</b> The study shows that combining expert judgment with LLM-generated synthesis recipes can accelerate materials discovery by improving candidate exploration and experimentally validating viable reaction paths.</p>
+          <ul><li>Generated synthesis recipes for known and unknown Ruddlesden-Popper candidate materials using both humans and LLMs.</li><li>Tested recipes in the lab and fed results back into a closed-loop collaboration process.</li><li>Compared success rates across two rounds to assess performance on known vs. unknown targets.</li></ul>
+          <p><b>Evidence signal:</b> The abstract reports experimental success rates of 83% vs 75% for known materials and 17% vs 22% for unknown materials in round one, with similar trends in round two.</p>
+          <p><b>Watch item:</b> Performance drops sharply for unknown materials, so real-world deployment still depends on careful experimental validation and domain expertise.</p>
+          <div class="tags"><span>#MaterialsDiscovery</span> <span>#LLM</span> <span>#ClosedLoopExperimentation</span> <span>#SynthesisPlanning</span> <span>#ComputationalMaterials</span></div>
+        </section>
+      </article>
+    
+
       <article class="paper">
         <div class="meta"><span>Device Optimization</span><span>arXiv</span><strong>82</strong></div>
         <p class="date">2026-06-10</p>
@@ -39,18 +58,37 @@
         <div class="links"><a href="https://arxiv.org/abs/2606.12083v1" target="_blank" rel="noreferrer">arXiv</a> <a href="https://arxiv.org/pdf/2606.12083v1" target="_blank" rel="noreferrer">PDF</a></div>
         <section class="info">
           <h3>OpenAI Infographic Summary</h3>
-          <p><b>Key insight:</b> A SCAPS-1D + machine-learning workflow can rapidly rank multilayer perovskite solar-cell designs and pinpoint material choices that maximize efficiency, including lead-free double perovskites.</p>
-          <p><b>Engineering relevance:</b> The study provides a practical screening framework for optimizing ETL, absorber, and HTL combinations before expensive full-scale fabrication or simulation.</p>
-          <ul><li>Simulated 125 ETL/absorber/HTL device architectures with SCAPS-1D.</li><li>Trained an ML model on a representative subset to predict PCE for unexplored stacks.</li><li>Used SHAP to identify the most influential descriptors and verify top candidates with full device simulations.</li></ul>
-          <p><b>Evidence signal:</b> Leave-One-Group-Out cross-validation showed strong ranking performance, and the best verified devices reached 28.85% PCE (FTO/TiO2/Cs2AgBiBr6/NiO/Ag) and 28.62% PCE (FTO/SnO2/Cs2AgInBr6/NiO/Ag).</p>
-          <p><b>Watch item:</b> The rankings depend on the quality and coverage of the SCAPS-generated training space, so extrapolation to materially different device physics or unmodeled interfaces may be unreliable.</p>
-          <div class="tags"><span>#PerovskiteSolarCells</span> <span>#MachineLearning</span> <span>#SCAPS1D</span> <span>#DeviceOptimization</span> <span>#CleanEnergy</span></div>
+          <p><b>Key insight:</b> A hybrid SCAPS-1D plus machine-learning workflow can efficiently screen multilayer perovskite solar-cell stacks and reveal the key layer properties that drive efficiency.</p>
+          <p><b>Engineering relevance:</b> This provides a practical design route for optimizing ETL, absorber, and HTL choices in high-efficiency, lead-free perovskite solar cells without exhaustive trial-and-error.</p>
+          <ul><li>Simulated 125 ETL/absorber/HTL architectures with SCAPS-1D.</li><li>Trained an ML model on a representative subset to predict PCE for unexplored stacks.</li><li>Used SHAP analysis to identify the most influential descriptors and verify top candidates with full device simulations.</li></ul>
+          <p><b>Evidence signal:</b> Leave-One-Group-Out cross-validation showed reliable ranking via Spearman correlation, and the best verified devices reached 28.85% PCE (FTO/TiO2/Cs2AgBiBr6/NiO/Ag) and 28.62% PCE (FTO/SnO2/Cs2AgInBr6/NiO/Ag).</p>
+          <p><b>Watch item:</b> The model’s screening power depends on the representativeness of the simulated training set, so transfer to new materials or fabrication conditions should be validated experimentally.</p>
+          <div class="tags"><span>#PerovskiteSolarCells</span> <span>#SCAPS1D</span> <span>#MachineLearning</span> <span>#DeviceOptimization</span> <span>#LeadFreePerovskites</span></div>
         </section>
       </article>
     
 
       <article class="paper">
-        <div class="meta"><span>Device Optimization</span><span>arXiv</span><strong>73</strong></div>
+        <div class="meta"><span>Perovskite Solar Cells</span><span>arXiv</span><strong>73</strong></div>
+        <p class="date">2026-07-08</p>
+        <h2>Understanding surface potential dynamics of passivated perovskites via Kelvin Probe Force Microscopy</h2>
+        <p class="authors">Rehmat Sood-Goodwin, Xue-Li Cao, Benjamin C. Kinvig, Robert D. J. Oliver, Yen-Hung Lin, Nic Mullin</p>
+        <p class="abstract">Molecular passivation has become central to reducing photovoltage losses in metal-halide perovskite solar cells, but its electronic action is still often inferred from device-level metrics rather than directly resolved at the nanoscale. Here, we use amplitude-modulated Kelvin probe force microscopy to examine how [3-(2-aminoethylamino)propyl]trimethoxysilane (AEAPTMS) modifies the surface potential and photovoltage dynamics of mixed-cation, mixed-halide perovskite thin films. AEAPTMS homogenises the dark contact potential difference (CPD), narrowing its distribution from ~45.7 to ~14.6 mV without obvious morphological changes. Under illumination, passivated films show a larger steady-state surface photovoltage (SPV) and faster stabilisation, with the SPV increasing from ~345 to ~417 mV and the stabilisation time constant decreasing from ~840 to ~470 s. Wavelength-dependent SPV further indicates reduced sub-bandgap electronic disorder. By separating grain-boundary and grain-interior contributions, we show that AEAPTMS suppresses grain-boundary potential barriers, linking amino-silane passivation to a more homogeneous and stable carrier landscape.</p>
+        <div class="links"><a href="https://arxiv.org/abs/2607.07221v1" target="_blank" rel="noreferrer">arXiv</a> <a href="https://arxiv.org/pdf/2607.07221v1" target="_blank" rel="noreferrer">PDF</a></div>
+        <section class="info">
+          <h3>OpenAI Infographic Summary</h3>
+          <p><b>Key insight:</b> AEAPTMS passivation makes perovskite surface electrostatics more uniform and light-stable, indicating fewer grain-boundary barriers and less electronic disorder.</p>
+          <p><b>Engineering relevance:</b> This suggests amino-silane surface treatment can improve perovskite solar-cell voltage loss mitigation by stabilizing carrier landscapes at the nanoscale.</p>
+          <ul><li>Amplitude-modulated Kelvin probe force microscopy (KPFM)</li><li>Compare dark CPD and illuminated SPV before vs after AEAPTMS passivation</li><li>Separate grain-boundary and grain-interior surface-potential contributions</li></ul>
+          <p><b>Evidence signal:</b> Passivation narrowed dark CPD spread from about 45.7 to 14.6 mV, increased steady-state SPV from about 345 to 417 mV, and reduced SPV stabilization time from about 840 to 470 s.</p>
+          <p><b>Watch item:</b> These conclusions come from thin-film nanoscale measurements, so device-level performance gains and long-term operational stability still need direct validation.</p>
+          <div class="tags"><span>#Perovskites</span> <span>#SolarCells</span> <span>#KPFM</span> <span>#SurfacePassivation</span> <span>#Photovoltage</span></div>
+        </section>
+      </article>
+    
+
+      <article class="paper">
+        <div class="meta"><span>Device Optimization</span><span>arXiv</span><strong>68</strong></div>
         <p class="date">2026-07-06</p>
         <h2>LLMs for Agentic Home Energy Management</h2>
         <p class="authors">Sokipriala Jonah</p>
@@ -58,12 +96,12 @@
         <div class="links"><a href="https://arxiv.org/abs/2607.04569v1" target="_blank" rel="noreferrer">arXiv</a> <a href="https://arxiv.org/pdf/2607.04569v1" target="_blank" rel="noreferrer">PDF</a></div>
         <section class="info">
           <h3>OpenAI Infographic Summary</h3>
-          <p><b>Key insight:</b> LLM agents can turn natural-language home energy preferences into reliable appliance schedules, reaching near-MILP performance when connected to live pricing, weather, and device data.</p>
-          <p><b>Engineering relevance:</b> This work suggests a practical control interface for residential demand response and solar-aware scheduling, helping reduce electricity costs without requiring users to write optimization constraints.</p>
-          <ul><li>Built a tool-calling ReAct agent for multi-appliance scheduling.</li><li>Integrated live Octopus Agile prices, weather forecasts, PV estimates, usage data, and a retrieval-augmented knowledge base.</li><li>Benchmarked GPT-4o-mini, Gemini 2.5 Flash, and Claude Sonnet 4.6 against MILP ground truth across tariff, conflict, and week-long scenarios.</li></ul>
-          <p><b>Evidence signal:</b> In evaluation, native function calling achieved 100% scheduling success and 96.7–98.0% of oracle savings over a simulated week, with roughly GBP 1,270 annual savings projected versus an off-peak timer baseline.</p>
-          <p><b>Watch item:</b> Results depend on reliable tool calling and accurate external inputs; text-parsed action interfaces were notably less dependable, and real-world deployment must handle forecast and data errors.</p>
-          <div class="tags"><span>#LLMAgents</span> <span>#HomeEnergyManagement</span> <span>#DemandResponse</span> <span>#SolarOptimization</span> <span>#MILP</span></div>
+          <p><b>Key insight:</b> LLM agents can turn household preferences into executable home-energy schedules and achieve near-MILP optimality, especially when using native function calling.</p>
+          <p><b>Engineering relevance:</b> This shows a practical path for deploying natural-language interfaces in home energy management to reduce electricity costs while respecting appliance, tariff, and safety constraints.</p>
+          <ul><li>ReAct tool-calling agent with live Octopus Agile prices, weather forecasts, PV generation estimates, and household usage data</li><li>Retrieval-augmented knowledge base plus MILP ground-truth scheduling for flexible loads</li><li>Benchmark across commercial LLMs under tariff, constraint-conflict, solar co-optimization, and week-long deployment scenarios</li></ul>
+          <p><b>Evidence signal:</b> Across three models, native function calling achieved 100% scheduling success and 96.7-98.0% of oracle savings over a simulated week, with near-MILP performance.</p>
+          <p><b>Watch item:</b> Text-parsed action interfaces were much less reliable than native function calling, so real deployments need robust tool integration and constraint handling.</p>
+          <div class="tags"><span>#HomeEnergyManagement</span> <span>#LLMAgents</span> <span>#DemandResponse</span> <span>#SolarOptimization</span> <span>#MILP</span></div>
         </section>
       </article>
     
@@ -77,18 +115,37 @@
         <div class="links"><a href="https://arxiv.org/abs/2606.13114v1" target="_blank" rel="noreferrer">arXiv</a> <a href="https://arxiv.org/pdf/2606.13114v1" target="_blank" rel="noreferrer">PDF</a></div>
         <section class="info">
           <h3>OpenAI Infographic Summary</h3>
-          <p><b>Key insight:</b> Bayesian inference on photoluminescence images can localize where perovskite solar cells degrade, separating interface-driven failure from bulk degradation.</p>
-          <p><b>Engineering relevance:</b> This provides a practical diagnostic tool for designing more durable perovskite devices and for evaluating passivation strategies at the right failure sites.</p>
-          <ul><li>Photoluminescence imaging of fully fabricated perovskite solar cells</li><li>Drift-diffusion simulations linked to measured optical signals</li><li>Bayesian inference to generate spatial parameter maps and track changes during aging</li></ul>
-          <p><b>Evidence signal:</b> The paper tracks inferred parameter maps during accelerated aging at 70 °C under full-spectrum sunlight and finds strong spatially non-uniform degradation, especially at perovskite/transport-layer interfaces.</p>
-          <p><b>Watch item:</b> Inference quality depends on the fidelity of the drift-diffusion model and imaging data, so parameter maps may be sensitive to modeling assumptions and measurement noise.</p>
-          <div class="tags"><span>#PerovskiteSolarCells</span> <span>#BayesianInference</span> <span>#OpticalImaging</span> <span>#DeviceDegradation</span> <span>#EnergyMaterials</span></div>
+          <p><b>Key insight:</b> Bayesian inference on photoluminescence imaging and drift-diffusion simulations can localize where perovskite solar cells degrade, separating bulk from interface-driven failure.</p>
+          <p><b>Engineering relevance:</b> The method helps engineers diagnose the dominant degradation pathway in real devices, enabling more targeted material and interface design for longer-lived perovskite modules.</p>
+          <ul><li>Photoluminescence imaging of fully fabricated devices</li><li>Drift-diffusion simulation linked to Bayesian parameter inference</li><li>Temporal tracking of inferred recombination maps during aging</li></ul>
+          <p><b>Evidence signal:</b> Devices were aged under 70 °C full-spectrum sunlight, and the inferred parameter maps showed pronounced spatially non-uniform degradation that was strongest at perovskite/transport-layer interfaces.</p>
+          <p><b>Watch item:</b> The approach depends on model fidelity and imaging quality, so inferred degradation locations may be sensitive to assumptions in the drift-diffusion framework and inverse problem setup.</p>
+          <div class="tags"><span>#PerovskiteSolarCells</span> <span>#BayesianInference</span> <span>#PhotoluminescenceImaging</span> <span>#DeviceDegradation</span> <span>#EnergyMaterials</span></div>
         </section>
       </article>
     
 
       <article class="paper">
-        <div class="meta"><span>AI solar cells</span><span>arXiv</span><strong>63</strong></div>
+        <div class="meta"><span>Perovskite Solar Cells</span><span>arXiv</span><strong>59</strong></div>
+        <p class="date">2026-07-08</p>
+        <h2>Raman spectroscopic signature of Kitaev magnetism and complex spin-lattice coupling in S = 1/2 antiferromagnet SrLaCoNbO$_6$ double perovskite</h2>
+        <p class="authors">Ajay Kumar, Clemens Ulrich, Rajendra S. Dhaka</p>
+        <p class="abstract">We report a detailed analysis of temperature-dependent Raman spectroscopy and Co $K$-edge extended x-ray absorption fine structure (EXAFS) for a pseudospin-$\tilde{S}=1/2$ insulating antiferromagnet SrLaCoNbO$_6$, a B-site--ordered double perovskite hosting Co$^{2+}$ ($3d^7$) ions on an {\it f.c.c.} sublattice. Notably, pronounced anomalies in the phonon frequency, linewidth and spectral weight are observed around 60~K, well above the long-range antiferromagnetic transition at $T_{\rm N} \approx 15$~K. These renormalizations indicate a significant coupling between lattice and spin degrees of freedom, although a purely structural contribution cannot be excluded. Additional modifications of both high- and low-energy Raman modes are detected near 160-180 K, including changes in linewidth and intensity, variations of the Fano asymmetry parameter, and the emergence of an additional low-energy feature. The asymmetric Fano line shape of selected low-energy modes, together with a broad low-energy continuum and quasielastic response, suggests coupling between discrete phonons and fluctuating magnetic excitations. Moreover, the EXAFS analysis reveals correlated changes in bond distances and Debye-Waller factors around the Co ions near 60~K and 160~K, evidencing subtle local structural distortions and possible magnetostrictive effects. The persistence of anomalous lattice dynamics far above $T_{\rm N}$, combined with the excitation-energy--independent continuum, is consistent with fluctuating bond-directional interactions and proximate Kitaev-like correlations.</p>
+        <div class="links"><a href="https://arxiv.org/abs/2607.07630v1" target="_blank" rel="noreferrer">arXiv</a> <a href="https://arxiv.org/pdf/2607.07630v1" target="_blank" rel="noreferrer">PDF</a></div>
+        <section class="info">
+          <h3>OpenAI Infographic Summary</h3>
+          <p><b>Key insight:</b> SrLaCoNbO6 shows strong spin-lattice coupling with Raman and EXAFS anomalies far above the Néel temperature, pointing to fluctuating Kitaev-like magnetic correlations in a Co2+ double perovskite.</p>
+          <p><b>Engineering relevance:</b> The results highlight how local lattice distortions and magnetic fluctuations can be tracked as design signals in ordered perovskites, relevant for tuning functional oxide materials.</p>
+          <ul><li>Temperature-dependent Raman spectroscopy</li><li>Co K-edge EXAFS analysis</li><li>Line-shape and Fano-asymmetry analysis of phonon modes</li></ul>
+          <p><b>Evidence signal:</b> Raman phonon frequency, linewidth, spectral weight, and Fano asymmetry change near 60 K and 160–180 K, while EXAFS shows correlated bond-distance and Debye-Waller-factor anomalies around the same temperatures.</p>
+          <p><b>Watch item:</b> The low-temperature anomalies are suggestive but not uniquely diagnostic, since a purely structural contribution cannot be fully ruled out from the presented data alone.</p>
+          <div class="tags"><span>#RamanSpectroscopy</span> <span>#EXAFS</span> <span>#SpinLatticeCoupling</span> <span>#KitaevMagnetism</span> <span>#DoublePerovskite</span></div>
+        </section>
+      </article>
+    
+
+      <article class="paper">
+        <div class="meta"><span>AI solar cells</span><span>arXiv</span><strong>58</strong></div>
         <p class="date">2026-07-07</p>
         <h2>Quantum state localization in dipole-dipole interacting disordered networks</h2>
         <p class="authors">Pritam Chattopadhyay, Saikat Sur, Avijit Misra, David Petrosyan, Arti Garg, Gershon Kurizki</p>
@@ -96,18 +153,18 @@
         <div class="links"><a href="https://arxiv.org/abs/2607.06539v1" target="_blank" rel="noreferrer">arXiv</a> <a href="https://arxiv.org/pdf/2607.06539v1" target="_blank" rel="noreferrer">PDF</a></div>
         <section class="info">
           <h3>OpenAI Infographic Summary</h3>
-          <p><b>Key insight:</b> Positional disorder in realistic resonant dipole-dipole interacting networks can strongly localize excitations, even though the coupling is partly long-ranged and dissipative.</p>
-          <p><b>Engineering relevance:</b> These localized quantum modes could help design more robust light-harvesting, excitonic, and quantum-sensing devices by controlling transport and storage of excitation energy.</p>
-          <ul><li>Model spin/atom networks with realistic resonant dipole-dipole interaction (RDDI).</li><li>Introduce positional disorder and analyze coherent plus dissipative coupling effects.</li><li>Compare excitation dynamics across geometries and wavelengths to identify localization behavior.</li></ul>
-          <p><b>Evidence signal:</b> The abstract reports a wavelength-induced transition from extended to localized excitation dynamics, with strong spatial localization emerging under disorder.</p>
-          <p><b>Watch item:</b> Because the interaction is both radiative and dissipative, practical implementations must manage losses and geometry-dependent effects that may complicate device scaling.</p>
-          <div class="tags"><span>#QuantumLocalization</span> <span>#DipoleDipoleInteraction</span> <span>#DisorderedNetworks</span> <span>#QuantumOptics</span> <span>#Photonics</span></div>
+          <p><b>Key insight:</b> Positional disorder in realistic resonant dipole-dipole interacting networks can strongly localize quantum excitations, even though the coupling is partially long-ranged and radiative.</p>
+          <p><b>Engineering relevance:</b> This suggests a route to robust control of exciton transport and trapping for coherent photovoltaics, excitonic devices, quantum memory, and quantum sensing.</p>
+          <ul><li>Model spin/atom networks with realistic resonant dipole-dipole interaction (RDDI).</li><li>Introduce positional disorder and analyze coherent plus dissipative coupling effects.</li><li>Compare excitation dynamics across wavelengths to identify extended-to-localized behavior.</li></ul>
+          <p><b>Evidence signal:</b> The abstract reports a wavelength-induced transition from extended to localized excitation dynamics, supported by analysis of localized modes in disordered RDDI networks.</p>
+          <p><b>Watch item:</b> Because RDDI is dissipative and not a simple power-law interaction, translating these localization effects into practical devices may require careful control of geometry, disorder, and loss.</p>
+          <div class="tags"><span>#QuantumLocalization</span> <span>#DipoleDipoleInteractions</span> <span>#DisorderedSystems</span> <span>#CoherentPV</span> <span>#QuantumOptics</span></div>
         </section>
       </article>
     
 
       <article class="paper">
-        <div class="meta"><span>Perovskite Solar Cells</span><span>arXiv</span><strong>63</strong></div>
+        <div class="meta"><span>Perovskite Solar Cells</span><span>arXiv</span><strong>58</strong></div>
         <p class="date">2026-07-06</p>
         <h2>Data-driven atomistic modelling of hybrid halide perovskite passivation</h2>
         <p class="authors">Laura-Bianca Paşca, Henry J. Snaith, Volker L. Deringer</p>
@@ -115,12 +172,12 @@
         <div class="links"><a href="https://arxiv.org/abs/2607.05321v1" target="_blank" rel="noreferrer">arXiv</a> <a href="https://arxiv.org/pdf/2607.05321v1" target="_blank" rel="noreferrer">PDF</a></div>
         <section class="info">
           <h3>OpenAI Infographic Summary</h3>
-          <p><b>Key insight:</b> A two-stage data-driven workflow can accurately model molecule–perovskite surface passivation by combining broad perovskite training data with a small, task-specific fine-tuning set.</p>
-          <p><b>Engineering relevance:</b> This enables more realistic simulation of defect-passivating molecules on hybrid halide perovskite surfaces, supporting rational design of more stable and higher-performance solar-cell interfaces.</p>
-          <ul><li>Built a large open benchmark dataset of diverse metal and hybrid halide perovskite structures (hyP-26).</li><li>Added a small specialized dataset for an amino-silane passivating molecule to fine-tune the model.</li><li>Used a multistep training pipeline similar to continuous fine-tuning to study surface coverage effects at a mixed-composition perovskite surface.</li></ul>
-          <p><b>Evidence signal:</b> The abstract reports a curated open dataset plus a specialized fine-tuning dataset and shows the approach can probe how interactions evolve as amino-silane coverage increases.</p>
-          <p><b>Watch item:</b> Performance may depend strongly on the quality and representativeness of the small specialized fine-tuning dataset, especially for experimentally realistic surface chemistries.</p>
-          <div class="tags"><span>#PerovskiteSolarCells</span> <span>#MachineLearningPotentials</span> <span>#AtomisticSimulation</span> <span>#SurfacePassivation</span> <span>#HybridHalidePerovskites</span></div>
+          <p><b>Key insight:</b> A two-stage machine-learning workflow—broad pretraining plus targeted fine-tuning—can capture how amino-silane passivants interact with hybrid halide perovskite surfaces as coverage increases.</p>
+          <p><b>Engineering relevance:</b> This provides a practical route to design and optimize molecular surface passivation strategies that may improve defect control and optoelectronic performance in perovskite solar cells.</p>
+          <ul><li>Built a large open training set, hyP-26, covering diverse metal and hybrid halide perovskite structures.</li><li>Fine-tuned the model on a small, specialized dataset for an amino-silane passivating molecule on perovskite surfaces.</li><li>Used the trained potential to simulate mixed-composition perovskite surfaces across varying molecular coverages.</li></ul>
+          <p><b>Evidence signal:</b> The abstract reports a curated large dataset plus a small specialized passivation dataset and evaluates the approach by observing coverage-dependent interaction trends at the surface.</p>
+          <p><b>Watch item:</b> The workflow depends on high-quality specialized fine-tuning data, so transfer to other passivants or surface chemistries may require new reference calculations.</p>
+          <div class="tags"><span>#PerovskiteSolarCells</span> <span>#MachineLearningPotential</span> <span>#AtomisticModeling</span> <span>#SurfacePassivation</span> <span>#HybridHalides</span></div>
         </section>
       </article>
     
@@ -134,12 +191,12 @@
         <div class="links"><a href="https://arxiv.org/abs/2606.13414v1" target="_blank" rel="noreferrer">arXiv</a> <a href="https://arxiv.org/pdf/2606.13414v1" target="_blank" rel="noreferrer">PDF</a></div>
         <section class="info">
           <h3>OpenAI Infographic Summary</h3>
-          <p><b>Key insight:</b> A physics-informed CNN-LSTM can forecast perovskite photoluminescence degradation over time, enabling early prediction of long-term stability from short accelerated-aging measurements.</p>
-          <p><b>Engineering relevance:</b> This provides a faster, more explainable stability-screening tool for perovskite solar cell development, reducing the need for lengthy experimental aging tests.</p>
-          <ul><li>Collected an experimental dataset of 167 metal halide perovskites under heat and light stress.</li><li>Featurized &gt;86,000 PL spectra with a physics-informed model.</li><li>Trained a hybrid CNN-LSTM to predict PL intensity for unseen samples and compared it against baseline benchmarks.</li></ul>
-          <p><b>Evidence signal:</b> The abstract reports a diverse dataset of 167 materials and over 86,000 PL spectra, with the proposed model generalizing across material groups and outperforming baselines.</p>
-          <p><b>Watch item:</b> Performance may depend on the quality and coverage of the accelerated-aging dataset, so extrapolation to new chemistries or stress conditions should be validated carefully.</p>
-          <div class="tags"><span>#PerovskiteSolarCells</span> <span>#MachineLearning</span> <span>#PhysicsInformedML</span> <span>#TimeSeriesForecasting</span> <span>#MaterialsScience</span></div>
+          <p><b>Key insight:</b> A physics-informed CNN-LSTM can forecast long-term photoluminescence degradation of perovskites from early time-series data, improving generalization to unseen materials.</p>
+          <p><b>Engineering relevance:</b> This enables faster, lower-cost stability screening for perovskite solar cell materials by reducing the need for extended aging experiments.</p>
+          <ul><li>Collected 86k+ photoluminescence spectra from 167 metal halide perovskites under heat and light stress.</li><li>Converted spectra into physics-informed features to make degradation behavior more interpretable.</li><li>Trained a hybrid CNN-LSTM to predict future PL intensity for samples not seen during training.</li></ul>
+          <p><b>Evidence signal:</b> The approach was evaluated on a diverse dataset of 167 perovskites and outperformed baseline benchmarks while generalizing across material groups.</p>
+          <p><b>Watch item:</b> Forecast quality may depend on the representativeness of the training materials and stress conditions, so extrapolation to new chemistries or test protocols should be validated carefully.</p>
+          <div class="tags"><span>#PerovskiteSolarCells</span> <span>#MachineLearning</span> <span>#TimeSeriesForecasting</span> <span>#PhysicsInformedML</span> <span>#MaterialsStability</span></div>
         </section>
       </article>
     
@@ -153,31 +210,12 @@
         <div class="links"><a href="https://arxiv.org/abs/2606.11928v1" target="_blank" rel="noreferrer">arXiv</a> <a href="https://arxiv.org/pdf/2606.11928v1" target="_blank" rel="noreferrer">PDF</a></div>
         <section class="info">
           <h3>OpenAI Infographic Summary</h3>
-          <p><b>Key insight:</b> The paper builds the first large spin-polarized electronic-structure database for stable halide double perovskites, revealing many candidates with visible-range band gaps and a substantial half-metallic subset.</p>
-          <p><b>Engineering relevance:</b> This dataset accelerates screening of perovskite compositions for photovoltaics, spintronics, photocatalysis, and radiation detection by linking chemistry to electronic and magnetic behavior.</p>
-          <ul><li>Hybrid-functional DFT calculations for &gt;2,500 Cs2BB&#x27;X6 halide double perovskites</li><li>Spin-polarized density of states plus band-gap classification across X = I, Br, Cl, F</li><li>LOBSTER bonding analysis with UMAP visualizations and an interactive exploration app</li></ul>
-          <p><b>Evidence signal:</b> The abstract reports DOS data for more than 2,500 compounds, including 719 visible-range band-gap materials and 118 half-metals.</p>
-          <p><b>Watch item:</b> Predictions are computational and limited to compositions judged stable by the tau tolerance factor, so experimental validation is still needed before device use.</p>
+          <p><b>Key insight:</b> The paper builds a large spin-polarized database for 2,500+ stable halide double perovskites, revealing many compositions with visible-range gaps and a notable set of half-metallic candidates.</p>
+          <p><b>Engineering relevance:</b> This dataset accelerates materials screening for photovoltaics, photocatalysis, and spintronic or magnetic device design by linking composition to electronic structure and bonding.</p>
+          <ul><li>Hybrid-functional DFT calculations of spin-polarized density of states for Cs2BB&#x27;X6 compounds (X = I, Br, Cl, F).</li><li>Chemical-bonding analysis with LOBSTER to interpret orbital interactions.</li><li>UMAP visualizations plus an interactive app for exploring composition, band structure, and magnetic properties.</li></ul>
+          <p><b>Evidence signal:</b> The abstract reports &gt;2,500 compounds, including 719 with visible-range band gaps and 118 half-metallic materials, with electronic-structure data and bonding analysis provided.</p>
+          <p><b>Watch item:</b> The database is prediction-driven and focused on thermodynamically stable candidates, so experimental validation is still needed before device deployment.</p>
           <div class="tags"><span>#Perovskites</span> <span>#MaterialsInformatics</span> <span>#DFT</span> <span>#Spintronics</span> <span>#SolarCells</span></div>
-        </section>
-      </article>
-    
-
-      <article class="paper">
-        <div class="meta"><span>Perovskite Solar Cells</span><span>arXiv</span><strong>53</strong></div>
-        <p class="date">2026-07-06</p>
-        <h2>Disentangling Electronic and Lattice Contributions to Transient Absorption in Metal Halide Perovskites: A First-Principles Study of CH3NH3PbBr3</h2>
-        <p class="authors">Lu Qiao, Ronaldo Rodrigues Pela, Claudia Draxl</p>
-        <p class="abstract">Soft lattices combined with strong electron-phonon coupling in metal halide perovskites result in a complex interplay between electronic and lattice degrees of freedom. This interplay complicates the interpretation of time-resolved excitation spectra like pump-probe spectra. Here, we develop a first-principles approach that combines a nonequilibrium extension of the Bethe-Salpeter equation with \textit{ab initio} molecular dynamics to resolve the origin of transient absorption. This approach can quantitatively disentangle electronic and thermal lattice contributions across femtosecond-to-picosecond timescales. Exemplified with \ce{CH3NH3PbBr3}, we find that on the femtosecond scale, both X-ray and optical transient absorption spectra are dominated by electronic contributions: Photoinduced Coulomb screening weakens the effective electron-hole interaction and blueshifts the excitonic resonances, whereas Pauli blocking is negligible. On the picosecond scale, thermal lattice contributions become essential, with distinct mechanisms dominating different spectral regions: Lattice vibrations lead to spectral redistribution in the X-ray transient absorption spectrum, whereas lattice expansion blueshifts the optical transient absorption spectrum.</p>
-        <div class="links"><a href="https://arxiv.org/abs/2607.04840v1" target="_blank" rel="noreferrer">arXiv</a> <a href="https://arxiv.org/pdf/2607.04840v1" target="_blank" rel="noreferrer">PDF</a></div>
-        <section class="info">
-          <h3>OpenAI Infographic Summary</h3>
-          <p><b>Key insight:</b> A first-principles nonequilibrium Bethe-Salpeter plus molecular-dynamics framework separates electronic from lattice effects in transient absorption of CH3NH3PbBr3, showing electronic screening dominates femtosecond dynamics while thermal lattice effects govern picosecond behavior.</p>
-          <p><b>Engineering relevance:</b> This gives a more reliable way to interpret pump-probe and X-ray/optical transient spectra in perovskites, helping engineers distinguish carrier physics from lattice heating in device diagnostics.</p>
-          <ul><li>Nonequilibrium Bethe-Salpeter equation for excited-state spectra</li><li>Ab initio molecular dynamics for thermal lattice motion</li><li>Time-resolved decomposition of electronic vs lattice contributions</li></ul>
-          <p><b>Evidence signal:</b> The abstract reports quantitative agreement across femtosecond-to-picosecond timescales and identifies distinct dominant mechanisms in X-ray and optical transient absorption.</p>
-          <p><b>Watch item:</b> The approach is computationally intensive and system-specific, so extending it to larger device-scale materials sets may require substantial cost and careful validation.</p>
-          <div class="tags"><span>#Perovskites</span> <span>#TransientAbsorption</span> <span>#FirstPrinciples</span> <span>#PumpProbe</span> <span>#ElectronPhononCoupling</span></div>
         </section>
       </article>
     
@@ -191,12 +229,31 @@
         <div class="links"><a href="https://arxiv.org/abs/2606.13060v1" target="_blank" rel="noreferrer">arXiv</a> <a href="https://arxiv.org/pdf/2606.13060v1" target="_blank" rel="noreferrer">PDF</a></div>
         <section class="info">
           <h3>OpenAI Infographic Summary</h3>
-          <p><b>Key insight:</b> A transformer-based transfer learning model can screen and rank greener solvent substitutes with useful uncertainty estimates, even when training data for key solubility descriptors is scarce.</p>
-          <p><b>Engineering relevance:</b> This enables high-throughput, data-driven solvent selection for organic photovoltaics and other emerging materials, reducing experimental trial-and-error while supporting more sustainable process design.</p>
-          <ul><li>Pre-train on QM9 molecular property targets, then transfer to solubility-related tasks with minimal labeled data.</li><li>Add uncertainty quantification so users can assess confidence in each solvent prediction.</li><li>Deploy the model as an easy-to-use screening tool for ranking candidate green solvents.</li></ul>
-          <p><b>Evidence signal:</b> The abstract reports strong performance on well-studied targets like Hansen solubility parameters and dielectric constant, and good results on data-poor targets such as Gutmann donor/acceptor numbers, while rediscovering known green solvents and proposing new ones.</p>
-          <p><b>Watch item:</b> Predictions are only as reliable as the domain match between QM9 pretraining and real solvent-selection chemistry, so uncertainty estimates should be checked before experimental adoption.</p>
-          <div class="tags"><span>#OrganicPhotovoltaics</span> <span>#GreenChemistry</span> <span>#MachineLearning</span> <span>#TransferLearning</span> <span>#UncertaintyQuantification</span></div>
+          <p><b>Key insight:</b> A transformer-enhanced transfer learning model can predict solvent solubility descriptors accurately from very limited data, enabling greener solvent discovery and screening.</p>
+          <p><b>Engineering relevance:</b> The tool supports high-throughput selection of eco-friendly solvents for emerging materials workflows in organic photovoltaics and related chemical engineering applications.</p>
+          <ul><li>Pretrain on QM9 molecular property targets and transfer to solvent descriptor prediction with minimal task-specific data.</li><li>Add uncertainty quantification so users can assess confidence in each predicted solvent ranking.</li><li>Deploy a screening/ranking pipeline to propose known and new green solvent candidates.</li></ul>
+          <p><b>Evidence signal:</b> The abstract reports strong performance on established targets like Hansen solubility parameters and dielectric constant, and also on sparsely labeled targets such as Gutmann donor and acceptor numbers.</p>
+          <p><b>Watch item:</b> Model usefulness will depend on the quality and domain coverage of the limited training data, so predictions should still be experimentally validated before adoption.</p>
+          <div class="tags"><span>#MachineLearning</span> <span>#GreenSolvents</span> <span>#TransferLearning</span> <span>#UncertaintyQuantification</span> <span>#OrganicPhotovoltaics</span></div>
+        </section>
+      </article>
+    
+
+      <article class="paper">
+        <div class="meta"><span>Perovskite Solar Cells</span><span>arXiv</span><strong>48</strong></div>
+        <p class="date">2026-07-06</p>
+        <h2>Disentangling Electronic and Lattice Contributions to Transient Absorption in Metal Halide Perovskites: A First-Principles Study of CH3NH3PbBr3</h2>
+        <p class="authors">Lu Qiao, Ronaldo Rodrigues Pela, Claudia Draxl</p>
+        <p class="abstract">Soft lattices combined with strong electron-phonon coupling in metal halide perovskites result in a complex interplay between electronic and lattice degrees of freedom. This interplay complicates the interpretation of time-resolved excitation spectra like pump-probe spectra. Here, we develop a first-principles approach that combines a nonequilibrium extension of the Bethe-Salpeter equation with \textit{ab initio} molecular dynamics to resolve the origin of transient absorption. This approach can quantitatively disentangle electronic and thermal lattice contributions across femtosecond-to-picosecond timescales. Exemplified with \ce{CH3NH3PbBr3}, we find that on the femtosecond scale, both X-ray and optical transient absorption spectra are dominated by electronic contributions: Photoinduced Coulomb screening weakens the effective electron-hole interaction and blueshifts the excitonic resonances, whereas Pauli blocking is negligible. On the picosecond scale, thermal lattice contributions become essential, with distinct mechanisms dominating different spectral regions: Lattice vibrations lead to spectral redistribution in the X-ray transient absorption spectrum, whereas lattice expansion blueshifts the optical transient absorption spectrum.</p>
+        <div class="links"><a href="https://arxiv.org/abs/2607.04840v1" target="_blank" rel="noreferrer">arXiv</a> <a href="https://arxiv.org/pdf/2607.04840v1" target="_blank" rel="noreferrer">PDF</a></div>
+        <section class="info">
+          <h3>OpenAI Infographic Summary</h3>
+          <p><b>Key insight:</b> A first-principles nonequilibrium Bethe-Salpeter plus ab initio molecular dynamics framework separates electronic and lattice effects in CH3NH3PbBr3 transient absorption, showing electrons dominate at femtoseconds while thermal lattice effects emerge at picoseconds.</p>
+          <p><b>Engineering relevance:</b> This provides a mechanistic basis for interpreting pump-probe spectra in perovskite solar cells and for targeting ultrafast optoelectronic responses via electronic screening and lattice dynamics.</p>
+          <ul><li>Nonequilibrium Bethe-Salpeter equation to model transient excitonic response</li><li>Ab initio molecular dynamics to capture thermal lattice motion</li><li>Time-resolved decomposition of electronic vs lattice contributions across fs-to-ps scales</li></ul>
+          <p><b>Evidence signal:</b> The abstract reports quantitative agreement in disentangling transient absorption across femtosecond-to-picosecond timescales, with distinct spectral mechanisms identified for X-ray and optical probes.</p>
+          <p><b>Watch item:</b> The approach is computationally intensive and material-specific, so transferability to larger device-scale systems or strongly disordered samples may be limited.</p>
+          <div class="tags"><span>#Perovskites</span> <span>#TransientAbsorption</span> <span>#FirstPrinciples</span> <span>#ElectronPhononCoupling</span> <span>#PumpProbe</span></div>
         </section>
       </article>
     
@@ -210,12 +267,12 @@
         <div class="links"><a href="https://arxiv.org/abs/2606.18903v1" target="_blank" rel="noreferrer">arXiv</a> <a href="https://arxiv.org/pdf/2606.18903v1" target="_blank" rel="noreferrer">PDF</a></div>
         <section class="info">
           <h3>OpenAI Infographic Summary</h3>
-          <p><b>Key insight:</b> DFT predicts that lead-free double perovskites K/Rb2SnGeX6 are stable, ductile, and highly tunable, with bandgaps spanning 1.44 to 0.64 eV and strong thermoelectric performance.</p>
-          <p><b>Engineering relevance:</b> This makes the family promising for safer photovoltaic absorbers, tandem/near-IR optoelectronics, and high-ZT waste-heat recovery materials.</p>
-          <ul><li>First-principles density functional theory (DFT) across K/Rb and Cl/Br/I compositions</li><li>Structural stability screened using formation energies, tolerance factors, and octahedral factors</li><li>Mechanical, electronic, optical, and thermoelectric properties analyzed from calculated elastic, band, and transport descriptors</li></ul>
-          <p><b>Evidence signal:</b> The abstract reports all six compounds are thermodynamically stable and cubic, with direct bandgaps and a peak thermoelectric figure of merit of ZT = 2.4 for K2SnGeI6 at 1000 K.</p>
-          <p><b>Watch item:</b> These are computational predictions, so experimental synthesis quality, defect tolerance, and real-device performance still need validation.</p>
-          <div class="tags"><span>#PerovskiteSolarCells</span> <span>#LeadFreeMaterials</span> <span>#DensityFunctionalTheory</span> <span>#Thermoelectrics</span> <span>#Optoelectronics</span></div>
+          <p><b>Key insight:</b> K/Rb-based lead-free double perovskites β2SnGeX6 (X = Cl, Br, I) are predicted by DFT to be stable, ductile, and highly tunable from wide-gap photovoltaic absorbers to low-gap optoelectronic and thermoelectric materials.</p>
+          <p><b>Engineering relevance:</b> The series offers a non-toxic, compositionally adjustable platform for designing solar absorbers, tandem-photoactive layers, and high-ZT waste-heat recovery materials.</p>
+          <ul><li>DFT study of structural, mechanical, electronic, optical, and thermoelectric properties</li><li>Stability screening via formation energy, tolerance factor, and octahedral factor</li><li>Transport analysis using band structure, effective masses, lattice thermal conductivity, and ZT</li></ul>
+          <p><b>Evidence signal:</b> The abstract reports cubic stability across all six compounds, direct bandgaps tunable from 1.44 to 0.64 eV, and a peak thermoelectric figure of merit of ZT = 2.4 for K2SnGeI6 at 1000 K.</p>
+          <p><b>Watch item:</b> These are theoretical predictions from DFT, so experimental synthesis, phase stability under real processing conditions, and defect/temperature effects still need validation.</p>
+          <div class="tags"><span>#PerovskiteSolarCells</span> <span>#LeadFreeMaterials</span> <span>#DFT</span> <span>#Thermoelectrics</span> <span>#Optoelectronics</span></div>
         </section>
       </article>
     
@@ -229,12 +286,12 @@
         <div class="links"><a href="https://arxiv.org/abs/2606.13833v1" target="_blank" rel="noreferrer">arXiv</a> <a href="https://arxiv.org/pdf/2606.13833v1" target="_blank" rel="noreferrer">PDF</a></div>
         <section class="info">
           <h3>OpenAI Infographic Summary</h3>
-          <p><b>Key insight:</b> Machine-learned dynamics reveal that small polarons at reduced rutile TiO2(110) surfaces move orders of magnitude more slowly than in bulk because surface pathways are geometrically constrained and vacancies trap nearby electrons.</p>
-          <p><b>Engineering relevance:</b> This explains why porous rutile TiO2 can show much lower electron mobility than single-crystal material, informing defect and surface engineering for photocatalysis, photovoltaics, batteries, and energy storage.</p>
-          <ul><li>Extended a machine-learning-assisted polaron dynamics framework to a redox-active oxide surface.</li><li>Ran nanosecond-scale simulations over multiple temperatures on oxygen-deficient rutile TiO2(110).</li><li>Mapped polaron trajectories, hopping pathways, and vacancy-induced free-energy effects.</li></ul>
-          <p><b>Evidence signal:</b> The study uses several nanoseconds of temperature-dependent dynamics to quantify hopping statistics and show that surface polaron mobility is suppressed by several orders of magnitude relative to bulk.</p>
-          <p><b>Watch item:</b> The approach is demonstrated on one representative oxide surface, so transferability to other reducible oxides may require retraining and careful validation.</p>
-          <div class="tags"><span>#MachineLearning</span> <span>#PolaronDynamics</span> <span>#SurfaceScience</span> <span>#TiO2</span> <span>#ComputationalMaterials</span></div>
+          <p><b>Key insight:</b> At reduced rutile TiO2(110) surfaces, small polarons move far more slowly than in bulk because surface geometry removes many favorable hopping paths and confines motion mainly to limited in-plane routes.</p>
+          <p><b>Engineering relevance:</b> This explains why porous or defect-rich rutile TiO2 can show much lower electron mobility than single-crystal material, which matters for optimizing catalysts, photovoltaic electrodes, and energy-storage devices.</p>
+          <ul><li>Machine-learning-assisted polaron dynamics extended from bulk to oxide surfaces</li><li>Nanosecond-scale finite-temperature dynamics on oxygen-deficient rutile TiO2(110)</li><li>Analyze polaron hopping pathways and vacancy-induced charge trapping</li></ul>
+          <p><b>Evidence signal:</b> The study uses several nanoseconds of simulation across multiple temperatures and finds surface polaron mobility is suppressed by several orders of magnitude relative to bulk.</p>
+          <p><b>Watch item:</b> The results are specific to one reduced oxide surface and still depend on the quality and transferability of the trained machine-learning model.</p>
+          <div class="tags"><span>#SurfacePolarons</span> <span>#TiO2</span> <span>#OxideSurfaces</span> <span>#MachineLearningMD</span> <span>#ChargeTransport</span></div>
         </section>
       </article>
     
@@ -248,31 +305,12 @@
         <div class="links"><a href="https://arxiv.org/abs/2606.11403v2" target="_blank" rel="noreferrer">arXiv</a> <a href="https://arxiv.org/pdf/2606.11403v2" target="_blank" rel="noreferrer">PDF</a></div>
         <section class="info">
           <h3>OpenAI Infographic Summary</h3>
-          <p><b>Key insight:</b> Trigonal selenium appears intrinsically defect tolerant: even though many point defects create deep gap states, both nonradiative and radiative defect-assisted recombination are too weak to explain the observed photovoltaic efficiency losses.</p>
-          <p><b>Engineering relevance:</b> This suggests t-Se is a promising wide-band-gap absorber for tandem and indoor photovoltaics, where defect tolerance can relax material purity requirements and simplify device optimization.</p>
-          <ul><li>First-principles calculations of point defects in trigonal selenium</li><li>Computed defect-assisted Shockley-Read-Hall recombination via nonradiative multi-phonon emission and radiative capture</li><li>Surveyed a large, chemically diverse defect set across charge states, level positions, lattice relaxation, and doping conditions</li></ul>
-          <p><b>Evidence signal:</b> Across the defect dataset, recombination is strongly suppressed by large lattice reorganizations and energy releases of at least 0.5 Eg per event, indicating realistic defect concentrations cannot account for the measured efficiency limits.</p>
-          <p><b>Watch item:</b> The conclusions are based on idealized first-principles defect models, so real devices may still be affected by extended defects, interfaces, or processing-induced degradation not captured here.</p>
-          <div class="tags"><span>#TrigonalSelenium</span> <span>#DefectTolerance</span> <span>#Photovoltaics</span> <span>#SRHRecombination</span> <span>#TandemSolar</span></div>
-        </section>
-      </article>
-    
-
-      <article class="paper">
-        <div class="meta"><span>Device Optimization</span><span>arXiv</span><strong>44</strong></div>
-        <p class="date">2026-07-05</p>
-        <h2>Light Coils: MRI with Fully Optical Data and Power Transmission</h2>
-        <p class="authors">Zining Liu, Morteza Teymoori, Jakob Gerlach, Reza Aghabagheri, Henning Helmers, Michael Bock</p>
-        <p class="abstract">In MRI, dense receiver coil arrays with a high number of coil elements are used to efficiently detect and encode the signal. Further increasing the number of coils is hampered by electrical cabling and massive electronics that introduce electromagnetic coupling, integration complexity and even safety constraints. Here we introduce the novel Light Coils concept, a fully optical MRI receive architecture in which data transmission, front-end power delivery, and coil detuning are all implemented optically, thereby reducing the massive galvanic cabling to a few optical fibers. For signal encoding, Mach-Zehnder modulators (MZM) are used to convert the MR signal from each coil onto a C-band optical carrier. The preamplifiers are driven via a power-over-fiber (PoF) system that uses a high-efficiency photovoltaic (PV) cell for optical-to-electrical power conversion. A pulse-sequence-triggered optical path controls active detuning. Jointly optimizing modulator bias, optical power and front-end gain under realistic receiver chain conditions, Light Coils can match the signal-to-noise ratio (SNR) of conventional RF coil systems with galvanic cables at MZM input powers of 5-10mW and photonic power converter inputs of 80-100mW. At a clinical 3T MRI system, we show in vivo human brain imaging with a single-channel Light Coil element with an image quality and SNR comparable to a conventional coaxial readout using the identical coil element. Extending the concept to a four-channel array using dense wavelength-division multiplexing over a single fiber, we demonstrate wavelength-selective routing with inter-channel optical isolation exceeding 28dB, reduced noise correlation compared with the galvanic reference, and parallel imaging. These results establish a scalable route towards lightweight, modular, and potentially ultra-dense MRI receive arrays based on integrated photonics and power-over-fiber.</p>
-        <div class="links"><a href="https://arxiv.org/abs/2607.04211v1" target="_blank" rel="noreferrer">arXiv</a> <a href="https://arxiv.org/pdf/2607.04211v1" target="_blank" rel="noreferrer">PDF</a></div>
-        <section class="info">
-          <h3>OpenAI Infographic Summary</h3>
-          <p><b>Key insight:</b> Light Coils replace nearly all galvanic MRI receiver cabling with optical links for data, power, and detuning, enabling scalable receive arrays with conventional SNR performance.</p>
-          <p><b>Engineering relevance:</b> This architecture could simplify high-density MRI coil arrays by reducing cabling complexity, electromagnetic coupling, and safety constraints while preserving clinical image quality.</p>
-          <ul><li>Use Mach-Zehnder modulators to imprint each coil&#x27;s MR signal onto a C-band optical carrier.</li><li>Deliver front-end power via power-over-fiber and photovoltaic conversion.</li><li>Control active detuning through a pulse-sequence-triggered optical path; extend to multi-channel readout with dense wavelength-division multiplexing.</li></ul>
-          <p><b>Evidence signal:</b> The abstract reports single-channel in vivo 3T brain imaging comparable to coaxial readout, plus a four-channel fiber-multiplexed demo with &gt;28 dB inter-channel optical isolation and reduced noise correlation.</p>
-          <p><b>Watch item:</b> Practical deployment still depends on precise joint tuning of modulator bias, optical power, and front-end gain, which may complicate system integration and robustness.</p>
-          <div class="tags"><span>#MRI</span> <span>#Photonics</span> <span>#PowerOverFiber</span> <span>#IntegratedPhotonics</span> <span>#MedicalImaging</span></div>
+          <p><b>Key insight:</b> Trigonal selenium appears intrinsically defect tolerant: even though point defects create deep gap states, they do not efficiently drive Shockley-Read-Hall recombination because large lattice reorganization and energy losses suppress both nonradiative and radiative capture.</p>
+          <p><b>Engineering relevance:</b> This makes trigonal selenium a promising wide-band-gap absorber for tandem and indoor photovoltaics, with defect engineering likely less critical than in many other emerging materials.</p>
+          <ul><li>First-principles calculations of a large, chemically diverse set of point defects in trigonal selenium</li><li>Evaluation of defect-assisted Shockley-Read-Hall recombination through nonradiative multi-phonon emission and radiative capture channels</li><li>Assessment of how defect level position, lattice relaxation, charge state, and doping conditions affect recombination rates</li></ul>
+          <p><b>Evidence signal:</b> The abstract reports that across realistic defect concentrations, SRH recombination is too weak to explain the observed efficiency losses in selenium photovoltaics.</p>
+          <p><b>Watch item:</b> The conclusion is based on computed defect physics; practical device performance still depends on microstructure, synthesis control, interfaces, and extrinsic degradation pathways not covered here.</p>
+          <div class="tags"><span>#Photovoltaics</span> <span>#DefectTolerance</span> <span>#TrigonalSelenium</span> <span>#FirstPrinciples</span> <span>#DeviceOptimization</span></div>
         </section>
       </article>
     
@@ -286,12 +324,12 @@
         <div class="links"><a href="https://arxiv.org/abs/2606.25282v1" target="_blank" rel="noreferrer">arXiv</a> <a href="https://arxiv.org/pdf/2606.25282v1" target="_blank" rel="noreferrer">PDF</a></div>
         <section class="info">
           <h3>OpenAI Infographic Summary</h3>
-          <p><b>Key insight:</b> A polymorphic high-entropy oxide photocatalyst combined with microalgae as a sacrificial carbon sink substantially boosts solar-driven CO2 reduction to CO and CH4.</p>
-          <p><b>Engineering relevance:</b> The work suggests a sustainable reactor/material strategy for improving photocatalytic carbon conversion by pairing catalyst design with biologically sourced sacrificial agents.</p>
-          <ul><li>Designed an AB2O6 high-entropy oxide, (Cs1/7Ba4/7Bi2/7)(Nb1/2Ta1/2)2O6, with layered-perovskite/pyrochlore bi-polymorphy.</li><li>Used Cs/Ba to increase surface basicity, Bi to promote polarization and charge separation, and Nb/Ta to support charge transport.</li><li>Compared CO2 photocatalysis with no sacrificial agent, with microplastics, and with microalgae as the sacrificial agent.</li></ul>
-          <p><b>Evidence signal:</b> According to the abstract, microalgae increased CO and CH4 production by about 10× and 4×, respectively, relative to the HEO-only system.</p>
-          <p><b>Watch item:</b> Practical deployment may depend on maintaining microalgae stability, light access, and scalable separation/handling of biomass in a real photocatalytic reactor.</p>
-          <div class="tags"><span>#Photocatalysis</span> <span>#CO2Conversion</span> <span>#HighEntropyOxide</span> <span>#Microalgae</span> <span>#SustainableEngineering</span></div>
+          <p><b>Key insight:</b> A polymorphic high-entropy oxide photocatalyst paired with microalgae as a sacrificial scavenger greatly boosts solar-driven CO2 conversion to CO and CH4 while offering a more sustainable alternative to conventional sacrificial agents.</p>
+          <p><b>Engineering relevance:</b> The work suggests a materials-and-system design route for greener CO2 photoconversion by combining CO2 capture via microalgae with charge-efficient photocatalysis on an engineered HEO.</p>
+          <ul><li>Designed an AB2O6 high-entropy oxide, (Cs1/7Ba4/7Bi2/7)(Nb1/2Ta1/2)2O6, with layered perovskite/pyrochlore bi-polymorphy.</li><li>Used Cs and Ba to increase surface basicity for CO2 chemisorption and Bi/Ta/Nb to support polarization and charge transport.</li><li>Compared photocatalytic CO2 conversion with no sacrificial agent, with microplastics, and with microalgae as the sacrificial agent.</li></ul>
+          <p><b>Evidence signal:</b> The abstract reports that adding microalgae increased CO and CH4 production by 10-fold and 4-fold, respectively, relative to the HEO-only system.</p>
+          <p><b>Watch item:</b> Practical deployment may depend on maintaining stable microalgae performance and managing biomass handling, separation, and process integration over time.</p>
+          <div class="tags"><span>#Photocatalysis</span> <span>#CO2Conversion</span> <span>#HighEntropyOxides</span> <span>#Microalgae</span> <span>#SustainableEngineering</span></div>
         </section>
       </article>
     
@@ -305,11 +343,11 @@
         <div class="links"><a href="https://arxiv.org/abs/2606.12641v1" target="_blank" rel="noreferrer">arXiv</a> <a href="https://arxiv.org/pdf/2606.12641v1" target="_blank" rel="noreferrer">PDF</a></div>
         <section class="info">
           <h3>OpenAI Infographic Summary</h3>
-          <p><b>Key insight:</b> A unified analytical model links loss diagnosis to design rules for photoelectrochemical cells, covering both built-in junction and semiconductor-electrolyte junction architectures.</p>
-          <p><b>Engineering relevance:</b> The framework turns experimental I-V curves into actionable bottleneck identification, helping engineers prioritize absorber choice, interfacial engineering, and nanostructuring for higher PEC efficiency.</p>
-          <ul><li>Models ideal and real PEC behavior with a consistent set of physically meaningful parameters</li><li>Generates efficiency maps, current-voltage curves, and Sankey energy-flow diagrams</li><li>Fits experimental I-V data to decompose losses into thermodynamic, optical, recombination, and interfacial terms</li></ul>
-          <p><b>Evidence signal:</b> The model is validated against literature results across solar water splitting, CO2 reduction, NH3 synthesis, and solar redox flow batteries, and compared across Si, perovskites, hematite, and BiVO4.</p>
-          <p><b>Watch item:</b> Performance-guided design depends on the quality and comparability of fitted experimental I-V data, which may vary across device architectures and measurement conditions.</p>
+          <p><b>Key insight:</b> The paper introduces a unified analytical model that diagnoses where photoelectrochemical cell losses occur and turns that diagnosis into design guidance across different device architectures.</p>
+          <p><b>Engineering relevance:</b> It gives engineers a quantitative way to compare materials and devices, identify bottlenecks from current-voltage data, and prioritize fixes like better interfaces, co-catalysts, or nanostructuring.</p>
+          <ul><li>Unifies built-in junction and semiconductor-electrolyte junction photoelectrodes in one physically meaningful framework.</li><li>Generates current-voltage curves, efficiency metrics, and efficiency maps under ideal and realistic conditions.</li><li>Fits experimental I-V data to decompose losses into thermodynamic, optical, recombination, and interfacial contributions.</li></ul>
+          <p><b>Evidence signal:</b> The framework is validated against literature results across solar water splitting, CO2 reduction, NH3 synthesis, and solar redox flow batteries, and it compares multiple absorber classes including Si, perovskites, hematite, and BiVO4.</p>
+          <p><b>Watch item:</b> Model-based loss attribution depends on the quality of experimental I-V fits and may be sensitive to assumptions in parameterization for complex real devices.</p>
           <div class="tags"><span>#Photoelectrochemistry</span> <span>#SolarFuel</span> <span>#LossAnalysis</span> <span>#DeviceOptimization</span> <span>#RationalDesign</span></div>
         </section>
       </article>
@@ -324,12 +362,12 @@
         <div class="links"><a href="https://arxiv.org/abs/2606.31923v1" target="_blank" rel="noreferrer">arXiv</a> <a href="https://arxiv.org/pdf/2606.31923v1" target="_blank" rel="noreferrer">PDF</a></div>
         <section class="info">
           <h3>OpenAI Infographic Summary</h3>
-          <p><b>Key insight:</b> GaOx can function as an effective hole transport layer for 1.0 eV CuInSe2 bottom cells when it is formed by ion exchange during absorber co-evaporation, enabling low-recombination contacts and high voltage.</p>
-          <p><b>Engineering relevance:</b> This result supports a simple, heavy-alkali-free contact engineering route to improve chalcopyrite bottom cells for tandem photovoltaics with certified efficiency above 16%.</p>
-          <ul><li>Formed GaOx during co-evaporation of the CuInSe2 absorber via ion exchange</li><li>Tested whether Cu addition, Na, and sputtering oxygen flow were needed for conductive GaOx</li><li>Characterized the GaOx layer and device performance of optimized solar cells</li></ul>
-          <p><b>Evidence signal:</b> The optimized device reached an active-area efficiency above 16% and a record-certified open-circuit voltage of 552 mV.</p>
-          <p><b>Watch item:</b> The conductive GaOx behavior appears process-dependent, so reproducibility may require tight control of formation conditions and layer phase composition.</p>
-          <div class="tags"><span>#CuInSe2</span> <span>#GaOx</span> <span>#TandemSolarCells</span> <span>#HoleTransportLayer</span> <span>#Photovoltaics</span></div>
+          <p><b>Key insight:</b> A conductive GaOx hole transport layer can be formed by ion exchange during CuInSe2 co-evaporation, enabling efficient 1.0 eV bottom cells without added Cu, Na, Ag, or heavy alkalis.</p>
+          <p><b>Engineering relevance:</b> This identifies a practical back-contact/passivation route for tandem-ready chalcopyrite bottom cells, helping raise Voc while preserving low-bandgap absorber composition.</p>
+          <ul><li>Formed GaOx during co-evaporation of the low-bandgap CuInSe2 absorber via ion exchange.</li><li>Compared processing variables including Cu addition, Na presence, and oxygen flow during oxide sputtering.</li><li>Examined the structural state of GaOx and its role as a hole transport/passivating layer.</li></ul>
+          <p><b>Evidence signal:</b> The optimized device achieved above 16% active-area efficiency and a record-certified open-circuit voltage of 552 mV for a 1.0 eV CuInSe2 bottom cell.</p>
+          <p><b>Watch item:</b> The conductive behavior appears linked to how the GaOx forms and its partial crystallinity, so process control and back-contact compatibility remain important for reproducibility.</p>
+          <div class="tags"><span>#CuInSe2</span> <span>#GaOx</span> <span>#SolarCells</span> <span>#TandemPV</span> <span>#DeviceOptimization</span></div>
         </section>
       </article>
     
@@ -343,12 +381,12 @@
         <div class="links"><a href="https://arxiv.org/abs/2606.11941v1" target="_blank" rel="noreferrer">arXiv</a> <a href="https://arxiv.org/pdf/2606.11941v1" target="_blank" rel="noreferrer">PDF</a></div>
         <section class="info">
           <h3>OpenAI Infographic Summary</h3>
-          <p><b>Key insight:</b> A monolayer graphene contact layer improves light collection and electrical performance in AlInN/Si solar cells without materially changing the open-circuit voltage.</p>
-          <p><b>Engineering relevance:</b> Graphene offers a low-temperature, transparent, and conductive front-contact option that can boost nitride-based solar cell efficiency.</p>
-          <ul><li>Built AlxIn1-xN solar cells on p-Si(100) with a thin a-Si buffer layer</li><li>Compared three Al compositions: x = 0.22, 0.35, and 0.43</li><li>Transferred monolayer graphene onto the front surface as a semitransparent contact</li></ul>
-          <p><b>Evidence signal:</b> Photovoltaic behavior was evaluated under illumination and dark conditions, and graphene consistently increased short-circuit current density, fill factor, and power conversion efficiency across all compositions.</p>
-          <p><b>Watch item:</b> The graphene transfer process and contact quality must be controlled carefully to avoid defects or nonuniform coverage that could limit reproducibility.</p>
-          <div class="tags"><span>#Graphene</span> <span>#SolarCells</span> <span>#NitrideSemiconductors</span> <span>#TransparentContacts</span> <span>#DeviceOptimization</span></div>
+          <p><b>Key insight:</b> A monolayer graphene front contact improves current collection and overall efficiency in AlInN/Si nitride solar cells without significantly changing open-circuit voltage.</p>
+          <p><b>Engineering relevance:</b> Graphene can serve as a low-temperature semitransparent conductive contact to boost performance in nitride-based photovoltaic devices.</p>
+          <ul><li>Grew AlxIn1−xN on p-type Si(100) with a thin a-Si buffer layer</li><li>Tested three Al compositions: x = 0.22, 0.35, and 0.43</li><li>Transferred a monolayer graphene film onto the front surface and compared devices with/without graphene under light and dark conditions</li></ul>
+          <p><b>Evidence signal:</b> The abstract reports improved short-circuit current density, fill factor, and power conversion efficiency across all compositions, while open-circuit voltage remained largely unchanged.</p>
+          <p><b>Watch item:</b> The study relies on a transferred graphene contact layer, so contact uniformity, process reproducibility, and long-term stability will matter for practical implementation.</p>
+          <div class="tags"><span>#Graphene</span> <span>#SolarCells</span> <span>#NitrideSemiconductors</span> <span>#DeviceOptimization</span> <span>#Photovoltaics</span></div>
         </section>
       </article>
     
@@ -362,50 +400,12 @@
         <div class="links"><a href="https://arxiv.org/abs/2606.22104v2" target="_blank" rel="noreferrer">arXiv</a> <a href="https://arxiv.org/pdf/2606.22104v2" target="_blank" rel="noreferrer">PDF</a></div>
         <section class="info">
           <h3>OpenAI Infographic Summary</h3>
-          <p><b>Key insight:</b> Halide substitution in Ca$_3$PX$_3$ perovskites strongly tunes stability, bandgap, and photovoltaic performance, with Ca$_3$PI$_3$ emerging as the best solar-cell candidate.</p>
-          <p><b>Engineering relevance:</b> These results identify a compositional route to optimize lead-free perovskite absorbers for higher-efficiency solar cell and optoelectronic device design.</p>
-          <ul><li>First-principles calculations of structural and electronic properties</li><li>Band-structure and optical analysis across X = F, Cl, Br, I</li><li>SLME-based photovoltaic screening to compare solar-cell potential</li></ul>
-          <p><b>Evidence signal:</b> The abstract reports direct bandgaps spanning 2.0–3.788 eV and SLME values ranging from 0.6% for Ca$_3$PF$_3$ to 29.6% for Ca$_3$PI$_3$.</p>
-          <p><b>Watch item:</b> High predicted efficiency alone does not guarantee device viability; experimental synthesis, stability, and charge-transport performance still need validation.</p>
-          <div class="tags"><span>#Perovskites</span> <span>#SolarCells</span> <span>#HalideSubstitution</span> <span>#FirstPrinciples</span> <span>#Photovoltaics</span></div>
-        </section>
-      </article>
-    
-
-      <article class="paper">
-        <div class="meta"><span>Perovskite Solar Cells</span><span>arXiv</span><strong>42</strong></div>
-        <p class="date">2026-06-15</p>
-        <h2>Machine learning insights into band gap properties in halide-based perovskites</h2>
-        <p class="authors">Chadawan Khamdang, Mengen Wang</p>
-        <p class="abstract">Halide perovskites show great promise for applications in optoelectronic devices. The lead-free perovskites are attracting increasing interest due to their low toxicity and motivate the exploration of alternative compositions and structures, including A$_2$BX$_6$, A$_2$BB$^\prime$X$_6$, A$_3$B$_2$X$_9$, and A$_4$BX$_6$. Accurate predictions of a wide range of band gap energies are important for designing new materials. It is also desired to generate a direct relationship between the structural and elemental descriptors and the band gap energies. In this work, we develop machine learning models to predict band gap energies across various types of halide perovskites based on atomic and structural properties. Algorithms including ensemble tree-based methods, random forest regression (RFR), gradient boosted regression trees (GBRT), and extreme gradient boosting (XGB) showed strong predictive accuracy. We also analyzed feature importance to identify key descriptors, including B-site and X-site elemental properties, as well as the number of A- and B-site atoms, as primary factors influencing band gap energies. These results improve our understanding of the ML models and provide guidance for designing new halide perovskite materials.</p>
-        <div class="links"><a href="https://arxiv.org/abs/2606.17186v1" target="_blank" rel="noreferrer">arXiv</a> <a href="https://arxiv.org/pdf/2606.17186v1" target="_blank" rel="noreferrer">PDF</a></div>
-        <section class="info">
-          <h3>OpenAI Infographic Summary</h3>
-          <p><b>Key insight:</b> Tree-based machine learning models can accurately predict halide perovskite band gaps from simple atomic and structural descriptors, revealing that B-site and X-site chemistry drives much of the variation.</p>
-          <p><b>Engineering relevance:</b> These models can accelerate screening of lead-free perovskites by narrowing the search for compositions with target band gaps for optoelectronic and solar-cell applications.</p>
-          <ul><li>Trained ensemble tree-based regressors on atomic and structural features across multiple halide perovskite families.</li><li>Compared random forest regression, gradient boosted regression trees, and XGBoost for band-gap prediction.</li><li>Used feature importance analysis to identify the most influential descriptors.</li></ul>
-          <p><b>Evidence signal:</b> The abstract reports strong predictive accuracy from RFR, GBRT, and XGB across various halide perovskite compositions, supported by feature-importance analysis.</p>
-          <p><b>Watch item:</b> Performance may depend on the quality and diversity of the training dataset, so extrapolation to unfamiliar compositions or structures should be treated cautiously.</p>
-          <div class="tags"><span>#PerovskiteSolarCells</span> <span>#MachineLearning</span> <span>#BandGap</span> <span>#MaterialsDiscovery</span> <span>#LeadFreePerovskites</span></div>
-        </section>
-      </article>
-    
-
-      <article class="paper">
-        <div class="meta"><span>Device Optimization</span><span>arXiv</span><strong>42</strong></div>
-        <p class="date">2026-06-12</p>
-        <h2>A Quantum-Assisted Agentic Distributed Artificial Intelligence Framework for Deadline-Bounded Orchestration of Hybrid Renewable Microgrids</h2>
-        <p class="authors">Iacovos I. Ioannou, Saher Javaid, Minella Bezha, Yasuo Tan, Naoto Nagaoka, Vasos Vassiliou</p>
-        <p class="abstract">The real-time orchestration of microgrids that combine fluctuating renewable sources, dispatchable units, storage and curtailable consumers requires the repeated solution of combinatorial dispatch and coalition formation problems under hard control deadlines. In this paper, a quantum-assisted agentic distributed artificial intelligence (DAI) framework is proposed in which the dispatch problem of each control slot is formulated as a quadratic unconstrained binary optimization (QUBO) problem by Belief-Desire-Intention extended (BDIx) agents and is solved by a portfolio of quantum, quantum-inspired and classical solvers. Solver selection is elevated to a first-class agentic deliberation action of the coordinator agent. Learned beliefs about solver latencies are maintained and the solver intention that is expected to satisfy the prevailing deliberation deadline is committed in each slot. In addition, a belief-shaped storage valuation mechanism is introduced through which the storage agent prices its energy at a discounted future-peak value, injecting intertemporal information into the otherwise myopic per-slot optimization. The framework is evaluated on a 24-hour simulation of a grid-connected microgrid with photovoltaic, wind, battery, genset and demand-response assets, with the Quantum Approximate Optimization Algorithm (QAOA) executed by statevector simulation and benchmarked per slot against tabu search, simulated annealing, binary particle swarm optimization, greedy descent and exhaustive enumeration. Zero deliberation deadlines are missed, the committed dispatch attains the exact optimum on every slot and the realized daily cost of 146.24 EUR equals the exact lower bound, with 97.83 percent renewable utilization and zero unserved energy. When the storage valuation mechanism is deactivated, the daily cost is increased to 152.75 EUR, a 4.5 percent increase.</p>
-        <div class="links"><a href="https://arxiv.org/abs/2606.20667v1" target="_blank" rel="noreferrer">arXiv</a> <a href="https://arxiv.org/pdf/2606.20667v1" target="_blank" rel="noreferrer">PDF</a></div>
-        <section class="info">
-          <h3>OpenAI Infographic Summary</h3>
-          <p><b>Key insight:</b> A quantum-assisted agentic DAI controller can meet hard microgrid control deadlines while solving per-slot dispatch optimally and improving cost through smarter storage valuation.</p>
-          <p><b>Engineering relevance:</b> This framework is relevant for real-time renewable microgrid operation because it combines deadline-aware optimization, solver orchestration, and intertemporal storage pricing in a single control loop.</p>
-          <ul><li>BDIx agents formulate each dispatch slot as a QUBO problem.</li><li>A coordinator agent selects among quantum, quantum-inspired, and classical solvers based on learned latency beliefs and deadline constraints.</li><li>A storage agent uses discounted future-peak valuation to encode intertemporal battery value.</li></ul>
-          <p><b>Evidence signal:</b> In a 24-hour simulated grid-connected microgrid, the system missed zero deadlines, achieved the exact optimum in every slot, and reached a daily cost of 146.24 EUR with 97.83% renewable utilization and zero unserved energy.</p>
-          <p><b>Watch item:</b> Results rely on statevector QAOA simulation and a specific benchmark microgrid, so real hardware performance and scalability under larger, noisier deployments remain to be validated.</p>
-          <div class="tags"><span>#Microgrids</span> <span>#QuantumOptimization</span> <span>#AgenticAI</span> <span>#RenewableEnergy</span> <span>#QUBO</span></div>
+          <p><b>Key insight:</b> Halide substitution in Ca3PX3 strongly tunes the optoelectronic response, with Ca3PI3 emerging as the most promising photovoltaic candidate.</p>
+          <p><b>Engineering relevance:</b> This suggests composition engineering can be used to optimize perovskite solar absorbers for higher efficiency and targeted device performance.</p>
+          <ul><li>First-principles calculations of structural, electronic, and optical properties.</li><li>Band-structure analysis to determine bandgap type and magnitude.</li><li>SLME-based photovoltaic screening to compare solar-cell efficiency across F, Cl, Br, and I variants.</li></ul>
+          <p><b>Evidence signal:</b> The abstract reports direct bandgaps from 2.0 to 3.788 eV and SLME results showing Ca3PI3 at 29.6% efficiency versus only 0.6% for Ca3PF3.</p>
+          <p><b>Watch item:</b> The reported efficiencies come from theoretical screening, so experimental stability, defect tolerance, and fabrication feasibility still need validation.</p>
+          <div class="tags"><span>#PerovskiteSolarCells</span> <span>#HalideSubstitution</span> <span>#Photovoltaics</span> <span>#FirstPrinciples</span> <span>#MaterialsDesign</span></div>
         </section>
       </article>
     </section>

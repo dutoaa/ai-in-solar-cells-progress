@@ -1,16 +1,16 @@
 {
-  "key_insight": "LLM agents can turn natural-language home energy preferences into reliable appliance schedules, reaching near-MILP performance when connected to live pricing, weather, and device data.",
-  "engineering_relevance": "This work suggests a practical control interface for residential demand response and solar-aware scheduling, helping reduce electricity costs without requiring users to write optimization constraints.",
+  "key_insight": "LLM agents can turn household preferences into executable home-energy schedules and achieve near-MILP optimality, especially when using native function calling.",
+  "engineering_relevance": "This shows a practical path for deploying natural-language interfaces in home energy management to reduce electricity costs while respecting appliance, tariff, and safety constraints.",
   "method": [
-    "Built a tool-calling ReAct agent for multi-appliance scheduling.",
-    "Integrated live Octopus Agile prices, weather forecasts, PV estimates, usage data, and a retrieval-augmented knowledge base.",
-    "Benchmarked GPT-4o-mini, Gemini 2.5 Flash, and Claude Sonnet 4.6 against MILP ground truth across tariff, conflict, and week-long scenarios."
+    "ReAct tool-calling agent with live Octopus Agile prices, weather forecasts, PV generation estimates, and household usage data",
+    "Retrieval-augmented knowledge base plus MILP ground-truth scheduling for flexible loads",
+    "Benchmark across commercial LLMs under tariff, constraint-conflict, solar co-optimization, and week-long deployment scenarios"
   ],
-  "evidence_signal": "In evaluation, native function calling achieved 100% scheduling success and 96.7–98.0% of oracle savings over a simulated week, with roughly GBP 1,270 annual savings projected versus an off-peak timer baseline.",
-  "watch_item": "Results depend on reliable tool calling and accurate external inputs; text-parsed action interfaces were notably less dependable, and real-world deployment must handle forecast and data errors.",
+  "evidence_signal": "Across three models, native function calling achieved 100% scheduling success and 96.7-98.0% of oracle savings over a simulated week, with near-MILP performance.",
+  "watch_item": "Text-parsed action interfaces were much less reliable than native function calling, so real deployments need robust tool integration and constraint handling.",
   "hashtags": [
-    "#LLMAgents",
     "#HomeEnergyManagement",
+    "#LLMAgents",
     "#DemandResponse",
     "#SolarOptimization",
     "#MILP"
@@ -19,6 +19,6 @@
   "paper_title": "LLMs for Agentic Home Energy Management",
   "paper_date": "2026-07-06",
   "paper_category": "Device Optimization",
-  "generated_at": "2026-07-08T13:44:54",
+  "generated_at": "2026-07-09T14:36:47",
   "generator": "openai"
 }

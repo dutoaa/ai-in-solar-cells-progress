@@ -1,24 +1,24 @@
 {
-  "key_insight": "A SCAPS-1D + machine-learning workflow can rapidly rank multilayer perovskite solar-cell designs and pinpoint material choices that maximize efficiency, including lead-free double perovskites.",
-  "engineering_relevance": "The study provides a practical screening framework for optimizing ETL, absorber, and HTL combinations before expensive full-scale fabrication or simulation.",
+  "key_insight": "A hybrid SCAPS-1D plus machine-learning workflow can efficiently screen multilayer perovskite solar-cell stacks and reveal the key layer properties that drive efficiency.",
+  "engineering_relevance": "This provides a practical design route for optimizing ETL, absorber, and HTL choices in high-efficiency, lead-free perovskite solar cells without exhaustive trial-and-error.",
   "method": [
-    "Simulated 125 ETL/absorber/HTL device architectures with SCAPS-1D.",
+    "Simulated 125 ETL/absorber/HTL architectures with SCAPS-1D.",
     "Trained an ML model on a representative subset to predict PCE for unexplored stacks.",
-    "Used SHAP to identify the most influential descriptors and verify top candidates with full device simulations."
+    "Used SHAP analysis to identify the most influential descriptors and verify top candidates with full device simulations."
   ],
-  "evidence_signal": "Leave-One-Group-Out cross-validation showed strong ranking performance, and the best verified devices reached 28.85% PCE (FTO/TiO2/Cs2AgBiBr6/NiO/Ag) and 28.62% PCE (FTO/SnO2/Cs2AgInBr6/NiO/Ag).",
-  "watch_item": "The rankings depend on the quality and coverage of the SCAPS-generated training space, so extrapolation to materially different device physics or unmodeled interfaces may be unreliable.",
+  "evidence_signal": "Leave-One-Group-Out cross-validation showed reliable ranking via Spearman correlation, and the best verified devices reached 28.85% PCE (FTO/TiO2/Cs2AgBiBr6/NiO/Ag) and 28.62% PCE (FTO/SnO2/Cs2AgInBr6/NiO/Ag).",
+  "watch_item": "The model’s screening power depends on the representativeness of the simulated training set, so transfer to new materials or fabrication conditions should be validated experimentally.",
   "hashtags": [
     "#PerovskiteSolarCells",
-    "#MachineLearning",
     "#SCAPS1D",
+    "#MachineLearning",
     "#DeviceOptimization",
-    "#CleanEnergy"
+    "#LeadFreePerovskites"
   ],
   "paper_id": "2026-06-10-arxiv-multilayer_screening_of_double_and_conventional_perovskite_solar_cells_using_scaps_1d_and",
   "paper_title": "Multilayer Screening of Double and Conventional Perovskite Solar Cells Using SCAPS-1D and Machine Learning: Optimization of ETL, HTL, and Absorber for High-Efficiency Architectures",
   "paper_date": "2026-06-10",
   "paper_category": "Device Optimization",
-  "generated_at": "2026-07-08T13:44:51",
+  "generated_at": "2026-07-09T14:36:41",
   "generator": "openai"
 }

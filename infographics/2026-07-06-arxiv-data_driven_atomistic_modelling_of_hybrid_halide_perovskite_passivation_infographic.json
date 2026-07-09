@@ -1,24 +1,24 @@
 {
-  "key_insight": "A two-stage data-driven workflow can accurately model molecule–perovskite surface passivation by combining broad perovskite training data with a small, task-specific fine-tuning set.",
-  "engineering_relevance": "This enables more realistic simulation of defect-passivating molecules on hybrid halide perovskite surfaces, supporting rational design of more stable and higher-performance solar-cell interfaces.",
+  "key_insight": "A two-stage machine-learning workflow—broad pretraining plus targeted fine-tuning—can capture how amino-silane passivants interact with hybrid halide perovskite surfaces as coverage increases.",
+  "engineering_relevance": "This provides a practical route to design and optimize molecular surface passivation strategies that may improve defect control and optoelectronic performance in perovskite solar cells.",
   "method": [
-    "Built a large open benchmark dataset of diverse metal and hybrid halide perovskite structures (hyP-26).",
-    "Added a small specialized dataset for an amino-silane passivating molecule to fine-tune the model.",
-    "Used a multistep training pipeline similar to continuous fine-tuning to study surface coverage effects at a mixed-composition perovskite surface."
+    "Built a large open training set, hyP-26, covering diverse metal and hybrid halide perovskite structures.",
+    "Fine-tuned the model on a small, specialized dataset for an amino-silane passivating molecule on perovskite surfaces.",
+    "Used the trained potential to simulate mixed-composition perovskite surfaces across varying molecular coverages."
   ],
-  "evidence_signal": "The abstract reports a curated open dataset plus a specialized fine-tuning dataset and shows the approach can probe how interactions evolve as amino-silane coverage increases.",
-  "watch_item": "Performance may depend strongly on the quality and representativeness of the small specialized fine-tuning dataset, especially for experimentally realistic surface chemistries.",
+  "evidence_signal": "The abstract reports a curated large dataset plus a small specialized passivation dataset and evaluates the approach by observing coverage-dependent interaction trends at the surface.",
+  "watch_item": "The workflow depends on high-quality specialized fine-tuning data, so transfer to other passivants or surface chemistries may require new reference calculations.",
   "hashtags": [
     "#PerovskiteSolarCells",
-    "#MachineLearningPotentials",
-    "#AtomisticSimulation",
+    "#MachineLearningPotential",
+    "#AtomisticModeling",
     "#SurfacePassivation",
-    "#HybridHalidePerovskites"
+    "#HybridHalides"
   ],
   "paper_id": "2026-07-06-arxiv-data_driven_atomistic_modelling_of_hybrid_halide_perovskite_passivation",
   "paper_title": "Data-driven atomistic modelling of hybrid halide perovskite passivation",
   "paper_date": "2026-07-06",
   "paper_category": "Perovskite Solar Cells",
-  "generated_at": "2026-07-08T13:45:02",
+  "generated_at": "2026-07-09T14:36:58",
   "generator": "openai"
 }
