@@ -1,13 +1,13 @@
 {
-  "key_insight": "A quantum-assisted agentic DAI framework can meet hard control deadlines while solving microgrid dispatch optimally by selecting the fastest suitable solver and encoding storage value into the decision process.",
-  "engineering_relevance": "This approach supports real-time, cost-optimal orchestration of hybrid renewable microgrids with storage and demand response under strict operational timing constraints.",
+  "key_insight": "A quantum-assisted agentic framework turns each microgrid control step into a QUBO and uses deadline-aware solver selection to achieve exact, real-time dispatch optimization.",
+  "engineering_relevance": "This enables hybrid renewable microgrids to coordinate batteries, generation, and demand response under hard control deadlines while reducing operating cost and preserving high renewable utilization.",
   "method": [
-    "BDIx agents formulate each dispatch slot as a QUBO problem.",
-    "A coordinator agent chooses among quantum, quantum-inspired, and classical solvers based on learned latency beliefs.",
-    "A storage valuation mechanism prices stored energy using discounted future-peak value to add intertemporal signal."
+    "BDIx agents formulate per-slot dispatch and coalition decisions as QUBO problems.",
+    "A coordinator agent selects among quantum, quantum-inspired, and classical solvers based on learned latency beliefs and the current deadline.",
+    "A storage valuation mechanism prices battery energy using discounted future-peak value to add intertemporal awareness."
   ],
-  "evidence_signal": "In a 24-hour grid-connected microgrid simulation, the framework missed zero deadlines, matched the exact optimum every slot, achieved 146.24 EUR daily cost, and improved cost by 4.5 percent versus no storage valuation.",
-  "watch_item": "The reported quantum advantage relies on statevector-simulated QAOA and should be validated on hardware under realistic noise, scaling, and latency variability.",
+  "evidence_signal": "In a 24-hour microgrid simulation, the framework missed zero deadlines, matched the exact optimum in every slot, achieved a daily cost of 146.24 EUR, and reached 97.83% renewable utilization with no unserved energy.",
+  "watch_item": "The reported QAOA results rely on statevector simulation, so practical performance on real quantum hardware and larger-scale grids may differ.",
   "hashtags": [
     "#MicrogridOptimization",
     "#QuantumComputing",
@@ -19,6 +19,6 @@
   "paper_title": "A Quantum-Assisted Agentic Distributed Artificial Intelligence Framework for Deadline-Bounded Orchestration of Hybrid Renewable Microgrids",
   "paper_date": "2026-06-12",
   "paper_category": "Device Optimization",
-  "generated_at": "2026-07-10T14:04:44",
+  "generated_at": "2026-07-11T13:00:45",
   "generator": "openai"
 }
