@@ -1,24 +1,24 @@
 {
-  "key_insight": "Foundation ML interatomic potentials can capture simple and some directional low-temperature order in correlated perovskite oxides, but they still fail for purely local spin-state transitions.",
-  "engineering_relevance": "This matters for screening and simulating perovskite materials because it shows where MLIPs can replace DFT reliably and where correlated-electron physics still needs specialized treatment.",
+  "key_insight": "Foundation ML interatomic potentials can capture simple scalar and some bond-length ordering in correlated perovskite oxides, but they still fail on purely local spin-state transitions and fully symmetry-resolved vector order.",
+  "engineering_relevance": "This work shows where off-the-shelf MLIPs are reliable for atomistic simulation in complex oxides and where DFT or domain-specific training remains necessary for predictive modeling.",
   "method": [
-    "Tested three foundation MLIPs on LaMnO3, LaCoO3, and NdNiO3 without system-specific training.",
-    "Ran molecular dynamics for 1 ns on 80- and 160-atom supercells over 50–300 K.",
-    "Compared predicted low-temperature order across scalar, vector, and on-site classes of correlated behavior."
+    "Ran 1 ns molecular dynamics on 80- and 160-atom supercells.",
+    "Swept temperature from 50 to 300 K for LaMnO3, LaCoO3, and NdNiO3.",
+    "Compared three foundation MLIPs against low-temperature ordering behavior with no system-specific training."
   ],
-  "evidence_signal": "The abstract reports successful capture of NdNiO3 scalar order and LaMnO3 bond-length magnitude, but not the symmetry of the long-bond axis or the LaCoO3 spin crossover.",
-  "watch_item": "Present-day foundation MLIPs may miss local multiplet/spin-state transitions even when they reproduce structural trends, so validation against correlated-electron observables is essential.",
+  "evidence_signal": "Evaluation on three isostructural perovskites revealed a hierarchy: NdNiO3 scalar order was captured, LaMnO3 bond-direction order was captured in magnitude but not symmetry, and LaCoO3 spin crossover was not captured.",
+  "watch_item": "Off-the-shelf foundation potentials may miss on-site multiplet physics and symmetry-specific ordering, so they should not be assumed reliable for strongly correlated spin-state transitions.",
   "hashtags": [
     "#MachineLearningPotentials",
-    "#Perovskites",
-    "#CorrelatedOxides",
+    "#PerovskiteOxides",
+    "#StronglyCorrelatedMaterials",
     "#MolecularDynamics",
-    "#DFT"
+    "#ComputationalMaterials"
   ],
   "paper_id": "2026-07-09-arxiv-bond_orbital_and_spin_order_in_d4_d6_d7_perovskite_oxides_successes_and_limitations_of_fou",
   "paper_title": "Bond, orbital and spin order in d4/d6/d7 perovskite oxides: successes and limitations of foundation interatomic potentials",
   "paper_date": "2026-07-09",
   "paper_category": "Perovskite Solar Cells",
-  "generated_at": "2026-07-11T13:00:15",
+  "generated_at": "2026-07-12T13:00:58",
   "generator": "openai"
 }
