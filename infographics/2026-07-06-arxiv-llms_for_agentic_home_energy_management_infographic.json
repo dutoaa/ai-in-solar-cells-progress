@@ -1,24 +1,24 @@
 {
-  "key_insight": "LLM agents with tool-calling can turn household preferences, prices, weather, and solar forecasts into near-optimal home energy schedules.",
-  "engineering_relevance": "This shows a practical pathway for deploying natural-language interfaces in home energy management to improve cost savings, demand response, and appliance scheduling.",
+  "key_insight": "LLM agents can turn natural-language household preferences into reliable home energy schedules, achieving near-MILP performance when paired with tool calling and live energy data.",
+  "engineering_relevance": "This work shows a practical path for deploying agentic HEMS that optimize flexible loads, reduce electricity costs, and support demand response with minimal user burden.",
   "method": [
-    "Built a ReAct-style tool-calling agent for multi-appliance scheduling.",
-    "Integrated live Octopus Agile prices, weather forecasts, PV generation estimates, usage data, and retrieval-augmented knowledge.",
-    "Benchmarked GPT-4o-mini, Gemini 2.5 Flash, and Claude Sonnet 4.6 against MILP ground truth and a week-long oracle baseline."
+    "ReAct-style tool-calling agent",
+    "Uses live Octopus Agile prices, weather forecasts, PV estimates, usage data, and a retrieval-augmented knowledge base",
+    "Benchmarked against MILP ground truth across tariff, conflict, solar-aware, and week-long scenarios"
   ],
-  "evidence_signal": "Across tariff, conflict, weather-aware solar, and week-long tests, native function calling achieved 100% scheduling success and 96.7–98.0% of oracle savings.",
-  "watch_item": "Performance drops sharply when actions must be text-parsed instead of natively function-called, so deployment quality depends on robust tool integration.",
+  "evidence_signal": "Across GPT-4o-mini, Gemini 2.5 Flash, and Claude Sonnet 4.6, native function calling yielded 100% scheduling success and 96.7-98.0% of oracle savings over a simulated week.",
+  "watch_item": "Reliability drops sharply when actions are text-parsed instead of native function calls, so deployment should prioritize robust tool interfaces and constraint handling.",
   "hashtags": [
     "#LLMAgents",
     "#HomeEnergyManagement",
-    "#SolarOptimization",
     "#DemandResponse",
-    "#EnergyScheduling"
+    "#EnergyOptimization",
+    "#SmartHomeAI"
   ],
   "paper_id": "2026-07-06-arxiv-llms_for_agentic_home_energy_management",
   "paper_title": "LLMs for Agentic Home Energy Management",
   "paper_date": "2026-07-06",
   "paper_category": "Device Optimization",
-  "generated_at": "2026-07-12T13:00:52",
+  "generated_at": "2026-07-13T14:12:03",
   "generator": "openai"
 }

@@ -1,24 +1,24 @@
 {
-  "key_insight": "PARA-PV improves photovoltaic forecasting by combining physics-aware retrieval, a frozen foundation-model prior, and shift-aware correction to stay accurate across changing weather and day-night regimes.",
-  "engineering_relevance": "The method supports more reliable PV dispatch and grid integration by better handling rare but operationally critical conditions such as ramps, peaks, and nighttime transitions.",
+  "key_insight": "PARA-PV improves photovoltaic forecasting by combining physics-aware retrieval of similar historical patterns with a frozen foundation-model prior and distribution-shift correction tailored to PV regimes.",
+  "engineering_relevance": "The approach can make solar power forecasts more reliable for grid dispatch by better handling weather changes, day-night transitions, and critical ramping or peak events.",
   "method": [
-    "Retrieves historical patches and analog trajectories matched on temporal shape, power level, PV state, and intra-day period.",
-    "Calibrates the retrieved forecast with a frozen Chronos foundation model via a lightweight residual adapter.",
-    "Applies physics-aware distribution-shift correction and a regime-weighted loss for peak, ramping, night-time, and regular samples."
+    "Retrieve historical patches and analog trajectories matched by temporal shape, power level, operating state, and intra-day period.",
+    "Blend the retrieved forecast with a frozen Chronos prior using a lightweight residual adapter.",
+    "Apply physics-aware distribution-shift correction and a regime-weighted loss for peak, ramping, night-time, and regular samples."
   ],
-  "evidence_signal": "The abstract describes a PV forecasting framework evaluated through its ability to correct regime-dependent errors under weather and diurnal distribution shifts, but it does not report specific metrics here.",
-  "watch_item": "Performance may depend on the quality of historical retrieval and the reliability of the hand-crafted regime/shift features used for correction.",
+  "evidence_signal": "The abstract indicates the method is evaluated for PV power forecasting across physically distinct regimes, but it does not report specific metrics or dataset size.",
+  "watch_item": "Performance may depend on the quality of retrieval matches and on carefully designed gating so the correction module does not distort physically grounded forecasts.",
   "hashtags": [
     "#PVForecasting",
     "#PhysicsAwareAI",
-    "#RetrievalAugmentedLearning",
+    "#RetrievalAugmentation",
     "#TimeSeriesFoundationModel",
-    "#GridIntegration"
+    "#SolarEnergy"
   ],
   "paper_id": "2026-07-09-arxiv-para_pv_physics_aware_retrieval_augmented_pv_prediction_based_on_frozen_foundation_model_a",
   "paper_title": "PARA-PV: Physics-Aware Retrieval-Augmented PV Prediction Based on Frozen Foundation Model and Distribution Shift Correction",
   "paper_date": "2026-07-09",
   "paper_category": "Manufacturing and Modules",
-  "generated_at": "2026-07-12T13:00:54",
+  "generated_at": "2026-07-13T14:12:10",
   "generator": "openai"
 }
