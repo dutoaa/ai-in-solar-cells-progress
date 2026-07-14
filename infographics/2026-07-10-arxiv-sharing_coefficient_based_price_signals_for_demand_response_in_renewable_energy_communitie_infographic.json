@@ -1,24 +1,24 @@
 {
-  "key_insight": "Sharing coefficients can be turned from a billing/allocation tool into day-ahead price signals that steer household demand toward local PV availability and reduce feeder reverse power flow.",
-  "engineering_relevance": "The framework offers a practical control layer for renewable energy communities because it couples market-like incentives with low-voltage network constraints.",
+  "key_insight": "Sharing coefficients can be turned from an ex-post billing rule into day-ahead price signals that steer household demand toward locally useful PV surplus and cut reverse power flow.",
+  "engineering_relevance": "The method offers a practical demand-response control layer for low-voltage renewable energy communities, with feeder-aware pricing adding network value by respecting where loads and PV are connected.",
   "method": [
-    "Iteratively compute proportional PV sharing from household demand and PV forecasts.",
-    "Convert allocation results into feeder-aware or community-wide household price signals.",
-    "Use convex optimization to reshape loads and AC power flow analysis to assess network impact."
+    "Compute dynamic sharing coefficients from forecast demand and PV to allocate surplus energy.",
+    "Translate allocated energy into household-specific day-ahead price signals.",
+    "Use a convex optimization model to reshape loads; compare feeder-aware vs feeder-agnostic community sharing."
   ],
-  "evidence_signal": "Using measured profiles from 15 households, the method reduced feeder reverse energy by 45.0% and 44.6% on selected days, and by 69.0% and 66.3% over the annual window for feeder-aware and feeder-agnostic cases.",
-  "watch_item": "Performance depends on forecast quality, household participation, and the added communication/optimization overhead needed to update price signals day ahead.",
+  "evidence_signal": "Using measured profiles from 15 households with AC power flow analysis, the approach reduced feeder reverse energy by up to 45.0% and 44.6% on selected days and by 69.0% and 66.3% over the annual window.",
+  "watch_item": "Performance depends on accurate forecasts, household participation, and communication/optimization infrastructure, so real-world adoption may be sensitive to forecast error and user responsiveness.",
   "hashtags": [
     "#DemandResponse",
     "#RenewableEnergyCommunities",
-    "#PVSharing",
-    "#LowVoltageNetworks",
-    "#EnergyOptimization"
+    "#SolarPV",
+    "#LowVoltageGrid",
+    "#PowerFlow"
   ],
   "paper_id": "2026-07-10-arxiv-sharing_coefficient_based_price_signals_for_demand_response_in_renewable_energy_communitie",
   "paper_title": "Sharing Coefficient-Based Price Signals for Demand Response in Renewable Energy Communities",
   "paper_date": "2026-07-10",
   "paper_category": "Device Optimization",
-  "generated_at": "2026-07-13T14:11:58",
+  "generated_at": "2026-07-14T13:14:45",
   "generator": "openai"
 }
