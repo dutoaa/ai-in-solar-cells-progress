@@ -1,24 +1,24 @@
 {
-  "key_insight": "LLM agents can translate household preferences into reliable multi-appliance energy schedules, achieving near-MILP performance when connected to live tools and native function calling.",
-  "engineering_relevance": "This work shows a practical path for embedding natural-language control into home energy management systems to reduce electricity costs and improve demand-response automation.",
+  "key_insight": "LLM agents can act as a natural-language interface for home energy scheduling and, with function calling, achieve near-optimal appliance control against MILP ground truth.",
+  "engineering_relevance": "This suggests practical HEMS controllers could reduce electricity costs and improve demand response by translating user preferences into executable optimization constraints.",
   "method": [
-    "Built a tool-calling ReAct agent using live Octopus Agile prices, weather forecasts, photovoltaic estimates, household usage data, and a retrieval-augmented knowledge base.",
-    "Benchmarked GPT-4o-mini, Gemini 2.5 Flash, and Claude Sonnet 4.6 against a MILP ground truth across tariff days, constraint conflicts, and weather-aware solar co-optimization.",
-    "Compared native function calling with text-parsed action interfaces, then tested week-long deployment savings against an oracle and off-peak baseline."
+    "Built a ReAct tool-calling agent for multi-appliance scheduling",
+    "Used live Octopus Agile prices, weather forecasts, PV estimates, household usage data, and retrieval-augmented knowledge",
+    "Benchmarked GPT-4o-mini, Gemini 2.5 Flash, and Claude Sonnet 4.6 against MILP across tariff, conflict, solar, and week-long scenarios"
   ],
-  "evidence_signal": "Across scenarios, native function calling achieved 100% scheduling success and agents captured 96.7–98.0% of oracle savings over a simulated week, with projected annual savings of about GBP 1,270 versus an off-peak timer baseline.",
-  "watch_item": "Performance drops sharply when actions are text-parsed instead of function-called, so robust tool interfaces and constraint handling are essential for real deployments.",
+  "evidence_signal": "Across evaluations, native function calling yielded 100% scheduling success, and week-long agents captured 96.7-98.0% of oracle savings.",
+  "watch_item": "Performance drops sharply when actions must be text-parsed, so real deployments should rely on robust function-calling and careful constraint handling.",
   "hashtags": [
+    "#HEMS",
     "#LLMAgents",
-    "#HomeEnergyManagement",
+    "#EnergyOptimization",
     "#DemandResponse",
-    "#SolarOptimization",
-    "#MILP"
+    "#SmartHomeAI"
   ],
   "paper_id": "2026-07-06-arxiv-llms_for_agentic_home_energy_management",
   "paper_title": "LLMs for Agentic Home Energy Management",
   "paper_date": "2026-07-06",
   "paper_category": "Device Optimization",
-  "generated_at": "2026-07-14T13:14:36",
+  "generated_at": "2026-07-15T13:18:35",
   "generator": "openai"
 }

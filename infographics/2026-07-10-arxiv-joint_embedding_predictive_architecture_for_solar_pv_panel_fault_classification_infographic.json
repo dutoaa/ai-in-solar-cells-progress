@@ -1,24 +1,24 @@
 {
-  "key_insight": "JEFFNet combines self-supervised JEPA representations with EfficientNetV2-S features to improve thermal IR solar PV fault classification while reducing model size.",
-  "engineering_relevance": "The approach offers a scalable, parameter-efficient path for automated PV inspection using non-contact infrared imaging, which is valuable for large solar farms where manual review is impractical.",
+  "key_insight": "JEFFNet combines self-supervised JEPA features with EfficientNetV2-S convolutional features to improve thermal IR-based solar PV fault classification while keeping the model more parameter-efficient.",
+  "engineering_relevance": "The approach offers a scalable, non-contact inspection method that can help automate fault detection for large photovoltaic installations.",
   "method": [
-    "Pretrain a Vision Transformer with JEPA for semantic representation learning from thermal IR images.",
-    "Extract complementary supervised convolutional features with EfficientNetV2-S.",
-    "Fuse both branches in a multibranch JEFFNet classifier for multiclass and binary fault detection."
+    "Pretrain a Vision Transformer with JEPA on thermal IR images to learn semantic representations without labels.",
+    "Extract supervised convolutional features using EfficientNetV2-S.",
+    "Fuse both feature streams in a multibranch JEFFNet classifier for multiclass and healthy/faulty detection."
   ],
-  "evidence_signal": "The model was evaluated on PVF-10 and InfraredSolarModules, achieving up to 94.33% accuracy on PVF-10 (10-class) and 94.78% accuracy on ISM (2-class), with 108.6M parameters versus 205.91M for GEPFNet.",
-  "watch_item": "Performance is lower on the more difficult ISM multiclass task, so class imbalance, limited texture cues, and dataset shift may still affect real-world deployment.",
+  "evidence_signal": "On PVF-10 and ISM, JEFFNet achieved strong performance in both multiclass and binary tasks, including 94.33% accuracy on PVF-10 (10-class) and 94.78% accuracy on ISM (2-class), while using 108.6M parameters.",
+  "watch_item": "Performance is still dataset-dependent and the lower multiclass score on ISM suggests class imbalance and subtle thermal distinctions remain challenging.",
   "hashtags": [
     "#SolarPV",
-    "#InfraredImaging",
     "#FaultClassification",
+    "#ThermalIR",
     "#SelfSupervisedLearning",
-    "#EfficientAI"
+    "#EfficientNet"
   ],
   "paper_id": "2026-07-10-arxiv-joint_embedding_predictive_architecture_for_solar_pv_panel_fault_classification",
   "paper_title": "Joint-Embedding Predictive Architecture for Solar PV Panel Fault Classification",
   "paper_date": "2026-07-10",
   "paper_category": "Manufacturing and Modules",
-  "generated_at": "2026-07-14T13:14:47",
+  "generated_at": "2026-07-15T13:19:04",
   "generator": "openai"
 }
