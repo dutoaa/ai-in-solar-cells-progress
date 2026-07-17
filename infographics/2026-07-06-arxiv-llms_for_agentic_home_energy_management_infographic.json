@@ -1,24 +1,24 @@
 {
-  "key_insight": "LLM agents can serve as practical natural-language schedulers for home energy management, translating household preferences into near-optimal appliance plans under dynamic prices and solar forecasts.",
-  "engineering_relevance": "The work shows that tool-calling LLMs can bridge user-friendly control and MILP-grade scheduling performance for residential demand response and device optimization.",
+  "key_insight": "LLM agents can act as a practical natural-language interface for home energy scheduling, achieving near-optimal multi-appliance control when connected to live pricing, weather, and generation tools.",
+  "engineering_relevance": "This points to a deployable path for turning household preferences into automated, cost-aware control policies for demand response and solar self-consumption.",
   "method": [
-    "Built a ReAct-style tool-calling agent using live Octopus Agile prices, weather forecasts, PV estimates, household usage data, and retrieval-augmented knowledge.",
-    "Benchmarked GPT-4o-mini, Gemini 2.5 Flash, and Claude Sonnet 4.6 against MILP ground truth across tariff, conflict, and weather-aware scenarios.",
-    "Compared native function calling with text-parsed actions and tested week-long simulated deployment performance."
+    "Tool-calling ReAct agent with native function calling",
+    "Uses live Octopus Agile prices, weather forecasts, PV estimates, and household usage data",
+    "Benchmarked against MILP ground truth and week-long deployment scenarios"
   ],
-  "evidence_signal": "Across benchmark scenarios, native function calling achieved 100% scheduling success and near-MILP optimality, and week-long agents captured 96.7–98.0% of oracle savings, projecting about GBP 1,270 annual savings over an off-peak timer baseline.",
-  "watch_item": "Performance drops sharply when relying on text-parsed actions, so robust function-calling and constraint handling are critical for real deployments.",
+  "evidence_signal": "Across tariff, conflict, and weather-aware tests, GPT-4o-mini, Gemini 2.5 Flash, and Claude Sonnet 4.6 reached 100% scheduling success with native function calling and captured 96.7–98.0% of oracle savings over a simulated week.",
+  "watch_item": "Results depend on reliable tool access and structured function calling; text-parsed action interfaces reduced reliability sharply, which may limit robustness in real homes.",
   "hashtags": [
-    "#LLMAgents",
     "#HomeEnergyManagement",
+    "#LLMAgents",
     "#DemandResponse",
     "#SolarOptimization",
-    "#MILP"
+    "#SmartHomeAI"
   ],
   "paper_id": "2026-07-06-arxiv-llms_for_agentic_home_energy_management",
   "paper_title": "LLMs for Agentic Home Energy Management",
   "paper_date": "2026-07-06",
   "paper_category": "Device Optimization",
-  "generated_at": "2026-07-16T13:25:27",
+  "generated_at": "2026-07-17T13:10:19",
   "generator": "openai"
 }

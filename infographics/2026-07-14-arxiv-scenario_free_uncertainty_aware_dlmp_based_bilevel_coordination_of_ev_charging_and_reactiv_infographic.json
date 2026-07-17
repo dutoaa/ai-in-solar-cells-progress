@@ -1,13 +1,13 @@
 {
-  "key_insight": "A scenario-free robust bilevel DLMP framework can coordinate EV active/reactive charging and distribution dispatch under uncertain load and PV generation while preserving price signals.",
-  "engineering_relevance": "This enables distribution operators and EV aggregators to improve voltage security, lower charging cost, and provide reactive support without the heavy computation of scenario-based optimization.",
+  "key_insight": "A scenario-free bilevel DLMP framework coordinates EV active/reactive charging to cut costs while keeping distribution voltages secure under uncertain load and PV generation.",
+  "engineering_relevance": "The method offers a practical control-and-pricing strategy for distribution operators to manage EV growth and voltage support with lower computational burden than stochastic or conventional robust methods.",
   "method": [
-    "Upper level: EV aggregator jointly schedules active and reactive charging power to minimize charging cost.",
-    "Lower level: energy management solves network-constrained economic dispatch and computes DLMPs with feeder and voltage limits.",
-    "Compact robust counterpart reformulates net-demand uncertainty using a normal-minus-beta model, then KKT/Big-M linearization preserves economic interpretation of DLMPs."
+    "Upper level: EV aggregator schedules active and reactive charging to minimize charging cost.",
+    "Lower level: network-constrained dispatch computes DLMPs while enforcing feeder and voltage limits.",
+    "Robust counterpart reformulates asymmetric net-demand uncertainty with a normal-minus-beta distribution into a deterministic problem."
   ],
-  "evidence_signal": "Validated on the IEEE 33-bus distribution system, where the method improved voltage security and reduced computational complexity versus conventional stochastic and robust approaches.",
-  "watch_item": "Performance depends on accurate uncertainty modeling and careful Big-M/KKT reformulation to avoid overly conservative schedules or numerical issues.",
+  "evidence_signal": "Validated on the IEEE 33-bus system, where the approach improved voltage security, coordinated EV charging effectively, and reduced computation versus stochastic and robust alternatives.",
+  "watch_item": "The KKT/Big-M reformulation and DLMP exactness rely on modeling assumptions that may be sensitive to parameter tuning and implementation details in real distribution networks.",
   "hashtags": [
     "#EVCharging",
     "#DLMP",
@@ -19,6 +19,6 @@
   "paper_title": "Scenario-Free Uncertainty-Aware DLMP-Based Bilevel Coordination of EV Charging and Reactive Power Support in Distribution Networks",
   "paper_date": "2026-07-14",
   "paper_category": "Device Optimization",
-  "generated_at": "2026-07-16T13:25:15",
+  "generated_at": "2026-07-17T13:10:14",
   "generator": "openai"
 }
