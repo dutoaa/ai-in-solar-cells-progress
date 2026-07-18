@@ -1,13 +1,13 @@
 {
-  "key_insight": "Under realistic, physically constrained NWP errors, sequence models are more robust than a strong tabular baseline because they better filter noise and shift reliance toward stable history and physical priors.",
-  "engineering_relevance": "For PV forecasting systems, robustness should be evaluated alongside nominal accuracy and latency so model choice reflects behavior under forecast uncertainty, not just clean-input performance.",
+  "key_insight": "Deep sequence models are more resilient than tabular baselines when PV forecasts are driven by realistic, temporally correlated NWP errors, and they adapt by shifting attention away from corrupted future inputs toward more stable past and physical features.",
+  "engineering_relevance": "For PV forecasting systems, model selection should balance nominal accuracy, robustness to forecast uncertainty, and latency rather than optimizing only under idealized weather inputs.",
   "method": [
-    "Simulated PV power as a controlled response to isolate uncertainty propagation from plant-level confounders.",
-    "Applied dynamic NWP perturbations with state-dependent, heteroscedastic errors tied to clear-sky conditions and Erbs-consistent radiation reconstruction.",
-    "Compared six models, including PatchTST, GRU, N-HITS, and LightGBM, using accuracy, robustness, and latency plus SHAP/IG interpretation."
+    "Simulated virtual PV power to isolate NWP error propagation from plant-level confounders",
+    "Applied dynamic, heteroscedastic perturbations tied to clear-sky conditions with Erbs-consistent radiation reconstruction",
+    "Compared six models using accuracy, robustness, and computational latency, plus SHAP and Integrated Gradients for interpretability"
   ],
-  "evidence_signal": "The abstract reports six models tested under dynamic NWP perturbations with medium-to-high disturbance regimes and a Pareto analysis spanning clean accuracy, robustness, and computational latency.",
-  "watch_item": "Robustness conclusions are based on virtual PV power and simulated NWP perturbations, so transfer to a specific plant or operational forecast pipeline still needs site-level validation.",
+  "evidence_signal": "The evaluation used controlled simulations of PV power under temporally correlated, state-dependent NWP perturbations, and the results showed sequence models outperforming a strong LightGBM baseline under medium to high disturbance levels.",
+  "watch_item": "Because the study relies on simulated virtual PV power and engineered perturbation scenarios, transferability to specific sites and operational weather systems should be validated before deployment.",
   "hashtags": [
     "#PVForecasting",
     "#DeepLearning",
@@ -19,6 +19,6 @@
   "paper_title": "Robustness of Deep Learning Models for PV Power Forecasting under NWP Forecast Errors: A Spatiotemporal and Physically Interpretable Analysis",
   "paper_date": "2026-07-14",
   "paper_category": "AI solar cells",
-  "generated_at": "2026-07-17T13:10:02",
+  "generated_at": "2026-07-18T12:56:40",
   "generator": "openai"
 }
