@@ -1,24 +1,24 @@
 {
-  "key_insight": "SevenNet-Polar extends an equivariant graph neural network to predict Born effective charges alongside energy, forces, and stress with high accuracy, enabling fast charge-aware atomistic simulation under electric fields.",
-  "engineering_relevance": "This can substantially lower the cost of modeling ferroelectrics, perovskites, and defected oxides in device-relevant electric-field conditions, supporting larger and more realistic simulations.",
+  "key_insight": "SevenNet-Polar extends an equivariant GNN to predict Born effective charges alongside energy, forces, and stress, delivering fast, accurate charge-aware atomistic modeling for field-coupled materials.",
+  "engineering_relevance": "The model makes electric-field and polarization-related simulations more practical for perovskites and oxide materials by replacing expensive BEC calculations with GPU-scalable predictions.",
   "method": [
-    "Equivariant SevenNet-based graph neural network for BEC prediction",
-    "Multitask models jointly predict energy, forces, stress, and BEC",
-    "Accelerated inference with FlashTP for large-scale GPU simulations"
+    "Equivariant SevenNet-based graph neural network for multitask atomistic prediction",
+    "Separate BEC-only and all-in-one models for energy, forces, stress, and BEC",
+    "FlashTP acceleration enables large-scale simulations on single and multi-GPU systems"
   ],
-  "evidence_signal": "The abstract reports BEC-only RMSE as low as 0.0043 e and multitask performance of 1.0 meV/atom energy, 12 meV/angstrom forces, 0.05 GPa stress, and 0.0029 e BEC on ZrO2 and Li3PO4.",
-  "watch_item": "Performance may depend on coverage of high-temperature, defect, and out-of-distribution structures, so extrapolation to unseen electric-field environments should be validated carefully.",
+  "evidence_signal": "Reported performance includes BEC RMSE as low as 0.0043 e for BEC-only models and 0.0029 e in multitask models, with energy/force/stress errors of 1.0 meV/atom, 12 meV/angstrom, and 0.05 GPa.",
+  "watch_item": "BEC scaling is less favorable than energy, force, and stress, and generalization should be checked carefully for structural environments far outside the training distribution.",
   "hashtags": [
     "#MachineLearningForMaterials",
-    "#Perovskites",
-    "#GraphNeuralNetworks",
     "#BornEffectiveCharge",
-    "#MolecularDynamics"
+    "#GraphNeuralNetwork",
+    "#Perovskites",
+    "#AtomisticSimulation"
   ],
   "paper_id": "2026-07-16-arxiv-sevennet_polar_for_multitask_prediction_of_energy_forces_stress_and_born_effective_charges",
   "paper_title": "SevenNet-Polar for MultiTask Prediction of Energy, Forces, Stress, and Born Effective Charges: Development and Application to ZrO$_2$, Li$_3$PO$_4$, and Perovskites",
   "paper_date": "2026-07-16",
   "paper_category": "Perovskite Solar Cells",
-  "generated_at": "2026-07-18T12:56:26",
+  "generated_at": "2026-07-19T12:58:39",
   "generator": "openai"
 }
