@@ -1,24 +1,24 @@
 {
-  "key_insight": "SevenNet-Polar extends an equivariant GNN to predict Born effective charges alongside energy, forces, and stress, delivering fast, accurate charge-aware atomistic modeling for field-coupled materials.",
-  "engineering_relevance": "The model makes electric-field and polarization-related simulations more practical for perovskites and oxide materials by replacing expensive BEC calculations with GPU-scalable predictions.",
+  "key_insight": "SevenNet-Polar extends equivariant graph neural networks to predict Born effective charges alongside energy, forces, and stress, enabling fast charge-aware materials simulation without losing accuracy.",
+  "engineering_relevance": "The model makes electric-field and polarization-driven simulations practical at much larger scales, supporting more realistic screening and dynamics for battery and perovskite materials.",
   "method": [
-    "Equivariant SevenNet-based graph neural network for multitask atomistic prediction",
-    "Separate BEC-only and all-in-one models for energy, forces, stress, and BEC",
-    "FlashTP acceleration enables large-scale simulations on single and multi-GPU systems"
+    "Built on the SevenNet architecture with equivariant GNN design for tensor-aware prediction.",
+    "Trained multitask models to predict energy, forces, stress, and BEC in the same framework.",
+    "Added FlashTP acceleration to scale inference to multi-GPU and large-atom simulations."
   ],
-  "evidence_signal": "Reported performance includes BEC RMSE as low as 0.0043 e for BEC-only models and 0.0029 e in multitask models, with energy/force/stress errors of 1.0 meV/atom, 12 meV/angstrom, and 0.05 GPa.",
-  "watch_item": "BEC scaling is less favorable than energy, force, and stress, and generalization should be checked carefully for structural environments far outside the training distribution.",
+  "evidence_signal": "The abstract reports BEC RMSE as low as 0.0043 e for single-task models and 0.0029 e for multitask models, with energy/force/stress errors of 1.0 meV/atom, 12 meV/angstrom, and 0.05 GPa, respectively.",
+  "watch_item": "Generalization is strong on the reported test cases, but performance may still depend on coverage of rare structural environments and on the availability of representative high-temperature or defect data.",
   "hashtags": [
     "#MachineLearningForMaterials",
+    "#GraphNeuralNetworks",
     "#BornEffectiveCharge",
-    "#GraphNeuralNetwork",
-    "#Perovskites",
-    "#AtomisticSimulation"
+    "#PerovskiteSolarCells",
+    "#MultitaskLearning"
   ],
   "paper_id": "2026-07-16-arxiv-sevennet_polar_for_multitask_prediction_of_energy_forces_stress_and_born_effective_charges",
   "paper_title": "SevenNet-Polar for MultiTask Prediction of Energy, Forces, Stress, and Born Effective Charges: Development and Application to ZrO$_2$, Li$_3$PO$_4$, and Perovskites",
   "paper_date": "2026-07-16",
   "paper_category": "Perovskite Solar Cells",
-  "generated_at": "2026-07-19T12:58:39",
+  "generated_at": "2026-07-20T13:51:18",
   "generator": "openai"
 }
