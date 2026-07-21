@@ -1,24 +1,24 @@
 {
-  "key_insight": "A decoupled congestion-management pipeline combining a random-forest violation detector with an actor-critic controller can robustly curtail overloads in low-voltage grids despite sparse observability and noisy measurements.",
-  "engineering_relevance": "This provides a practical control strategy for distribution grids facing rising PV, EV, and heat-pump loads, where safe operation must be maintained even with imperfect sensing and model uncertainty.",
+  "key_insight": "A decoupled reinforcement-learning pipeline with a random-forest congestion detector and actor-critic controller can robustly reduce low-voltage grid violations under sparse observability.",
+  "engineering_relevance": "This approach is relevant for managing PV-rich distribution grids with EV and heat-pump loads, where curative curtailment must work despite noisy measurements and imperfect grid models.",
   "method": [
-    "Random-forest pre-classifier flags likely grid-limit violations",
-    "Actor-critic controller computes curtailment actions for congestion mitigation",
-    "Robustness is evaluated under measurement noise and grid-parameter mismatch"
+    "Random-forest pre-classifier flags likely voltage/current violations.",
+    "Actor-critic controller decides curtailment actions only when congestion is predicted.",
+    "Robustness is tested against measurement noise and grid-parameter mismatch on a real low-voltage grid."
   ],
-  "evidence_signal": "On a real low-voltage grid with synthetic future scenarios, the approach reduced total violation magnitude by 98.9% with accurate grid parameters and remained nearly unchanged under tested measurement-noise levels.",
-  "watch_item": "Performance is more sensitive to grid-model mismatch than to measurement noise, so deployment should account for parameter uncertainty and validate against local network data.",
+  "evidence_signal": "On a real low-voltage grid with synthetic future operating scenarios, the controller reduced total violation magnitude by 98.9% with accurate parameters and remained nearly unchanged under the tested noise levels.",
+  "watch_item": "Performance is more sensitive to grid-model mismatch than to measurement noise, so deployment still requires careful parameter validation and model updating.",
   "hashtags": [
     "#ReinforcementLearning",
-    "#LowVoltageGrid",
-    "#CongestionManagement",
-    "#Photovoltaics",
-    "#SmartGrid"
+    "#LowVoltageGrids",
+    "#PVIntegration",
+    "#SmartGridControl",
+    "#CongestionManagement"
   ],
   "paper_id": "2026-07-17-arxiv-robustness_of_reinforcement_learning_based_congestion_management_in_low_voltage_grids",
   "paper_title": "Robustness of Reinforcement Learning-Based Congestion Management in Low-Voltage Grids",
   "paper_date": "2026-07-17",
   "paper_category": "AI solar cells",
-  "generated_at": "2026-07-20T13:51:15",
+  "generated_at": "2026-07-21T13:20:56",
   "generator": "openai"
 }
