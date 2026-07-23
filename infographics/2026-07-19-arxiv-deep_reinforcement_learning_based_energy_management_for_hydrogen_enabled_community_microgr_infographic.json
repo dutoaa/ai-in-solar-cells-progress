@@ -1,16 +1,16 @@
 {
-  "key_insight": "A PPO-based controller can coordinate battery, hydrogen, and diesel dispatch in a community microgrid to maximize renewable use and reliability under uncertainty.",
-  "engineering_relevance": "The work shows a practical EMS strategy for grid-connected renewable communities, demonstrating high load satisfaction and strong resilience during higher outage risk.",
+  "key_insight": "A PPO-based controller can coordinate battery, hydrogen, diesel, and grid exchange in a community microgrid to keep load service high while improving revenue and renewable utilization under uncertainty.",
+  "engineering_relevance": "The study shows that reinforcement learning can serve as a practical EMS for hybrid renewable microgrids with coupled storage, offering a pathway to resilient low-carbon operation.",
   "method": [
-    "Formulated microgrid operation as an 11-state Markov decision process.",
-    "Used PPO with three continuous control actions for battery, diesel, and hydrogen dispatch.",
-    "Evaluated PV, wind, battery, electrolyzer, hydrogen storage, fuel cell, and diesel backup over 8,760 hourly steps."
+    "Formulated microgrid dispatch as an 11-dimensional Markov decision process.",
+    "Used PPO to learn continuous control of battery, diesel, and hydrogen actions; grid exchange was computed from power balance.",
+    "Evaluated on 8,760 hourly samples for a 1,000-household community in Rockhampton, Australia."
   ],
-  "evidence_signal": "Tested on a full year of hourly data for a 1,000-household community in Rockhampton, Australia, achieving A$195,690.67 annual revenue, 91.2% renewable fraction, and 99.77% load satisfaction in the normal case.",
-  "watch_item": "Performance is sensitive to renewable-profile variability, training stability, and the accounting boundary used for emissions and economic evaluation.",
+  "evidence_signal": "On the annual test case, the policy achieved A$195,690.67 revenue, 91.2% renewable fraction, 99.77% load satisfaction, and 0.085 kg CO2/kWh under the stated boundary; under higher outage risk it still supplied 98.79% of demand.",
+  "watch_item": "Performance is sensitive to renewable-profile variability, training stability, and the accounting boundary used for emissions and revenue.",
   "hashtags": [
-    "#DeepReinforcementLearning",
     "#MicrogridEMS",
+    "#DeepReinforcementLearning",
     "#HydrogenEnergy",
     "#PPO",
     "#RenewableEnergy"
@@ -19,6 +19,6 @@
   "paper_title": "Deep Reinforcement Learning-Based Energy Management for Hydrogen-Enabled Community Microgrids Under Uncertainty",
   "paper_date": "2026-07-19",
   "paper_category": "Perovskite Solar Cells",
-  "generated_at": "2026-07-22T13:24:54",
+  "generated_at": "2026-07-23T13:28:25",
   "generator": "openai"
 }
