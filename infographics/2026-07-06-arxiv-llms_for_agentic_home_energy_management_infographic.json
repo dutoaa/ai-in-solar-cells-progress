@@ -1,24 +1,24 @@
 {
-  "key_insight": "LLM agents can act as a natural-language home energy scheduler, translating household preferences into near-optimal appliance plans and capturing almost all of the savings found by MILP optimization.",
-  "engineering_relevance": "This suggests a practical interface layer for residential demand response and solar-aware load shifting, reducing the usability barrier to advanced HEMS deployment.",
+  "key_insight": "LLM agents can act as a reliable natural-language interface for home energy scheduling, achieving near-optimal appliance plans when paired with tool calling and live energy data.",
+  "engineering_relevance": "This work shows a practical path to make HEMS more user-friendly while preserving cost savings, demand-response flexibility, and safety constraints.",
   "method": [
-    "Tool-calling ReAct agent with native function calling",
-    "Uses live Octopus Agile prices, weather forecasts, PV estimates, usage data, and a retrieval-augmented knowledge base",
+    "Tool-calling ReAct agent for multi-appliance scheduling",
+    "Uses live Octopus Agile prices, weather forecasts, PV estimates, usage data, and retrieval-augmented knowledge",
     "Benchmarked GPT-4o-mini, Gemini 2.5 Flash, and Claude Sonnet 4.6 against MILP ground truth"
   ],
-  "evidence_signal": "Across tariff, constraint-conflict, solar-co-optimization, and week-long tests, native function calling achieved 100% scheduling success and 96.7-98.0% of oracle savings.",
-  "watch_item": "Reliability drops sharply when actions are text-parsed instead of function-called, so deployment depends on robust tool interfaces and constraint handling.",
+  "evidence_signal": "Across tariff, conflict, solar-cooptimization, and week-long tests, native function calling yielded 100% scheduling success and 96.7–98.0% of oracle savings.",
+  "watch_item": "Text-parsed action interfaces are much less reliable than native function calling, so deployment depends on robust tool integration and constraint handling.",
   "hashtags": [
-    "#HomeEnergyManagement",
     "#LLMAgents",
+    "#HomeEnergyManagement",
     "#DemandResponse",
     "#SolarOptimization",
-    "#EnergyScheduling"
+    "#SmartGrid"
   ],
   "paper_id": "2026-07-06-arxiv-llms_for_agentic_home_energy_management",
   "paper_title": "LLMs for Agentic Home Energy Management",
   "paper_date": "2026-07-06",
   "paper_category": "Device Optimization",
-  "generated_at": "2026-07-23T13:28:48",
+  "generated_at": "2026-07-25T13:06:26",
   "generator": "openai"
 }
