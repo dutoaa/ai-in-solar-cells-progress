@@ -1,6 +1,6 @@
 # AI solar cells Progress Public Resources
 
-Generated: 2026-07-25
+Generated: 2026-07-26
 Public site: https://dutoaa.github.io/ai-in-solar-cells-progress/
 
 ## 1. Numerical exploration on unveiling the photovoltaic potential of MgXS3(X = Ti, Zr, Hf) chalcogenide perovskites
@@ -11,21 +11,21 @@ Public site: https://dutoaa.github.io/ai-in-solar-cells-progress/
 - PDF: https://arxiv.org/pdf/2607.19789v1
 - Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-07-22-arxiv-numerical_exploration_on_unveiling_the_photovoltaic_potential_of_mgxs3_x_ti_zr_hf_chalcoge_infographic.json
 
-## 2. Long- and Short-Range Anion Order in SrTiO$_{3-x}$H$_x$ Perovskite Oxyhydrides: DFT+$U$ Sensitivity and HSE06 Cluster Expansion
-
-- Date: 2026-07-23
-- Category: Perovskite Solar Cells
-- arXiv: https://arxiv.org/abs/2607.20885v1
-- PDF: https://arxiv.org/pdf/2607.20885v1
-- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-07-23-arxiv-long_and_short_range_anion_order_in_srtio_3_x_h_x_perovskite_oxyhydrides_dft_u_sensitivity_infographic.json
-
-## 3. Terahertz Time-Domain Spectroscopy as a Universal Defect Fingerprinting Tool for Organic Halide Perovskite Solar Cells
+## 2. Terahertz Time-Domain Spectroscopy as a Universal Defect Fingerprinting Tool for Organic Halide Perovskite Solar Cells
 
 - Date: 2026-07-17
 - Category: Perovskite Solar Cells
 - arXiv: https://arxiv.org/abs/2607.15538v1
 - PDF: https://arxiv.org/pdf/2607.15538v1
 - Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-07-17-arxiv-terahertz_time_domain_spectroscopy_as_a_universal_defect_fingerprinting_tool_for_organic_h_infographic.json
+
+## 3. Long- and Short-Range Anion Order in SrTiO$_{3-x}$H$_x$ Perovskite Oxyhydrides: DFT+$U$ Sensitivity and HSE06 Cluster Expansion
+
+- Date: 2026-07-23
+- Category: Perovskite Solar Cells
+- arXiv: https://arxiv.org/abs/2607.20885v1
+- PDF: https://arxiv.org/pdf/2607.20885v1
+- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-07-23-arxiv-long_and_short_range_anion_order_in_srtio_3_x_h_x_perovskite_oxyhydrides_dft_u_sensitivity_infographic.json
 
 ## 4. Human and LLM Collaboration for Accelerated Materials Synthesis and Discovery
 
@@ -43,31 +43,7 @@ Public site: https://dutoaa.github.io/ai-in-solar-cells-progress/
 - PDF: https://arxiv.org/pdf/2607.17248v2
 - Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-07-19-arxiv-deep_reinforcement_learning_based_energy_management_for_hydrogen_enabled_community_microgr_infographic.json
 
-## 6. The origin of ferroelectricity, polarization and high resistivity in Aurivillius CaBi2B2O9 (B = Ta, Nb)
-
-- Date: 2026-07-22
-- Category: Perovskite Solar Cells
-- arXiv: https://arxiv.org/abs/2607.19885v1
-- PDF: https://arxiv.org/pdf/2607.19885v1
-- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-07-22-arxiv-the_origin_of_ferroelectricity_polarization_and_high_resistivity_in_aurivillius_cabi2b2o9_infographic.json
-
-## 7. Quantification and Surrogate Model Estimation of Spatial-Temporal Carbon Intensity Factors
-
-- Date: 2026-07-22
-- Category: Device Optimization
-- arXiv: https://arxiv.org/abs/2607.19851v1
-- PDF: https://arxiv.org/pdf/2607.19851v1
-- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-07-22-arxiv-quantification_and_surrogate_model_estimation_of_spatial_temporal_carbon_intensity_factors_infographic.json
-
-## 8. Emergent Non-Equilibrium Emission Profiles via Luminescent Angle Restriction for Photovoltaic Energy Conversion
-
-- Date: 2026-07-22
-- Category: Device Optimization
-- arXiv: https://arxiv.org/abs/2607.20783v1
-- PDF: https://arxiv.org/pdf/2607.20783v1
-- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-07-22-arxiv-emergent_non_equilibrium_emission_profiles_via_luminescent_angle_restriction_for_photovolt_infographic.json
-
-## 9. Symbolic Predicate-Guided Language Agents for Inverse Design of Perovskite Oxides
+## 6. Symbolic Predicate-Guided Language Agents for Inverse Design of Perovskite Oxides
 
 - Date: 2026-07-17
 - Category: Materials Discovery
@@ -75,7 +51,7 @@ Public site: https://dutoaa.github.io/ai-in-solar-cells-progress/
 - PDF: https://arxiv.org/pdf/2607.15535v1
 - Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-07-17-arxiv-symbolic_predicate_guided_language_agents_for_inverse_design_of_perovskite_oxides_infographic.json
 
-## 10. LLMs for Agentic Home Energy Management
+## 7. LLMs for Agentic Home Energy Management
 
 - Date: 2026-07-06
 - Category: Device Optimization
@@ -83,15 +59,31 @@ Public site: https://dutoaa.github.io/ai-in-solar-cells-progress/
 - PDF: https://arxiv.org/pdf/2607.04569v1
 - Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-07-06-arxiv-llms_for_agentic_home_energy_management_infographic.json
 
-## 11. Magnetoresistive Memory in the Paramagnetic Phase of Eu$_5$In$_2$As$_6$
+## 8. The origin of ferroelectricity, polarization and high resistivity in Aurivillius CaBi2B2O9 (B = Ta, Nb)
 
 - Date: 2026-07-22
 - Category: Perovskite Solar Cells
-- arXiv: https://arxiv.org/abs/2607.20287v1
-- PDF: https://arxiv.org/pdf/2607.20287v1
-- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-07-22-arxiv-magnetoresistive_memory_in_the_paramagnetic_phase_of_eu_5_in_2_as_6_infographic.json
+- arXiv: https://arxiv.org/abs/2607.19885v1
+- PDF: https://arxiv.org/pdf/2607.19885v1
+- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-07-22-arxiv-the_origin_of_ferroelectricity_polarization_and_high_resistivity_in_aurivillius_cabi2b2o9_infographic.json
 
-## 12. The WEST code for large-scale excited-state materials simulations
+## 9. Quantification and Surrogate Model Estimation of Spatial-Temporal Carbon Intensity Factors
+
+- Date: 2026-07-22
+- Category: Device Optimization
+- arXiv: https://arxiv.org/abs/2607.19851v1
+- PDF: https://arxiv.org/pdf/2607.19851v1
+- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-07-22-arxiv-quantification_and_surrogate_model_estimation_of_spatial_temporal_carbon_intensity_factors_infographic.json
+
+## 10. Emergent Non-Equilibrium Emission Profiles via Luminescent Angle Restriction for Photovoltaic Energy Conversion
+
+- Date: 2026-07-22
+- Category: Device Optimization
+- arXiv: https://arxiv.org/abs/2607.20783v1
+- PDF: https://arxiv.org/pdf/2607.20783v1
+- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-07-22-arxiv-emergent_non_equilibrium_emission_profiles_via_luminescent_angle_restriction_for_photovolt_infographic.json
+
+## 11. The WEST code for large-scale excited-state materials simulations
 
 - Date: 2026-07-15
 - Category: Perovskite Solar Cells
@@ -99,15 +91,7 @@ Public site: https://dutoaa.github.io/ai-in-solar-cells-progress/
 - PDF: https://arxiv.org/pdf/2607.14025v1
 - Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-07-15-arxiv-the_west_code_for_large_scale_excited_state_materials_simulations_infographic.json
 
-## 13. Direct Spatiotemporal Imaging of Charge Carrier Dynamics in Operative Semiconductor Devices
-
-- Date: 2026-07-21
-- Category: Perovskite Solar Cells
-- arXiv: https://arxiv.org/abs/2607.19157v1
-- PDF: https://arxiv.org/pdf/2607.19157v1
-- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-07-21-arxiv-direct_spatiotemporal_imaging_of_charge_carrier_dynamics_in_operative_semiconductor_device_infographic.json
-
-## 14. Understanding surface potential dynamics of passivated perovskites via Kelvin Probe Force Microscopy
+## 12. Understanding surface potential dynamics of passivated perovskites via Kelvin Probe Force Microscopy
 
 - Date: 2026-07-08
 - Category: Perovskite Solar Cells
@@ -115,7 +99,7 @@ Public site: https://dutoaa.github.io/ai-in-solar-cells-progress/
 - PDF: https://arxiv.org/pdf/2607.07221v2
 - Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-07-08-arxiv-understanding_surface_potential_dynamics_of_passivated_perovskites_via_kelvin_probe_force_infographic.json
 
-## 15. What enables GaOx as hole transport layer for a 16 percent 1.0 eV CuInSe2 Bottom Cells with VOC above 550 mV?
+## 13. What enables GaOx as hole transport layer for a 16 percent 1.0 eV CuInSe2 Bottom Cells with VOC above 550 mV?
 
 - Date: 2026-06-30
 - Category: Device Optimization
@@ -123,23 +107,23 @@ Public site: https://dutoaa.github.io/ai-in-solar-cells-progress/
 - PDF: https://arxiv.org/pdf/2606.31923v1
 - Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-06-30-arxiv-what_enables_gaox_as_hole_transport_layer_for_a_16_percent_1_0_ev_cuinse2_bottom_cells_wit_infographic.json
 
-## 16. A Digital Twin-Based Method for Evaluating Local Collective Tariffs in Distribution-Level Energy Systems
+## 14. Magnetoresistive Memory in the Paramagnetic Phase of Eu$_5$In$_2$As$_6$
 
-- Date: 2026-07-20
-- Category: AI solar cells
-- arXiv: https://arxiv.org/abs/2607.17640v1
-- PDF: https://arxiv.org/pdf/2607.17640v1
-- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-07-20-arxiv-a_digital_twin_based_method_for_evaluating_local_collective_tariffs_in_distribution_level_infographic.json
+- Date: 2026-07-22
+- Category: Perovskite Solar Cells
+- arXiv: https://arxiv.org/abs/2607.20287v1
+- PDF: https://arxiv.org/pdf/2607.20287v1
+- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-07-22-arxiv-magnetoresistive_memory_in_the_paramagnetic_phase_of_eu_5_in_2_as_6_infographic.json
 
-## 17. Pure Spin Bulk Photovoltaic Effect in an Altermagnetic Higher-Order Topological Insulator
+## 15. Direct Spatiotemporal Imaging of Charge Carrier Dynamics in Operative Semiconductor Devices
 
 - Date: 2026-07-21
-- Category: Device Optimization
-- arXiv: https://arxiv.org/abs/2607.19018v1
-- PDF: https://arxiv.org/pdf/2607.19018v1
-- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-07-21-arxiv-pure_spin_bulk_photovoltaic_effect_in_an_altermagnetic_higher_order_topological_insulator_infographic.json
+- Category: Perovskite Solar Cells
+- arXiv: https://arxiv.org/abs/2607.19157v1
+- PDF: https://arxiv.org/pdf/2607.19157v1
+- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-07-21-arxiv-direct_spatiotemporal_imaging_of_charge_carrier_dynamics_in_operative_semiconductor_device_infographic.json
 
-## 18. Photovoltaics beyond the panel: system-level net energy under grid and firming constraints
+## 16. Photovoltaics beyond the panel: system-level net energy under grid and firming constraints
 
 - Date: 2026-07-16
 - Category: Device Optimization
@@ -147,7 +131,7 @@ Public site: https://dutoaa.github.io/ai-in-solar-cells-progress/
 - PDF: https://arxiv.org/pdf/2607.14784v1
 - Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-07-16-arxiv-photovoltaics_beyond_the_panel_system_level_net_energy_under_grid_and_firming_constraints_infographic.json
 
-## 19. Role of small-radius and high-electronegativity A-Site dopants in enhancing proton transport and stability of perovskite electrolytes
+## 17. Role of small-radius and high-electronegativity A-Site dopants in enhancing proton transport and stability of perovskite electrolytes
 
 - Date: 2026-07-15
 - Category: Perovskite Solar Cells
@@ -155,10 +139,26 @@ Public site: https://dutoaa.github.io/ai-in-solar-cells-progress/
 - PDF: https://arxiv.org/pdf/2607.13657v1
 - Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-07-15-arxiv-role_of_small_radius_and_high_electronegativity_a_site_dopants_in_enhancing_proton_transpo_infographic.json
 
-## 20. Synthesis of the Elusive Bulk Iodide Double-Perovskite Semiconductor, Cs2AgBiI6: Microcrystals and Photoconductive Films
+## 18. Synthesis of the Elusive Bulk Iodide Double-Perovskite Semiconductor, Cs2AgBiI6: Microcrystals and Photoconductive Films
 
 - Date: 2026-07-14
 - Category: Perovskite Solar Cells
 - arXiv: https://arxiv.org/abs/2607.13180v1
 - PDF: https://arxiv.org/pdf/2607.13180v1
 - Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-07-14-arxiv-synthesis_of_the_elusive_bulk_iodide_double_perovskite_semiconductor_cs2agbii6_microcrysta_infographic.json
+
+## 19. Quantitative Analysis of Exciton Composition and Dynamics in Y6 Films for Single-Component Solar Cells
+
+- Date: 2026-07-10
+- Category: Device Optimization
+- arXiv: https://arxiv.org/abs/2607.10009v1
+- PDF: https://arxiv.org/pdf/2607.10009v1
+- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-07-10-arxiv-quantitative_analysis_of_exciton_composition_and_dynamics_in_y6_films_for_single_component_infographic.json
+
+## 20. Improved Heat Dissipation in CsPbBr${_3}$-hBN Heterostructures
+
+- Date: 2026-07-10
+- Category: Perovskite Solar Cells
+- arXiv: https://arxiv.org/abs/2607.09914v1
+- PDF: https://arxiv.org/pdf/2607.09914v1
+- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-07-10-arxiv-improved_heat_dissipation_in_cspbbr_3_hbn_heterostructures_infographic.json

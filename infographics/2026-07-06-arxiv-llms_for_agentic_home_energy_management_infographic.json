@@ -1,24 +1,24 @@
 {
-  "key_insight": "LLM agents can act as a reliable natural-language interface for home energy scheduling, achieving near-optimal appliance plans when paired with tool calling and live energy data.",
-  "engineering_relevance": "This work shows a practical path to make HEMS more user-friendly while preserving cost savings, demand-response flexibility, and safety constraints.",
+  "key_insight": "LLM agents can translate natural-language household preferences into reliable home energy schedules, achieving near-MILP performance when paired with native tool calling and live energy data.",
+  "engineering_relevance": "This points to a practical control interface for home energy management that can lower costs, improve demand-response participation, and simplify multi-appliance optimization.",
   "method": [
-    "Tool-calling ReAct agent for multi-appliance scheduling",
-    "Uses live Octopus Agile prices, weather forecasts, PV estimates, usage data, and retrieval-augmented knowledge",
-    "Benchmarked GPT-4o-mini, Gemini 2.5 Flash, and Claude Sonnet 4.6 against MILP ground truth"
+    "Tool-calling ReAct agent for scheduling flexible loads",
+    "Uses live Octopus Agile prices, weather forecasts, PV estimates, usage data, and a retrieval-augmented knowledge base",
+    "Benchmarked against MILP ground truth across tariff, constraint-conflict, solar co-optimization, and week-long deployment scenarios"
   ],
-  "evidence_signal": "Across tariff, conflict, solar-cooptimization, and week-long tests, native function calling yielded 100% scheduling success and 96.7–98.0% of oracle savings.",
-  "watch_item": "Text-parsed action interfaces are much less reliable than native function calling, so deployment depends on robust tool integration and constraint handling.",
+  "evidence_signal": "Across three commercial LLMs, native function calling gave 100% scheduling success and 96.7–98.0% of oracle savings over a simulated week, with text-parsed actions performing much less reliably.",
+  "watch_item": "Results depend on accurate external inputs and stable tool integration, so real-world deployment may be sensitive to forecast errors, data availability, and malformed action parsing.",
   "hashtags": [
-    "#LLMAgents",
     "#HomeEnergyManagement",
+    "#LLMAgents",
     "#DemandResponse",
     "#SolarOptimization",
-    "#SmartGrid"
+    "#EnergyScheduling"
   ],
   "paper_id": "2026-07-06-arxiv-llms_for_agentic_home_energy_management",
   "paper_title": "LLMs for Agentic Home Energy Management",
   "paper_date": "2026-07-06",
   "paper_category": "Device Optimization",
-  "generated_at": "2026-07-25T13:06:26",
+  "generated_at": "2026-07-26T13:02:37",
   "generator": "openai"
 }
