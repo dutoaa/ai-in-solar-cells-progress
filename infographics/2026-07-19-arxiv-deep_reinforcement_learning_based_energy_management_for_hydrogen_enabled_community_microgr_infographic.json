@@ -1,24 +1,24 @@
 {
-  "key_insight": "A PPO-based controller can coordinate battery, hydrogen, and diesel dispatch in a grid-connected community microgrid to maximize revenue while maintaining very high renewable utilization and load satisfaction.",
-  "engineering_relevance": "The study shows that reinforcement learning can provide practical energy-management control for hydrogen-enabled microgrids facing variable demand, prices, and renewable intermittency.",
+  "key_insight": "A PPO-based controller can coordinate battery, hydrogen, diesel, and grid exchange in a community microgrid to maximize revenue while keeping load served very high under uncertainty.",
+  "engineering_relevance": "The study shows how reinforcement learning can improve operational resilience and renewable utilization in hybrid microgrids with coupled storage and variable demand.",
   "method": [
-    "Formulated EMS as an 11-state Markov decision process with 3 continuous actions: battery, diesel, and hydrogen dispatch.",
-    "Used PPO to learn dispatch decisions for a PV-wind-battery-electrolyzer-hydrogen storage-fuel cell-diesel microgrid.",
-    "Grid exchange was computed from residual power balance rather than directly controlled."
+    "Modeled the microgrid as an MDP with 11 state variables and 3 continuous actions for battery, diesel, and hydrogen dispatch.",
+    "Used proximal policy optimization (PPO) for hourly energy management in a grid-connected PV-wind-battery-hydrogen system.",
+    "Evaluated performance over 8,760 hourly observations for a 1,000-household community in Rockhampton, Australia."
   ],
-  "evidence_signal": "Evaluated over 8,760 hourly observations for a 1,000-household community in Rockhampton, Australia, with 99.77% load satisfaction under normal conditions and 98.79% under higher outage probability.",
-  "watch_item": "Performance is sensitive to renewable-profile variability, training stability, and the accounting boundary used for carbon and revenue metrics.",
+  "evidence_signal": "Across a full-year simulation, the policy achieved A$195,690.67 net annual operating revenue, 91.2% renewable fraction, 99.77% load satisfaction, and retained 98.79% demand supply even when outage probability rose from 1% to 5%.",
+  "watch_item": "Performance is sensitive to renewable-profile variability and training stability, and results depend on the chosen carbon-accounting boundary.",
   "hashtags": [
     "#DeepReinforcementLearning",
-    "#MicrogridEMS",
-    "#HydrogenEnergy",
-    "#PPO",
-    "#RenewableIntegration"
+    "#EnergyManagement",
+    "#HydrogenMicrogrid",
+    "#BatteryStorage",
+    "#PPO"
   ],
   "paper_id": "2026-07-19-arxiv-deep_reinforcement_learning_based_energy_management_for_hydrogen_enabled_community_microgr",
   "paper_title": "Deep Reinforcement Learning-Based Energy Management for Hydrogen-Enabled Community Microgrids Under Uncertainty",
   "paper_date": "2026-07-19",
   "paper_category": "Perovskite Solar Cells",
-  "generated_at": "2026-07-27T14:14:04",
+  "generated_at": "2026-07-28T13:45:38",
   "generator": "openai"
 }
