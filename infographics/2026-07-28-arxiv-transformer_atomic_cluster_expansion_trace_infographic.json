@@ -1,17 +1,17 @@
 {
-  "key_insight": "TRACE is an energy-conserving, O(3)-equivariant interatomic potential that uses atomic cluster expansion correlations plus local cross-attention to model complex many-body chemistry without passing learned state between atoms.",
-  "engineering_relevance": "The architecture is designed for scalable molecular dynamics on modest hardware while preserving accuracy across polymorphs, liquids, and reaction barriers, making it a practical candidate for materials and chemistry simulation workflows.",
+  "key_insight": "TRACE is a single energy-conserving interatomic potential architecture that combines atomic cluster expansion with local multihead cross-attention to model complex many-body chemistry without passing learned state between atoms.",
+  "engineering_relevance": "It offers a scalable, physically grounded route to simulate phase behavior, liquid structure, and reactive pathways across multiple materials systems on modest hardware.",
   "method": [
-    "Uses atomic cluster expansion density correlations to build an equivariant state for each atom.",
-    "Applies local multihead cross-attention over fixed tensorial neighbor features derived from species and geometry.",
-    "Trains a single unified potential for both structure prediction and thermodynamic/kinetic properties."
+    "Uses O(3)-equivariant atomic cluster expansion density correlations as the per-atom state.",
+    "Applies local multihead cross-attention to fixed tensorial neighbor features derived from species and geometry.",
+    "Trains one unified potential and validates it with enhanced/umbrella sampling for difficult transformations and barriers."
   ],
-  "evidence_signal": "The model matches key benchmarks in the abstract, including CsPbI3 polymorph ordering and phase crossing near 580 K, an O–O peak at 2.85 Å for water versus 2.80 Å experiment, and a methyl migration barrier of 27.92±0.03 kcal/mol versus 29.2±1.1 kcal/mol experimentally.",
-  "watch_item": "Reported performance is benchmark-specific, so broader transferability and computational cost at larger system sizes should be validated before production deployment.",
+  "evidence_signal": "The abstract reports agreement with experiment and high-level theory across cesium lead iodide polymorph ordering and transition temperature, water O–O structure, and methyl migration activation free energy.",
+  "watch_item": "Performance is demonstrated on selected benchmark systems, so broader transferability and robustness to new chemistries or larger-scale simulations still need careful validation.",
   "hashtags": [
     "#MachineLearningPotentials",
     "#MolecularDynamics",
-    "#EquivariantModels",
+    "#EquivariantML",
     "#MaterialsSimulation",
     "#ComputationalChemistry"
   ],
@@ -19,6 +19,6 @@
   "paper_title": "Transformer Atomic Cluster Expansion: TRACE",
   "paper_date": "2026-07-28",
   "paper_category": "Device Optimization",
-  "generated_at": "2026-07-29T13:50:07",
+  "generated_at": "2026-07-30T13:40:44",
   "generator": "openai"
 }

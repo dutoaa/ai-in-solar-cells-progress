@@ -1,24 +1,24 @@
 {
-  "key_insight": "SwarmLink adds peer-to-peer coordination so multiple UAVs can reassign inspection targets on the fly, making photovoltaic sensing missions more resilient to failures and low-quality captures.",
-  "engineering_relevance": "For solar plant inspection, the system reduces dependence on a single ground station by enabling distributed runtime task allocation without changing the host UAV framework.",
+  "key_insight": "SwarmLink enables UAVs to coordinate directly with each other so photovoltaic inspection missions can keep working despite link loss, drone failure, or unusable imagery.",
+  "engineering_relevance": "This matters for solar-plant inspection because it removes the ground station as a single point of failure and preserves full coverage with minimal changes to an existing aerial software stack.",
   "method": [
-    "Non-invasively extends Aerostack2 with inter-agent communication for coordination.",
-    "Uses a distributed auction to assign initial targets and re-auction remaining targets after failures or bad data.",
-    "Unifies normal allocation, platform-failure recovery, and data-quality-triggered reassignment into one mechanism."
+    "Adds peer-to-peer communication on top of existing UAV frameworks without modifying the host system",
+    "Uses a distributed auction to assign sensing targets at mission start and to reassign them after failures or bad-quality captures",
+    "Re-auctions remaining targets among active drones for all disruption cases, including platform loss and degraded data"
   ],
-  "evidence_signal": "The abstract presents a photovoltaic plant inspection case study demonstrating the approach conceptually across three disruption scenarios, but it does not report quantitative results.",
-  "watch_item": "Performance and robustness will depend on reliable inter-UAV communication and the overhead of repeated re-auctions in real missions.",
+  "evidence_signal": "The abstract reports a photovoltaic plant inspection case study in which the approach was integrated with Aerostack2 and used to unify allocation, failure recovery, and quality-based reassignment at runtime.",
+  "watch_item": "The abstract does not provide quantitative performance results, so the operational overhead and scalability of the re-auction mechanism remain to be validated experimentally.",
   "hashtags": [
     "#UAVs",
-    "#RemoteSensing",
-    "#Photovoltaics",
-    "#MultiAgentSystems",
-    "#FaultTolerance"
+    "#SolarInspection",
+    "#DistributedCoordination",
+    "#ResilientSystems",
+    "#RemoteSensing"
   ],
   "paper_id": "2026-07-27-arxiv-distributed_coordination_for_resilient_multi_uav_remote_sensing_a_photovoltaic_inspection",
   "paper_title": "Distributed Coordination for Resilient Multi-UAV Remote Sensing: A Photovoltaic Inspection Case Study",
   "paper_date": "2026-07-27",
   "paper_category": "AI solar cells",
-  "generated_at": "2026-07-29T13:50:22",
+  "generated_at": "2026-07-30T13:41:06",
   "generator": "openai"
 }

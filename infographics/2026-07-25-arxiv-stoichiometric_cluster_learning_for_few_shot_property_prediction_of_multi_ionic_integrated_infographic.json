@@ -1,24 +1,24 @@
 {
-  "key_insight": "A stoichiometry-preserved ionic-cluster representation, combined with pretrained MLIPs and multi-task fine-tuning, can predict detonation performance of multi-ionic energetic materials before full crystal structures are available.",
-  "engineering_relevance": "This offers a synthesis-facing screening route for data-scarce multi-ionic materials, reducing reliance on exhaustive crystal-structure prediction and accelerating candidate prioritization.",
+  "key_insight": "A stoichiometry-preserved ionic-cluster representation, paired with pretrained MLIP fine-tuning, can predict properties of multi-ionic energetic materials before full crystal structures are known.",
+  "engineering_relevance": "This offers a synthesis-facing screening route for data-scarce materials design, reducing dependence on expensive crystal-structure prediction and enabling faster candidate prioritization.",
   "method": [
-    "Represent each candidate as a non-periodic stoichiometric ionic cluster rather than a full periodic crystal.",
-    "Fine-tune a pretrained atomistic MLIP with multi-task energy-force objectives to regularize sparse property labels.",
-    "Use the learned surrogate to screen new ABX4 energetic materials, including unseen stoichiometry and cation chemistry."
+    "Encode each candidate as a non-periodic stoichiometric ionic cluster instead of a periodic crystal.",
+    "Pretrain an atomistic backbone and fine-tune it with a multi-task energy–force objective to regularize sparse detonation labels.",
+    "Use the surrogate for cross-validated screening and extrapolation to new stoichiometries/cations without retraining."
   ],
-  "evidence_signal": "On 25 curated perovskite-type energetic materials with experimental Kamlet–Jacobs detonation velocities, the surrogate achieved cross-validated screening and transferred to three newly synthesized ABX4 compounds with a mean absolute error of 92 m/s.",
-  "watch_item": "Performance depends on the quality and coverage of the pretrained backbone and the small curated training set, so extrapolation beyond similar multi-ionic chemistries should be treated cautiously.",
+  "evidence_signal": "On 25 curated perovskite-type energetic materials with experimental detonation velocities, the approach achieved a mean absolute error of 92 m·s^-1 and correctly matched three newly synthesized ABX4 materials.",
+  "watch_item": "Performance may depend on the quality and diversity of the small labeled set, so extrapolation to very different chemistries or poorly represented stoichiometries should be treated cautiously.",
   "hashtags": [
     "#MaterialsDiscovery",
-    "#MachineLearning",
-    "#AtomisticML",
+    "#MachineLearningMaterials",
     "#EnergeticMaterials",
-    "#FewShotLearning"
+    "#FewShotLearning",
+    "#MLIPs"
   ],
   "paper_id": "2026-07-25-arxiv-stoichiometric_cluster_learning_for_few_shot_property_prediction_of_multi_ionic_integrated",
   "paper_title": "Stoichiometric cluster learning for few-shot property prediction of multi-ionic integrated energetic materials",
   "paper_date": "2026-07-25",
   "paper_category": "Materials Discovery",
-  "generated_at": "2026-07-29T13:50:28",
+  "generated_at": "2026-07-30T13:41:11",
   "generator": "openai"
 }
