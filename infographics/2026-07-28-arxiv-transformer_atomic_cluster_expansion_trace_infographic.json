@@ -1,24 +1,24 @@
 {
-  "key_insight": "TRACE is a single energy-conserving interatomic potential architecture that combines atomic cluster expansion with local multihead cross-attention to model complex many-body chemistry without passing learned state between atoms.",
-  "engineering_relevance": "It offers a scalable, physically grounded route to simulate phase behavior, liquid structure, and reactive pathways across multiple materials systems on modest hardware.",
+  "key_insight": "TRACE is an energy-conserving interatomic potential that pairs ACE density correlations with local multihead cross-attention to model complex many-body chemistry efficiently.",
+  "engineering_relevance": "It offers a unified, scalable route to simulate phase behavior, liquids, and reaction barriers on modest hardware without passing learned states between atoms.",
   "method": [
-    "Uses O(3)-equivariant atomic cluster expansion density correlations as the per-atom state.",
-    "Applies local multihead cross-attention to fixed tensorial neighbor features derived from species and geometry.",
-    "Trains one unified potential and validates it with enhanced/umbrella sampling for difficult transformations and barriers."
+    "Builds an O(3)-equivariant center state from atomic cluster expansion density correlations",
+    "Uses local multihead cross-attention to query fixed tensorial neighbor features based on species and geometry",
+    "Trains a single architecture for polymorph energetics, liquid structure, and reaction free energies"
   ],
-  "evidence_signal": "The abstract reports agreement with experiment and high-level theory across cesium lead iodide polymorph ordering and transition temperature, water O–O structure, and methyl migration activation free energy.",
-  "watch_item": "Performance is demonstrated on selected benchmark systems, so broader transferability and robustness to new chemistries or larger-scale simulations still need careful validation.",
+  "evidence_signal": "The abstract reports successful validation on cesium lead iodide, liquid water, and methyl migration, including near-experimental phase-crossing and free-energy estimates.",
+  "watch_item": "Performance may depend on carefully chosen training configurations and enhanced/umbrella sampling for rare-event transitions, so transfer to new chemistries still needs validation.",
   "hashtags": [
     "#MachineLearningPotentials",
+    "#AtomisticSimulation",
+    "#TransformerModels",
     "#MolecularDynamics",
-    "#EquivariantML",
-    "#MaterialsSimulation",
-    "#ComputationalChemistry"
+    "#ComputationalMaterials"
   ],
   "paper_id": "2026-07-28-arxiv-transformer_atomic_cluster_expansion_trace",
   "paper_title": "Transformer Atomic Cluster Expansion: TRACE",
   "paper_date": "2026-07-28",
   "paper_category": "Device Optimization",
-  "generated_at": "2026-07-30T13:40:44",
+  "generated_at": "2026-07-31T13:45:00",
   "generator": "openai"
 }

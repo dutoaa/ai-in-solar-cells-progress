@@ -1,13 +1,13 @@
 {
-  "key_insight": "A PPO-based controller can coordinate battery, hydrogen, diesel, and grid exchange to keep a community microgrid highly renewable, reliable, and profitable under uncertainty.",
-  "engineering_relevance": "This work shows how deep reinforcement learning can improve real-time energy management for hybrid microgrids with coupled storage assets and variable renewable supply.",
+  "key_insight": "A PPO-based controller can coordinate battery, hydrogen, and backup generation in a community microgrid to keep supply reliable while maximizing operating revenue under uncertainty.",
+  "engineering_relevance": "The study shows that reinforcement learning can manage coupled storage and dispatch decisions in renewable microgrids with high load satisfaction and low carbon intensity, making it relevant for resilient decarbonized energy systems.",
   "method": [
-    "Formulated the EMS as an 11-state Markov decision process with 3 continuous actions for battery, diesel, and hydrogen dispatch.",
-    "Used proximal policy optimization (PPO) to learn operational control for a grid-connected PV-wind-battery-electrolyzer-hydrogen-fuel-cell-diesel system.",
-    "Evaluated the policy on 8,760 hourly observations for a 1,000-household community in Rockhampton, Australia."
+    "Formulated microgrid EMS as an 11-dimensional Markov decision process.",
+    "Used proximal policy optimization with three continuous actions for battery, diesel, and hydrogen dispatch.",
+    "Evaluated grid exchange through residual power balance in a PV-wind-battery-electrolyzer-H2-fuel-cell-diesel system."
   ],
-  "evidence_signal": "Across a full year of hourly simulation, the learned policy achieved A$195,690.67 annual operating revenue, 91.2% renewable fraction, 99.77% load satisfaction, and 0.085 kg CO2/kWh carbon intensity under the stated boundary.",
-  "watch_item": "Performance was sensitive to renewable variability and outage stress, and PPO training stability plus the chosen accounting boundary could affect reported outcomes.",
+  "evidence_signal": "The controller was tested on 8,760 hourly observations for a 1,000-household community, achieving A$195,690.67 annual revenue, 91.2% renewable fraction, and 99.77% load satisfaction in the base case.",
+  "watch_item": "Performance is sensitive to renewable variability, training stability, and the accounting boundary used for metrics, so real-world deployment would need careful validation.",
   "hashtags": [
     "#DeepReinforcementLearning",
     "#MicrogridEMS",
@@ -19,6 +19,6 @@
   "paper_title": "Deep Reinforcement Learning-Based Energy Management for Hydrogen-Enabled Community Microgrids Under Uncertainty",
   "paper_date": "2026-07-19",
   "paper_category": "Perovskite Solar Cells",
-  "generated_at": "2026-07-30T13:41:28",
+  "generated_at": "2026-07-31T13:45:34",
   "generator": "openai"
 }

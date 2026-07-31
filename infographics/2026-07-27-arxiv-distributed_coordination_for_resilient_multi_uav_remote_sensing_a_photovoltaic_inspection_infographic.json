@@ -1,24 +1,24 @@
 {
-  "key_insight": "SwarmLink enables UAVs to coordinate directly with each other so photovoltaic inspection missions can keep working despite link loss, drone failure, or unusable imagery.",
-  "engineering_relevance": "This matters for solar-plant inspection because it removes the ground station as a single point of failure and preserves full coverage with minimal changes to an existing aerial software stack.",
+  "key_insight": "SwarmLink adds peer-to-peer coordination so multiple UAVs can redistribute sensing tasks at runtime, keeping photovoltaic inspections resilient to failures and poor-quality captures.",
+  "engineering_relevance": "The approach improves mission robustness for large-scale solar farm inspections by removing dependence on a centralized ground station and enabling autonomous recovery without changing the host aerial stack.",
   "method": [
-    "Adds peer-to-peer communication on top of existing UAV frameworks without modifying the host system",
-    "Uses a distributed auction to assign sensing targets at mission start and to reassign them after failures or bad-quality captures",
-    "Re-auctions remaining targets among active drones for all disruption cases, including platform loss and degraded data"
+    "Non-invasive inter-agent communication layer that plugs into existing UAV frameworks",
+    "Distributed auction for target allocation, platform-failure recovery, and data-quality-triggered reassignment",
+    "Integrated with Aerostack2 while requiring no core modifications"
   ],
-  "evidence_signal": "The abstract reports a photovoltaic plant inspection case study in which the approach was integrated with Aerostack2 and used to unify allocation, failure recovery, and quality-based reassignment at runtime.",
-  "watch_item": "The abstract does not provide quantitative performance results, so the operational overhead and scalability of the re-auction mechanism remain to be validated experimentally.",
+  "evidence_signal": "The abstract reports a photovoltaic plant inspection case study showing that all disruption scenarios are handled by a single re-auction mechanism over remaining targets and active platforms.",
+  "watch_item": "The main implementation concern is reliable inter-UAV communication, since the resilience gain depends on maintaining enough connectivity for auctions and reassignments to proceed.",
   "hashtags": [
     "#UAVs",
     "#SolarInspection",
     "#DistributedCoordination",
     "#ResilientSystems",
-    "#RemoteSensing"
+    "#SwarmRobotics"
   ],
   "paper_id": "2026-07-27-arxiv-distributed_coordination_for_resilient_multi_uav_remote_sensing_a_photovoltaic_inspection",
   "paper_title": "Distributed Coordination for Resilient Multi-UAV Remote Sensing: A Photovoltaic Inspection Case Study",
   "paper_date": "2026-07-27",
   "paper_category": "AI solar cells",
-  "generated_at": "2026-07-30T13:41:06",
+  "generated_at": "2026-07-31T13:45:22",
   "generator": "openai"
 }
