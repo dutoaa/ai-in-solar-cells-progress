@@ -1,24 +1,24 @@
 {
-  "key_insight": "LLM agents can translate natural-language home energy preferences into reliable multi-appliance schedules and achieve near-MILP-optimal cost savings when connected to live pricing, weather, and generation data.",
-  "engineering_relevance": "This shows a practical path to agentic home energy management that can improve adoption of demand-response and solar-aware scheduling without requiring users to write technical constraints.",
+  "key_insight": "A tool-calling LLM agent can translate everyday home-energy requests into appliance schedules that are often near-optimal, but only when every committed plan is checked by deterministic feasibility validation.",
+  "engineering_relevance": "This work shows how LLMs can orchestrate residential energy assets under dynamic tariffs and solar forecasts, making them relevant for cost-aware, user-friendly home energy management and demand-side control.",
   "method": [
-    "Tool-calling ReAct agent with live Octopus Agile prices, weather forecasts, PV estimates, and household usage data",
-    "Retrieval-augmented knowledge base plus mixed-integer linear programming (MILP) ground truth for comparison",
-    "Benchmarked GPT-4o-mini, Gemini 2.5 Flash, and Claude Sonnet 4.6 on tariff, conflict, solar, and week-long scenarios"
+    "ReAct-style agent converts natural-language preferences into schedules for multiple appliances",
+    "Uses Octopus Agile half-hourly prices, weather forecasts, PV generation estimates, and household demand data",
+    "Compares five LLM backends against a MILP benchmark across tariff, constraint, weather, and rolling-deployment tests"
   ],
-  "evidence_signal": "Across benchmark scenarios, native function calling yielded 100% scheduling success and agents captured 96.7-98.0% of oracle savings over a simulated week.",
-  "watch_item": "Reliability drops sharply when actions are text-parsed instead of natively function-called, so deployment should prioritize robust tool interfaces and constraint handling.",
+  "evidence_signal": "Across a seven-day deployment, the agents captured 96.7-98.0% of the savings available between an off-peak timer and the MILP oracle and generally outperformed rule-based policies.",
+  "watch_item": "LLM-generated schedules can be fabricated, infeasible, or inconsistent with the model’s explanation, so an independent validator is required before actuation.",
   "hashtags": [
     "#LLMAgents",
     "#HomeEnergyManagement",
+    "#SmartGrid",
     "#DemandResponse",
-    "#SolarOptimization",
-    "#MixedIntegerProgramming"
+    "#SolarForecasting"
   ],
   "paper_id": "2026-07-06-arxiv-llms_for_agentic_home_energy_management",
   "paper_title": "LLMs for Agentic Home Energy Management",
   "paper_date": "2026-07-06",
-  "paper_category": "Device Optimization",
-  "generated_at": "2026-07-28T13:45:35",
+  "paper_category": "AI solar cells",
+  "generated_at": "2026-08-01T13:01:35",
   "generator": "openai"
 }

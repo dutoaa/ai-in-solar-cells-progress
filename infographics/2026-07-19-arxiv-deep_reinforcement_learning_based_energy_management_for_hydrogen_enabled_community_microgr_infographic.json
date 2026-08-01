@@ -1,24 +1,24 @@
 {
-  "key_insight": "A PPO-based controller can coordinate battery, hydrogen, and backup generation in a community microgrid to keep supply reliable while maximizing operating revenue under uncertainty.",
-  "engineering_relevance": "The study shows that reinforcement learning can manage coupled storage and dispatch decisions in renewable microgrids with high load satisfaction and low carbon intensity, making it relevant for resilient decarbonized energy systems.",
+  "key_insight": "A PPO-based controller can coordinate battery, hydrogen, diesel, and grid exchange in a community microgrid to keep supply highly reliable while maximizing annual operating revenue.",
+  "engineering_relevance": "The work shows how reinforcement learning can improve real-time energy management for hydrogen-enabled microgrids that must balance renewable variability, storage coupling, and outage resilience.",
   "method": [
-    "Formulated microgrid EMS as an 11-dimensional Markov decision process.",
-    "Used proximal policy optimization with three continuous actions for battery, diesel, and hydrogen dispatch.",
-    "Evaluated grid exchange through residual power balance in a PV-wind-battery-electrolyzer-H2-fuel-cell-diesel system."
+    "Formulated microgrid dispatch as an 11-state Markov decision process with three continuous actions for battery, diesel, and hydrogen control.",
+    "Used proximal policy optimization (PPO) to learn operating policies from hourly community-scale data.",
+    "Evaluated grid-connected operation with PV, wind, battery, electrolyzer, hydrogen storage, fuel cell, diesel backup, and grid exchange inferred from power balance."
   ],
-  "evidence_signal": "The controller was tested on 8,760 hourly observations for a 1,000-household community, achieving A$195,690.67 annual revenue, 91.2% renewable fraction, and 99.77% load satisfaction in the base case.",
-  "watch_item": "Performance is sensitive to renewable variability, training stability, and the accounting boundary used for metrics, so real-world deployment would need careful validation.",
+  "evidence_signal": "Validated on 8,760 hourly observations for a 1,000-household community in Rockhampton, Australia, achieving A$195,690.67 revenue, 91.2% renewable fraction, 99.77% load satisfaction, and 0.085 kg CO2/kWh under the stated boundary.",
+  "watch_item": "Performance is sensitive to renewable variability, training stability, and the selected carbon-accounting/evaluation boundary, so real-world deployment needs careful validation.",
   "hashtags": [
-    "#DeepReinforcementLearning",
-    "#MicrogridEMS",
+    "#ReinforcementLearning",
+    "#Microgrid",
     "#HydrogenEnergy",
-    "#PPO",
-    "#RenewableEnergy"
+    "#EnergyManagement",
+    "#Renewables"
   ],
   "paper_id": "2026-07-19-arxiv-deep_reinforcement_learning_based_energy_management_for_hydrogen_enabled_community_microgr",
   "paper_title": "Deep Reinforcement Learning-Based Energy Management for Hydrogen-Enabled Community Microgrids Under Uncertainty",
   "paper_date": "2026-07-19",
   "paper_category": "Perovskite Solar Cells",
-  "generated_at": "2026-07-31T13:45:34",
+  "generated_at": "2026-08-01T13:01:26",
   "generator": "openai"
 }
