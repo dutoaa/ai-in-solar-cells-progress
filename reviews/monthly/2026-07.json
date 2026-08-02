@@ -1,0 +1,72 @@
+{
+  "repo_title": "AI in Solar Cells",
+  "period": "month",
+  "label": "2026-07",
+  "author": "William Sun with help from OpenAI",
+  "paper_count": 72,
+  "analysis": {
+    "executive_summary": "July 2026 showed strong convergence between AI methods and solar-cell research, but with most progress concentrated in enabling infrastructure rather than end-to-end autonomous discovery. Across the month, LLMs and retrieval-augmented systems were used for energy scheduling, forecasting robustness, tariff analysis, and materials synthesis planning, while physics-aware and uncertainty-aware models improved PV prediction under realistic noise and distribution shift. In parallel, solar-cell science advanced through richer characterization and multiscale modeling: defect fingerprinting with THz-TDS, nanoscale potential mapping by KPFM, direct carrier-dynamics imaging, and first-principles treatments of excitons, ions, and lattice effects. Materials-discovery papers emphasized human-LLM collaboration, symbolic inverse design, and cluster-based few-shot screening, indicating a shift toward closed-loop, human-guided AI workflows. Overall, the month’s pattern suggests AI is becoming more useful as a scientific copilot and experimental design aid for photovoltaics, while the physics of perovskites, organic semiconductors, and device operation remain the main bottleneck for robust deployment.",
+    "major_themes": [
+      "Physics-aware AI for PV forecasting and control was a dominant thread, including robustness analysis under NWP errors, retrieval-augmented prediction, and uncertainty-aware grid coordination.",
+      "LLM agents were increasingly evaluated in operational energy tasks, from home energy scheduling to distributed tariff analysis and microgrid dispatch.",
+      "Materials discovery is moving toward human-LLM collaboration and symbolic reasoning, with closed-loop synthesis planning and DSL-guided inverse design.",
+      "Perovskite research emphasized direct, device-relevant probes of defects, ions, excitons, and carrier dynamics rather than only static efficiency metrics.",
+      "Multiscale atomistic modeling remained central, with new force fields, cluster expansions, and equivariant models enabling larger and more realistic simulations.",
+      "Manufacturing and inspection benefited from optical and hyperspectral inline metrology, pointing to AI-ready data streams for quality control.",
+      "Several papers focused on uncertainty, robustness, and out-of-distribution behavior, reflecting a maturation from benchmark accuracy toward deployable AI systems."
+    ],
+    "notable_papers": [
+      {
+        "title": "PARA-PV: Physics-Aware Retrieval-Augmented PV Prediction Based on Frozen Foundation Model and Distribution Shift Correction",
+        "why_it_matters": "Introduces a physically grounded forecasting pipeline that combines retrieval, frozen foundation models, and calibration for PV prediction under realistic distribution shift."
+      },
+      {
+        "title": "Robustness of Deep Learning Models for PV Power Forecasting under NWP Forecast Errors: A Spatiotemporal and Physically Interpretable Analysis",
+        "why_it_matters": "Provides a controlled framework for studying how weather-forecast uncertainty propagates through PV predictors, which is essential for operational trust."
+      },
+      {
+        "title": "Human and LLM Collaboration for Accelerated Materials Synthesis and Discovery",
+        "why_it_matters": "Shows that LLMs can participate in closed-loop synthesis planning with humans, helping bridge the gap between candidate generation and actual discovery."
+      },
+      {
+        "title": "Symbolic Predicate-Guided Language Agents for Inverse Design of Perovskite Oxides",
+        "why_it_matters": "Demonstrates a more interpretable LLM-based inverse-design workflow by encoding chemistry constraints as symbolic predicates."
+      },
+      {
+        "title": "Terahertz Time-Domain Spectroscopy as a Universal Defect Fingerprinting Tool for Organic Halide Perovskite Solar Cells",
+        "why_it_matters": "Offers a non-contact method for identifying defect species in device-relevant films, a practical step toward targeted passivation."
+      },
+      {
+        "title": "Direct Spatiotemporal Imaging of Charge Carrier Dynamics in Operative Semiconductor Devices",
+        "why_it_matters": "Introduces CDPI, a direct imaging method for internal carrier dynamics that could change how device physics is measured and validated."
+      },
+      {
+        "title": "Data-driven atomistic modelling of hybrid halide perovskite passivation",
+        "why_it_matters": "Shows how continuous-finetuning-style dataset pipelines can make machine-learned interatomic potentials practical for realistic perovskite-surface chemistry."
+      },
+      {
+        "title": "SevenNet-Polar for MultiTask Prediction of Energy, Forces, Stress, and Born Effective Charges: Development and Application to ZrO$_2$, Li$_3$PO$_4$, and Perovskites",
+        "why_it_matters": "Expands equivariant MLIPs to electrostatic response properties, making field-coupled simulations faster and more scalable."
+      }
+    ],
+    "field_progress": [
+      "AI in solar-cell research is shifting from isolated prediction tasks to integrated workflows that couple forecasting, optimization, and uncertainty quantification.",
+      "Physics-informed ML is becoming the preferred route for PV applications because purely data-driven models struggle with weather variability, device heterogeneity, and operating-regime changes.",
+      "Perovskite characterization is becoming more local and more dynamic, with new methods directly resolving defects, surface potentials, excitons, ions, and carrier motion.",
+      "Materials AI is becoming more collaborative and more constrained, using symbolic rules, curated datasets, and human feedback to improve synthesis success rates.",
+      "Inline optical and hyperspectral inspection methods suggest that manufacturing data streams are becoming richer and better suited for AI-based quality monitoring.",
+      "Theoretical advances in excited-state and atomistic modeling are extending the scale and realism of simulations needed to connect materials structure to device behavior."
+    ],
+    "open_questions": [
+      "How can PV forecasting models be made reliably robust across unseen climates, plant configurations, and weather-model error regimes?",
+      "What is the best way to combine symbolic chemistry reasoning with generative LLMs so that inverse-design suggestions remain synthesizable and experimentally useful?",
+      "Can defect-fingerprinting and carrier-dynamics imaging be standardized into practical workflows for rapid perovskite screening and passivation design?",
+      "How should multimodal data from spectroscopy, microscopy, and inline metrology be fused with MLIPs to predict device degradation and manufacturing yield?",
+      "What level of human oversight is needed for LLM-driven synthesis planning to remain safe, reproducible, and scientifically productive?",
+      "Can foundation interatomic potentials and multitask electrostatic models generalize to the strongly correlated and defect-rich materials most relevant to next-generation photovoltaics?"
+    ],
+    "outlook": "The July 2026 literature suggests a clear trajectory: AI is becoming more valuable in solar-cell research when it is tightly coupled to physics, uncertainty awareness, and experimental feedback. The near-term opportunity is not fully autonomous discovery, but robust scientific copilots that can help design syntheses, interpret measurements, forecast PV output, and monitor manufacturing in real time. The main challenge ahead is integration: connecting foundation models, symbolic constraints, and high-fidelity device physics into workflows that are both predictive and experimentally trustworthy."
+  },
+  "markdown_file": "2026-07.md",
+  "generated_at": "2026-08-02T05:39:49"
+}
