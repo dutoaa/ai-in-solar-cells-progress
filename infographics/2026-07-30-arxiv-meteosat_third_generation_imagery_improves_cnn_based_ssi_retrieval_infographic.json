@@ -1,24 +1,24 @@
 {
-  "key_insight": "Adding higher-resolution MTG/FCI imagery improves CNN-based surface solar irradiance retrieval mainly when clouds dominate, but it does not fix clear-sky errors.",
-  "engineering_relevance": "For photovoltaic monitoring and forecasting, the hybrid MTG/FCI + MSG/SEVIRI model can yield better short-term irradiance estimates in cloudy conditions, supporting more reliable operational solar energy workflows.",
+  "key_insight": "Higher-resolution Meteosat Third Generation (MTG/FCI) imagery improves CNN-based surface solar irradiance retrieval mainly when clouds are the dominant driver of variability.",
+  "engineering_relevance": "For photovoltaic monitoring and forecasting, the hybrid SEVIRI-FCI model can deliver more accurate 10-minute irradiance estimates than MSG/SEVIRI alone in cloudy conditions, improving operational solar resource inputs.",
   "method": [
-    "Multi-imager CNN for 10-minute SSI retrieval over Estonia",
-    "Inputs: MSG/SEVIRI and MTG/FCI imagery plus solar geometry and clear-sky irradiance features",
-    "Compared hybrid SEVIRI-FCI vs SEVIRI-only and against SARAH-3"
+    "Multi-imager CNN combining MSG/SEVIRI and MTG/FCI satellite imagery",
+    "Uses solar-geometry and clear-sky irradiance features",
+    "Evaluated with site-based cross-validation and multiple training seeds against pyranometer data"
   ],
-  "evidence_signal": "Evaluated with site-based cross-validation on pyranometer data from eight Estonian stations across multiple training seeds, with the hybrid model reducing RMSE by 8.2 W/m² under overcast and 5.7 W/m² under cloudy conditions.",
-  "watch_item": "Higher spatial resolution alone was not enough to improve clear-sky performance, so additional features or model changes are still needed for those regimes.",
+  "evidence_signal": "Validated against ground pyranometer measurements from eight Estonian stations and compared with SARAH-3; the hybrid model reduced RMSE by 8.2 W m^-2 in overcast and 5.7 W m^-2 in cloudy conditions.",
+  "watch_item": "Higher spatial resolution alone did not fix clear-sky or partly cloudy limitations, so gains may be conditional and not uniform across sky conditions.",
   "hashtags": [
     "#SolarIrradiance",
-    "#DeepLearning",
-    "#SatelliteRemoteSensing",
-    "#Photovoltaics",
-    "#MTGFCI"
+    "#SatelliteML",
+    "#MeteosatThirdGeneration",
+    "#PVForecasting",
+    "#ConvNet"
   ],
   "paper_id": "2026-07-30-arxiv-meteosat_third_generation_imagery_improves_cnn_based_ssi_retrieval",
   "paper_title": "Meteosat Third Generation imagery improves CNN-based SSI retrieval",
   "paper_date": "2026-07-30",
   "paper_category": "Device Optimization",
-  "generated_at": "2026-08-01T13:01:14",
+  "generated_at": "2026-08-02T13:03:31",
   "generator": "openai"
 }

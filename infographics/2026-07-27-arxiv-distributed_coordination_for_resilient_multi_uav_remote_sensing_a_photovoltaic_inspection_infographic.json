@@ -1,24 +1,24 @@
 {
-  "key_insight": "SwarmLink adds peer-to-peer coordination to a UAV fleet so photovoltaic inspections can keep working despite lost links, platform failures, or low-quality captures.",
-  "engineering_relevance": "It enables resilient multi-UAV remote sensing without changing the host autonomy stack, making it practical for large-scale solar plant inspection missions.",
+  "key_insight": "SwarmLink adds peer-to-peer coordination to multi-UAV missions so photovoltaic inspections can keep reallocating sensing work at runtime despite platform failures or poor data quality.",
+  "engineering_relevance": "This enables resilient large-scale solar plant inspection without relying on a single ground-station coordinator, improving coverage continuity and mission robustness.",
   "method": [
-    "Extends Aerostack2 with non-invasive inter-agent communication",
-    "Uses a distributed auction to assign sensing targets at runtime",
-    "Re-auctions remaining targets when failures or data-quality issues occur"
+    "Non-invasively extends Aerostack2 with inter-agent communication",
+    "Uses a distributed auction to assign sensing targets among active UAVs",
+    "Re-auctions remaining targets to recover from failures and unusable captures"
   ],
-  "evidence_signal": "The abstract presents a photovoltaic plant inspection case study showing one unified mechanism can handle initial allocation, failure recovery, and degraded-data reassignment.",
-  "watch_item": "Performance depends on reliable peer communication and auction timing; large fleets may face latency or coordination overhead in the field.",
+  "evidence_signal": "The abstract reports a photovoltaic plant inspection case study where the same runtime mechanism handles initial allocation, platform-failure recovery, and data-quality-triggered reassignment.",
+  "watch_item": "The approach depends on reliable peer-to-peer communication and auction timing, so network delays or intermittent links could affect coordination performance.",
   "hashtags": [
     "#UAVs",
     "#RemoteSensing",
-    "#SolarInspection",
+    "#Photovoltaics",
     "#MultiAgentSystems",
-    "#ResilientCoordination"
+    "#ResilientRobotics"
   ],
   "paper_id": "2026-07-27-arxiv-distributed_coordination_for_resilient_multi_uav_remote_sensing_a_photovoltaic_inspection",
   "paper_title": "Distributed Coordination for Resilient Multi-UAV Remote Sensing: A Photovoltaic Inspection Case Study",
   "paper_date": "2026-07-27",
   "paper_category": "AI solar cells",
-  "generated_at": "2026-08-01T13:01:30",
+  "generated_at": "2026-08-02T13:03:53",
   "generator": "openai"
 }

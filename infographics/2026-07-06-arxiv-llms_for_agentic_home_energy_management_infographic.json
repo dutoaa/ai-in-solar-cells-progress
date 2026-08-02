@@ -1,24 +1,24 @@
 {
-  "key_insight": "A tool-calling LLM agent can translate everyday home-energy requests into appliance schedules that are often near-optimal, but only when every committed plan is checked by deterministic feasibility validation.",
-  "engineering_relevance": "This work shows how LLMs can orchestrate residential energy assets under dynamic tariffs and solar forecasts, making them relevant for cost-aware, user-friendly home energy management and demand-side control.",
+  "key_insight": "A tool-calling ReAct LLM can turn natural-language home energy requests into near-optimal appliance schedules, but only when its outputs are validated before execution.",
+  "engineering_relevance": "For HEMS deployment, the main value is flexible orchestration across dynamic tariffs, weather, PV forecasts, and user preferences without requiring technical constraint encoding.",
   "method": [
-    "ReAct-style agent converts natural-language preferences into schedules for multiple appliances",
-    "Uses Octopus Agile half-hourly prices, weather forecasts, PV generation estimates, and household demand data",
-    "Compares five LLM backends against a MILP benchmark across tariff, constraint, weather, and rolling-deployment tests"
+    "Evaluated five LLM backends on multi-appliance scheduling tasks",
+    "Compared native function calling vs text-parsed actions against a MILP benchmark",
+    "Tested tariff changes, constraint conflicts, weather-aware scheduling, and a 7-day rolling deployment"
   ],
-  "evidence_signal": "Across a seven-day deployment, the agents captured 96.7-98.0% of the savings available between an off-peak timer and the MILP oracle and generally outperformed rule-based policies.",
-  "watch_item": "LLM-generated schedules can be fabricated, infeasible, or inconsistent with the model’s explanation, so an independent validator is required before actuation.",
+  "evidence_signal": "Across a seven-day period, the agents captured 96.7–98.0% of the savings available between an off-peak timer and the MILP oracle and outperformed rule-based policies.",
+  "watch_item": "LLM schedules can be fabricated or infeasible, so every committed plan should pass an independent deterministic feasibility check before actuation.",
   "hashtags": [
-    "#LLMAgents",
     "#HomeEnergyManagement",
+    "#LLMAgents",
     "#SmartGrid",
-    "#DemandResponse",
-    "#SolarForecasting"
+    "#SolarPV",
+    "#EnergyOptimization"
   ],
   "paper_id": "2026-07-06-arxiv-llms_for_agentic_home_energy_management",
   "paper_title": "LLMs for Agentic Home Energy Management",
   "paper_date": "2026-07-06",
   "paper_category": "AI solar cells",
-  "generated_at": "2026-08-01T13:01:35",
+  "generated_at": "2026-08-02T13:03:44",
   "generator": "openai"
 }
