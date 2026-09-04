@@ -1,6 +1,6 @@
 # AI solar cells Progress Public Resources
 
-Generated: 2026-09-02
+Generated: 2026-09-04
 Public site: https://dutoaa.github.io/ai-in-solar-cells-progress/
 
 ## 1. Advancing Lead-Free FASnI3 Perovskite Solar Cells via Cu-Doped NiOx HTL Engineering: An Optoelectronic Analysis
@@ -11,15 +11,31 @@ Public site: https://dutoaa.github.io/ai-in-solar-cells-progress/
 - PDF: https://arxiv.org/pdf/2608.29341v1
 - Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-08-29-arxiv-advancing_lead_free_fasni3_perovskite_solar_cells_via_cu_doped_niox_htl_engineering_an_opt_infographic.json
 
-## 2. Performance Analysis of Double Perovskite-Based Solar Cells Using SCAPS-1D Simulation: A brief review
+## 2. Thermal history controls the optoelectronic response of lead halide perovskites through structure and dynamics
 
-- Date: 2026-08-05
+- Date: 2026-09-02
+- Category: Perovskite Solar Cells
+- arXiv: https://arxiv.org/abs/2609.03211v1
+- PDF: https://arxiv.org/pdf/2609.03211v1
+- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-09-02-arxiv-thermal_history_controls_the_optoelectronic_response_of_lead_halide_perovskites_through_st_infographic.json
+
+## 3. Understanding Graphene-Perovskite Interactions: From Flake Chemistry to Crystallisation and Solar Cell Performance
+
+- Date: 2026-09-02
+- Category: Perovskite Solar Cells
+- arXiv: https://arxiv.org/abs/2609.02744v1
+- PDF: https://arxiv.org/pdf/2609.02744v1
+- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-09-02-arxiv-understanding_graphene_perovskite_interactions_from_flake_chemistry_to_crystallisation_and_infographic.json
+
+## 4. Machine learning-assisted design and explainable optimization of CdSnP2-based integrated solar-photodetector devices
+
+- Date: 2026-09-03
 - Category: Device Optimization
-- arXiv: https://arxiv.org/abs/2608.04736v1
-- PDF: https://arxiv.org/pdf/2608.04736v1
-- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-08-05-arxiv-performance_analysis_of_double_perovskite_based_solar_cells_using_scaps_1d_simulation_a_br_infographic.json
+- arXiv: https://arxiv.org/abs/2609.03642v1
+- PDF: https://arxiv.org/pdf/2609.03642v1
+- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-09-03-arxiv-machine_learning_assisted_design_and_explainable_optimization_of_cdsnp2_based_integrated_s_infographic.json
 
-## 3. Temperature-Driven Sequential Modeling for the Prediction of Annual Power Conversion Efficiency Profiles of Organic Photovoltaic Materials: Douala Case Study
+## 5. Temperature-Driven Sequential Modeling for the Prediction of Annual Power Conversion Efficiency Profiles of Organic Photovoltaic Materials: Douala Case Study
 
 - Date: 2026-08-09
 - Category: Organic Photovoltaics
@@ -27,23 +43,23 @@ Public site: https://dutoaa.github.io/ai-in-solar-cells-progress/
 - PDF: https://arxiv.org/pdf/2608.11261v1
 - Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-08-09-arxiv-temperature_driven_sequential_modeling_for_the_prediction_of_annual_power_conversion_effic_infographic.json
 
-## 4. Extending the Pnictide Chemical Space for Photovoltaics
+## 6. OmegaUse-SOP: SOP Engineering for Professional Computer Use from Human Demonstrations
 
-- Date: 2026-08-31
-- Category: Materials Discovery
-- arXiv: https://arxiv.org/abs/2608.30402v1
-- PDF: https://arxiv.org/pdf/2608.30402v1
-- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-08-31-arxiv-extending_the_pnictide_chemical_space_for_photovoltaics_infographic.json
-
-## 5. Quantum optoelectronics in semiconductor solar cell materials and devices
-
-- Date: 2026-08-05
+- Date: 2026-09-02
 - Category: Device Optimization
-- arXiv: https://arxiv.org/abs/2608.04328v2
-- PDF: https://arxiv.org/pdf/2608.04328v2
-- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-08-05-arxiv-quantum_optoelectronics_in_semiconductor_solar_cell_materials_and_devices_infographic.json
+- arXiv: https://arxiv.org/abs/2609.02149v2
+- PDF: https://arxiv.org/pdf/2609.02149v2
+- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-09-02-arxiv-omegause_sop_sop_engineering_for_professional_computer_use_from_human_demonstrations_infographic.json
 
-## 6. Design and numerical performance analysis of efficient Ag3TaX4 (X = S, Se, Te) thin film solar cells
+## 7. Performance of Nanoring-based Transparent Conductors: a Computational Investigation
+
+- Date: 2026-09-03
+- Category: Degradation and Stability
+- arXiv: https://arxiv.org/abs/2609.03876v1
+- PDF: https://arxiv.org/pdf/2609.03876v1
+- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-09-03-arxiv-performance_of_nanoring_based_transparent_conductors_a_computational_investigation_infographic.json
+
+## 8. Design and numerical performance analysis of efficient Ag3TaX4 (X = S, Se, Te) thin film solar cells
 
 - Date: 2026-08-25
 - Category: Device Optimization
@@ -51,15 +67,31 @@ Public site: https://dutoaa.github.io/ai-in-solar-cells-progress/
 - PDF: https://arxiv.org/pdf/2608.24301v1
 - Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-08-25-arxiv-design_and_numerical_performance_analysis_of_efficient_ag3tax4_x_s_se_te_thin_film_solar_c_infographic.json
 
-## 7. Lead-free piezoelectric perovskites for arterial-pulse e-skin: from configurational complexity to equivariant machine-learning potentials
+## 9. Hidden Magnetic Octupolar Order driven by Spin-Orbit coupling in KFeF$_3$
 
-- Date: 2026-09-01
+- Date: 2026-09-03
 - Category: Perovskite Solar Cells
-- arXiv: https://arxiv.org/abs/2609.00580v1
-- PDF: https://arxiv.org/pdf/2609.00580v1
-- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-09-01-arxiv-lead_free_piezoelectric_perovskites_for_arterial_pulse_e_skin_from_configurational_complex_infographic.json
+- arXiv: https://arxiv.org/abs/2609.03684v1
+- PDF: https://arxiv.org/pdf/2609.03684v1
+- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-09-03-arxiv-hidden_magnetic_octupolar_order_driven_by_spin_orbit_coupling_in_kfef_3_infographic.json
 
-## 8. Polyaniline as a conductive polymer and its role in improving the efficiency and conductivity of perovskite solar cells
+## 10. Extending the Pnictide Chemical Space for Photovoltaics
+
+- Date: 2026-08-31
+- Category: Materials Discovery
+- arXiv: https://arxiv.org/abs/2608.30402v1
+- PDF: https://arxiv.org/pdf/2608.30402v1
+- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-08-31-arxiv-extending_the_pnictide_chemical_space_for_photovoltaics_infographic.json
+
+## 11. Experimentally constrained modeling of the Pockels response of KNbO3 and KTaNbO3
+
+- Date: 2026-09-03
+- Category: Perovskite Solar Cells
+- arXiv: https://arxiv.org/abs/2609.03888v1
+- PDF: https://arxiv.org/pdf/2609.03888v1
+- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-09-03-arxiv-experimentally_constrained_modeling_of_the_pockels_response_of_knbo3_and_ktanbo3_infographic.json
+
+## 12. Polyaniline as a conductive polymer and its role in improving the efficiency and conductivity of perovskite solar cells
 
 - Date: 2026-08-18
 - Category: Perovskite Solar Cells
@@ -67,23 +99,55 @@ Public site: https://dutoaa.github.io/ai-in-solar-cells-progress/
 - PDF: https://arxiv.org/pdf/2608.24924v1
 - Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-08-18-arxiv-polyaniline_as_a_conductive_polymer_and_its_role_in_improving_the_efficiency_and_conductiv_infographic.json
 
-## 9. Optical-Phonon-Enabled Large Lattice Thermal Conductivity Anisotropy in Hexagonal Perovskites Cs$BX_3$ ($B$ = Mg, Cd; $X$ = Cl, Br, I)
+## 13. Interplay of B-Site Off-Centering and Molecular Orientations in the Mixed Hybrid Perovskite MAGe1xSnxI3
+
+- Date: 2026-09-03
+- Category: Perovskite Solar Cells
+- arXiv: https://arxiv.org/abs/2609.03510v1
+- PDF: https://arxiv.org/pdf/2609.03510v1
+- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-09-03-arxiv-interplay_of_b_site_off_centering_and_molecular_orientations_in_the_mixed_hybrid_perovskit_infographic.json
+
+## 14. Prosumer Synchronisation Risk: Impacts of Time-Varying Tariffs on Distribution Network Expansion
+
+- Date: 2026-09-02
+- Category: AI solar cells
+- arXiv: https://arxiv.org/abs/2609.02174v1
+- PDF: https://arxiv.org/pdf/2609.02174v1
+- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-09-02-arxiv-prosumer_synchronisation_risk_impacts_of_time_varying_tariffs_on_distribution_network_expa_infographic.json
+
+## 15. Machine-learning screening and first-principles lattice dynamics resolve the most stable structure of NaCa(BH$_4$)$_3$ from a data-driven candidate search
+
+- Date: 2026-09-02
+- Category: Materials Discovery
+- arXiv: https://arxiv.org/abs/2609.02001v1
+- PDF: https://arxiv.org/pdf/2609.02001v1
+- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-09-02-arxiv-machine_learning_screening_and_first_principles_lattice_dynamics_resolve_the_most_stable_s_infographic.json
+
+## 16. A Silicon-Compatible Uncooled Compact Broadband Infrared Spectrometer
+
+- Date: 2026-09-03
+- Category: Organic Photovoltaics
+- arXiv: https://arxiv.org/abs/2609.03284v1
+- PDF: https://arxiv.org/pdf/2609.03284v1
+- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-09-03-arxiv-a_silicon_compatible_uncooled_compact_broadband_infrared_spectrometer_infographic.json
+
+## 17. Colossal reversible conductivity switching by room-temperature oxygen-vacancy ordering in Aurivillius oxide films
+
+- Date: 2026-09-02
+- Category: Perovskite Solar Cells
+- arXiv: https://arxiv.org/abs/2609.02629v1
+- PDF: https://arxiv.org/pdf/2609.02629v1
+- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-09-02-arxiv-colossal_reversible_conductivity_switching_by_room_temperature_oxygen_vacancy_ordering_in_infographic.json
+
+## 18. Reinforcement Learning and Rule-Based Peer-to-Peer Pricing in Residential PV-BES Communities
 
 - Date: 2026-09-01
-- Category: Perovskite Solar Cells
-- arXiv: https://arxiv.org/abs/2609.00512v1
-- PDF: https://arxiv.org/pdf/2609.00512v1
-- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-09-01-arxiv-optical_phonon_enabled_large_lattice_thermal_conductivity_anisotropy_in_hexagonal_perovski_infographic.json
+- Category: AI solar cells
+- arXiv: https://arxiv.org/abs/2609.01680v1
+- PDF: https://arxiv.org/pdf/2609.01680v1
+- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-09-01-arxiv-reinforcement_learning_and_rule_based_peer_to_peer_pricing_in_residential_pv_bes_communiti_infographic.json
 
-## 10. Libron-phonon coupling and hydrogen-bond dynamics in the vacancy-ordered perovskite (NH4)2SnCl6: a temperature- and pressure-dependent Raman study
-
-- Date: 2026-08-30
-- Category: Perovskite Solar Cells
-- arXiv: https://arxiv.org/abs/2608.30064v1
-- PDF: https://arxiv.org/pdf/2608.30064v1
-- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-08-30-arxiv-libron_phonon_coupling_and_hydrogen_bond_dynamics_in_the_vacancy_ordered_perovskite_nh4_2s_infographic.json
-
-## 11. Operando multidimensional spectroscopy reveals A-site-dependent carrier cooling in perovskite solar cells
+## 19. Operando multidimensional spectroscopy reveals A-site-dependent carrier cooling in perovskite solar cells
 
 - Date: 2026-08-18
 - Category: Perovskite Solar Cells
@@ -91,74 +155,10 @@ Public site: https://dutoaa.github.io/ai-in-solar-cells-progress/
 - PDF: https://arxiv.org/pdf/2608.17577v1
 - Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-08-18-arxiv-operando_multidimensional_spectroscopy_reveals_a_site_dependent_carrier_cooling_in_perovsk_infographic.json
 
-## 12. Optically Tunable Threshold Switching and Thermally Activated Transport in Planar Ag/MAPbI$_3$ Thin Single-Crystal Devices
+## 20. Optically Tunable Threshold Switching and Thermally Activated Transport in Planar Ag/MAPbI$_3$ Thin Single-Crystal Devices
 
 - Date: 2026-08-12
 - Category: Perovskite Solar Cells
 - arXiv: https://arxiv.org/abs/2608.11832v1
 - PDF: https://arxiv.org/pdf/2608.11832v1
 - Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-08-12-arxiv-optically_tunable_threshold_switching_and_thermally_activated_transport_in_planar_ag_mapbi_infographic.json
-
-## 13. Synthesizing like a chemist: an iterative, feedback-driven loop for materials discovery
-
-- Date: 2026-08-16
-- Category: Perovskite Solar Cells
-- arXiv: https://arxiv.org/abs/2608.15928v1
-- PDF: https://arxiv.org/pdf/2608.15928v1
-- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-08-16-arxiv-synthesizing_like_a_chemist_an_iterative_feedback_driven_loop_for_materials_discovery_infographic.json
-
-## 14. Statistical and Deep Learning Approaches for Predicting Degradation of Polymeric Materials in Photovoltaics
-
-- Date: 2026-08-21
-- Category: Organic Photovoltaics
-- arXiv: https://arxiv.org/abs/2608.21148v1
-- PDF: https://arxiv.org/pdf/2608.21148v1
-- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-08-21-arxiv-statistical_and_deep_learning_approaches_for_predicting_degradation_of_polymeric_materials_infographic.json
-
-## 15. Analysis of degradation in perovskite solar cells through physics-based machine learning
-
-- Date: 2026-08-11
-- Category: Perovskite Solar Cells
-- arXiv: https://arxiv.org/abs/2608.10691v1
-- PDF: https://arxiv.org/pdf/2608.10691v1
-- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-08-11-arxiv-analysis_of_degradation_in_perovskite_solar_cells_through_physics_based_machine_learning_infographic.json
-
-## 16. Autonomous Optimization of Complex Oxides for Thermochemical Fuel Production
-
-- Date: 2026-08-07
-- Category: Perovskite Solar Cells
-- arXiv: https://arxiv.org/abs/2608.06877v1
-- PDF: https://arxiv.org/pdf/2608.06877v1
-- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-08-07-arxiv-autonomous_optimization_of_complex_oxides_for_thermochemical_fuel_production_infographic.json
-
-## 17. FarSky: Task-Aware Latent-Space Coupling for Generative Intra-Hour Solar Forecasting
-
-- Date: 2026-08-06
-- Category: AI solar cells
-- arXiv: https://arxiv.org/abs/2608.11254v1
-- PDF: https://arxiv.org/pdf/2608.11254v1
-- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-08-06-arxiv-farsky_task_aware_latent_space_coupling_for_generative_intra_hour_solar_forecasting_infographic.json
-
-## 18. Compact Variational Neural Networks for Spectral Inference from a Single Nonlinear 2D Perovskite Photodetector
-
-- Date: 2026-08-28
-- Category: Device Optimization
-- arXiv: https://arxiv.org/abs/2608.27977v1
-- PDF: https://arxiv.org/pdf/2608.27977v1
-- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-08-28-arxiv-compact_variational_neural_networks_for_spectral_inference_from_a_single_nonlinear_2d_pero_infographic.json
-
-## 19. Can Strain or Anion Interchange Make an Unstable Structure Stable? Energetics, Lattice Dynamics and Strain-Tunable Band Gaps of Lithium Chalcohalide Antiperovskites (Li$_{3}$$BA$) and their Anion Interchange Variants (Li$_{3}$$AB$)
-
-- Date: 2026-08-24
-- Category: Perovskite Solar Cells
-- arXiv: https://arxiv.org/abs/2608.23815v1
-- PDF: https://arxiv.org/pdf/2608.23815v1
-- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-08-24-arxiv-can_strain_or_anion_interchange_make_an_unstable_structure_stable_energetics_lattice_dynam_infographic.json
-
-## 20. Rare-earth chalcogenide perovskites: A promising class of materials for optoelectronic applications
-
-- Date: 2026-08-16
-- Category: Perovskite Solar Cells
-- arXiv: https://arxiv.org/abs/2608.15882v1
-- PDF: https://arxiv.org/pdf/2608.15882v1
-- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-08-16-arxiv-rare_earth_chalcogenide_perovskites_a_promising_class_of_materials_for_optoelectronic_appl_infographic.json
