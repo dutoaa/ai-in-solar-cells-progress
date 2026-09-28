@@ -1,0 +1,24 @@
+{
+  "key_insight": "A topology-aware graph convolutional network can classify distribution-network faults accurately even when inverter-driven harmonic distortion and high photovoltaic penetration distort the signals.",
+  "engineering_relevance": "This approach supports more reliable fault diagnosis in modern distribution grids with high renewable integration, improving protection performance under realistic operating stress.",
+  "method": [
+    "Mapped pre-fault and post-fault voltage/current phasors, including harmonic components, onto the IEEE 34-bus network graph.",
+    "Trained a GCN on OpenDSS-generated scenarios spanning PV penetration levels of 30%, 50%, and 70% plus THD levels of 0%, 1%, 3%, and 5%.",
+    "Used differential evolution to tune the network, yielding a three-layer model optimized for fault classification."
+  ],
+  "evidence_signal": "Across multiple fault classes and stressed conditions, the optimized GCN achieved an F1-score of 0.98 and outperformed CNN, LSTM, and MLP baselines, especially at 70% PV penetration with 5% THD.",
+  "watch_item": "Performance depends on simulated OpenDSS data and IEEE 34-bus topology, so deployment on other feeders or with measurement noise may require retraining and validation.",
+  "hashtags": [
+    "#GraphNeuralNetworks",
+    "#FaultClassification",
+    "#DistributionNetworks",
+    "#RenewableIntegration",
+    "#PowerSystemProtection"
+  ],
+  "paper_id": "2026-09-23-arxiv-gcn_based_model_for_fault_classification_in_distribution_networks_under_harmonic_distortio",
+  "paper_title": "GCN-Based Model for Fault Classification in Distribution Networks under Harmonic Distortion",
+  "paper_date": "2026-09-23",
+  "paper_category": "Device Optimization",
+  "generated_at": "2026-09-28T19:01:45",
+  "generator": "openai"
+}
