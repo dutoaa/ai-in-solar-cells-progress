@@ -1,24 +1,24 @@
 {
-  "key_insight": "The paper proposes a real-time, loss-minimizing power-sharing controller for hybrid energy storage by analytically checking KKT conditions instead of solving heavy optimization problems online.",
-  "engineering_relevance": "This enables efficient dispatch of complementary storage technologies in renewable plants, improving ancillary-service capability while remaining practical for deployment.",
+  "key_insight": "A KKT-based controller can optimally split power between heterogeneous storage devices to minimize losses using realistic, power-dependent efficiency models.",
+  "engineering_relevance": "This enables real-time energy management for solar plants with hybrid storage, improving ancillary-service delivery without relying on heavy optimization solvers.",
   "method": [
-    "Model each storage device with detailed power-dependent efficiency curves rather than constant-efficiency assumptions.",
-    "Formulate power sharing to minimize total losses and verify optimality through Karush-Kuhn-Tucker conditions analytically.",
-    "Implement and validate the controller in MATLAB/Simulink and OPAL-RT for real-time operation."
+    "Model each storage technology with detailed power-dependent efficiency curves.",
+    "Use analytical checks of Karush-Kuhn-Tucker conditions to find the loss-minimizing power split.",
+    "Deploy the controller for lithium-ion + redox-flow battery sharing in a PV plant HESS."
   ],
-  "evidence_signal": "The approach was evaluated on a 10 MW PV plant with a 2.5 MW/5 MWh lithium-ion battery and a 2.5 MW/5 MWh redox-flow battery, with both numerical simulation and real-time OPAL-RT demonstration.",
-  "watch_item": "Performance depends on the accuracy of the efficiency curves and the hardware/controller assumptions, so model mismatch could reduce optimality in practice.",
+  "evidence_signal": "The approach was validated in MATLAB/Simulink and demonstrated in real time on OPAL-RT for a 10 MW PV plant with 2.5 MW/5 MWh lithium-ion and redox-flow batteries.",
+  "watch_item": "Performance depends on accurate storage-efficiency characterization; model mismatch or changing battery conditions could reduce optimality in practice.",
   "hashtags": [
     "#HybridEnergyStorage",
     "#KKT",
     "#SolarPV",
-    "#EnergyOptimization",
-    "#RealTimeControl"
+    "#RealTimeControl",
+    "#BatteryOptimization"
   ],
   "paper_id": "2026-09-25-arxiv-optimal_power_sharing_for_hybrid_energy_storage_systems_based_on_karush_kuhn_tucker_condit",
   "paper_title": "Optimal Power Sharing for Hybrid Energy Storage Systems Based on Karush-Kuhn-Tucker Conditions",
   "paper_date": "2026-09-25",
   "paper_category": "Device Optimization",
-  "generated_at": "2026-09-28T19:01:39",
+  "generated_at": "2026-09-29T17:22:40",
   "generator": "openai"
 }

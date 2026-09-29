@@ -1,24 +1,24 @@
 {
-  "key_insight": "Physics-informed surrogates can be far more reliable for PV hosting-capacity optimization than data-only models, even when their standard test errors look similar.",
-  "engineering_relevance": "For distribution-planning workflows, decision-level validation and independent certification are essential because a model that predicts well may still choose unsafe or infeasible operating points.",
+  "key_insight": "A decision-gated, physics-informed surrogate can optimize PV hosting capacity much more reliably than test error alone suggests, even when two surrogates have similar held-out accuracy.",
+  "engineering_relevance": "The framework speeds stochastic feeder planning while preserving high-fidelity certification, making it useful for practical PV integration studies under uncertainty.",
   "method": [
-    "Calibrated PV + distribution-network simulator as the high-fidelity reference",
-    "Compared data-only vs physics-informed surrogates inside a stochastic multiobjective optimizer",
-    "Used decision-gated enrichment and independent 500-scenario certification to verify Pareto candidates"
+    "Build a stochastic multiobjective optimizer for PV penetration vs. total electrical loss under reliability constraints.",
+    "Compare data-only and physics-informed surrogates using decision-relevant screening, then enrich samples near Pareto-critical and constraint-boundary regions.",
+    "Verify screened designs with independent high-fidelity certification on 500 scenarios per candidate."
   ],
-  "evidence_signal": "Held-out errors were nearly identical, but operational validity differed sharply (44.4% vs 93.4%); inference dropped from 286.0 ms to 0.46 ms for a 60-scenario evaluation, and certification verified all 80 screened candidates.",
-  "watch_item": "Results are feeder-specific, since cross-feeder transfer caused overvoltage and a 62.7% loss increase on the 33-bus system, so any deployment needs topology-aware auditing.",
+  "evidence_signal": "Although both surrogates had similar held-out errors, operational validity was 44.4% for the data-only model versus 93.4% for the physics-informed model, and 80 screened candidates were all certified with 46 non-dominated designs identified.",
+  "watch_item": "Results are feeder-specific: a transfer that works on one network can introduce overvoltage and higher losses on another, so independent validation is essential.",
   "hashtags": [
-    "#SolarPV",
-    "#SurrogateModeling",
-    "#StochasticOptimization",
+    "#PVHostingCapacity",
+    "#SurrogateOptimization",
+    "#PhysicsInformedML",
     "#PowerSystems",
-    "#PhysicsInformedAI"
+    "#StochasticOptimization"
   ],
   "paper_id": "2026-09-25-arxiv-decision_gated_surrogate_assisted_stochastic_optimization_with_independent_high_fidelity_c",
   "paper_title": "Decision-Gated Surrogate-Assisted Stochastic Optimization with Independent High-Fidelity Certification for Photovoltaic Hosting-Capacity Planning",
   "paper_date": "2026-09-25",
   "paper_category": "Materials Discovery",
-  "generated_at": "2026-09-28T19:01:19",
+  "generated_at": "2026-09-29T17:22:33",
   "generator": "openai"
 }

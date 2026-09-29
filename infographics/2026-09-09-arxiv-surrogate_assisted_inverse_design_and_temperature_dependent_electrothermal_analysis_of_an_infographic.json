@@ -1,24 +1,24 @@
 {
-  "key_insight": "A narrowband emitter aligning with the bandgap of the underlying solar cell is essential for improving the spectral efficiency and thermal stability of thermophotovoltaic (TPV) systems.",
-  "engineering_relevance": "Potential relevance: device optimization workflows and research evaluation.",
+  "key_insight": "A surrogate-assisted inverse-design workflow can rapidly optimize an all-oxide thermophotovoltaic emitter to achieve a high, narrowband emission peak aligned for efficient TPV operation.",
+  "engineering_relevance": "Using ITO/Al2O3 on sapphire offers a more thermally robust emitter platform than metal-dielectric designs, which is important for high-temperature TPV systems.",
   "method": [
-    "AI solar cells paper selected from recent arXiv submissions.",
-    "Ranked by recency plus AI and solar cells relevance signals.",
-    "Use the linked paper for methods, data, and validation details."
+    "Trained ExtraTrees surrogate models on FDTD-generated spectra from systematically varied thickness and period parameters.",
+    "Used Bayesian optimization with a penalty-augmented objective to enforce E_peak > 0.90 while minimizing FWHM and maximizing in-band emission fraction.",
+    "Validated the optimized geometry with full FDTD simulation."
   ],
-  "evidence_signal": "Evidence details are summarized from the public abstract only.",
-  "watch_item": "Review the full paper for governing assumptions, validation data, and generalization limits.",
+  "evidence_signal": "The abstract reports evaluation via narrowband-emission metrics including E_peak, peak wavelength, FWHM, and in-band fraction, with the optimized structure confirmed by FDTD.",
+  "watch_item": "Performance depends on the quality and coverage of the surrogate training data, so optimization may be less reliable outside the sampled design space.",
   "hashtags": [
-    "#AISolarCells",
-    "#SolarCells",
-    "#Turbulence",
-    "#SolarML",
-    "#arXiv"
+    "#Thermophotovoltaics",
+    "#InverseDesign",
+    "#SurrogateModeling",
+    "#FDTD",
+    "#Nanophotonics"
   ],
   "paper_id": "2026-09-09-arxiv-surrogate_assisted_inverse_design_and_temperature_dependent_electrothermal_analysis_of_an",
   "paper_title": "Surrogate-Assisted Inverse Design and Temperature-Dependent Electrothermal Analysis of an All-Oxide Narrowband Thermophotovoltaic Emitter",
   "paper_date": "2026-09-09",
   "paper_category": "Device Optimization",
-  "generated_at": "2026-09-12T14:43:02",
+  "generated_at": "2026-09-29T17:22:48",
   "generator": "openai"
 }

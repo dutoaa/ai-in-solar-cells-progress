@@ -1,17 +1,17 @@
 {
-  "key_insight": "Combining sky images with time-series in a bidirectional multimodal LLM framework improves solar forecasting, especially when clouds drive rapid irradiance and PV power changes.",
-  "engineering_relevance": "The approach can improve short-term PV and GHI forecasting for dispatch and reserve scheduling, while reducing dependence on large site-specific datasets.",
+  "key_insight": "SolCloudLLM combines sky images with time-series in a bidirectional multimodal LLM framework to improve short-term PV and GHI forecasting, especially when clouds drive rapid irradiance changes.",
+  "engineering_relevance": "Better cloud-aware forecasts can support more reliable PV dispatch, reserve scheduling, and grid operations at sites with limited local training data.",
   "method": [
     "Align sky-image patches with time-series patches.",
-    "Fuse both modalities through bidirectional multimodal fusion into a unified representation.",
-    "Map the fused embedding into an LLM for final forecasting."
+    "Fuse both modalities bidirectionally into a unified representation.",
+    "Map the fused embedding into an LLM for forecasting."
   ],
-  "evidence_signal": "On the SIRTA and SKIPP'D datasets, the method outperformed all baselines across forecasting horizons, with up to 25.4% relative MSE reduction and strong gains under cloudy conditions and few-shot settings.",
-  "watch_item": "Performance gains depend on the availability and quality of synchronized sky imagery, so deployment may be sensitive to sensor placement, calibration, and missing image data.",
+  "evidence_signal": "On the SIRTA and SKIPP'D datasets, the method outperformed the best baselines on MSE across all horizons, with up to 25.4% relative MSE reduction, and showed strongest gains under cloudy conditions and few-shot settings.",
+  "watch_item": "The approach depends on site-specific sky imagery and careful multimodal alignment, which may limit deployment where camera data are sparse, noisy, or unavailable.",
   "hashtags": [
     "#SolarForecasting",
     "#MultimodalAI",
-    "#LLM",
+    "#LargeLanguageModels",
     "#PVPower",
     "#GHI"
   ],
@@ -19,6 +19,6 @@
   "paper_title": "Bidirectional Multimodal Fusion of Sky Images and Time-Series for Solar Forecasting with Large Language Models",
   "paper_date": "2026-09-10",
   "paper_category": "Device Optimization",
-  "generated_at": "2026-09-28T19:01:22",
+  "generated_at": "2026-09-29T17:22:16",
   "generator": "openai"
 }
