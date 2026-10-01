@@ -1,0 +1,24 @@
+{
+  "key_insight": "State Transport Routing (STR) improves short-horizon photovoltaic forecasts by blending a frozen model’s output with two state-based trajectories from the latest measured power and recent trend.",
+  "engineering_relevance": "STR is a lightweight, plug-in adapter that boosts neural PV forecasting accuracy without retraining the base model or changing its longer-horizon predictions.",
+  "method": [
+    "Use the frozen forecast as the base trajectory.",
+    "Add two complementary states: latest measured power and recent trend.",
+    "Apply a horizon-conditioned router over the first 120 min; leave later horizons unchanged."
+  ],
+  "evidence_signal": "Across four public PV datasets, STR outperformed a parameter-matched residual adapter, and on PVDAQ it improved five neural forecasting backbones with paired 95% confidence intervals excluding zero.",
+  "watch_item": "Benefits were not reliable for LightGBM, so STR’s gains may depend on the underlying forecasting architecture.",
+  "hashtags": [
+    "#SolarForecasting",
+    "#Photovoltaics",
+    "#TimeSeries",
+    "#MachineLearning",
+    "#ModelAdaptation"
+  ],
+  "paper_id": "2026-09-29-arxiv-state_transport_routing_for_short_horizon_adaptation_in_multi_horizon_photovoltaic_forecas",
+  "paper_title": "State Transport Routing for Short-horizon Adaptation in Multi-horizon Photovoltaic Forecasting",
+  "paper_date": "2026-09-29",
+  "paper_category": "Device Optimization",
+  "generated_at": "2026-10-01T17:47:34",
+  "generator": "openai"
+}

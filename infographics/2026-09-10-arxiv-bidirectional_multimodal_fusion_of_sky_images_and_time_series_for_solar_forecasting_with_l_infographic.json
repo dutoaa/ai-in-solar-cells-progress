@@ -1,17 +1,17 @@
 {
-  "key_insight": "SolCloudLLM combines sky images with time-series in a bidirectional multimodal LLM framework to improve short-term PV and GHI forecasting, especially when clouds drive rapid irradiance changes.",
-  "engineering_relevance": "Better cloud-aware forecasts can support more reliable PV dispatch, reserve scheduling, and grid operations at sites with limited local training data.",
+  "key_insight": "SolCloudLLM combines sky imagery and time-series data in a bidirectional multimodal fusion framework, enabling better short-term solar forecasting than unimodal LLM or deep learning baselines, especially under cloudy conditions.",
+  "engineering_relevance": "More accurate PV and GHI forecasts can improve dispatch, reserve scheduling, and grid operation decisions at sites where cloud-driven ramps dominate forecast error.",
   "method": [
-    "Align sky-image patches with time-series patches.",
-    "Fuse both modalities bidirectionally into a unified representation.",
-    "Map the fused embedding into an LLM for forecasting."
+    "Align sky-image patches with time-series patches",
+    "Fuse both modalities bidirectionally into a unified representation",
+    "Map the fused embedding into an LLM for forecasting"
   ],
-  "evidence_signal": "On the SIRTA and SKIPP'D datasets, the method outperformed the best baselines on MSE across all horizons, with up to 25.4% relative MSE reduction, and showed strongest gains under cloudy conditions and few-shot settings.",
-  "watch_item": "The approach depends on site-specific sky imagery and careful multimodal alignment, which may limit deployment where camera data are sparse, noisy, or unavailable.",
+  "evidence_signal": "On the SIRTA and SKIPP'D datasets, the method achieved the best MSE across all horizons with up to 25.4% relative reduction, and it performed especially well in few-shot and cloudy-sky settings.",
+  "watch_item": "Performance gains depend on site-specific image and time-series availability, so deployment may be limited where sky cameras are sparse, poorly calibrated, or conditions differ from training.",
   "hashtags": [
     "#SolarForecasting",
     "#MultimodalAI",
-    "#LargeLanguageModels",
+    "#LLM",
     "#PVPower",
     "#GHI"
   ],
@@ -19,6 +19,6 @@
   "paper_title": "Bidirectional Multimodal Fusion of Sky Images and Time-Series for Solar Forecasting with Large Language Models",
   "paper_date": "2026-09-10",
   "paper_category": "Device Optimization",
-  "generated_at": "2026-09-29T17:22:16",
+  "generated_at": "2026-10-01T17:47:18",
   "generator": "openai"
 }
