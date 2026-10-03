@@ -1,6 +1,6 @@
 # AI solar cells Progress Public Resources
 
-Generated: 2026-10-02
+Generated: 2026-10-03
 Public site: https://dutoaa.github.io/ai-in-solar-cells-progress/
 
 ## 1. High-Throughput Imaging of Degradation-Inducing Microscopic Impurities in Perovskite Solar Cells
@@ -51,23 +51,7 @@ Public site: https://dutoaa.github.io/ai-in-solar-cells-progress/
 - PDF: https://arxiv.org/pdf/2610.01371v1
 - Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-10-01-arxiv-na_2_ir_text_iv_cl_6_the_missing_member_of_the_perfectly_cubic_vacancy_ordered_a_2_ircl_6_infographic.json
 
-## 7. Domain-engineered ferroelectric BiFeO$_3$ thin films for efficient bias-free THz emission
-
-- Date: 2026-10-01
-- Category: Materials Discovery
-- arXiv: https://arxiv.org/abs/2610.01357v1
-- PDF: https://arxiv.org/pdf/2610.01357v1
-- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-10-01-arxiv-domain_engineered_ferroelectric_bifeo_3_thin_films_for_efficient_bias_free_thz_emission_infographic.json
-
-## 8. Operando Charge Carrier Dynamics by Intensity-Modulated Photoluminescence: From Perovskite Thin Films to Solar Cells
-
-- Date: 2026-09-30
-- Category: Perovskite Solar Cells
-- arXiv: https://arxiv.org/abs/2609.39073v1
-- PDF: https://arxiv.org/pdf/2609.39073v1
-- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-09-30-arxiv-operando_charge_carrier_dynamics_by_intensity_modulated_photoluminescence_from_perovskite_infographic.json
-
-## 9. Bidirectional Multimodal Fusion of Sky Images and Time-Series for Solar Forecasting with Large Language Models
+## 7. Bidirectional Multimodal Fusion of Sky Images and Time-Series for Solar Forecasting with Large Language Models
 
 - Date: 2026-09-10
 - Category: Device Optimization
@@ -75,15 +59,23 @@ Public site: https://dutoaa.github.io/ai-in-solar-cells-progress/
 - PDF: https://arxiv.org/pdf/2609.11135v1
 - Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-09-10-arxiv-bidirectional_multimodal_fusion_of_sky_images_and_time_series_for_solar_forecasting_with_l_infographic.json
 
-## 10. Why polar excitons stay sharp: parity protection of the center-of-mass recoil channel in exciton-phonon scattering
+## 8. Domain-engineered ferroelectric BiFeO$_3$ thin films for efficient bias-free THz emission
 
 - Date: 2026-10-01
-- Category: Perovskite Solar Cells
-- arXiv: https://arxiv.org/abs/2610.01600v1
-- PDF: https://arxiv.org/pdf/2610.01600v1
-- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-10-01-arxiv-why_polar_excitons_stay_sharp_parity_protection_of_the_center_of_mass_recoil_channel_in_ex_infographic.json
+- Category: Materials Discovery
+- arXiv: https://arxiv.org/abs/2610.01357v1
+- PDF: https://arxiv.org/pdf/2610.01357v1
+- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-10-01-arxiv-domain_engineered_ferroelectric_bifeo_3_thin_films_for_efficient_bias_free_thz_emission_infographic.json
 
-## 11. Material chemical composition impacts on the band alignments: preliminary results on the 3D/2D perovskite interfaces
+## 9. Operando Charge Carrier Dynamics by Intensity-Modulated Photoluminescence: From Perovskite Thin Films to Solar Cells
+
+- Date: 2026-09-30
+- Category: Perovskite Solar Cells
+- arXiv: https://arxiv.org/abs/2609.39073v1
+- PDF: https://arxiv.org/pdf/2609.39073v1
+- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-09-30-arxiv-operando_charge_carrier_dynamics_by_intensity_modulated_photoluminescence_from_perovskite_infographic.json
+
+## 10. Material chemical composition impacts on the band alignments: preliminary results on the 3D/2D perovskite interfaces
 
 - Date: 2026-09-18
 - Category: Perovskite Solar Cells
@@ -91,7 +83,7 @@ Public site: https://dutoaa.github.io/ai-in-solar-cells-progress/
 - PDF: https://arxiv.org/pdf/2609.21654v2
 - Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-09-18-arxiv-material_chemical_composition_impacts_on_the_band_alignments_preliminary_results_on_the_3d_infographic.json
 
-## 12. Strong Impact of Halide Ordering on Structural Phase Transitions in Mixed Perovskites
+## 11. Strong Impact of Halide Ordering on Structural Phase Transitions in Mixed Perovskites
 
 - Date: 2026-09-09
 - Category: Perovskite Solar Cells
@@ -99,7 +91,7 @@ Public site: https://dutoaa.github.io/ai-in-solar-cells-progress/
 - PDF: https://arxiv.org/pdf/2609.09956v1
 - Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-09-09-arxiv-strong_impact_of_halide_ordering_on_structural_phase_transitions_in_mixed_perovskites_infographic.json
 
-## 13. Computational analysis and performance optimization of SrScCu3Se4-based solar cells using COMSOL Multiphysics
+## 12. Computational analysis and performance optimization of SrScCu3Se4-based solar cells using COMSOL Multiphysics
 
 - Date: 2026-09-08
 - Category: Device Optimization
@@ -107,15 +99,7 @@ Public site: https://dutoaa.github.io/ai-in-solar-cells-progress/
 - PDF: https://arxiv.org/pdf/2609.08502v1
 - Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-09-08-arxiv-computational_analysis_and_performance_optimization_of_srsccu3se4_based_solar_cells_using_infographic.json
 
-## 14. Thermal history controls the optoelectronic response of lead halide perovskites through structure and dynamics
-
-- Date: 2026-09-02
-- Category: Perovskite Solar Cells
-- arXiv: https://arxiv.org/abs/2609.03211v1
-- PDF: https://arxiv.org/pdf/2609.03211v1
-- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-09-02-arxiv-thermal_history_controls_the_optoelectronic_response_of_lead_halide_perovskites_through_st_infographic.json
-
-## 15. Disentangling octahedral distortion and symmetry breaking in the ordered double perovskite SrLaCoNbO$_6$
+## 13. Disentangling octahedral distortion and symmetry breaking in the ordered double perovskite SrLaCoNbO$_6$
 
 - Date: 2026-09-29
 - Category: Perovskite Solar Cells
@@ -123,42 +107,58 @@ Public site: https://dutoaa.github.io/ai-in-solar-cells-progress/
 - PDF: https://arxiv.org/pdf/2609.37835v1
 - Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-09-29-arxiv-disentangling_octahedral_distortion_and_symmetry_breaking_in_the_ordered_double_perovskite_infographic.json
 
-## 16. CMDO: A Cognitive Memory-Driven Optimization Algorithm for Adaptive Population-Based Search
-
-- Date: 2026-09-28
-- Category: Device Optimization
-- arXiv: https://arxiv.org/abs/2609.35657v1
-- PDF: https://arxiv.org/pdf/2609.35657v1
-- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-09-28-arxiv-cmdo_a_cognitive_memory_driven_optimization_algorithm_for_adaptive_population_based_search_infographic.json
-
-## 17. Machine learning-assisted design and explainable optimization of CdSnP2-based integrated solar-photodetector devices
-
-- Date: 2026-09-03
-- Category: Device Optimization
-- arXiv: https://arxiv.org/abs/2609.03642v1
-- PDF: https://arxiv.org/pdf/2609.03642v1
-- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-09-03-arxiv-machine_learning_assisted_design_and_explainable_optimization_of_cdsnp2_based_integrated_s_infographic.json
-
-## 18. Solarprop 2.0: Modern charge-sign dependent solar modulation for everyone
+## 14. Why polar excitons stay sharp: parity protection of the center-of-mass recoil channel in exciton-phonon scattering
 
 - Date: 2026-10-01
-- Category: Device Optimization
-- arXiv: https://arxiv.org/abs/2610.01360v1
-- PDF: https://arxiv.org/pdf/2610.01360v1
-- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-10-01-arxiv-solarprop_2_0_modern_charge_sign_dependent_solar_modulation_for_everyone_infographic.json
+- Category: Perovskite Solar Cells
+- arXiv: https://arxiv.org/abs/2610.01600v1
+- PDF: https://arxiv.org/pdf/2610.01600v1
+- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-10-01-arxiv-why_polar_excitons_stay_sharp_parity_protection_of_the_center_of_mass_recoil_channel_in_ex_infographic.json
 
-## 19. State Transport Routing for Short-horizon Adaptation in Multi-horizon Photovoltaic Forecasting
-
-- Date: 2026-09-29
-- Category: Device Optimization
-- arXiv: https://arxiv.org/abs/2609.36926v1
-- PDF: https://arxiv.org/pdf/2609.36926v1
-- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-09-29-arxiv-state_transport_routing_for_short_horizon_adaptation_in_multi_horizon_photovoltaic_forecas_infographic.json
-
-## 20. Hybrid Nanocone-Nanohole Light Trapping for High-Efficiency Thin-Film Silicon Solar Cells
+## 15. Hybrid Nanocone-Nanohole Light Trapping for High-Efficiency Thin-Film Silicon Solar Cells
 
 - Date: 2026-09-13
 - Category: Device Optimization
 - arXiv: https://arxiv.org/abs/2609.14396v1
 - PDF: https://arxiv.org/pdf/2609.14396v1
 - Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-09-13-arxiv-hybrid_nanocone_nanohole_light_trapping_for_high_efficiency_thin_film_silicon_solar_cells_infographic.json
+
+## 16. Room-temperature polariton supersolids
+
+- Date: 2026-09-30
+- Category: Perovskite Solar Cells
+- arXiv: https://arxiv.org/abs/2609.40009v1
+- PDF: https://arxiv.org/pdf/2609.40009v1
+- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-09-30-arxiv-room_temperature_polariton_supersolids_infographic.json
+
+## 17. Perspective: The HSE Screened Hybrid and the Band Gap Problem: Origins, Impact, and the Contenders
+
+- Date: 2026-09-19
+- Category: Materials Discovery
+- arXiv: https://arxiv.org/abs/2609.23225v1
+- PDF: https://arxiv.org/pdf/2609.23225v1
+- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-09-19-arxiv-perspective_the_hse_screened_hybrid_and_the_band_gap_problem_origins_impact_and_the_conten_infographic.json
+
+## 18. Energy Harvesting for Self-Powered Microsystems: A Critical Review of Materials, Power Management, and System Integration
+
+- Date: 2026-09-17
+- Category: Device Optimization
+- arXiv: https://arxiv.org/abs/2609.20157v1
+- PDF: https://arxiv.org/pdf/2609.20157v1
+- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-09-17-arxiv-energy_harvesting_for_self_powered_microsystems_a_critical_review_of_materials_power_manag_infographic.json
+
+## 19. Overcoming Transport Layer Bottlenecks to Quantify Ionic Parameters from Transient Ion Current Measurements of Perovskite Solar Cells
+
+- Date: 2026-09-09
+- Category: Device Optimization
+- arXiv: https://arxiv.org/abs/2609.10438v1
+- PDF: https://arxiv.org/pdf/2609.10438v1
+- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-09-09-arxiv-overcoming_transport_layer_bottlenecks_to_quantify_ionic_parameters_from_transient_ion_cur_infographic.json
+
+## 20. Surrogate-Assisted Inverse Design and Temperature-Dependent Electrothermal Analysis of an All-Oxide Narrowband Thermophotovoltaic Emitter
+
+- Date: 2026-09-09
+- Category: Device Optimization
+- arXiv: https://arxiv.org/abs/2609.10252v2
+- PDF: https://arxiv.org/pdf/2609.10252v2
+- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-09-09-arxiv-surrogate_assisted_inverse_design_and_temperature_dependent_electrothermal_analysis_of_an_infographic.json

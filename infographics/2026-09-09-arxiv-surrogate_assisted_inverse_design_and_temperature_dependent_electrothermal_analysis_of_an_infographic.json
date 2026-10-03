@@ -1,24 +1,24 @@
 {
-  "key_insight": "A surrogate-assisted inverse-design workflow can rapidly optimize an all-oxide thermophotovoltaic emitter to achieve a high, narrowband emission peak aligned for efficient TPV operation.",
-  "engineering_relevance": "Using ITO/Al2O3 on sapphire offers a more thermally robust emitter platform than metal-dielectric designs, which is important for high-temperature TPV systems.",
+  "key_insight": "A surrogate-assisted inverse-design workflow can efficiently tune an all-oxide grating emitter to achieve high, narrowband thermal emission matched to TPV cell needs.",
+  "engineering_relevance": "This offers a more temperature-stable alternative to metal-based emitters for thermophotovoltaic systems, with direct relevance to high-temperature spectral control.",
   "method": [
-    "Trained ExtraTrees surrogate models on FDTD-generated spectra from systematically varied thickness and period parameters.",
-    "Used Bayesian optimization with a penalty-augmented objective to enforce E_peak > 0.90 while minimizing FWHM and maximizing in-band emission fraction.",
-    "Validated the optimized geometry with full FDTD simulation."
+    "Train ExtraTrees surrogate models on FDTD-generated spectra from varied ITO/Al2O3 thicknesses and grating periods",
+    "Run Bayesian optimization on a penalty-augmented objective enforcing E_peak > 0.90 while minimizing FWHM and maximizing in-band emission fraction",
+    "Validate the optimized design with full FDTD simulations"
   ],
-  "evidence_signal": "The abstract reports evaluation via narrowband-emission metrics including E_peak, peak wavelength, FWHM, and in-band fraction, with the optimized structure confirmed by FDTD.",
-  "watch_item": "Performance depends on the quality and coverage of the surrogate training data, so optimization may be less reliable outside the sampled design space.",
+  "evidence_signal": "The abstract reports optimization against a multi-metric FOM including peak emissivity, peak wavelength, FWHM, and in-band fraction, with final predictions confirmed by FDTD.",
+  "watch_item": "Surrogate predictions may be sensitive to the quality and coverage of the FDTD training set, so out-of-distribution geometries could reduce reliability.",
   "hashtags": [
     "#Thermophotovoltaics",
     "#InverseDesign",
     "#SurrogateModeling",
     "#FDTD",
-    "#Nanophotonics"
+    "#OxideEmitters"
   ],
   "paper_id": "2026-09-09-arxiv-surrogate_assisted_inverse_design_and_temperature_dependent_electrothermal_analysis_of_an",
   "paper_title": "Surrogate-Assisted Inverse Design and Temperature-Dependent Electrothermal Analysis of an All-Oxide Narrowband Thermophotovoltaic Emitter",
   "paper_date": "2026-09-09",
   "paper_category": "Device Optimization",
-  "generated_at": "2026-09-29T17:22:48",
+  "generated_at": "2026-10-03T15:30:01",
   "generator": "openai"
 }

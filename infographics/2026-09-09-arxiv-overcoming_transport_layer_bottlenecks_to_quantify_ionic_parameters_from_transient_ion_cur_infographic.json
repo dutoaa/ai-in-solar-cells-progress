@@ -1,13 +1,13 @@
 {
-  "key_insight": "Transient ion current (TIC/BACE) in perovskite solar cells is often limited by transport-layer capacitance, not the perovskite’s true ionic properties.",
-  "engineering_relevance": "Accurate ion-density and mobility extraction requires accounting for transport-layer thickness, doping, and interface charge storage to avoid large overestimates.",
+  "key_insight": "Transient ion current (TIC/BACE) in perovskite solar cells is often limited by transport-layer capacitance rather than by the perovskite’s true ionic density.",
+  "engineering_relevance": "Accurate ion quantification requires accounting for transport-layer properties, otherwise TIC can overestimate ionic parameters by orders of magnitude.",
   "method": [
-    "Varied C60 electron-transport-layer thickness in p-i-n devices and Spiro-OMeTAD hole-transport-layer doping in n-i-p devices.",
-    "Used drift-diffusion simulations to identify the capacitive bottleneck and the saturation limit for measurable ion charge.",
-    "Tested correction/extrapolation approaches based on average ionic displacement and transport-layer-thickness trends."
+    "Varied C60 electron-transport-layer thickness in p-i-n devices.",
+    "Varied Spiro-OMeTAD hole-transport-layer doping in n-i-p devices.",
+    "Used drift-diffusion simulations and TL-thickness extrapolation to infer absorber ionic properties."
   ],
-  "evidence_signal": "Experiments across two device architectures confirmed that TIC depends strongly on transport-layer properties and that extrapolating toward a transport-layer-free limit recovers more realistic ionic parameters.",
-  "watch_item": "TIC can be inflated by transport-layer capacitance, ion penetration, or slow release of trapped carriers, so interpretation must be corrected with care.",
+  "evidence_signal": "Experiments across two device architectures confirmed that the TIC signal scales strongly with transport-layer properties and that extrapolating toward a transport-layer-free limit recovers intrinsic ionic conductivity.",
+  "watch_item": "TIC-based ion density can be inflated by transport-layer capacitance and possibly by trapped-carrier release, so raw measurements should not be interpreted as absorber ion density without correction.",
   "hashtags": [
     "#PerovskiteSolarCells",
     "#IonTransport",
@@ -19,6 +19,6 @@
   "paper_title": "Overcoming Transport Layer Bottlenecks to Quantify Ionic Parameters from Transient Ion Current Measurements of Perovskite Solar Cells",
   "paper_date": "2026-09-09",
   "paper_category": "Device Optimization",
-  "generated_at": "2026-09-29T17:22:46",
+  "generated_at": "2026-10-03T15:29:59",
   "generator": "openai"
 }
