@@ -1,24 +1,24 @@
 {
-  "key_insight": "A surrogate-assisted Bayesian inverse-design workflow can efficiently tune an all-oxide TPV emitter to achieve a high, narrowband peak emission aligned with the target bandgap.",
-  "engineering_relevance": "Using ITO/Al2O3 on sapphire avoids many high-temperature degradation issues of metal-based emitters while improving spectral selectivity and thermal robustness for thermophotovoltaic systems.",
+  "key_insight": "A surrogate-assisted inverse-design workflow can efficiently tune an all-oxide 1D grating emitter to produce a high, narrowband thermal emission peak aligned for thermophotovoltaic use.",
+  "engineering_relevance": "Using oxide-only layers on sapphire improves high-temperature robustness versus metal-dielectric emitters while targeting better spectral matching to the TPV cell bandgap.",
   "method": [
-    "Generated FDTD emission spectra by varying layer thicknesses and grating period.",
-    "Trained ExtraTrees surrogate models on spectral/FOM data.",
-    "Ran Bayesian optimization with a penalty on peak emission, then validated the best design with FDTD."
+    "Train ExtraTrees surrogate models on FDTD-generated spectra from varied layer thicknesses and grating period.",
+    "Use Bayesian optimization on a penalty-augmented objective that enforces high peak emissivity while minimizing FWHM and maximizing in-band fraction.",
+    "Validate the optimized design with direct FDTD simulation."
   ],
-  "evidence_signal": "The abstract reports optimization over a peak-emission constraint (E_peak > 0.90) while minimizing FWHM and maximizing in-band fraction, followed by FDTD validation of the predicted optimal structure.",
-  "watch_item": "Performance is tied to surrogate accuracy and the final design space explored, so fabrication tolerances and temperature-dependent material-property shifts may reduce real-device agreement.",
+  "evidence_signal": "The abstract reports a prediction target set including peak emissivity, peak wavelength, FWHM, and in-band fraction, with the optimized structure subsequently confirmed by FDTD.",
+  "watch_item": "Performance depends on the surrogate's training coverage, so the optimization may miss designs outside the sampled thickness/period space or require careful fabrication tolerance control.",
   "hashtags": [
     "#Thermophotovoltaics",
     "#InverseDesign",
     "#SurrogateModeling",
-    "#Optimization",
-    "#OxideEmitters"
+    "#NarrowbandEmitter",
+    "#Electrothermal"
   ],
   "paper_id": "2026-09-09-arxiv-surrogate_assisted_inverse_design_and_temperature_dependent_electrothermal_analysis_of_an",
   "paper_title": "Surrogate-Assisted Inverse Design and Temperature-Dependent Electrothermal Analysis of an All-Oxide Narrowband Thermophotovoltaic Emitter",
   "paper_date": "2026-09-09",
   "paper_category": "Device Optimization",
-  "generated_at": "2026-10-06T17:40:40",
+  "generated_at": "2026-10-07T18:12:49",
   "generator": "openai"
 }

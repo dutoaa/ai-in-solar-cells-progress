@@ -1,24 +1,24 @@
 {
-  "key_insight": "SolCloudLLM combines sky images and historical time-series with bidirectional multimodal fusion to improve short-term solar forecasting, especially when clouds cause rapid irradiance and PV ramps.",
-  "engineering_relevance": "Better cloud-aware forecasting can improve PV dispatch, reserve scheduling, and grid operations while reducing reliance on large site-specific datasets.",
+  "key_insight": "SolCloudLLM fuses sky images and time-series in both directions to help an LLM better anticipate cloud-driven PV and GHI fluctuations.",
+  "engineering_relevance": "The method targets more reliable short-term solar forecasting for grid dispatch and reserve planning, especially when local site data are limited.",
   "method": [
-    "Align sky-image patches with time-series patches.",
-    "Fuse both modalities bidirectionally into a unified representation.",
-    "Map the fused embedding into an LLM for forecasting."
+    "Aligns sky-image patches with time-series patches",
+    "Fuses modality representations bidirectionally into a unified embedding",
+    "Maps the fused representation into an LLM for forecasting"
   ],
-  "evidence_signal": "On the SIRTA and SKIPP'D datasets, the method outperformed baselines across all horizons, with up to 25.4% relative MSE reduction and strong few-shot performance.",
-  "watch_item": "Performance gains appear concentrated in cloudy conditions, so deployment should verify camera quality, site calibration, and robustness when imagery is missing or degraded.",
+  "evidence_signal": "Experiments on SIRTA and SKIPP'D show consistent MSE gains across all horizons, with up to 25.4% relative MSE reduction and strongest benefits under cloudy conditions.",
+  "watch_item": "Performance likely depends on access to quality site-specific sky imagery, so deployment may be constrained at locations without reliable camera data.",
   "hashtags": [
     "#SolarForecasting",
     "#MultimodalAI",
     "#LLM",
     "#PVPower",
-    "#CloudRamps"
+    "#GHI"
   ],
   "paper_id": "2026-09-10-arxiv-bidirectional_multimodal_fusion_of_sky_images_and_time_series_for_solar_forecasting_with_l",
   "paper_title": "Bidirectional Multimodal Fusion of Sky Images and Time-Series for Solar Forecasting with Large Language Models",
   "paper_date": "2026-09-10",
   "paper_category": "Device Optimization",
-  "generated_at": "2026-10-06T17:40:08",
+  "generated_at": "2026-10-07T18:12:23",
   "generator": "openai"
 }

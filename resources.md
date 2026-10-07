@@ -1,17 +1,9 @@
 # AI solar cells Progress Public Resources
 
-Generated: 2026-10-06
+Generated: 2026-10-07
 Public site: https://dutoaa.github.io/ai-in-solar-cells-progress/
 
-## 1. Wavelength-Dependent Photoluminescence Mapping of Depth-Dependent Degradation Under Thermal Stress in Phenethylammonium Tetrafluoroborate Treated Perovskite Solar Cells
-
-- Date: 2026-10-03
-- Category: Degradation and Stability
-- arXiv: https://arxiv.org/abs/2610.04714v1
-- PDF: https://arxiv.org/pdf/2610.04714v1
-- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-10-03-arxiv-wavelength_dependent_photoluminescence_mapping_of_depth_dependent_degradation_under_therma_infographic.json
-
-## 2. High-Throughput Imaging of Degradation-Inducing Microscopic Impurities in Perovskite Solar Cells
+## 1. High-Throughput Imaging of Degradation-Inducing Microscopic Impurities in Perovskite Solar Cells
 
 - Date: 2026-09-28
 - Category: Degradation and Stability
@@ -19,13 +11,21 @@ Public site: https://dutoaa.github.io/ai-in-solar-cells-progress/
 - PDF: https://arxiv.org/pdf/2609.35510v1
 - Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-09-28-arxiv-high_throughput_imaging_of_degradation_inducing_microscopic_impurities_in_perovskite_solar_infographic.json
 
-## 3. Device Engineering and Performance Optimization of Cu2NiGeS4 Thin-Film Solar Cells with In2S3/MoTe2 Charge-Selective Layers: A Computational Study
+## 2. Device Engineering and Performance Optimization of Cu2NiGeS4 Thin-Film Solar Cells with In2S3/MoTe2 Charge-Selective Layers: A Computational Study
 
 - Date: 2026-09-10
 - Category: Device Optimization
 - arXiv: https://arxiv.org/abs/2609.11755v1
 - PDF: https://arxiv.org/pdf/2609.11755v1
 - Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-09-10-arxiv-device_engineering_and_performance_optimization_of_cu2niges4_thin_film_solar_cells_with_in_infographic.json
+
+## 3. Wavelength-Dependent Photoluminescence Mapping of Depth-Dependent Degradation Under Thermal Stress in Phenethylammonium Tetrafluoroborate Treated Perovskite Solar Cells
+
+- Date: 2026-10-03
+- Category: Degradation and Stability
+- arXiv: https://arxiv.org/abs/2610.04714v1
+- PDF: https://arxiv.org/pdf/2610.04714v1
+- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-10-03-arxiv-wavelength_dependent_photoluminescence_mapping_of_depth_dependent_degradation_under_therma_infographic.json
 
 ## 4. Divergent Solid-state Conversion Pathways in Evaporated All-perovskite Tandem Solar Cells
 
@@ -35,7 +35,15 @@ Public site: https://dutoaa.github.io/ai-in-solar-cells-progress/
 - PDF: https://arxiv.org/pdf/2609.20326v1
 - Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-09-17-arxiv-divergent_solid_state_conversion_pathways_in_evaporated_all_perovskite_tandem_solar_cells_infographic.json
 
-## 5. Computing at the Edge Enabled by Indoor Photovoltaics and Ferroelectrics
+## 5. Effect of Source-to-Substrate Distance on the Optical and Electrical Properties of Thermally Deposited CdTe, CdSe and Sb$_2$S$_3$ Thin Films
+
+- Date: 2026-10-05
+- Category: Materials Discovery
+- arXiv: https://arxiv.org/abs/2610.07222v1
+- PDF: https://arxiv.org/pdf/2610.07222v1
+- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-10-05-arxiv-effect_of_source_to_substrate_distance_on_the_optical_and_electrical_properties_of_thermal_infographic.json
+
+## 6. Computing at the Edge Enabled by Indoor Photovoltaics and Ferroelectrics
 
 - Date: 2026-10-04
 - Category: AI solar cells
@@ -43,7 +51,7 @@ Public site: https://dutoaa.github.io/ai-in-solar-cells-progress/
 - PDF: https://arxiv.org/pdf/2610.05133v1
 - Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-10-04-arxiv-computing_at_the_edge_enabled_by_indoor_photovoltaics_and_ferroelectrics_infographic.json
 
-## 6. Terahertz nanoscopy of quantum-geometric photovoltaics in bilayer graphene
+## 7. Terahertz nanoscopy of quantum-geometric photovoltaics in bilayer graphene
 
 - Date: 2026-10-04
 - Category: Device Optimization
@@ -51,7 +59,7 @@ Public site: https://dutoaa.github.io/ai-in-solar-cells-progress/
 - PDF: https://arxiv.org/pdf/2610.05620v1
 - Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-10-04-arxiv-terahertz_nanoscopy_of_quantum_geometric_photovoltaics_in_bilayer_graphene_infographic.json
 
-## 7. Price-Optimized EV and Heat-Pump Scheduling Can Exceed Uncoordinated Feeder Peaks
+## 8. Price-Optimized EV and Heat-Pump Scheduling Can Exceed Uncoordinated Feeder Peaks
 
 - Date: 2026-10-05
 - Category: Device Optimization
@@ -59,21 +67,13 @@ Public site: https://dutoaa.github.io/ai-in-solar-cells-progress/
 - PDF: https://arxiv.org/pdf/2610.05916v1
 - Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-10-05-arxiv-price_optimized_ev_and_heat_pump_scheduling_can_exceed_uncoordinated_feeder_peaks_infographic.json
 
-## 8. Bidirectional Multimodal Fusion of Sky Images and Time-Series for Solar Forecasting with Large Language Models
+## 9. Bidirectional Multimodal Fusion of Sky Images and Time-Series for Solar Forecasting with Large Language Models
 
 - Date: 2026-09-10
 - Category: Device Optimization
 - arXiv: https://arxiv.org/abs/2609.11135v1
 - PDF: https://arxiv.org/pdf/2609.11135v1
 - Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-09-10-arxiv-bidirectional_multimodal_fusion_of_sky_images_and_time_series_for_solar_forecasting_with_l_infographic.json
-
-## 9. Strain tunability of electron and hole g-factors in CsPb$X_3$: bulk and nanocrystals
-
-- Date: 2026-10-05
-- Category: Perovskite Solar Cells
-- arXiv: https://arxiv.org/abs/2610.06696v1
-- PDF: https://arxiv.org/pdf/2610.06696v1
-- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-10-05-arxiv-strain_tunability_of_electron_and_hole_g_factors_in_cspb_x_3_bulk_and_nanocrystals_infographic.json
 
 ## 10. Material chemical composition impacts on the band alignments: preliminary results on the 3D/2D perovskite interfaces
 
@@ -99,29 +99,29 @@ Public site: https://dutoaa.github.io/ai-in-solar-cells-progress/
 - PDF: https://arxiv.org/pdf/2609.08502v1
 - Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-09-08-arxiv-computational_analysis_and_performance_optimization_of_srsccu3se4_based_solar_cells_using_infographic.json
 
-## 13. Efficient Light Trapping Strategy in Solar Cells via Vertically Disordered Perovskite Nanowires
+## 13. Strain tunability of electron and hole g-factors in CsPb$X_3$: bulk and nanocrystals
 
-- Date: 2026-10-03
+- Date: 2026-10-05
 - Category: Perovskite Solar Cells
-- arXiv: https://arxiv.org/abs/2610.04717v1
-- PDF: https://arxiv.org/pdf/2610.04717v1
-- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-10-03-arxiv-efficient_light_trapping_strategy_in_solar_cells_via_vertically_disordered_perovskite_nano_infographic.json
+- arXiv: https://arxiv.org/abs/2610.06696v1
+- PDF: https://arxiv.org/pdf/2610.06696v1
+- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-10-05-arxiv-strain_tunability_of_electron_and_hole_g_factors_in_cspb_x_3_bulk_and_nanocrystals_infographic.json
 
-## 14. Controlling Switching Evolution in Lead-Free Perovskite-Inspired Chalcogenide Memristors for Neuromorphic Computing
-
-- Date: 2026-09-30
-- Category: Perovskite Solar Cells
-- arXiv: https://arxiv.org/abs/2609.40300v1
-- PDF: https://arxiv.org/pdf/2609.40300v1
-- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-09-30-arxiv-controlling_switching_evolution_in_lead_free_perovskite_inspired_chalcogenide_memristors_f_infographic.json
-
-## 15. Hybrid Nanocone-Nanohole Light Trapping for High-Efficiency Thin-Film Silicon Solar Cells
+## 14. Hybrid Nanocone-Nanohole Light Trapping for High-Efficiency Thin-Film Silicon Solar Cells
 
 - Date: 2026-09-13
 - Category: Device Optimization
 - arXiv: https://arxiv.org/abs/2609.14396v1
 - PDF: https://arxiv.org/pdf/2609.14396v1
 - Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-09-13-arxiv-hybrid_nanocone_nanohole_light_trapping_for_high_efficiency_thin_film_silicon_solar_cells_infographic.json
+
+## 15. Efficient Light Trapping Strategy in Solar Cells via Vertically Disordered Perovskite Nanowires
+
+- Date: 2026-10-03
+- Category: Perovskite Solar Cells
+- arXiv: https://arxiv.org/abs/2610.04717v1
+- PDF: https://arxiv.org/pdf/2610.04717v1
+- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-10-03-arxiv-efficient_light_trapping_strategy_in_solar_cells_via_vertically_disordered_perovskite_nano_infographic.json
 
 ## 16. Perspective: The HSE Screened Hybrid and the Band Gap Problem: Origins, Impact, and the Contenders
 
