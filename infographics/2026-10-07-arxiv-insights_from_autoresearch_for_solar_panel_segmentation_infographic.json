@@ -1,0 +1,24 @@
+{
+  "key_insight": "AutoResearch can improve a fixed solar-panel segmentation pipeline by letting a coding model iteratively edit training code under a strict compute budget, yielding small but measurable gains in IoU.",
+  "engineering_relevance": "For photovoltaic inspection workflows, this suggests low-cost automated tuning can outperform a hand-set training schedule without changing the core model architecture.",
+  "method": [
+    "Freeze DeepLabV3-ResNet-50 and optimize only the training program",
+    "Run one-hour GPU AutoResearch campaigns with a coding LLM (Gemma 4 12B or Qwen3-8B)",
+    "Keep a code change only when validation IoU improves"
+  ],
+  "evidence_signal": "Across three campaigns of 24 experiments, all models beat their one-hour baselines, and the best Qwen3-8B setup reached test IoU 0.836 on a frozen real-image split versus 0.833 for the reference GAN-augmented schedule.",
+  "watch_item": "The retained modifications did not transfer across hardware, so deployment may require revalidation and hardware-specific tuning.",
+  "hashtags": [
+    "#SolarSegmentation",
+    "#AutoML",
+    "#ComputerVision",
+    "#Photovoltaics",
+    "#DeepLearning"
+  ],
+  "paper_id": "2026-10-07-arxiv-insights_from_autoresearch_for_solar_panel_segmentation",
+  "paper_title": "Insights from Autoresearch for Solar Panel Segmentation",
+  "paper_date": "2026-10-07",
+  "paper_category": "AI solar cells",
+  "generated_at": "2026-10-08T18:14:42",
+  "generator": "openai"
+}
