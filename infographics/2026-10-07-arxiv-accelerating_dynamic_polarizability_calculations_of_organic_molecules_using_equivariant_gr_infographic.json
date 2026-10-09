@@ -1,24 +1,24 @@
 {
-  "key_insight": "An equivariant graph neural network can predict frequency-dependent, complex dynamic polarizability tensors of organic molecules from molecular structure, capturing both dispersive and absorptive optical behavior.",
-  "engineering_relevance": "This enables much faster screening and device-level optical modeling for organic photovoltaic materials, reducing reliance on expensive TD-DFT calculations.",
+  "key_insight": "An equivariant graph neural network can predict frequency-dependent dynamic polarizability tensors of organic molecules from molecular structure, capturing both dispersive and absorptive optical behavior.",
+  "engineering_relevance": "This enables much faster screening of photoactive organic molecules for optoelectronic and organic photovoltaic device design, reducing reliance on expensive TD-DFT calculations.",
   "method": [
-    "Use 3D molecular geometry and UV-vis spectra as inputs.",
-    "Train an equivariant GNN to predict dynamic polarizability tensors across frequency.",
-    "Validate predictions with spectral metrics and downstream optical simulation."
+    "Equivariant GNN maps 3D molecular geometry and UV-vis information to complex-valued, frequency-dependent polarizability tensors.",
+    "Model learns tensor shape and magnitude across optical frequencies, including real and imaginary components.",
+    "Predictions are fed into device-level optical simulations to estimate charge-carrier generation rates."
   ],
-  "evidence_signal": "The model reproduced key tensor features on QM9 and Harvard organic photovoltaic datasets and achieved strong agreement in device simulations, with charge-carrier generation rates matching TD-DFT-based results at R2 = 0.94.",
-  "watch_item": "Performance may depend on the availability and quality of training data and on how well the model transfers to molecules outside the evaluated chemical space.",
+  "evidence_signal": "The model reproduces dynamic polarizability features on QM9 and Harvard OPV datasets, and downstream optical simulations match TD-DFT-based charge generation with R² = 0.94.",
+  "watch_item": "Performance depends on the quality and coverage of training data, so unusual chemistries or excitation regimes may still require TD-DFT validation.",
   "hashtags": [
     "#OrganicPhotovoltaics",
     "#GraphNeuralNetworks",
     "#MolecularModeling",
-    "#Optoelectronics",
-    "#TDDFT"
+    "#OpticalSimulation",
+    "#AIforScience"
   ],
   "paper_id": "2026-10-07-arxiv-accelerating_dynamic_polarizability_calculations_of_organic_molecules_using_equivariant_gr",
   "paper_title": "Accelerating dynamic polarizability calculations of organic molecules using equivariant graph neural networks",
   "paper_date": "2026-10-07",
   "paper_category": "Organic Photovoltaics",
-  "generated_at": "2026-10-08T18:14:10",
+  "generated_at": "2026-10-09T17:47:15",
   "generator": "openai"
 }
