@@ -1,24 +1,24 @@
 {
-  "key_insight": "AtomWorld-Mirror replaces slow atom-by-atom replay with macro-step transitions that predict both structural changes and elapsed physical time, enabling much faster long-horizon materials evolution modeling.",
-  "engineering_relevance": "This could accelerate atomic-scale simulation workflows for materials design and reliability studies by making long-term evolution tractable without fully simulating every micro-event.",
+  "key_insight": "AtomWorld-Mirror replaces slow event-by-event atomistic simulation with a time-aware macro-step world model that predicts key structural transitions and elapsed physical time in one step.",
+  "engineering_relevance": "This could dramatically accelerate long-horizon materials-dynamics studies, helping engineers explore diffusion, defects, interfacial reactions, and fracture much faster while preserving physically valid evolution.",
   "method": [
-    "Distills short micro-event segments into reachable macro transitions between key atomic states",
-    "Jointly predicts sparse structural edits and accumulated physical time in latent dynamics",
-    "Uses physical constraints for local reachability, inventory conservation, and continuous-time consistency"
+    "Distills short micro-event segments into latent macro-step transitions between key states",
+    "Jointly predicts sparse structural edits and accumulated physical time",
+    "Enforces local reachability, inventory conservation, and continuous-time consistency"
   ],
-  "evidence_signal": "The abstract reports evaluation across five atomic systems, including irradiation aging, metallic glass, and solid electrolyte cases, with 10^3 to 10^4× speedups over event-by-event simulation.",
-  "watch_item": "Macro-step predictions may depend on the quality of key-state selection and constraint enforcement, so failures could occur if rare local events are not well captured.",
+  "evidence_signal": "The abstract reports evaluation across five atomic systems, including Cu-rich RPV steel, Cu-Zr metallic glass, and Li3N-based anti-perovskite electrolyte, with 10^3 to 10^4× speedups over event-by-event simulation.",
+  "watch_item": "The approach depends on learning a reusable latent macro-model, so accuracy and generalization may be sensitive to the training data coverage and the physical constraints enforced.",
   "hashtags": [
     "#MaterialsSimulation",
-    "#AtomisticModeling",
-    "#WorldModels",
-    "#ScientificAI",
-    "#ComputationalMaterials"
+    "#WorldModeling",
+    "#Atomistics",
+    "#AcceleratedDynamics",
+    "#ComputationalScience"
   ],
   "paper_id": "2026-10-08-arxiv-atomworld_mirror_macro_step_world_modeling_of_critical_evolution_backbones_for_materials_d",
   "paper_title": "AtomWorld-Mirror: Macro-Step World Modeling of Critical Evolution Backbones for Materials Dynamics",
   "paper_date": "2026-10-08",
   "paper_category": "Perovskite Solar Cells",
-  "generated_at": "2026-10-09T17:47:30",
+  "generated_at": "2026-10-10T16:41:19",
   "generator": "openai"
 }
