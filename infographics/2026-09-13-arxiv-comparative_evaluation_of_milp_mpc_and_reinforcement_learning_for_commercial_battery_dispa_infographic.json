@@ -1,24 +1,24 @@
 {
-  "key_insight": "For commercial PV-plus-battery dispatch under TOU tariffs, a simple persistence-based MPC nearly matches the best achievable cost savings, while the tested RL agent fails to beat no-storage.",
-  "engineering_relevance": "This suggests deployable, low-complexity model-based control can deliver most of the economic value of battery storage without requiring perfect foresight or heavy online optimization.",
+  "key_insight": "For commercial PV-plus-battery dispatch under TOU tariffs, a simple persistence-based MPC nearly matches the best possible annual savings, while the tested SAC reinforcement learning agent fails to beat the no-storage baseline.",
+  "engineering_relevance": "For deployable energy management systems, this suggests that low-complexity, forecast-light control can deliver most of the economic value without the training and tuning burden of deep RL.",
   "method": [
-    "MILP with perfect foresight used as an oracle upper-bound benchmark",
-    "MPC using a day-ahead persistence forecast and prior-day data",
-    "Soft actor-critic RL trained under causal information constraints"
+    "MILP with perfect foresight used as an oracle benchmark",
+    "MPC with day-ahead persistence forecast as a practical controller",
+    "SAC reinforcement learning trained under causal information constraints"
   ],
-  "evidence_signal": "On a full-year 2023 real-world commercial PV dataset, MILP achieved a 24.6% annual cost reduction, and persistence-based MPC recovered 99.2% of that benchmark.",
-  "watch_item": "The RL result is configuration- and observability-sensitive, so performance may improve with different reward design, state inputs, or training setup.",
+  "evidence_signal": "A full-year 2023 evaluation on real commercial PV data found MILP achieved 24.6% annual cost reduction, and MPC recovered 99.2% of that benchmark.",
+  "watch_item": "The RL result appears sensitive to observability, reward design, and the limited information available in realistic deployment settings.",
   "hashtags": [
     "#BatteryDispatch",
-    "#MPC",
-    "#MILP",
-    "#ReinforcementLearning",
-    "#SolarStorage"
+    "#TimeOfUseTariffs",
+    "#ModelPredictiveControl",
+    "#MixedIntegerProgramming",
+    "#ReinforcementLearning"
   ],
   "paper_id": "2026-09-13-arxiv-comparative_evaluation_of_milp_mpc_and_reinforcement_learning_for_commercial_battery_dispa",
   "paper_title": "Comparative Evaluation of MILP, MPC, and Reinforcement Learning for Commercial Battery Dispatch Under Time-of-Use Tariffs",
   "paper_date": "2026-09-13",
   "paper_category": "AI solar cells",
-  "generated_at": "2026-10-11T17:07:38",
+  "generated_at": "2026-10-12T20:40:19",
   "generator": "openai"
 }

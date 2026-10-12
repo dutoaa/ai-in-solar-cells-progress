@@ -1,24 +1,24 @@
 {
-  "key_insight": "An equivariant graph neural network can predict complex, frequency-dependent dynamic polarizability tensors of organic molecules quickly enough to replace expensive TD-DFT in screening workflows.",
-  "engineering_relevance": "This enables faster molecular optical-property prediction for organic photovoltaic design and device-level simulations, supporting high-throughput materials discovery.",
+  "key_insight": "An equivariant graph neural network can predict frequency-dependent dynamic polarizability tensors for organic molecules directly from structure, capturing both dispersive and absorptive optical behavior.",
+  "engineering_relevance": "This enables much faster molecular screening and device-level optical simulation for organic photovoltaics, reducing reliance on expensive TD-DFT calculations.",
   "method": [
-    "Input 3D molecular geometry and UV-vis spectral information to an equivariant GNN.",
-    "Predict the full complex-valued dynamic polarizability tensor across frequencies.",
-    "Validate predictions on QM9 and Harvard organic photovoltaic molecules, then use them in downstream optical device simulations."
+    "Equivariant GNN ingests 3D molecular geometry and UV-vis spectra.",
+    "Predicts complex-valued, frequency-dependent polarizability tensors.",
+    "Outputs are used in downstream optical simulations for PV device performance."
   ],
-  "evidence_signal": "The model reproduces main spectral features on both datasets and achieves strong agreement in device-level charge carrier generation rates with TD-DFT-based simulations ($R^2 = 0.94$).",
-  "watch_item": "Performance depends on training data coverage and accurate molecular representations, so generalization to out-of-domain chemistries or simulation conditions should be checked carefully.",
+  "evidence_signal": "The model reproduces dynamic polarizability features on QM9 and Harvard OPV datasets and achieves charge-carrier generation rates in device simulations with $R^2 = 0.94$ versus TD-DFT-based results.",
+  "watch_item": "Performance may depend on training data coverage and careful validation when transferring to new chemistries or spectral regimes.",
   "hashtags": [
     "#OrganicPhotovoltaics",
     "#GraphNeuralNetworks",
-    "#TDDFT",
-    "#MolecularSimulation",
+    "#EquivariantML",
+    "#OpticalSimulation",
     "#MaterialsInformatics"
   ],
   "paper_id": "2026-10-07-arxiv-accelerating_dynamic_polarizability_calculations_of_organic_molecules_using_equivariant_gr",
   "paper_title": "Accelerating dynamic polarizability calculations of organic molecules using equivariant graph neural networks",
   "paper_date": "2026-10-07",
   "paper_category": "Organic Photovoltaics",
-  "generated_at": "2026-10-11T17:07:11",
+  "generated_at": "2026-10-12T20:39:59",
   "generator": "openai"
 }
