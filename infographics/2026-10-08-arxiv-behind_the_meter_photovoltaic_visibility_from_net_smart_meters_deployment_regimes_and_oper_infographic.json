@@ -1,24 +1,24 @@
 {
-  "key_insight": "PV disaggregation from net smart meters works best when the model is evaluated in the same deployment regime it was trained for, because customer transfer and temporal extrapolation affect accuracy more than architecture choice.",
-  "engineering_relevance": "Distribution operators can use regime-matched error budgets, choose context windows by use case, and fine-tune with a small number of target households to improve behind-the-meter PV visibility in new regions.",
+  "key_insight": "The main driver of PV disaggregation performance is the deployment regime—who the model sees and when—not just the architecture itself.",
+  "engineering_relevance": "Distribution operators should match error budgets, context length, and adaptation strategy to the intended use case: known customers, new customers, future periods, or new regions.",
   "method": [
-    "Defined four deployment regimes separating household transfer from future-period extrapolation.",
-    "Benchmarked representative deep sequence models on Ausgrid smart-meter data with adaptation to Pecan Street.",
-    "Compared performance under a fixed training protocol and fixed 48-hour context length."
+    "Defined four deployment regimes that separate household transfer from temporal extrapolation",
+    "Benchmarked representative deep sequence models for PV disaggregation on Ausgrid smart-meter data",
+    "Tested cross-dataset adaptation to Pecan Street with target-domain normalization and limited fine-tuning"
   ],
-  "evidence_signal": "At 48 hours of context, the best model's daylight MAE increased from 0.104 kW on seen households to 0.185 kW on unseen households, and five target-household fine-tuning reduced transfer error by 28%–36%.",
-  "watch_item": "Cross-region deployment still depends on limited target-data availability, and longer input windows do not help all models equally for new-customer transfer.",
+  "evidence_signal": "Using a fixed 48-hour context, the best model’s daylight MAE increased from 0.104 kW on seen households in the future period to 0.185 kW on unseen households, and regime choice explained more error variation than model choice.",
+  "watch_item": "Results depend on the chosen deployment regime and data normalization, so field use should not assume a model that works for one customer set or region will transfer unchanged to another.",
   "hashtags": [
-    "#SolarAnalytics",
     "#PVDisaggregation",
     "#SmartMeters",
-    "#DeepLearning",
-    "#GridOperations"
+    "#LoadForecasting",
+    "#DistributionGrid",
+    "#DeepLearning"
   ],
   "paper_id": "2026-10-08-arxiv-behind_the_meter_photovoltaic_visibility_from_net_smart_meters_deployment_regimes_and_oper",
   "paper_title": "Behind-the-Meter Photovoltaic Visibility from Net Smart Meters: Deployment Regimes and Operational Insights",
   "paper_date": "2026-10-08",
   "paper_category": "Device Optimization",
-  "generated_at": "2026-10-12T20:40:06",
+  "generated_at": "2026-10-13T18:42:43",
   "generator": "openai"
 }
