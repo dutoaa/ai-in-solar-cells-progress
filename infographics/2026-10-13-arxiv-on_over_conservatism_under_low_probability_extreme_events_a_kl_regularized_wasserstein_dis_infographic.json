@@ -1,0 +1,24 @@
+{
+  "key_insight": "Standard Wasserstein DRO can overreact to rare extreme events, and adding KL regularization reduces this over-conservatism in planning.",
+  "engineering_relevance": "The method helps power-system planners choose more realistic PV, wind, and storage capacities when low-probability outages or weather extremes matter.",
+  "method": [
+    "Build a two-stage distributionally robust planning model for capacity expansion.",
+    "Use a Wasserstein ambiguity set augmented with a KL divergence term to limit probability inflation of rare events.",
+    "Reformulate the problem as an exponential cone program with theoretical guarantees for tractable solving."
+  ],
+  "evidence_signal": "The approach was tested on PJM 5-bus and IEEE 118-bus systems, where results showed standard Wasserstein DRO becomes overly conservative under low-probability extreme events.",
+  "watch_item": "Performance may depend on how the KL regularization strength is tuned, since too much or too little regularization could understate or overstate tail risk.",
+  "hashtags": [
+    "#DistributionallyRobustOptimization",
+    "#WassersteinDRO",
+    "#PowerSystemPlanning",
+    "#RenewableIntegration",
+    "#EnergyStorage"
+  ],
+  "paper_id": "2026-10-13-arxiv-on_over_conservatism_under_low_probability_extreme_events_a_kl_regularized_wasserstein_dis",
+  "paper_title": "On Over-Conservatism Under Low-Probability Extreme Events: A KL-Regularized Wasserstein Distributionally Robust Planning Method",
+  "paper_date": "2026-10-13",
+  "paper_category": "Device Optimization",
+  "generated_at": "2026-10-14T16:15:23",
+  "generator": "openai"
+}

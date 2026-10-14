@@ -1,24 +1,24 @@
 {
-  "key_insight": "Random train/test splits in perovskite-ML benchmark studies can leak duplicated devices and overstate model skill, so provenance-grouped splits are needed to measure true generalization.",
-  "engineering_relevance": "For device optimization, this protocol helps researchers choose models and evaluate them on realistic unseen institutions and future data, improving confidence in design rules for high-efficiency perovskite solar cells.",
+  "key_insight": "Random train/test splits overestimate perovskite ML performance because many records are duplicated recipes, so grouped splits are needed to measure true generalisation.",
+  "engineering_relevance": "For device optimization, this protocol helps engineers choose models and claims that remain reliable on new materials, new papers, and new institutions rather than just memorized historical recipes.",
   "method": [
-    "Mapped institutional provenance in the Perovskite Database.",
-    "Built a hierarchy of grouped splits that progressively separates duplicate devices, publications, and institutions.",
-    "Benchmarked 13 models across the grouped evaluation settings."
+    "Mapped institutional provenance in the Perovskite Database",
+    "Built a hierarchy of grouped splits isolating duplicates, publications, and institutions",
+    "Benchmarked 13 models and compared rankings across split types"
   ],
-  "evidence_signal": "The abstract reports that nearly two-thirds of curated devices have an exact recipe duplicate, meaning random splits mostly test memorization rather than physical generalization.",
-  "watch_item": "Grouped evaluation may reduce apparent accuracy, so results should be interpreted as more realistic but also more demanding than standard random splits.",
+  "evidence_signal": "The abstract reports that nearly two-thirds of curated devices share an exact recipe with another, and model rankings shift sharply from random splits to unseen-institution and future-discovery splits.",
+  "watch_item": "Grouped evaluation may reduce apparent accuracy, so model selection and benchmarking must be aligned with the intended deployment setting.",
   "hashtags": [
-    "#PerovskiteSolarCells",
+    "#PerovskitePV",
     "#MachineLearning",
+    "#SolarCells",
     "#DataLeakage",
-    "#ModelBenchmarking",
-    "#MaterialsInformatics"
+    "#Generalization"
   ],
   "paper_id": "2026-10-08-arxiv-provenance_grouped_protocol_for_evaluating_machine_learning_in_perovskite_photovoltaics",
   "paper_title": "Provenance-grouped protocol for evaluating machine learning in perovskite photovoltaics",
   "paper_date": "2026-10-08",
   "paper_category": "Device Optimization",
-  "generated_at": "2026-10-13T18:42:02",
+  "generated_at": "2026-10-14T16:14:52",
   "generator": "openai"
 }
