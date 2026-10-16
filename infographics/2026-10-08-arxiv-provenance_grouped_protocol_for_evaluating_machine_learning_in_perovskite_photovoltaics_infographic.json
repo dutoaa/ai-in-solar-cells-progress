@@ -1,24 +1,24 @@
 {
-  "key_insight": "Random train/test splits overestimate perovskite ML performance because many records are duplicated recipes, so grouped splits are needed to measure true generalisation.",
-  "engineering_relevance": "For device optimization, this protocol helps engineers choose models and claims that remain reliable on new materials, new papers, and new institutions rather than just memorized historical recipes.",
+  "key_insight": "Random train/test splits overestimate machine-learning performance on perovskite photovoltaic data because they leak duplicated recipes, so grouped evaluation is needed to measure true generalisation.",
+  "engineering_relevance": "The proposed provenance-grouped protocol gives device engineers a more realistic benchmark for selecting models that can predict new perovskite designs, institutions, and future discoveries.",
   "method": [
-    "Mapped institutional provenance in the Perovskite Database",
-    "Built a hierarchy of grouped splits isolating duplicates, publications, and institutions",
-    "Benchmarked 13 models and compared rankings across split types"
+    "Mapped institutional provenance in the Perovskite Database.",
+    "Built a hierarchy of grouped splits that separate duplicates, publications, and institutions.",
+    "Benchmarked 13 models across increasingly strict evaluation regimes."
   ],
-  "evidence_signal": "The abstract reports that nearly two-thirds of curated devices share an exact recipe with another, and model rankings shift sharply from random splits to unseen-institution and future-discovery splits.",
-  "watch_item": "Grouped evaluation may reduce apparent accuracy, so model selection and benchmarking must be aligned with the intended deployment setting.",
+  "evidence_signal": "Nearly two-thirds of curated devices share an exact recipe with another, and model rankings shift sharply from random splits to unseen-institution and future-discovery splits.",
+  "watch_item": "Results from random-split benchmarks should not be treated as evidence of physical generalisation, especially when duplicated or near-duplicated device recipes are present.",
   "hashtags": [
     "#PerovskitePV",
     "#MachineLearning",
-    "#SolarCells",
     "#DataLeakage",
-    "#Generalization"
+    "#ModelBenchmarking",
+    "#SolarCells"
   ],
   "paper_id": "2026-10-08-arxiv-provenance_grouped_protocol_for_evaluating_machine_learning_in_perovskite_photovoltaics",
   "paper_title": "Provenance-grouped protocol for evaluating machine learning in perovskite photovoltaics",
   "paper_date": "2026-10-08",
   "paper_category": "Device Optimization",
-  "generated_at": "2026-10-14T16:14:52",
+  "generated_at": "2026-10-16T15:50:38",
   "generator": "openai"
 }
