@@ -1,24 +1,24 @@
 {
-  "key_insight": "Random train/test splits overestimate machine-learning performance on perovskite photovoltaic data because they leak duplicated recipes, so grouped evaluation is needed to measure true generalisation.",
-  "engineering_relevance": "The proposed provenance-grouped protocol gives device engineers a more realistic benchmark for selecting models that can predict new perovskite designs, institutions, and future discoveries.",
+  "key_insight": "Random data splits overestimate ML performance for perovskite photovoltaics because duplicate and near-duplicate devices leak across train/test sets; grouped splits expose the difference between memorization and true generalization.",
+  "engineering_relevance": "A provenance-aware evaluation protocol helps researchers choose and trust models that better predict performance for new institutions, recipes, and future perovskite devices.",
   "method": [
-    "Mapped institutional provenance in the Perovskite Database.",
-    "Built a hierarchy of grouped splits that separate duplicates, publications, and institutions.",
-    "Benchmarked 13 models across increasingly strict evaluation regimes."
+    "Mapped institutional provenance in the Perovskite Database",
+    "Built a hierarchy of grouped splits that isolate duplicates, publications, and institutions",
+    "Benchmarked 13 models across increasingly strict evaluation settings"
   ],
-  "evidence_signal": "Nearly two-thirds of curated devices share an exact recipe with another, and model rankings shift sharply from random splits to unseen-institution and future-discovery splits.",
-  "watch_item": "Results from random-split benchmarks should not be treated as evidence of physical generalisation, especially when duplicated or near-duplicated device recipes are present.",
+  "evidence_signal": "Nearly two-thirds of curated devices share an exact recipe with another, and model rankings change sharply when evaluation moves from random splits to unseen institutions and future discoveries.",
+  "watch_item": "Results depend on the completeness and accuracy of provenance mapping, so missing or ambiguous metadata could weaken the grouped-split protocol.",
   "hashtags": [
-    "#PerovskitePV",
+    "#PerovskiteSolarCells",
     "#MachineLearning",
+    "#ModelEvaluation",
     "#DataLeakage",
-    "#ModelBenchmarking",
-    "#SolarCells"
+    "#SolarEnergy"
   ],
   "paper_id": "2026-10-08-arxiv-provenance_grouped_protocol_for_evaluating_machine_learning_in_perovskite_photovoltaics",
   "paper_title": "Provenance-grouped protocol for evaluating machine learning in perovskite photovoltaics",
   "paper_date": "2026-10-08",
   "paper_category": "Device Optimization",
-  "generated_at": "2026-10-16T15:50:38",
+  "generated_at": "2026-10-17T14:44:03",
   "generator": "openai"
 }
