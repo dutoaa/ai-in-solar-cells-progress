@@ -1,6 +1,6 @@
 # AI solar cells Progress Public Resources
 
-Generated: 2026-10-17
+Generated: 2026-10-18
 Public site: https://dutoaa.github.io/ai-in-solar-cells-progress/
 
 ## 1. Synergistic Graphene and PEDOT:PSS Layers on Silicon for Enhanced Efficiency and Stability in Schottky Junction Solar Cells
@@ -67,21 +67,21 @@ Public site: https://dutoaa.github.io/ai-in-solar-cells-progress/
 - PDF: https://arxiv.org/pdf/2610.19112v1
 - Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-10-13-arxiv-engineering_correlated_transparent_conductors_via_metal_insulator_transition_proximity_infographic.json
 
-## 9. Dual-Resonator Organic Microcavities for Triplet-Triplet Annihilation Upconversion
+## 9. Wavelength-Dependent Photoluminescence Mapping of Depth-Dependent Degradation Under Thermal Stress in Phenethylammonium Tetrafluoroborate Treated Perovskite Solar Cells
+
+- Date: 2026-10-03
+- Category: Degradation and Stability
+- arXiv: https://arxiv.org/abs/2610.04714v1
+- PDF: https://arxiv.org/pdf/2610.04714v1
+- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-10-03-arxiv-wavelength_dependent_photoluminescence_mapping_of_depth_dependent_degradation_under_therma_infographic.json
+
+## 10. Dual-Resonator Organic Microcavities for Triplet-Triplet Annihilation Upconversion
 
 - Date: 2026-10-13
 - Category: Organic Photovoltaics
 - arXiv: https://arxiv.org/abs/2610.19209v1
 - PDF: https://arxiv.org/pdf/2610.19209v1
 - Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-10-13-arxiv-dual_resonator_organic_microcavities_for_triplet_triplet_annihilation_upconversion_infographic.json
-
-## 10. Material chemical composition impacts on the band alignments: preliminary results on the 3D/2D perovskite interfaces
-
-- Date: 2026-09-18
-- Category: Perovskite Solar Cells
-- arXiv: https://arxiv.org/abs/2609.21654v2
-- PDF: https://arxiv.org/pdf/2609.21654v2
-- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-09-18-arxiv-material_chemical_composition_impacts_on_the_band_alignments_preliminary_results_on_the_3d_infographic.json
 
 ## 11. Tellurium trioxide as an n-type wide-gap semiconductor with ultrahigh work functions from first principles
 
@@ -91,47 +91,7 @@ Public site: https://dutoaa.github.io/ai-in-solar-cells-progress/
 - PDF: https://arxiv.org/pdf/2610.18076v1
 - Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-10-13-arxiv-tellurium_trioxide_as_an_n_type_wide_gap_semiconductor_with_ultrahigh_work_functions_from_infographic.json
 
-## 12. Wavelength-Dependent Photoluminescence Mapping of Depth-Dependent Degradation Under Thermal Stress in Phenethylammonium Tetrafluoroborate Treated Perovskite Solar Cells
-
-- Date: 2026-10-03
-- Category: Degradation and Stability
-- arXiv: https://arxiv.org/abs/2610.04714v1
-- PDF: https://arxiv.org/pdf/2610.04714v1
-- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-10-03-arxiv-wavelength_dependent_photoluminescence_mapping_of_depth_dependent_degradation_under_therma_infographic.json
-
-## 13. Composition-controlled optical fingerprints and anisotropy of self-trapped excitons in double perovskites
-
-- Date: 2026-10-13
-- Category: Perovskite Solar Cells
-- arXiv: https://arxiv.org/abs/2610.18665v1
-- PDF: https://arxiv.org/pdf/2610.18665v1
-- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-10-13-arxiv-composition_controlled_optical_fingerprints_and_anisotropy_of_self_trapped_excitons_in_dou_infographic.json
-
-## 14. Disorder-Induced Griffiths like Phase and Charge Localization in Sr2FeRuO6
-
-- Date: 2026-10-14
-- Category: Perovskite Solar Cells
-- arXiv: https://arxiv.org/abs/2610.20128v1
-- PDF: https://arxiv.org/pdf/2610.20128v1
-- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-10-14-arxiv-disorder_induced_griffiths_like_phase_and_charge_localization_in_sr2feruo6_infographic.json
-
-## 15. Effect of deep-trap density of states for a-Si:H layers on HIT cell performances: Modeling Framework
-
-- Date: 2026-10-14
-- Category: Device Optimization
-- arXiv: https://arxiv.org/abs/2610.20517v1
-- PDF: https://arxiv.org/pdf/2610.20517v1
-- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-10-14-arxiv-effect_of_deep_trap_density_of_states_for_a_si_h_layers_on_hit_cell_performances_modeling_infographic.json
-
-## 16. Theoretical Investigation of Oxygen-Vacancy Diffusion in SrTiO$_3$ using Neural Network Potentials
-
-- Date: 2026-10-12
-- Category: Perovskite Solar Cells
-- arXiv: https://arxiv.org/abs/2610.16521v1
-- PDF: https://arxiv.org/pdf/2610.16521v1
-- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-10-12-arxiv-theoretical_investigation_of_oxygen_vacancy_diffusion_in_srtio_3_using_neural_network_pote_infographic.json
-
-## 17. Dynamic Chemical Changes of Ti3C2Tx MXenes in Halide Perovskite Precursor Environments
+## 12. Dynamic Chemical Changes of Ti3C2Tx MXenes in Halide Perovskite Precursor Environments
 
 - Date: 2026-10-08
 - Category: Perovskite Solar Cells
@@ -139,7 +99,7 @@ Public site: https://dutoaa.github.io/ai-in-solar-cells-progress/
 - PDF: https://arxiv.org/pdf/2610.12771v1
 - Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-10-08-arxiv-dynamic_chemical_changes_of_ti3c2tx_mxenes_in_halide_perovskite_precursor_environments_infographic.json
 
-## 18. Perspective: The HSE Screened Hybrid and the Band Gap Problem: Origins, Impact, and the Contenders
+## 13. Perspective: The HSE Screened Hybrid and the Band Gap Problem: Origins, Impact, and the Contenders
 
 - Date: 2026-09-19
 - Category: Materials Discovery
@@ -147,18 +107,58 @@ Public site: https://dutoaa.github.io/ai-in-solar-cells-progress/
 - PDF: https://arxiv.org/pdf/2609.23225v1
 - Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-09-19-arxiv-perspective_the_hse_screened_hybrid_and_the_band_gap_problem_origins_impact_and_the_conten_infographic.json
 
-## 19. Polarons in Lead-Halide Perovskites: What the Structural Evidence Does and Does Not Establish
-
-- Date: 2026-10-13
-- Category: Perovskite Solar Cells
-- arXiv: https://arxiv.org/abs/2610.17809v1
-- PDF: https://arxiv.org/pdf/2610.17809v1
-- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-10-13-arxiv-polarons_in_lead_halide_perovskites_what_the_structural_evidence_does_and_does_not_establi_infographic.json
-
-## 20. High-throughput computational discovery of CuI-based ternary $p$-type transparent conductors
+## 14. High-throughput computational discovery of CuI-based ternary $p$-type transparent conductors
 
 - Date: 2026-09-25
 - Category: Perovskite Solar Cells
 - arXiv: https://arxiv.org/abs/2609.31277v1
 - PDF: https://arxiv.org/pdf/2609.31277v1
 - Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-09-25-arxiv-high_throughput_computational_discovery_of_cui_based_ternary_p_type_transparent_conductors_infographic.json
+
+## 15. Mobility-lifetime relation links photodegradation in spin-coated and gravure-printed organic solar cells
+
+- Date: 2026-09-18
+- Category: Device Optimization
+- arXiv: https://arxiv.org/abs/2609.22467v1
+- PDF: https://arxiv.org/pdf/2609.22467v1
+- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-09-18-arxiv-mobility_lifetime_relation_links_photodegradation_in_spin_coated_and_gravure_printed_organ_infographic.json
+
+## 16. Composition-controlled optical fingerprints and anisotropy of self-trapped excitons in double perovskites
+
+- Date: 2026-10-13
+- Category: Perovskite Solar Cells
+- arXiv: https://arxiv.org/abs/2610.18665v1
+- PDF: https://arxiv.org/pdf/2610.18665v1
+- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-10-13-arxiv-composition_controlled_optical_fingerprints_and_anisotropy_of_self_trapped_excitons_in_dou_infographic.json
+
+## 17. Computing at the Edge Enabled by Indoor Photovoltaics and Ferroelectrics
+
+- Date: 2026-10-04
+- Category: AI solar cells
+- arXiv: https://arxiv.org/abs/2610.05133v1
+- PDF: https://arxiv.org/pdf/2610.05133v1
+- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-10-04-arxiv-computing_at_the_edge_enabled_by_indoor_photovoltaics_and_ferroelectrics_infographic.json
+
+## 18. Disorder-Induced Griffiths like Phase and Charge Localization in Sr2FeRuO6
+
+- Date: 2026-10-14
+- Category: Perovskite Solar Cells
+- arXiv: https://arxiv.org/abs/2610.20128v1
+- PDF: https://arxiv.org/pdf/2610.20128v1
+- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-10-14-arxiv-disorder_induced_griffiths_like_phase_and_charge_localization_in_sr2feruo6_infographic.json
+
+## 19. Combined photoluminescence and electrical characterization of valley photovoltaic devices explained with an equivalent circuit
+
+- Date: 2026-09-29
+- Category: Device Optimization
+- arXiv: https://arxiv.org/abs/2609.37854v1
+- PDF: https://arxiv.org/pdf/2609.37854v1
+- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-09-29-arxiv-combined_photoluminescence_and_electrical_characterization_of_valley_photovoltaic_devices_infographic.json
+
+## 20. Computational investigation of a perovskite LaBiO$_{3}$ for photovoltaic, thermoelectric, and optoelectronic applications
+
+- Date: 2026-09-20
+- Category: Perovskite Solar Cells
+- arXiv: https://arxiv.org/abs/2609.23641v2
+- PDF: https://arxiv.org/pdf/2609.23641v2
+- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-09-20-arxiv-computational_investigation_of_a_perovskite_labio_3_for_photovoltaic_thermoelectric_and_op_infographic.json
