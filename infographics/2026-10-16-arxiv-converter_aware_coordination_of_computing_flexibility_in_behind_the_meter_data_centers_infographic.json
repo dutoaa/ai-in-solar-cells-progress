@@ -1,24 +1,26 @@
 {
-  "key_insight": "Workload flexibility in behind-the-meter data centers only becomes useful when scheduling is co-optimized with converter and network limits, so computing demand can be shifted without violating electrical constraints.",
-  "engineering_relevance": "The paper shows how to turn data-center computing flexibility into physically realizable power flexibility by coordinating workloads with photovoltaic generation, storage, and grid purchases.",
+  "key_insight": "Data-center workload flexibility becomes usable electrical flexibility only when scheduling respects converter and network limits.",
+  "engineering_relevance": "Coordinating computing workloads with on-site solar, storage, and grid purchases can reduce grid dependence without violating electrical operating limits.",
   "method": [
-    "Task-level MILP preserves training synchronicity and completion constraints.",
-    "Inference pooling is convexified with Minkowski-sum aggregation and Shapley–Folkman relaxation to avoid unit-level binaries.",
-    "A four-node electrical model with lifted voltages and SOCP links computing demand to converter, voltage, and grid limits."
+    "Model synchronous training tasks with mixed-integer constraints and aggregate inference flexibility using Minkowski sums and Shapley–Folkman convexification.",
+    "Represent converter and network limits with a four-node electrical model and second-order cone relaxation.",
+    "Jointly schedule workloads, photovoltaic generation, storage, and grid purchases."
   ],
-  "evidence_signal": "Case studies indicate that electrical constraints materially reshape scheduling and renewable use, and coordinated scheduling achieves negligible inference shortage while matching the original AC model in verification.",
-  "watch_item": "The approach depends on accurate electrical-modeling and converter-limit data; if these are mismodeled, schedules may still trigger overloads or voltage violations in practice.",
+  "evidence_signal": "Case studies found that fixed training could not support full inference service within voltage limits, while coordinated scheduling achieved negligible inference shortage and passed checks against the original AC model.",
+  "watch_item": "The inference relaxation-gap bound is conditional, and results from the studied four-node system require validation before deployment in larger facilities.",
   "hashtags": [
-    "#DataCenters",
-    "#DemandFlexibility",
-    "#PowerSystems",
-    "#ConvexOptimization",
-    "#RenewableIntegration"
+    "#DataCenterEnergy",
+    "#WorkloadScheduling",
+    "#SolarIntegration",
+    "#PowerConverters",
+    "#EnergyOptimization"
   ],
+  "model": "gpt-6.1-sol",
+  "service_tier": "ultrafast",
   "paper_id": "2026-10-16-arxiv-converter_aware_coordination_of_computing_flexibility_in_behind_the_meter_data_centers",
   "paper_title": "Converter-Aware Coordination of Computing Flexibility in Behind-the-Meter Data Centers",
   "paper_date": "2026-10-16",
   "paper_category": "AI solar cells",
-  "generated_at": "2026-10-19T09:44:53",
+  "generated_at": "2026-10-19T09:47:52",
   "generator": "openai"
 }

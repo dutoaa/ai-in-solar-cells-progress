@@ -1,24 +1,26 @@
 {
-  "key_insight": "V-PaSS improves perovskite solar-cell prediction by encoding absorber mixtures and device stacks with physics-aware, semantically rich representations that can generalize to unseen materials and architectures.",
-  "engineering_relevance": "This enables more reliable screening of novel perovskite compositions and stack designs before fabrication, reducing costly trial-and-error in solar-cell development.",
+  "key_insight": "V-PaSS uses physically informed alloy and device-stack representations to better predict perovskite solar-cell performance for unfamiliar materials and architectures.",
+  "engineering_relevance": "The approach could help screen new absorber alloys and transport-layer combinations before committing to device fabrication.",
   "method": [
-    "Interpolates relaxed crystal graphs of 23 pure ABX3 endmembers using Vegard’s law plus learned bandgap bowing to represent mixed-cation/mixed-halide absorbers.",
-    "Encodes the device stack with layer order, polarity (n-i-p or p-i-n), and interfacial band offsets.",
-    "Uses a scientific language model to capture chemical descriptions beyond simple categorical labels."
+    "Interpolate relaxed crystal graphs of 23 pure ABX₃ endpoints using Vegard’s law and learned bandgap bowing.",
+    "Encode layer sequence, cell polarity, and interfacial band offsets.",
+    "Represent chemical descriptions with a scientific language model."
   ],
-  "evidence_signal": "Under an institution-grouped evaluation where test devices came from unseen laboratories, V-PaSS achieved 2.861% MAE, beating the best tuned benchmark (2.912%) and a gradient-boosted baseline (3.017%), with larger gains on unseen alloys and transport layers.",
-  "watch_item": "Performance depends on reliable endpoint crystal data and physical assumptions like Vegard interpolation and bandgap bowing, which may be less accurate for highly nonideal or poorly characterized alloys.",
+  "evidence_signal": "On institution-grouped tests with unseen laboratories, untuned V-PaSS achieved 2.861% MAE versus 3.017% for a gradient-boosted baseline, with 15.7–19.0% error reductions on unseen absorber alloys.",
+  "watch_item": "Prospective experimental validation is not reported in the abstract, so benchmark gains do not yet establish reliability for newly fabricated devices.",
   "hashtags": [
     "#PerovskiteSolarCells",
-    "#MachineLearning",
-    "#MaterialsInformatics",
     "#PhysicsAwareAI",
-    "#SolarEnergy"
+    "#MaterialsInformatics",
+    "#SolarEnergy",
+    "#MachineLearning"
   ],
+  "model": "gpt-6.1-sol",
+  "service_tier": "ultrafast",
   "paper_id": "2026-10-13-arxiv-virtual_alloy_physics_aware_semantic_system_for_extrapolative_prediction_of_perovskite_sol",
   "paper_title": "Virtual-Alloy Physics-Aware Semantic System for extrapolative prediction of perovskite solar cells",
   "paper_date": "2026-10-13",
   "paper_category": "Perovskite Solar Cells",
-  "generated_at": "2026-10-19T09:44:30",
+  "generated_at": "2026-10-19T09:47:30",
   "generator": "openai"
 }
