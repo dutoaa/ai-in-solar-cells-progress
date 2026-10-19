@@ -24,17 +24,17 @@
         "url": "https://arxiv.org/pdf/2610.21563v1"
       }
     ],
-    "score": 106,
+    "score": 101,
     "infographic": {
-      "key_insight": "A PEDOT:PSS/graphene/n-Si trilayer creates a synergistic Schottky junction that boosts both power conversion efficiency and long-term stability compared with single-layer graphene or PEDOT:PSS devices.",
-      "engineering_relevance": "The design shows how a thin carbon-based interlayer can simultaneously tune interfacial optics, carrier transport, and environmental protection in low-cost silicon photovoltaics.",
+      "key_insight": "A PEDOT:PSS/graphene/n-Si trilayer combines interfacial charge optimization with graphene’s protective barrier effect to deliver both higher efficiency and much better stability than single-layer Schottky junction cells.",
+      "engineering_relevance": "The work suggests a practical, low-cost hybrid contact strategy for silicon photovoltaics where one functional layer improves optoelectronics while another suppresses ambient degradation.",
       "method": [
-        "Built a planar PEDOT:PSS/Gr/n-Si trilayer and compared it with Gr/n-Si and PEDOT:PSS/n-Si reference cells.",
-        "Used PEDOT:PSS as an anti-reflection layer, mild p-dopant for graphene, and conductivity enhancer.",
-        "Evaluated device performance and aging under 75 days of ambient exposure on untextured substrates."
+        "Built a planar PEDOT:PSS/Gr/n-Si Schottky junction and compared it with Gr/n-Si and PEDOT:PSS/n-Si controls",
+        "Used the PEDOT:PSS layer as an anti-reflection coating, p-type dopant for graphene, and conductivity enhancer",
+        "Benchmarked performance and 75-day ambient stability on untextured silicon substrates"
       ],
-      "evidence_signal": "The trilayer reached 8.52% PCE versus 4.56% for pristine Gr/n-Si, and retained about 90% of its initial efficiency after 75 days, while PEDOT:PSS/n-Si retained only ~29%.",
-      "watch_item": "Performance was demonstrated on untextured laboratory substrates, so scalability, surface-texture compatibility, and fabrication reproducibility still need validation.",
+      "evidence_signal": "The trilayer device reached 8.52% PCE versus 4.56% for pristine Gr/n-Si, and retained about 90% of its initial efficiency after 75 days, while PEDOT:PSS/n-Si retained only ~29%.",
+      "watch_item": "The reported gains are demonstrated on untextured planar substrates, so real-device scaling and texture-compatible integration may change the performance benefit.",
       "hashtags": [
         "#SolarCells",
         "#Graphene",
@@ -46,7 +46,7 @@
       "paper_title": "Synergistic Graphene and PEDOT:PSS Layers on Silicon for Enhanced Efficiency and Stability in Schottky Junction Solar Cells",
       "paper_date": "2026-10-15",
       "paper_category": "Device Optimization",
-      "generated_at": "2026-10-18T15:09:01",
+      "generated_at": "2026-10-19T09:44:20",
       "generator": "openai"
     }
   },
@@ -77,27 +77,27 @@
     ],
     "score": 76,
     "infographic": {
-      "key_insight": "Microscopic residual impurities in wide-bandgap perovskite films act as degradation nucleation sites, and they can be rapidly detected with microscopy plus machine learning before devices fail.",
-      "engineering_relevance": "This enables fast, non-invasive pre-screening of perovskite films to flag stability risk early, supporting scalable manufacturing of more durable solar cells.",
+      "key_insight": "Microscopic residual impurities in wide-bandgap perovskite films act as degradation nucleation sites, and can be rapidly detected with imaging plus machine learning before severe failure occurs.",
+      "engineering_relevance": "The study provides a fast, non-invasive pre-screening tool to flag unstable perovskite films, supporting scalable manufacturing of more reliable solar cells.",
       "method": [
-        "Nano-FTIR to chemically identify impurity compositions",
-        "High-resolution reflected-light microscopy to image impurity distributions",
-        "Machine learning-assisted image analysis for seconds-level impurity detection"
+        "Nano-FTIR spectroscopy chemically identified harmful residual impurities.",
+        "High-resolution reflected light microscopy captured impurity patterns in as-prepared films.",
+        "Machine learning image analysis quantified impurity density for rapid stability screening."
       ],
-      "evidence_signal": "Photo-stress and degradation-tracking experiments showed that higher impurity density correlates with faster early degradation and that failure starts at impurity–perovskite interfaces.",
-      "watch_item": "The diagnostic framework is chemically validated for the studied film system, but transfer to other perovskite compositions and manufacturing conditions will need re-calibration.",
+      "evidence_signal": "Photo-stress experiments showed degradation begins at impurity-perovskite interfaces, and films with higher impurity density degraded faster in early-stage tracking.",
+      "watch_item": "The workflow appears to require careful calibration and chemical validation to avoid false positives when transferring to new film compositions or imaging setups.",
       "hashtags": [
         "#PerovskiteSolarCells",
-        "#Degradation",
+        "#MaterialsDegradation",
         "#MachineLearning",
-        "#Imaging",
-        "#SolarMaterials"
+        "#HighThroughputImaging",
+        "#StabilityScreening"
       ],
       "paper_id": "2026-09-28-arxiv-high_throughput_imaging_of_degradation_inducing_microscopic_impurities_in_perovskite_solar",
       "paper_title": "High-Throughput Imaging of Degradation-Inducing Microscopic Impurities in Perovskite Solar Cells",
       "paper_date": "2026-09-28",
       "paper_category": "Degradation and Stability",
-      "generated_at": "2026-10-18T15:09:03",
+      "generated_at": "2026-10-19T09:44:22",
       "generator": "openai"
     }
   },
@@ -128,79 +128,27 @@
     ],
     "score": 74,
     "infographic": {
-      "key_insight": "Random train/test splits in perovskite-ML benchmarks can drastically overestimate performance because duplicated recipes leak information, so provenance-grouped evaluation is needed to measure true generalisation.",
-      "engineering_relevance": "For device optimization, this protocol helps researchers choose models and claims that transfer to genuinely new perovskite chemistries, fabrication routes, and institutions rather than to familiar historical records.",
+      "key_insight": "Random train/test splits overestimate perovskite ML performance because duplicate recipes leak across splits; provenance-grouped evaluation reveals a truer test of generalisation.",
+      "engineering_relevance": "For device optimization, the study provides a stricter benchmarking protocol that better distinguishes memorization from physically useful prediction when screening perovskite solar-cell recipes.",
       "method": [
         "Mapped institutional provenance in the Perovskite Database.",
-        "Built a hierarchy of grouped splits to isolate duplicates, publications, and institutions.",
-        "Benchmarked 13 models across increasingly strict evaluation settings."
+        "Built a hierarchy of grouped splits that isolate duplicates, publications, and institutions.",
+        "Benchmarked 13 models across random and progressively stricter evaluation settings."
       ],
-      "evidence_signal": "The abstract reports that nearly two-thirds of curated devices share their exact recipe with another, and that model rankings shift sharply when moving from random splits to unseen institutions and future-discovery splits.",
-      "watch_item": "Grouped evaluation is more realistic but may reduce apparent scores and requires careful provenance tracking, especially when metadata are incomplete or inconsistently recorded.",
+      "evidence_signal": "The abstract reports that nearly two-thirds of curated devices share an exact recipe match, making random splits prone to leakage and inflated accuracy.",
+      "watch_item": "Performance rankings can shift sharply under grouped splits, so models should not be selected using random-split results alone.",
       "hashtags": [
-        "#PerovskiteSolarCells",
+        "#PerovskitePV",
         "#MachineLearning",
-        "#DataProvenance",
         "#ModelEvaluation",
-        "#DeviceOptimization"
+        "#DataLeakage",
+        "#SolarCells"
       ],
       "paper_id": "2026-10-08-arxiv-provenance_grouped_protocol_for_evaluating_machine_learning_in_perovskite_photovoltaics",
       "paper_title": "Provenance-grouped protocol for evaluating machine learning in perovskite photovoltaics",
       "paper_date": "2026-10-08",
       "paper_category": "Device Optimization",
-      "generated_at": "2026-10-18T15:09:05",
-      "generator": "openai"
-    }
-  },
-  {
-    "id": "2026-10-13-arxiv-virtual_alloy_physics_aware_semantic_system_for_extrapolative_prediction_of_perovskite_sol",
-    "arxiv_id": "2610.18949v1",
-    "date": "2026-10-13",
-    "title": "Virtual-Alloy Physics-Aware Semantic System for extrapolative prediction of perovskite solar cells",
-    "authors": "Qiwei Han, Chi Zhou",
-    "abstract": "Existing machine-learning models for perovskite solar cells struggle to predict devices made from new materials. Most treat device layers as arbitrary categorical labels and represent perovskite absorbers either through featureless composition vectors or through rigid crystal graphs that require a pre-solved unit cell. As a result, they cannot generalize to unrecorded alloys or unfamiliar cell architectures. We present the Virtual-Alloy Physics-Aware Semantic System (V-PaSS), an architecture built around the physical continuity of perovskite solid solutions. V-PaSS represents arbitrary mixed-cation, mixed-halide absorbers by interpolating relaxed crystal graphs of 23 pure $ABX_3$ endpoint compounds via Vegard's law with learned bandgap bowing. For the device stack, it couples layer sequence and cell polarity (n-i-p or p-i-n) with interfacial band offsets and encodes chemical descriptions with a scientific language model. Evaluated under an institution-grouped protocol where test devices come exclusively from unseen laboratories, an untuned default configuration of V-PaSS achieves the lowest error among fourteen tested models (2.861% MAE, a 5.2% relative reduction over a gradient-boosted baseline at 3.017%, and outperforming the best tuned benchmark at 2.912%). V-PaSS pulls furthest ahead where test devices differ most from training: reducing error by 15.7-19.0% on unseen absorber alloys, by 16.1% on mixed absorbers from new laboratories, and widening its lead over the baseline by 3.6$\\times$ on devices with unobserved transport layers. Combined with tree ensembles, V-PaSS sets a new state of the art across all five benchmark splits.",
-    "category": "Perovskite Solar Cells",
-    "source": "arXiv",
-    "published": "2026-10-13T16:24:49Z",
-    "updated": "2026-10-13T16:24:49Z",
-    "primary_category": "cond-mat.mtrl-sci",
-    "categories": [
-      "cond-mat.mtrl-sci",
-      "cs.LG"
-    ],
-    "links": [
-      {
-        "title": "arXiv",
-        "url": "https://arxiv.org/abs/2610.18949v1"
-      },
-      {
-        "title": "PDF",
-        "url": "https://arxiv.org/pdf/2610.18949v1"
-      }
-    ],
-    "score": 61,
-    "infographic": {
-      "key_insight": "V-PaSS improves perovskite solar-cell prediction by encoding absorber alloys and device stacks with physics-aware, semantically rich representations instead of treating them as fixed categorical inputs.",
-      "engineering_relevance": "This makes extrapolative screening more reliable for new perovskite compositions, unfamiliar transport layers, and previously unseen laboratory settings.",
-      "method": [
-        "Interpolates relaxed crystal graphs of 23 pure ABX3 endmembers using Vegard’s law plus learned bandgap bowing to model mixed-cation, mixed-halide absorbers.",
-        "Encodes device architecture with layer order, polarity (n-i-p vs p-i-n), interfacial band offsets, and chemical text via a scientific language model.",
-        "Combines these features with tree-ensemble models for property prediction under an institution-grouped evaluation protocol."
-      ],
-      "evidence_signal": "Under unseen-laboratory testing, V-PaSS achieved 2.861% MAE, outperforming a gradient-boosted baseline (3.017%) and the best tuned benchmark (2.912%), with especially strong gains on unseen alloys and transport layers.",
-      "watch_item": "Performance depends on the availability and quality of endpoint crystal graphs, band-offset information, and reliable chemistry metadata, which may limit transfer to poorly characterized materials.",
-      "hashtags": [
-        "#PerovskiteSolarCells",
-        "#MachineLearning",
-        "#MaterialsInformatics",
-        "#PhysicsAwareAI",
-        "#SolarEnergy"
-      ],
-      "paper_id": "2026-10-13-arxiv-virtual_alloy_physics_aware_semantic_system_for_extrapolative_prediction_of_perovskite_sol",
-      "paper_title": "Virtual-Alloy Physics-Aware Semantic System for extrapolative prediction of perovskite solar cells",
-      "paper_date": "2026-10-13",
-      "paper_category": "Perovskite Solar Cells",
-      "generated_at": "2026-10-18T15:09:06",
+      "generated_at": "2026-10-19T09:44:25",
       "generator": "openai"
     }
   },
@@ -232,27 +180,79 @@
     ],
     "score": 57,
     "infographic": {
-      "key_insight": "PING uses physics-informed graph learning to forecast advection-diffusion dynamics on irregular sensor networks, improving cloud-motion and solar power prediction.",
-      "engineering_relevance": "The approach can help grid operators and PV plants better anticipate intra-day solar output by combining satellite cloud information with ground-based measurements.",
+      "key_insight": "PING uses a physics-informed graph neural network to forecast advection-diffusion on irregular sensor networks, enabling better cloud-motion and solar power predictions.",
+      "engineering_relevance": "The method helps integrate uneven weather-station and satellite data into more accurate intra-day PV forecasting, which supports grid planning and renewable-energy integration.",
       "method": [
-        "Models advection-diffusion as signals on a graph for irregular spatial grids",
-        "Adds a discretized physics constraint as a soft loss term to keep predictions physically consistent",
-        "Uses the learned forecasts as input to a hybrid PV power prediction pipeline"
+        "Represents advection-diffusion particles as signals on a graph to handle irregular spatial layouts.",
+        "Adds a discretized advection-diffusion equation as a soft loss constraint to enforce physical consistency.",
+        "Combines cloud concentration forecasts with ground PV sensors and satellite images in a hybrid forecasting pipeline."
       ],
-      "evidence_signal": "The abstract reports performance on synthetic and real datasets, including sea surface temperature and cloud index data, with results on par with state-of-the-art models and improved PV forecasting when coupled to sensor and satellite data.",
-      "watch_item": "Accuracy depends on the quality and coverage of irregular sensor and satellite data, and the physics loss must be balanced carefully to avoid over-constraining learning.",
+      "evidence_signal": "The abstract reports performance on synthetic and real transport datasets, including sea surface temperature and cloud index data, with results on par with state-of-the-art models and improved PV forecasting when coupled with power models.",
+      "watch_item": "Performance may depend on the quality and spatial coverage of irregular sensor and satellite inputs, which can limit robustness in sparse or noisy deployments.",
       "hashtags": [
         "#PhysicsInformedML",
         "#GraphNeuralNetworks",
         "#SolarForecasting",
-        "#PVPower",
-        "#AdvectionDiffusion"
+        "#AdvectionDiffusion",
+        "#RenewableEnergy"
       ],
       "paper_id": "2026-10-13-arxiv-ping_physics_informed_graph_neural_network_for_advection_diffusion_processes_with_applicat",
       "paper_title": "PING: physics informed graph neural network for advection-diffusion processes with applications to solar power forecasting",
       "paper_date": "2026-10-13",
       "paper_category": "Device Optimization",
-      "generated_at": "2026-10-18T15:09:08",
+      "generated_at": "2026-10-19T09:44:27",
+      "generator": "openai"
+    }
+  },
+  {
+    "id": "2026-10-13-arxiv-virtual_alloy_physics_aware_semantic_system_for_extrapolative_prediction_of_perovskite_sol",
+    "arxiv_id": "2610.18949v1",
+    "date": "2026-10-13",
+    "title": "Virtual-Alloy Physics-Aware Semantic System for extrapolative prediction of perovskite solar cells",
+    "authors": "Qiwei Han, Chi Zhou",
+    "abstract": "Existing machine-learning models for perovskite solar cells struggle to predict devices made from new materials. Most treat device layers as arbitrary categorical labels and represent perovskite absorbers either through featureless composition vectors or through rigid crystal graphs that require a pre-solved unit cell. As a result, they cannot generalize to unrecorded alloys or unfamiliar cell architectures. We present the Virtual-Alloy Physics-Aware Semantic System (V-PaSS), an architecture built around the physical continuity of perovskite solid solutions. V-PaSS represents arbitrary mixed-cation, mixed-halide absorbers by interpolating relaxed crystal graphs of 23 pure $ABX_3$ endpoint compounds via Vegard's law with learned bandgap bowing. For the device stack, it couples layer sequence and cell polarity (n-i-p or p-i-n) with interfacial band offsets and encodes chemical descriptions with a scientific language model. Evaluated under an institution-grouped protocol where test devices come exclusively from unseen laboratories, an untuned default configuration of V-PaSS achieves the lowest error among fourteen tested models (2.861% MAE, a 5.2% relative reduction over a gradient-boosted baseline at 3.017%, and outperforming the best tuned benchmark at 2.912%). V-PaSS pulls furthest ahead where test devices differ most from training: reducing error by 15.7-19.0% on unseen absorber alloys, by 16.1% on mixed absorbers from new laboratories, and widening its lead over the baseline by 3.6$\\times$ on devices with unobserved transport layers. Combined with tree ensembles, V-PaSS sets a new state of the art across all five benchmark splits.",
+    "category": "Perovskite Solar Cells",
+    "source": "arXiv",
+    "published": "2026-10-13T16:24:49Z",
+    "updated": "2026-10-13T16:24:49Z",
+    "primary_category": "cond-mat.mtrl-sci",
+    "categories": [
+      "cond-mat.mtrl-sci",
+      "cs.LG"
+    ],
+    "links": [
+      {
+        "title": "arXiv",
+        "url": "https://arxiv.org/abs/2610.18949v1"
+      },
+      {
+        "title": "PDF",
+        "url": "https://arxiv.org/pdf/2610.18949v1"
+      }
+    ],
+    "score": 56,
+    "infographic": {
+      "key_insight": "V-PaSS improves perovskite solar-cell prediction by encoding absorber mixtures and device stacks with physics-aware, semantically rich representations that can generalize to unseen materials and architectures.",
+      "engineering_relevance": "This enables more reliable screening of novel perovskite compositions and stack designs before fabrication, reducing costly trial-and-error in solar-cell development.",
+      "method": [
+        "Interpolates relaxed crystal graphs of 23 pure ABX3 endmembers using Vegard’s law plus learned bandgap bowing to represent mixed-cation/mixed-halide absorbers.",
+        "Encodes the device stack with layer order, polarity (n-i-p or p-i-n), and interfacial band offsets.",
+        "Uses a scientific language model to capture chemical descriptions beyond simple categorical labels."
+      ],
+      "evidence_signal": "Under an institution-grouped evaluation where test devices came from unseen laboratories, V-PaSS achieved 2.861% MAE, beating the best tuned benchmark (2.912%) and a gradient-boosted baseline (3.017%), with larger gains on unseen alloys and transport layers.",
+      "watch_item": "Performance depends on reliable endpoint crystal data and physical assumptions like Vegard interpolation and bandgap bowing, which may be less accurate for highly nonideal or poorly characterized alloys.",
+      "hashtags": [
+        "#PerovskiteSolarCells",
+        "#MachineLearning",
+        "#MaterialsInformatics",
+        "#PhysicsAwareAI",
+        "#SolarEnergy"
+      ],
+      "paper_id": "2026-10-13-arxiv-virtual_alloy_physics_aware_semantic_system_for_extrapolative_prediction_of_perovskite_sol",
+      "paper_title": "Virtual-Alloy Physics-Aware Semantic System for extrapolative prediction of perovskite solar cells",
+      "paper_date": "2026-10-13",
+      "paper_category": "Perovskite Solar Cells",
+      "generated_at": "2026-10-19T09:44:30",
       "generator": "openai"
     }
   },
@@ -281,133 +281,29 @@
         "url": "https://arxiv.org/pdf/2610.18022v1"
       }
     ],
-    "score": 56,
+    "score": 51,
     "infographic": {
-      "key_insight": "An exciton-kinetics coupled drift-diffusion model shows that CT-CS energy alignment is the dominant lever controlling the trade-off between charge generation and voltage loss in organic photovoltaics.",
-      "engineering_relevance": "The model gives device designers actionable energy-offset targets for optimizing both photocurrent extraction and open-circuit voltage in singlet/triplet-mediated OPV blends.",
+      "key_insight": "An exciton-kinetics coupled drift-diffusion model shows that CT-CS energy alignment is the dominant lever controlling the trade-off between charge generation and voltage loss in organic photovoltaics, with triplet recycling kinetics modulating whether that balance is preserved.",
+      "engineering_relevance": "The model gives device engineers actionable design rules for tuning singlet/triplet energetics and transfer rates to improve photocurrent while limiting voltage penalties in organic solar cells.",
       "method": [
-        "Self-consistently couples exciton state kinetics with drift-diffusion charge transport.",
-        "Solves singlet and triplet populations with reversible photophysical transitions for transient and steady-state response.",
-        "Tests how LE-CT, CT-CS, and LE-T offsets plus triplet-transfer rates affect generation, recombination, and voltage loss."
+        "Couples exciton kinetics with drift-diffusion transport in a self-consistent device model",
+        "Solves singlet/triplet populations and reversible photophysical transitions for transient and steady-state response",
+        "Analyzes how LE-CT, CT-CS, and LE-T offsets plus triplet-transfer kinetics affect generation, recombination, extraction, and voltage loss"
       ],
-      "evidence_signal": "The abstract reports successful reproduction of triplet-mediated recombination in PM6:Y6 and material-dependent triplet recycling in D18:NFA blends, with design rules derived from the simulations.",
-      "watch_item": "Predicted performance is highly sensitive to CT-CS alignment and triplet-recycling kinetics, so inaccurate energetic parameters or temperature dependence could shift the optimal design window.",
+      "evidence_signal": "The abstract reports that the model reproduces triplet-mediated recombination in PM6:Y6 and material-dependent triplet recycling in D18:NFA blends.",
+      "watch_item": "The predicted performance balance is highly sensitive to CT-CS alignment and small triplet-transfer offsets, so parameter accuracy is critical for reliable device design.",
       "hashtags": [
         "#OrganicPhotovoltaics",
-        "#ExcitonKinetics",
+        "#ExcitonDynamics",
         "#DriftDiffusion",
-        "#TripletDynamics",
-        "#DeviceModeling"
+        "#TripletKinetics",
+        "#SolarCellModeling"
       ],
       "paper_id": "2026-10-13-arxiv-device_model_linking_singlet_and_triplet_spin_state_properties_to_organic_photovoltaic_dev",
       "paper_title": "Device Model Linking Singlet and Triplet Spin-State Properties to Organic Photovoltaic Device Characteristics",
       "paper_date": "2026-10-13",
       "paper_category": "Organic Photovoltaics",
-      "generated_at": "2026-10-18T15:09:10",
-      "generator": "openai"
-    }
-  },
-  {
-    "id": "2026-10-13-arxiv-engineering_color_and_angular_stability_in_building_integrated_photovoltaics_using_metal_o",
-    "arxiv_id": "2610.18759v1",
-    "date": "2026-10-13",
-    "title": "Engineering Color and Angular Stability in Building-Integrated Photovoltaics Using Metal-Oxide Photonic Glasses",
-    "authors": "Sinan Genc, Talat Ozden, Alpan Bek",
-    "abstract": "Coloring building-integrated photovoltaics poses a dilemma: absorptive pigments cost photocurrent, while ordered photonic structures are iridescent. Amorphous photonic glasses, disordered packings of high-index nanospheres, are proposed to avoid both, yet their angle-independent color has rarely been quantified on a realistic module stack. A non-absorbing scatterer needs a high index with visible transparency, which the Moss rule caps near 2.35. Coupling Mie scattering, the Percus-Yevick structure factor, the exact phase function, and two-flux transfer with absorption and refraction at the front glass, we fix four target colors that a crowd-sourced naming survey calls unambiguously blue, green, gold, and terracotta, and map the recipes reaching them across four metal oxides, four encapsulants, two cell technologies, and wide ranges of particle size, packing fraction, and layer number. All four are reached in a laminated three-layer coating, to within DeltaE00 of 0.8 to 2.5, but not from one oxide: transparent TiO2 renders the blue and only pale warm tones; the green, gold, and terracotta require the blue-band absorption of V2O5, and the low-contrast oxides turn grey at the warm end. The encapsulant governs the color, and the cell technology does not. Disorder does not confer angle independence: the colors hold for an observer moving under a fixed sun but drift by DeltaE00 of 5 to 18 over the day, terracotta least, and a facade lit from above and viewed from below shifts every color towards the blue. Oxide, layer number, and facade geometry must therefore be designed together.",
-    "category": "Perovskite Solar Cells",
-    "source": "arXiv",
-    "published": "2026-10-13T17:22:24Z",
-    "updated": "2026-10-13T17:22:24Z",
-    "primary_category": "physics.optics",
-    "categories": [
-      "physics.optics",
-      "physics.app-ph"
-    ],
-    "links": [
-      {
-        "title": "arXiv",
-        "url": "https://arxiv.org/abs/2610.18759v1"
-      },
-      {
-        "title": "PDF",
-        "url": "https://arxiv.org/pdf/2610.18759v1"
-      }
-    ],
-    "score": 55,
-    "infographic": {
-      "key_insight": "Disordered metal-oxide photonic glasses can produce the target building-integrated PV colors without strong iridescence, but the achievable color and its stability depend critically on oxide choice, encapsulant, and facade geometry.",
-      "engineering_relevance": "This work provides a design map for tuning PV module appearance while preserving transparency constraints, helping engineers co-design color with energy generation in building-integrated photovoltaics.",
-      "method": [
-        "Coupled Mie scattering, Percus–Yevick structure factor, and exact phase-function calculations for disordered nanosphere packings.",
-        "Included front-glass refraction and absorption using a two-flux transfer model on realistic laminated module stacks.",
-        "Swept oxide type, particle size, packing fraction, layer number, encapsulant, and cell technology to match target colors."
-      ],
-      "evidence_signal": "The authors matched four named target colors (blue, green, gold, terracotta) in a three-layer coating with DeltaE00 roughly 0.8–2.5, and quantified viewing-angle/daylight drift of about DeltaE00 5–18.",
-      "watch_item": "Angle independence is limited in real use: color can shift substantially over the day and with facade viewing geometry, so optical design must be co-optimized for installation conditions.",
-      "hashtags": [
-        "#PhotonicGlasses",
-        "#BuildingIntegratedPV",
-        "#ColorEngineering",
-        "#PerovskiteSolarCells",
-        "#Nanophotonics"
-      ],
-      "paper_id": "2026-10-13-arxiv-engineering_color_and_angular_stability_in_building_integrated_photovoltaics_using_metal_o",
-      "paper_title": "Engineering Color and Angular Stability in Building-Integrated Photovoltaics Using Metal-Oxide Photonic Glasses",
-      "paper_date": "2026-10-13",
-      "paper_category": "Perovskite Solar Cells",
-      "generated_at": "2026-10-18T15:09:12",
-      "generator": "openai"
-    }
-  },
-  {
-    "id": "2026-10-13-arxiv-engineering_correlated_transparent_conductors_via_metal_insulator_transition_proximity",
-    "arxiv_id": "2610.19112v1",
-    "date": "2026-10-13",
-    "title": "Engineering Correlated Transparent Conductors via Metal-Insulator Transition Proximity",
-    "authors": "Amit Cohen, Nofar Tuval, Maria Baskin, Tien-Lin Lee, Tom Tiwald, Scott A. Chambers",
-    "abstract": "Transparent conductors are key functional materials in modern optoelectronic devices. Their performance is governed by an inherent trade-off between optical transparency and electrical conductivity. Correlated metallic oxides offer an attractive workaround to this compromise, where narrow partially-filled bands provide high conductivity, while the absence of visible-range transitions enables optical transparency. Despite this promise, transparency and conductivity remain coupled through carrier density and electronic coherence. Here, we use proximity to a metal-insulator transition (MIT) as a design principle for engineering this balance in correlated-oxide transparent conductors. Epitaxial Ti-substituted $SrVO_3$ films serve as a model platform where the optical window and metallicity are tuned simultaneously. We demonstrate and explain a systematic broadening of the optical window to regimes relevant for silicon photovoltaics. This gain is counterbalanced by carrier depletion and disorder, which drive the loss of coherent transport near the composition-driven MIT. A Haacke figure-of-merit analysis identifies the optimal composition range near the MIT, where the loss of metallic transport is accompanied by persistent near-Fermi-level spectral weight, indicating disorder-assisted localization together with correlation-driven spectral-weight redistribution. These findings establish proximity to an MIT as a general materials-design strategy, using electronic filling as a tuning knob for the transparency-conductivity balance in correlated-oxide transparent conductors.",
-    "category": "Device Optimization",
-    "source": "arXiv",
-    "published": "2026-10-13T19:49:23Z",
-    "updated": "2026-10-13T19:49:23Z",
-    "primary_category": "cond-mat.mtrl-sci",
-    "categories": [
-      "cond-mat.mtrl-sci",
-      "cond-mat.str-el"
-    ],
-    "links": [
-      {
-        "title": "arXiv",
-        "url": "https://arxiv.org/abs/2610.19112v1"
-      },
-      {
-        "title": "PDF",
-        "url": "https://arxiv.org/pdf/2610.19112v1"
-      }
-    ],
-    "score": 53,
-    "infographic": {
-      "key_insight": "Proximity to a metal-insulator transition can be used to tune correlated-oxide transparent conductors so they become more transparent without completely sacrificing metallic transport.",
-      "engineering_relevance": "This provides a materials-design rule for optimizing transparent electrodes in optoelectronic and silicon-photovoltaic devices by adjusting electronic filling near the MIT.",
-      "method": [
-        "Use epitaxial Ti-substituted SrVO3 films as a model correlated-oxide transparent conductor.",
-        "Systematically vary composition to move toward the metal-insulator transition and track optical window and conductivity together.",
-        "Assess performance with Haacke figure-of-merit analysis and spectral-weight measurements near the Fermi level."
-      ],
-      "evidence_signal": "The abstract reports a systematic widening of the optical window into silicon-photovoltaic-relevant ranges, with optimal figures of merit found near the composition-driven MIT despite reduced coherent transport.",
-      "watch_item": "Near the optimal regime, disorder and carrier depletion can erode coherent conductivity, so implementation must balance transparency gains against transport loss.",
-      "hashtags": [
-        "#TransparentConductors",
-        "#MetalInsulatorTransition",
-        "#CorrelatedOxides",
-        "#Optoelectronics",
-        "#SolarMaterials"
-      ],
-      "paper_id": "2026-10-13-arxiv-engineering_correlated_transparent_conductors_via_metal_insulator_transition_proximity",
-      "paper_title": "Engineering Correlated Transparent Conductors via Metal-Insulator Transition Proximity",
-      "paper_date": "2026-10-13",
-      "paper_category": "Device Optimization",
-      "generated_at": "2026-10-18T15:09:14",
+      "generated_at": "2026-10-19T09:44:33",
       "generator": "openai"
     }
   },
@@ -438,79 +334,131 @@
     ],
     "score": 51,
     "infographic": {
-      "key_insight": "Multiwavelength photoluminescence can non-destructively distinguish whether degradation in perovskite solar cells starts at the ETL/perovskite interface or spreads into the absorber under heat.",
-      "engineering_relevance": "This provides a practical diagnostic for evaluating passivation strategies like PEABF4 and for tracking depth-resolved stability losses during device aging.",
+      "key_insight": "Multiwavelength excitation photoluminescence can non-destructively separate interface-driven from bulk-driven degradation, revealing that PEABF4 initially passivates the ETL/perovskite interface but later accelerates depth-spreading recombination losses under heat.",
+      "engineering_relevance": "This provides a practical diagnostic for tuning interfacial treatments and identifying where stability failures originate in perovskite solar cells during thermal aging.",
       "method": [
-        "Excitation-wavelength-dependent PL mapping to probe different depths nondestructively",
-        "Compare fresh vs thermally aged PEABF4-treated and untreated stacks",
-        "Use diffusion-recombination simulations to interpret PL decay in terms of surface recombination velocity and bulk lifetime"
+        "Multiwavelength excitation PL maps depth-sensitive recombination changes without destructive sectioning.",
+        "Compare PL decay versus excitation wavelength to distinguish interface-dominated and bulk-dominated losses.",
+        "Use diffusion-recombination simulations to link PL signatures to surface recombination velocity and bulk lifetime changes."
       ],
-      "evidence_signal": "The abstract reports that PEABF4 reduces interfacial recombination initially, but thermal aging causes faster PL decay and a broader loss profile extending from the ETL/perovskite interface into the absorber.",
-      "watch_item": "PL-based depth interpretation depends on model assumptions and may be sensitive to sample optics, so calibration is needed before generalizing across device architectures.",
+      "evidence_signal": "The abstract reports that PEABF4 reduces interfacial recombination initially, but after thermal aging the PL signatures broaden from the ETL/perovskite interface into the absorber, consistent with simulation-based interpretation.",
+      "watch_item": "PL-based depth interpretation depends on accurate modeling and optical absorption assumptions, so wavelength-dependent signals should be validated carefully against complementary degradation measurements.",
       "hashtags": [
         "#PerovskiteSolarCells",
         "#Photoluminescence",
-        "#DeviceDegradation",
-        "#ThermalStress",
-        "#SemiconductorStability"
+        "#SolarDegradation",
+        "#ThermalAging",
+        "#InterfaceEngineering"
       ],
       "paper_id": "2026-10-03-arxiv-wavelength_dependent_photoluminescence_mapping_of_depth_dependent_degradation_under_therma",
       "paper_title": "Wavelength-Dependent Photoluminescence Mapping of Depth-Dependent Degradation Under Thermal Stress in Phenethylammonium Tetrafluoroborate Treated Perovskite Solar Cells",
       "paper_date": "2026-10-03",
       "paper_category": "Degradation and Stability",
-      "generated_at": "2026-10-18T15:09:16",
+      "generated_at": "2026-10-19T09:44:35",
       "generator": "openai"
     }
   },
   {
-    "id": "2026-10-13-arxiv-dual_resonator_organic_microcavities_for_triplet_triplet_annihilation_upconversion",
-    "arxiv_id": "2610.19209v1",
+    "id": "2026-10-13-arxiv-engineering_color_and_angular_stability_in_building_integrated_photovoltaics_using_metal_o",
+    "arxiv_id": "2610.18759v1",
     "date": "2026-10-13",
-    "title": "Dual-Resonator Organic Microcavities for Triplet-Triplet Annihilation Upconversion",
-    "authors": "Robert H. Gordon, Rachel C. Kilbride, Michael Hutton, Jenny Clark, Robert D. J. Oliver",
-    "abstract": "Solid-state triplet-triplet annihilation upconversion offers a compelling route to harvest sub-bandgap photons to increase the efficiency of photovoltaics, but low sensitizer doping required to suppress non-radiative aggregation quenching severely restricts light absorption. Here, we present a dual-resonator planar silver microcavity housing a thermally co-evaporated rubrene:palladium phthalocyanine (PdPC) active layer designed to simultaneously enhance triplet-sensitizer absorption and out-couple upconverted emission. By aligning a dispersive cavity mode with the PdPC absorption peak at $32^\\circ$, we achieve a 12-fold enhancement in absorptance at 665 nm. This absorption boost, combined with directional outcoupling through a second cavity mode, outweighs cavity-induced reabsorption losses to yield a 22-fold peak and 4.5-fold integrated enhancement in detected upconversion emission. Overall, this work highlights the potential of microcavity integration to substantially enhance solid-state upconversion performance across low-intensity optoelectronic applications.",
-    "category": "Organic Photovoltaics",
+    "title": "Engineering Color and Angular Stability in Building-Integrated Photovoltaics Using Metal-Oxide Photonic Glasses",
+    "authors": "Sinan Genc, Talat Ozden, Alpan Bek",
+    "abstract": "Coloring building-integrated photovoltaics poses a dilemma: absorptive pigments cost photocurrent, while ordered photonic structures are iridescent. Amorphous photonic glasses, disordered packings of high-index nanospheres, are proposed to avoid both, yet their angle-independent color has rarely been quantified on a realistic module stack. A non-absorbing scatterer needs a high index with visible transparency, which the Moss rule caps near 2.35. Coupling Mie scattering, the Percus-Yevick structure factor, the exact phase function, and two-flux transfer with absorption and refraction at the front glass, we fix four target colors that a crowd-sourced naming survey calls unambiguously blue, green, gold, and terracotta, and map the recipes reaching them across four metal oxides, four encapsulants, two cell technologies, and wide ranges of particle size, packing fraction, and layer number. All four are reached in a laminated three-layer coating, to within DeltaE00 of 0.8 to 2.5, but not from one oxide: transparent TiO2 renders the blue and only pale warm tones; the green, gold, and terracotta require the blue-band absorption of V2O5, and the low-contrast oxides turn grey at the warm end. The encapsulant governs the color, and the cell technology does not. Disorder does not confer angle independence: the colors hold for an observer moving under a fixed sun but drift by DeltaE00 of 5 to 18 over the day, terracotta least, and a facade lit from above and viewed from below shifts every color towards the blue. Oxide, layer number, and facade geometry must therefore be designed together.",
+    "category": "Perovskite Solar Cells",
     "source": "arXiv",
-    "published": "2026-10-13T21:23:58Z",
-    "updated": "2026-10-13T21:23:58Z",
-    "primary_category": "physics.chem-ph",
+    "published": "2026-10-13T17:22:24Z",
+    "updated": "2026-10-13T17:22:24Z",
+    "primary_category": "physics.optics",
     "categories": [
-      "physics.chem-ph",
-      "physics.optics"
+      "physics.optics",
+      "physics.app-ph"
     ],
     "links": [
       {
         "title": "arXiv",
-        "url": "https://arxiv.org/abs/2610.19209v1"
+        "url": "https://arxiv.org/abs/2610.18759v1"
       },
       {
         "title": "PDF",
-        "url": "https://arxiv.org/pdf/2610.19209v1"
+        "url": "https://arxiv.org/pdf/2610.18759v1"
       }
     ],
-    "score": 49,
+    "score": 50,
     "infographic": {
-      "key_insight": "A dual-resonator silver microcavity can simultaneously boost sensitizer absorption and directional emission in solid-state triplet-triplet annihilation upconversion.",
-      "engineering_relevance": "This approach offers a practical optical-cavity strategy to improve sub-bandgap light harvesting for more efficient photovoltaic and low-intensity optoelectronic devices.",
+      "key_insight": "Disordered metal-oxide photonic glasses can produce architectural colors in photovoltaics without pigments or strong iridescence, but the achievable hue and stability depend strongly on oxide choice, encapsulant, and viewing geometry.",
+      "engineering_relevance": "This work provides a design map for color-tuned building-integrated photovoltaics that balances aesthetic targets with optical performance, highlighting which materials can deliver specific facade colors with minimal photocurrent penalty.",
       "method": [
-        "Thermally co-evaporated a rubrene:PdPC active layer inside a planar silver microcavity.",
-        "Aligned one dispersive cavity mode with the PdPC absorption peak at 32° to enhance sensitizer absorptance.",
-        "Used a second cavity mode to out-couple upconverted emission while balancing reabsorption losses."
+        "Combined Mie scattering with the Percus–Yevick structure factor to model disordered nanosphere optics.",
+        "Used exact phase functions plus two-flux transfer, including absorption and refraction in the front glass.",
+        "Swept oxide type, particle size, packing fraction, layer number, encapsulant, and cell technology to target four named colors."
       ],
-      "evidence_signal": "The abstract reports a 12-fold absorptance enhancement at 665 nm, a 22-fold peak increase in detected upconversion emission, and a 4.5-fold improvement when integrated over the emission band.",
-      "watch_item": "Performance depends on precise cavity-mode alignment and may be sensitive to reabsorption, aggregation quenching, and fabrication tolerances.",
+      "evidence_signal": "The authors report that all four target colors were achieved in a laminated three-layer coating with DeltaE00 around 0.8 to 2.5, while angle tests showed daily color drift of about 5 to 18 DeltaE00.",
+      "watch_item": "Angle-independent color is not guaranteed: facade geometry and sun/viewing angle can shift the perceived color substantially, so optical design must be co-optimized for installation conditions.",
       "hashtags": [
-        "#OrganicPhotovoltaics",
-        "#Upconversion",
-        "#Microcavity",
-        "#TripletTripletAnnihilation",
-        "#SolarCells"
+        "#BuildingIntegratedPV",
+        "#PhotonicGlasses",
+        "#ColorEngineering",
+        "#SolarFacade",
+        "#OpticalModeling"
       ],
-      "paper_id": "2026-10-13-arxiv-dual_resonator_organic_microcavities_for_triplet_triplet_annihilation_upconversion",
-      "paper_title": "Dual-Resonator Organic Microcavities for Triplet-Triplet Annihilation Upconversion",
+      "paper_id": "2026-10-13-arxiv-engineering_color_and_angular_stability_in_building_integrated_photovoltaics_using_metal_o",
+      "paper_title": "Engineering Color and Angular Stability in Building-Integrated Photovoltaics Using Metal-Oxide Photonic Glasses",
       "paper_date": "2026-10-13",
-      "paper_category": "Organic Photovoltaics",
-      "generated_at": "2026-10-18T15:09:17",
+      "paper_category": "Perovskite Solar Cells",
+      "generated_at": "2026-10-19T09:44:38",
+      "generator": "openai"
+    }
+  },
+  {
+    "id": "2026-10-13-arxiv-engineering_correlated_transparent_conductors_via_metal_insulator_transition_proximity",
+    "arxiv_id": "2610.19112v1",
+    "date": "2026-10-13",
+    "title": "Engineering Correlated Transparent Conductors via Metal-Insulator Transition Proximity",
+    "authors": "Amit Cohen, Nofar Tuval, Maria Baskin, Tien-Lin Lee, Tom Tiwald, Scott A. Chambers",
+    "abstract": "Transparent conductors are key functional materials in modern optoelectronic devices. Their performance is governed by an inherent trade-off between optical transparency and electrical conductivity. Correlated metallic oxides offer an attractive workaround to this compromise, where narrow partially-filled bands provide high conductivity, while the absence of visible-range transitions enables optical transparency. Despite this promise, transparency and conductivity remain coupled through carrier density and electronic coherence. Here, we use proximity to a metal-insulator transition (MIT) as a design principle for engineering this balance in correlated-oxide transparent conductors. Epitaxial Ti-substituted $SrVO_3$ films serve as a model platform where the optical window and metallicity are tuned simultaneously. We demonstrate and explain a systematic broadening of the optical window to regimes relevant for silicon photovoltaics. This gain is counterbalanced by carrier depletion and disorder, which drive the loss of coherent transport near the composition-driven MIT. A Haacke figure-of-merit analysis identifies the optimal composition range near the MIT, where the loss of metallic transport is accompanied by persistent near-Fermi-level spectral weight, indicating disorder-assisted localization together with correlation-driven spectral-weight redistribution. These findings establish proximity to an MIT as a general materials-design strategy, using electronic filling as a tuning knob for the transparency-conductivity balance in correlated-oxide transparent conductors.",
+    "category": "Device Optimization",
+    "source": "arXiv",
+    "published": "2026-10-13T19:49:23Z",
+    "updated": "2026-10-13T19:49:23Z",
+    "primary_category": "cond-mat.mtrl-sci",
+    "categories": [
+      "cond-mat.mtrl-sci",
+      "cond-mat.str-el"
+    ],
+    "links": [
+      {
+        "title": "arXiv",
+        "url": "https://arxiv.org/abs/2610.19112v1"
+      },
+      {
+        "title": "PDF",
+        "url": "https://arxiv.org/pdf/2610.19112v1"
+      }
+    ],
+    "score": 48,
+    "infographic": {
+      "key_insight": "Proximity to a metal-insulator transition can be used as a tuning principle to expand optical transparency while retaining useful conductivity in correlated-oxide transparent conductors.",
+      "engineering_relevance": "Ti-substituted SrVO3 shows that composition near the MIT can optimize the transparency-conductivity trade-off for applications such as silicon photovoltaics.",
+      "method": [
+        "Use epitaxial Ti-substituted SrVO3 films as a model transparent conductor platform.",
+        "Tune electronic filling and disorder by varying Ti content to move toward the MIT.",
+        "Assess the balance of optical window, transport coherence, and Haacke figure of merit."
+      ],
+      "evidence_signal": "The abstract reports a systematic broadening of the optical window into silicon-photovoltaic-relevant regimes, with the best performance occurring near the composition-driven MIT.",
+      "watch_item": "Pushing too close to the MIT can reduce coherent metallic transport due to carrier depletion and disorder, so the optimal window is narrow.",
+      "hashtags": [
+        "#TransparentConductors",
+        "#MetalInsulatorTransition",
+        "#CorrelatedOxides",
+        "#ThinFilms",
+        "#Photovoltaics"
+      ],
+      "paper_id": "2026-10-13-arxiv-engineering_correlated_transparent_conductors_via_metal_insulator_transition_proximity",
+      "paper_title": "Engineering Correlated Transparent Conductors via Metal-Insulator Transition Proximity",
+      "paper_date": "2026-10-13",
+      "paper_category": "Device Optimization",
+      "generated_at": "2026-10-19T09:44:40",
       "generator": "openai"
     }
   },
@@ -541,27 +489,27 @@
     ],
     "score": 48,
     "infographic": {
-      "key_insight": "β-TeO3 is predicted from first principles to be a wide-gap n-type semiconductor with exceptionally high work functions, reaching about 8 eV.",
-      "engineering_relevance": "This makes β-TeO3 a strong candidate for hole-transport, hole-injection, and transparent-electrode layers in optoelectronic devices such as solar cells and LEDs.",
+      "key_insight": "β-TeO3 is predicted to be an n-type wide-gap semiconductor with exceptionally high work functions approaching 8 eV, enabled by favorable defect chemistry and surface electronic structure.",
+      "engineering_relevance": "This makes β-TeO3 a promising material for hole injection/extraction layers and transparent electrodes in optoelectronic devices, including solar cells and LEDs.",
       "method": [
-        "First-principles defect calculations for point impurities and vacancies",
-        "Work-function evaluation on low-index nonpolar surfaces",
-        "Comparison of defect energetics under different oxygen chemical potentials"
+        "First-principles defect calculations to identify shallow donors and compensating defects.",
+        "Surface-specific work-function evaluation across multiple low-index nonpolar facets.",
+        "Thermodynamic assessment of oxygen-vacancy formation under varying O chemical potential."
       ],
-      "evidence_signal": "The abstract reports a band gap exceeding 3 eV, shallow-donor behavior for several impurities, and work functions up to ~8 eV depending on surface termination and defect configuration.",
-      "watch_item": "Performance may be reduced if oxygen chemical potential is not tightly controlled, since ordered surface O vacancies are favored and can lower the work function.",
+      "evidence_signal": "The abstract reports a band gap above 3 eV and work functions up to ~8 eV, with shallow donor impurities and surface O vacancies quantified by first-principles evaluation.",
+      "watch_item": "Performance may degrade if oxygen-vacancy formation is not tightly controlled at surfaces, since these defects lower the work function and can compensate carriers.",
       "hashtags": [
         "#FirstPrinciples",
-        "#WideGapSemiconductor",
+        "#WideBandGap",
         "#WorkFunction",
         "#DefectEngineering",
-        "#Optoelectronics"
+        "#Photovoltaics"
       ],
       "paper_id": "2026-10-13-arxiv-tellurium_trioxide_as_an_n_type_wide_gap_semiconductor_with_ultrahigh_work_functions_from",
       "paper_title": "Tellurium trioxide as an n-type wide-gap semiconductor with ultrahigh work functions from first principles",
       "paper_date": "2026-10-13",
       "paper_category": "Organic Photovoltaics",
-      "generated_at": "2026-10-18T15:09:19",
+      "generated_at": "2026-10-19T09:44:43",
       "generator": "openai"
     }
   },
@@ -592,27 +540,27 @@
     ],
     "score": 46,
     "infographic": {
-      "key_insight": "Ti3C2Tx MXenes are chemically unstable in halide perovskite precursor inks, with I2/polyiodides causing rapid degradation, PbI2 causing slower oxidation, and MAI providing surface passivation and stabilization.",
-      "engineering_relevance": "The order and composition of perovskite precursors can materially change MXene surface chemistry, so ink formulation and mixing sequence must be controlled for reliable device integration.",
+      "key_insight": "Ti3C2Tx MXenes are not chemically inert in perovskite precursor inks: I2/polyiodides rapidly damage them, PbI2 causes slower oxidation, and MAI can passivate and stabilize the surface.",
+      "engineering_relevance": "MXene performance in halide perovskite devices depends strongly on precursor chemistry and mixing order, so ink formulation and processing sequence must be controlled to preserve flake integrity and tune interfaces.",
       "method": [
-        "XPS tracked MXene surface composition after exposure to individual and combined MAPbI3 precursor components.",
-        "DFT explained the differing adsorption/oxidation pathways for I2, Pb2+, and MAI on Ti3C2Tx surfaces.",
-        "Comparative chemical analysis decoupled the roles of each ink constituent in MXene degradation or stabilization."
+        "XPS to track surface chemistry and oxidation states",
+        "DFT to explain adsorption and reaction mechanisms",
+        "Comparison of MXene exposure to individual and combined MAPbI3 precursor components"
       ],
-      "evidence_signal": "The abstract reports complementary XPS and DFT results showing rapid I2/polyiodide-driven degradation, slower PbI2-induced oxidation, and MAI-mediated passivation of Ti3C2Tx flakes.",
-      "watch_item": "MXene behavior depends on precursor order and environment, so implementation requires careful control of ink mixing sequence to avoid unintended degradation.",
+      "evidence_signal": "The paper combines detailed XPS measurements with DFT calculations to link observed MXene surface evolution to specific precursor species and addition order.",
+      "watch_item": "Device fabrication using MXenes in perovskite inks may fail or vary if iodine-rich species are present or if precursor mixing order is not strictly controlled.",
       "hashtags": [
-        "#MXenes",
+        "#MXene",
         "#PerovskiteSolarCells",
-        "#HalidePerovskites",
-        "#XPS",
-        "#DFT"
+        "#Ti3C2Tx",
+        "#SurfaceChemistry",
+        "#XPS"
       ],
       "paper_id": "2026-10-08-arxiv-dynamic_chemical_changes_of_ti3c2tx_mxenes_in_halide_perovskite_precursor_environments",
       "paper_title": "Dynamic Chemical Changes of Ti3C2Tx MXenes in Halide Perovskite Precursor Environments",
       "paper_date": "2026-10-08",
       "paper_category": "Perovskite Solar Cells",
-      "generated_at": "2026-10-18T15:09:20",
+      "generated_at": "2026-10-19T09:44:45",
       "generator": "openai"
     }
   },
@@ -643,27 +591,27 @@
     ],
     "score": 46,
     "infographic": {
-      "key_insight": "The HSE screened hybrid functional made exact exchange practical for solids and unexpectedly delivered much better band-gap predictions than semilocal DFT, helping establish screened hybrids as a key tool for materials discovery.",
-      "engineering_relevance": "For computational materials design, HSE and its descendants improve the reliability of band gaps, defect energetics, and screening for semiconductors, oxides, photovoltaics, power electronics, and quantum information materials.",
+      "key_insight": "HSE’s screened hybrid design made exact exchange practical for solids and unexpectedly delivered much better band gaps than semilocal functionals, while preserving strong performance across chemistry and materials benchmarks.",
+      "engineering_relevance": "For materials discovery and device modeling, HSE and its descendants provide a reliable middle ground between accuracy and cost for predicting band gaps, defects, and related properties in semiconductors and oxides.",
       "method": [
-        "Short-range exact exchange + long-range screening to make hybrid DFT feasible for extended systems",
-        "Use of a fixed 25% exchange fraction inherited from the PBE0 molecular hybrid",
-        "Comparison of HSE and newer semilocal/hybrid functionals against solid-state benchmarks across gaps, structures, and energetics"
+        "Keep exact exchange at short range and screen it at long range to make hybrid DFT feasible for extended systems.",
+        "Use the fixed 25% exact-exchange fraction inherited from PBE0 rather than fitting directly to solids.",
+        "Compare HSE03/HSE06 and newer semilocal or hybrid variants against solid-state benchmark sets for gaps, structures, energetics, and cost."
       ],
-      "evidence_signal": "The abstract reports that HSE band gaps for ordinary semiconductors and selected metal oxides came out substantially closer to experiment than conventional semilocal approximations, and that recent meta-GGAs can reach HSE06-level accuracy for selected semiconductors.",
-      "watch_item": "Fixed screening and a fixed exchange fraction may not transfer uniformly across all materials, so dielectric-dependent or tuned hybrids may be needed for harder cases.",
+      "evidence_signal": "The abstract reports that HSE band gaps for ordinary semiconductors and selected oxides came out substantially closer to experiment than semilocal approximations, and that recent meta-GGAs can match HSE06 on selected semiconductors.",
+      "watch_item": "Fixed screening and a fixed exchange fraction can limit transferability, so dielectric-dependent or tuned hybrids may be needed when the electronic environment varies strongly.",
       "hashtags": [
+        "#DFT",
+        "#HybridFunctionals",
+        "#BandGaps",
         "#MaterialsDiscovery",
-        "#HybridDFT",
-        "#BandGapProblem",
-        "#ComputationalMaterials",
-        "#FirstPrinciples"
+        "#ComputationalMaterials"
       ],
       "paper_id": "2026-09-19-arxiv-perspective_the_hse_screened_hybrid_and_the_band_gap_problem_origins_impact_and_the_conten",
       "paper_title": "Perspective: The HSE Screened Hybrid and the Band Gap Problem: Origins, Impact, and the Contenders",
       "paper_date": "2026-09-19",
       "paper_category": "Materials Discovery",
-      "generated_at": "2026-10-18T15:09:22",
+      "generated_at": "2026-10-19T09:44:48",
       "generator": "openai"
     }
   },
@@ -694,129 +642,130 @@
     ],
     "score": 45,
     "infographic": {
-      "key_insight": "A high-throughput DFT/minima-hopping search identified 58 stable CuI-based ternary compounds with promising p-type transparent conductor behavior, including 20 intrinsically degenerate semiconductors.",
-      "engineering_relevance": "The work expands the design space for transparent electronics and tandem photovoltaics by showing that chemically tunable Cu–I halides can deliver both wide gaps and mobile holes.",
+      "key_insight": "A high-throughput DFT search identified 58 CuI-based ternary compounds with promising p-type transparent conductor behavior, revealing new halide design rules beyond classic oxide delafossites.",
+      "engineering_relevance": "The study expands the materials palette for transparent electrodes and tandem photovoltaics by pointing to stable, optically transparent, low-hole-mass candidates that can support p-type conductivity.",
       "method": [
-        "Minima hopping structure search across X–Cu–I composition space",
-        "Density functional theory screening for stability, optical transparency, and hole effective mass",
-        "Revisiting CMVB design rules using the discovered compound dataset"
+        "Minima hopping structure search over X–Cu–I ternaries",
+        "Density functional theory screening for thermodynamic stability and optical transparency",
+        "Selection by light hole effective mass and p-type degeneracy criteria"
       ],
-      "evidence_signal": "From the abstract, 58 candidates passed the screening filters, 49 were previously unreported, and Cu2FI2 was highlighted with a 3.75 eV gap and 0.262 m0 hole effective mass.",
-      "watch_item": "These are computational predictions, so experimental synthesis, defect control, and carrier mobility verification remain necessary before device adoption.",
+      "evidence_signal": "From the abstract, 58 candidates were found, including 49 previously unreported compounds and 20 degenerate semiconductors; Cu2FI2 is highlighted with a 3.75 eV gap and 0.262 m0 hole effective mass.",
+      "watch_item": "These are computational predictions, so experimental synthesis, phase stability under real conditions, and achievable carrier concentrations still need validation.",
       "hashtags": [
         "#TransparentConductors",
-        "#PTypeSemiconductors",
-        "#DFT",
-        "#HighThroughputMaterials",
-        "#HalidePerovskites"
+        "#PTypeMaterials",
+        "#ComputationalMaterials",
+        "#HalideSemiconductors",
+        "#HighThroughputScreening"
       ],
       "paper_id": "2026-09-25-arxiv-high_throughput_computational_discovery_of_cui_based_ternary_p_type_transparent_conductors",
       "paper_title": "High-throughput computational discovery of CuI-based ternary $p$-type transparent conductors",
       "paper_date": "2026-09-25",
       "paper_category": "Perovskite Solar Cells",
-      "generated_at": "2026-10-18T15:09:24",
+      "generated_at": "2026-10-19T09:44:50",
       "generator": "openai"
     }
   },
   {
-    "id": "2026-09-18-arxiv-mobility_lifetime_relation_links_photodegradation_in_spin_coated_and_gravure_printed_organ",
-    "arxiv_id": "2609.22467v1",
-    "date": "2026-09-18",
-    "title": "Mobility-lifetime relation links photodegradation in spin-coated and gravure-printed organic solar cells",
-    "authors": "Maria Saladina, Paul Weitz, David Holzner, Chen Wang, Robert Eland, Svitlana Taranenko",
-    "abstract": "The degradation mechanisms of organic solar cells (OSCs) have been studied primarily in spin-coated, laboratory-scale devices, whereas scalable processing modifies the device architecture, active-layer morphology, and underlying charge-transport and recombination properties. Whether these changes also alter how solar cells degrade remains unclear. Here, we compare spin-coated and fully roll-to-roll-compatible gravure-printed PM6:Y12 solar cells during $\\sim$1000 h of continuous illumination. Despite distinct initial properties and degradation signatures, the loss of power-conversion efficiency systematically follows the mobility-lifetime product $μτ$. Remarkably, ageing of the printed devices increases the recombination lifetime while strongly reducing charge-carrier mobility, showing that a longer lifetime alone does not imply improved device performance. The mobility reduction is accompanied by decreased PM6 lamellar order, whereas the additional open-circuit voltage loss originates predominantly from increased non-radiative recombination. Dark recovery further reveals a metastable contribution specific to the printed architecture. These results identify the mobility-lifetime product as a unifying physical descriptor for photodegradation, linking ageing-induced microscopic changes to macroscopic performance loss across spin-coated and scalable printed OSCs.",
-    "category": "Device Optimization",
+    "id": "2026-10-16-arxiv-converter_aware_coordination_of_computing_flexibility_in_behind_the_meter_data_centers",
+    "arxiv_id": "2610.22972v1",
+    "date": "2026-10-16",
+    "title": "Converter-Aware Coordination of Computing Flexibility in Behind-the-Meter Data Centers",
+    "authors": "Ruolan Cui, Ruizhang Yang, Chenxi Hu, Franxis Yunhe Hou",
+    "abstract": "Data centers are emerging as large electricity consumers whose demand can be reshaped through workload scheduling. However, computing flexibility in behind-the-meter facilities does not automatically translate into electrically realizable power flexibility. Ignoring converter and network operating limits may cause converter overloads, protection trips, and interruptions to power supply and computing services. This paper proposes a converter-aware intraday scheduling methodology. First, a task-level mixed-integer linear formulation preserves synchronous training configurations and completion requirements, while Minkowski-sum aggregation and Shapley--Folkman convexification yield a linear inference-pool representation without unit-level binary variables. The latter admits a conditional relative relaxation-gap bound that decreases inversely with pool size. Second, a four-node electrical model links computing demand, on-site injections, and grid exchange to converter and network limits through lifted voltage variables and second-order cone relaxation. Finally, a mixed-integer model coordinates workloads, photovoltaic generation, energy storage, and grid purchases. Case studies show that electrical limits reshape scheduling and renewable utilization, while on-site resources reduce grid dependence. Under the studied conditions, fixed training cannot support full inference service within voltage limits, whereas coordinated scheduling achieves negligible inference shortage and passes verification against the original alternating-current model. These findings demonstrate the role of computing--electrical coordination in realizing the operational value of workload flexibility.",
+    "category": "AI solar cells",
     "source": "arXiv",
-    "published": "2026-09-18T18:27:50Z",
-    "updated": "2026-09-18T18:27:50Z",
-    "primary_category": "cond-mat.mtrl-sci",
+    "published": "2026-10-16T05:44:50Z",
+    "updated": "2026-10-16T05:44:50Z",
+    "primary_category": "eess.SY",
     "categories": [
-      "cond-mat.mtrl-sci"
+      "eess.SY"
     ],
     "links": [
       {
         "title": "arXiv",
-        "url": "https://arxiv.org/abs/2609.22467v1"
+        "url": "https://arxiv.org/abs/2610.22972v1"
       },
       {
         "title": "PDF",
-        "url": "https://arxiv.org/pdf/2609.22467v1"
-      }
-    ],
-    "score": 45,
-    "infographic": {
-      "key_insight": "Across both spin-coated and gravure-printed organic solar cells, photodegradation is best unified by the mobility-lifetime product (μτ), not by lifetime alone.",
-      "engineering_relevance": "For scalable OSC manufacturing, preserving carrier mobility is as critical as maintaining recombination lifetime, because mobility loss can dominate efficiency decay even when lifetime increases.",
-      "method": [
-        "Compared spin-coated and fully roll-to-roll-compatible gravure-printed PM6:Y12 devices.",
-        "Tracked performance and transport parameters during ~1000 h of continuous illumination.",
-        "Related degradation signatures to microscopic changes in morphology, recombination, and dark recovery behavior."
-      ],
-      "evidence_signal": "After ~1000 h illumination, efficiency loss tracked the mobility-lifetime product μτ across both device types, with printed devices showing increased lifetime but strongly reduced mobility and added open-circuit-voltage loss from non-radiative recombination.",
-      "watch_item": "The printed-architecture-specific metastable recovery indicates that degradation pathways may not transfer directly from lab-scale spin-coated devices to scalable manufacturing without architecture-specific validation.",
-      "hashtags": [
-        "#OrganicSolarCells",
-        "#Photodegradation",
-        "#MobilityLifetime",
-        "#PrintedElectronics",
-        "#DeviceOptimization"
-      ],
-      "paper_id": "2026-09-18-arxiv-mobility_lifetime_relation_links_photodegradation_in_spin_coated_and_gravure_printed_organ",
-      "paper_title": "Mobility-lifetime relation links photodegradation in spin-coated and gravure-printed organic solar cells",
-      "paper_date": "2026-09-18",
-      "paper_category": "Device Optimization",
-      "generated_at": "2026-10-18T15:09:25",
-      "generator": "openai"
-    }
-  },
-  {
-    "id": "2026-10-13-arxiv-composition_controlled_optical_fingerprints_and_anisotropy_of_self_trapped_excitons_in_dou",
-    "arxiv_id": "2610.18665v1",
-    "date": "2026-10-13",
-    "title": "Composition-controlled optical fingerprints and anisotropy of self-trapped excitons in double perovskites",
-    "authors": "Simone Grillo, Offir Zachs Maishlos, Liya Koren, Rotem Strassberg, Rachel Lifer, Edi Maizenberg",
-    "abstract": "Double perovskites (DPs) offer a compositionally versatile platform for photocatalysis and optoelectronics, but their soft lattices favor strong exciton-phonon coupling and self-trapped excitons (STEs), which produce broad, red-shifted photoluminescence (PL). Here, we combine optical spectroscopy and ab initio calculations to study lead-free, Sb-doped Cs2BInCl6 nanocrystals with B-site alloying from Na to K. Alloying tunes the PL energy from about 2.48 to 2.70 eV, while absorption features near 3.8 eV remain nearly unchanged. Calculations reveal that Sb doping enables bright radiative recombination channels and delocalizes the excitonic wavefunction. We identify STEs responsible for the large PL red shift, associated with an upward shift of dopant-hybridized in-gap states. Na-to-K substitution selectively changes the STE lattice distortion, explaining why PL varies strongly with composition while absorption does not. Theory further predicts pronounced PL polarization anisotropy that reflects the STE wavefunction's spatial structure and depends on B-site composition. Time-resolved anisotropy measurements closely agree with these predictions, providing experimental fingerprints of the excitonic wavefunction and its evolution with alloying. Together, these results disentangle the roles of doping and alloying in lead-free DPs and establish polarization-resolved spectroscopy as a probe of STE wavefunctions.",
-    "category": "Perovskite Solar Cells",
-    "source": "arXiv",
-    "published": "2026-10-13T16:26:49Z",
-    "updated": "2026-10-13T16:26:49Z",
-    "primary_category": "cond-mat.mtrl-sci",
-    "categories": [
-      "cond-mat.mtrl-sci"
-    ],
-    "links": [
-      {
-        "title": "arXiv",
-        "url": "https://arxiv.org/abs/2610.18665v1"
-      },
-      {
-        "title": "PDF",
-        "url": "https://arxiv.org/pdf/2610.18665v1"
+        "url": "https://arxiv.org/pdf/2610.22972v1"
       }
     ],
     "score": 44,
     "infographic": {
-      "key_insight": "Sb doping in Na/K-alloyed Cs2BInCl6 double perovskite nanocrystals creates self-trapped excitons whose photoluminescence color and polarization anisotropy are strongly composition-dependent, even though absorption stays nearly unchanged.",
-      "engineering_relevance": "This work shows how B-site alloying can tune emission fingerprints in lead-free perovskites, offering a route to design optoelectronic materials with controllable color, radiative efficiency, and polarization response.",
+      "key_insight": "Workload flexibility in behind-the-meter data centers only becomes useful when scheduling is co-optimized with converter and network limits, so computing demand can be shifted without violating electrical constraints.",
+      "engineering_relevance": "The paper shows how to turn data-center computing flexibility into physically realizable power flexibility by coordinating workloads with photovoltaic generation, storage, and grid purchases.",
       "method": [
-        "Optical spectroscopy of Sb-doped Cs2BInCl6 nanocrystals across Na-to-K B-site alloying",
-        "Ab initio calculations of excitonic states, lattice distortion, and STE formation",
-        "Time-resolved polarization anisotropy measurements to test predicted wavefunction structure"
+        "Task-level MILP preserves training synchronicity and completion constraints.",
+        "Inference pooling is convexified with Minkowski-sum aggregation and Shapley–Folkman relaxation to avoid unit-level binaries.",
+        "A four-node electrical model with lifted voltages and SOCP links computing demand to converter, voltage, and grid limits."
       ],
-      "evidence_signal": "The abstract reports PL tuning from about 2.48 to 2.70 eV while absorption near 3.8 eV remains nearly unchanged, and measured anisotropy closely matches theory.",
-      "watch_item": "The strong composition dependence appears tied to subtle lattice distortions and STE formation, so device performance may be sensitive to synthesis control and phase/stoichiometry uniformity.",
+      "evidence_signal": "Case studies indicate that electrical constraints materially reshape scheduling and renewable use, and coordinated scheduling achieves negligible inference shortage while matching the original AC model in verification.",
+      "watch_item": "The approach depends on accurate electrical-modeling and converter-limit data; if these are mismodeled, schedules may still trigger overloads or voltage violations in practice.",
       "hashtags": [
-        "#Perovskites",
-        "#SelfTrappedExcitons",
-        "#Optoelectronics",
-        "#LeadFree",
-        "#Anisotropy"
+        "#DataCenters",
+        "#DemandFlexibility",
+        "#PowerSystems",
+        "#ConvexOptimization",
+        "#RenewableIntegration"
       ],
-      "paper_id": "2026-10-13-arxiv-composition_controlled_optical_fingerprints_and_anisotropy_of_self_trapped_excitons_in_dou",
-      "paper_title": "Composition-controlled optical fingerprints and anisotropy of self-trapped excitons in double perovskites",
+      "paper_id": "2026-10-16-arxiv-converter_aware_coordination_of_computing_flexibility_in_behind_the_meter_data_centers",
+      "paper_title": "Converter-Aware Coordination of Computing Flexibility in Behind-the-Meter Data Centers",
+      "paper_date": "2026-10-16",
+      "paper_category": "AI solar cells",
+      "generated_at": "2026-10-19T09:44:53",
+      "generator": "openai"
+    }
+  },
+  {
+    "id": "2026-10-13-arxiv-dual_resonator_organic_microcavities_for_triplet_triplet_annihilation_upconversion",
+    "arxiv_id": "2610.19209v1",
+    "date": "2026-10-13",
+    "title": "Dual-Resonator Organic Microcavities for Triplet-Triplet Annihilation Upconversion",
+    "authors": "Robert H. Gordon, Rachel C. Kilbride, Michael Hutton, Jenny Clark, Robert D. J. Oliver",
+    "abstract": "Solid-state triplet-triplet annihilation upconversion offers a compelling route to harvest sub-bandgap photons to increase the efficiency of photovoltaics, but low sensitizer doping required to suppress non-radiative aggregation quenching severely restricts light absorption. Here, we present a dual-resonator planar silver microcavity housing a thermally co-evaporated rubrene:palladium phthalocyanine (PdPC) active layer designed to simultaneously enhance triplet-sensitizer absorption and out-couple upconverted emission. By aligning a dispersive cavity mode with the PdPC absorption peak at $32^\\circ$, we achieve a 12-fold enhancement in absorptance at 665 nm. This absorption boost, combined with directional outcoupling through a second cavity mode, outweighs cavity-induced reabsorption losses to yield a 22-fold peak and 4.5-fold integrated enhancement in detected upconversion emission. Overall, this work highlights the potential of microcavity integration to substantially enhance solid-state upconversion performance across low-intensity optoelectronic applications.",
+    "category": "Organic Photovoltaics",
+    "source": "arXiv",
+    "published": "2026-10-13T21:23:58Z",
+    "updated": "2026-10-13T21:23:58Z",
+    "primary_category": "physics.chem-ph",
+    "categories": [
+      "physics.chem-ph",
+      "physics.optics"
+    ],
+    "links": [
+      {
+        "title": "arXiv",
+        "url": "https://arxiv.org/abs/2610.19209v1"
+      },
+      {
+        "title": "PDF",
+        "url": "https://arxiv.org/pdf/2610.19209v1"
+      }
+    ],
+    "score": 44,
+    "infographic": {
+      "key_insight": "A dual-resonator silver microcavity can simultaneously boost sensitizer absorption and direct upconverted emission, overcoming the usual tradeoff in solid-state triplet-triplet annihilation upconversion.",
+      "engineering_relevance": "This architecture could improve low-light photovoltaic and optoelectronic devices by extracting more usable photons from sub-bandgap light without requiring high sensitizer loading.",
+      "method": [
+        "Thermally co-evaporated a rubrene:palladium phthalocyanine (PdPC) active layer inside a planar silver microcavity.",
+        "Aligned one dispersive cavity mode with the PdPC absorption peak to enhance sensitizer absorption.",
+        "Used a second cavity mode to directionally out-couple upconverted emission while managing reabsorption losses."
+      ],
+      "evidence_signal": "At a cavity angle of 32°, absorptance at 665 nm increased 12-fold, producing a 22-fold peak and 4.5-fold integrated enhancement in detected upconversion emission.",
+      "watch_item": "Performance may depend on precise cavity-angle/mode alignment, and reabsorption losses can still limit gains if the optical design is not carefully tuned.",
+      "hashtags": [
+        "#OrganicPhotovoltaics",
+        "#Upconversion",
+        "#Microcavity",
+        "#TripletTripletAnnihilation",
+        "#SolarEnergy"
+      ],
+      "paper_id": "2026-10-13-arxiv-dual_resonator_organic_microcavities_for_triplet_triplet_annihilation_upconversion",
+      "paper_title": "Dual-Resonator Organic Microcavities for Triplet-Triplet Annihilation Upconversion",
       "paper_date": "2026-10-13",
-      "paper_category": "Perovskite Solar Cells",
-      "generated_at": "2026-10-18T15:09:27",
+      "paper_category": "Organic Photovoltaics",
+      "generated_at": "2026-10-19T09:44:56",
       "generator": "openai"
     }
   },
@@ -847,27 +796,27 @@
     ],
     "score": 44,
     "infographic": {
-      "key_insight": "Indoor photovoltaics, energy storage, and low-power (anti)ferroelectric computing can be co-designed to enable reliable edge AI without relying on centralized data centers.",
-      "engineering_relevance": "The paper frames a practical pathway for distributed intelligence by matching local energy harvesting and storage to the power needs of neuromorphic or in-memory computation.",
+      "key_insight": "Indoor photovoltaics, energy storage, and low-power neuromorphic computing should be co-designed so edge AI nodes can run reliably on harvested local energy instead of centralized infrastructure.",
+      "engineering_relevance": "The paper frames a practical route to sustainable distributed intelligence by pairing high-efficiency indoor solar harvesting with ferroelectric materials that can improve both energy buffering and compute efficiency.",
       "method": [
-        "Assess the energy requirements of edge/distributed intelligence against available local power supplies.",
-        "Evaluate emerging indoor photovoltaic materials for harvesting ambient indoor light efficiently.",
-        "Argue that (anti)ferroelectrics can address both electrostatic energy storage and low-power neuromorphic computing bottlenecks."
+        "Review requirements for indoor photovoltaics in distributed intelligence",
+        "Assess emerging materials against energy-harvesting and storage needs",
+        "Argue for (anti)ferroelectrics as enablers of electrostatic storage and in-memory computing"
       ],
-      "evidence_signal": "This is a perspective article that synthesizes current material trends and system requirements rather than reporting new experimental benchmarks in the abstract.",
-      "watch_item": "A key implementation concern is whether real indoor light levels, storage losses, and device reliability can jointly meet the sustained power demands of practical distributed AI nodes.",
+      "evidence_signal": "This is a perspective article, so its support comes from a requirements-based synthesis of the literature rather than new experimental data or benchmark results.",
+      "watch_item": "System-level deployment still depends on matching intermittent indoor power output with real device energy demand, durability, and scalable fabrication.",
       "hashtags": [
         "#EdgeAI",
         "#IndoorPhotovoltaics",
         "#Ferroelectrics",
         "#NeuromorphicComputing",
-        "#EnergyHarvesting"
+        "#SustainableElectronics"
       ],
       "paper_id": "2026-10-04-arxiv-computing_at_the_edge_enabled_by_indoor_photovoltaics_and_ferroelectrics",
       "paper_title": "Computing at the Edge Enabled by Indoor Photovoltaics and Ferroelectrics",
       "paper_date": "2026-10-04",
       "paper_category": "AI solar cells",
-      "generated_at": "2026-10-18T15:09:29",
+      "generated_at": "2026-10-19T09:44:58",
       "generator": "openai"
     }
   },
@@ -898,27 +847,27 @@
     ],
     "score": 43,
     "infographic": {
-      "key_insight": "Quenched B-site disorder in monoclinic Sr2FeRuO6 stabilizes a Griffiths-like magnetic regime with short-range ferromagnetic clusters and strongly localized charge transport.",
-      "engineering_relevance": "The work shows how controlled cation disorder in 3d-4d double perovskites can tune magnetic inhomogeneity and hopping-based transport for spintronic materials design.",
+      "key_insight": "In Sr2FeRuO6, B-site antisite disorder stabilizes Griffiths-like magnetic behavior and strongly localized charge transport in a frustrated 3d-4d double perovskite.",
+      "engineering_relevance": "The study shows how controlled disorder in complex oxides can be leveraged or mitigated to tune magnetic inhomogeneity and transport for spintronic materials design.",
       "method": [
-        "Structural characterization of the monoclinic, antisite-disordered double perovskite.",
-        "Magnetic measurements to identify a robust Griffiths phase above the ordering temperature.",
-        "Electrical transport analysis to distinguish small-polaron hopping and variable-range hopping behavior."
+        "Structural analysis of the monoclinic double-perovskite phase with significant antisite disorder",
+        "Magnetic measurements to detect a robust Griffiths phase above the ordering temperature",
+        "Transport measurements to identify small-polaron hopping and variable-range hopping regimes"
       ],
-      "evidence_signal": "The abstract reports magnetic and transport data showing a Griffiths phase above the transition temperature and a temperature-dependent crossover from small-polaron hopping to variable-range hopping.",
-      "watch_item": "Because the behavior is strongly tied to disorder and localization, performance may be sensitive to synthesis quality and antisite concentration.",
+      "evidence_signal": "The abstract reports clear experimental signatures of short-range ferromagnetic clusters and temperature-dependent localized conduction, supporting disorder-driven phase behavior.",
+      "watch_item": "Because the material is strongly disordered and transport is highly localized, device performance may be difficult to control or reproduce without tight synthesis control.",
       "hashtags": [
-        "#DoublePerovskite",
+        "#Perovskite",
+        "#DisorderPhysics",
         "#GriffithsPhase",
-        "#ChargeLocalization",
         "#Spintronics",
-        "#DisorderPhysics"
+        "#ChargeLocalization"
       ],
       "paper_id": "2026-10-14-arxiv-disorder_induced_griffiths_like_phase_and_charge_localization_in_sr2feruo6",
       "paper_title": "Disorder-Induced Griffiths like Phase and Charge Localization in Sr2FeRuO6",
       "paper_date": "2026-10-14",
       "paper_category": "Perovskite Solar Cells",
-      "generated_at": "2026-10-18T15:09:31",
+      "generated_at": "2026-10-19T09:45:00",
       "generator": "openai"
     }
   },
@@ -949,27 +898,27 @@
     ],
     "score": 43,
     "infographic": {
-      "key_insight": "An equivalent-circuit model shows that the S-shaped voltage response and photoluminescence behavior of the valley photovoltaic device are caused by a reverse diode that impedes electron extraction.",
-      "engineering_relevance": "This work identifies a concrete device-level failure mode in valley photovoltaics, giving designers a clear target for improving carrier extraction and pushing efficiency higher.",
+      "key_insight": "A reverse-diode-like barrier in the valley photovoltaic device explains the S-shaped I–V curve and the linked photoluminescence/electrical behavior, limiting carrier extraction.",
+      "engineering_relevance": "Designing high-efficiency valley photovoltaic solar cells requires eliminating the reverse diode, whether it originates from valley scattering or a heterojunction barrier.",
       "method": [
-        "Measured intensity- and voltage-dependent photoluminescence.",
-        "Collected electrical current-voltage characteristics showing S-shaped behavior.",
-        "Fit both optical and electrical data with a unified equivalent-circuit model, supported by Poisson/drift-diffusion analysis."
+        "Built an equivalent-circuit model that jointly fits photoluminescence and electrical responses.",
+        "Measured intensity- and voltage-dependent photoluminescence alongside electrical signals from a VPV device.",
+        "Used Poisson/drift-diffusion modeling to identify possible physical origins of the reverse diode."
       ],
-      "evidence_signal": "The model simultaneously explains the device’s photoluminescence and electrical measurements, including the previously observed S-shaped current-voltage curves.",
-      "watch_item": "The reverse-diode effect must be eliminated, and it may arise from either valley-scattering physics or a heterojunction barrier.",
+      "evidence_signal": "The model reproduces the device’s S-shaped current-voltage curves and matches the combined photoluminescence and electrical measurements reported in the abstract.",
+      "watch_item": "The inferred reverse diode may come from multiple mechanisms, so device improvements must address both valley-scattering dynamics and possible heterojunction barriers.",
       "hashtags": [
         "#ValleyPhotovoltaics",
-        "#HotCarrierSolarCells",
+        "#SolarCells",
         "#Photoluminescence",
-        "#EquivalentCircuitModel",
+        "#EquivalentCircuit",
         "#DeviceOptimization"
       ],
       "paper_id": "2026-09-29-arxiv-combined_photoluminescence_and_electrical_characterization_of_valley_photovoltaic_devices",
       "paper_title": "Combined photoluminescence and electrical characterization of valley photovoltaic devices explained with an equivalent circuit",
       "paper_date": "2026-09-29",
       "paper_category": "Device Optimization",
-      "generated_at": "2026-10-18T15:09:32",
+      "generated_at": "2026-10-19T09:45:02",
       "generator": "openai"
     }
   },
@@ -1000,19 +949,19 @@
     ],
     "score": 43,
     "infographic": {
-      "key_insight": "DFT+U predicts trigonal LaBiO3 is a stable, ductile wide-band-gap semiconductor with promising optical and thermoelectric features for optoelectronic and photovoltaic exploration.",
-      "engineering_relevance": "The computed electronic, elastic, optical, and transport properties provide a screening basis for assessing LaBiO3 as a functional oxide for solar-energy and device applications.",
+      "key_insight": "DFT+U predicts trigonal LaBiO3 is a wide-band-gap, mechanically ductile perovskite with promising optical and thermoelectric properties for energy applications.",
+      "engineering_relevance": "These results suggest LaBiO3 could be useful in optoelectronic and photovoltaic device design where wide-gap stability, strong absorption, and transport performance matter.",
       "method": [
-        "DFT with ONCVVPSP pseudopotentials and PBE exchange-correlation",
-        "GGA+U correction to refine the electronic structure and band gap",
-        "Voigt-Reuss-Hill averaging plus optical and transport coefficient calculations"
+        "DFT with ONCVVPSP pseudopotentials and PBE/GGA+U",
+        "Equation-of-state fitting for lattice, volume, and bulk properties",
+        "Voigt-Reuss-Hill, optical spectra, and semiclassical transport calculations"
       ],
-      "evidence_signal": "The study reports an indirect band gap of 3.51 eV and evaluates structure, elasticity, optics, and semiclassical transport across a 0–35 eV range.",
-      "watch_item": "Results are theoretical and depend on the chosen functional/U value, so experimental validation is needed before device implementation.",
+      "evidence_signal": "The abstract reports a computed indirect band gap of 3.51 eV and evaluates structural, elastic, optical, and thermoelectric metrics over a 0–35 eV range.",
+      "watch_item": "The conclusions are based on first-principles calculations, so experimental synthesis, defect effects, and temperature-dependent device behavior still need validation.",
       "hashtags": [
-        "#DFT",
         "#Perovskite",
-        "#SolarMaterials",
+        "#DFT",
+        "#Photovoltaics",
         "#Thermoelectrics",
         "#Optoelectronics"
       ],
@@ -1020,7 +969,58 @@
       "paper_title": "Computational investigation of a perovskite LaBiO$_{3}$ for photovoltaic, thermoelectric, and optoelectronic applications",
       "paper_date": "2026-09-20",
       "paper_category": "Perovskite Solar Cells",
-      "generated_at": "2026-10-18T15:09:34",
+      "generated_at": "2026-10-19T09:45:04",
+      "generator": "openai"
+    }
+  },
+  {
+    "id": "2026-10-12-arxiv-theoretical_investigation_of_oxygen_vacancy_diffusion_in_srtio_3_using_neural_network_pote",
+    "arxiv_id": "2610.16521v1",
+    "date": "2026-10-12",
+    "title": "Theoretical Investigation of Oxygen-Vacancy Diffusion in SrTiO$_3$ using Neural Network Potentials",
+    "authors": "Kazutaka Nishiguchi, Ryota Yamamoto, Seiichiro Ten-no",
+    "abstract": "Oxygen-vacancy formation and diffusion play important roles in determining the electronic and atomic transport properties of SrTiO$_3$ (STO). Accurate analysis of such point defects requires sufficiently large-scale and long-time molecular dynamics (MD) simulations; however, direct investigations of oxygen-vacancy dynamics using {\\it ab initio} MD (AIMD) based on density functional theory (DFT) are limited to relatively small systems and short time scales because of their high computational cost. In this study, we develop a neural network potential (NNP) for pristine and oxygen-deficient STO using a reference dataset generated from AIMD simulations. The trained NNP model accurately reproduces the DFT reference energies, atomic forces, and virials for both pristine STO and STO containing an oxygen vacancy. The NNP also reproduces the supercell-size dependence of the total energies and oxygen-vacancy formation energies, including the formation energy extrapolated to the dilute limit. Large-scale and long-time MD simulations using the NNP (NNP-MD) are then performed to investigate oxygen-vacancy diffusion. The resulting oxygen-vacancy diffusion coefficients show substantially better agreement with experimental data than those obtained from conventional classical MD simulations. An Arrhenius analysis yields an oxygen-vacancy migration enthalpy of 0.64 eV, in close agreement with the experimental value of 0.67 eV. These results demonstrate that NNPs trained on first-principles data provide an accurate and computationally efficient framework for investigating defect formation and long-time vacancy transport in perovskite oxides.",
+    "category": "Perovskite Solar Cells",
+    "source": "arXiv",
+    "published": "2026-10-12T10:10:35Z",
+    "updated": "2026-10-12T10:10:35Z",
+    "primary_category": "cond-mat.mtrl-sci",
+    "categories": [
+      "cond-mat.mtrl-sci"
+    ],
+    "links": [
+      {
+        "title": "arXiv",
+        "url": "https://arxiv.org/abs/2610.16521v1"
+      },
+      {
+        "title": "PDF",
+        "url": "https://arxiv.org/pdf/2610.16521v1"
+      }
+    ],
+    "score": 41,
+    "infographic": {
+      "key_insight": "A neural network potential trained on first-principles data can accurately capture oxygen-vacancy formation and long-time diffusion in SrTiO3, overcoming the scale limits of direct DFT molecular dynamics.",
+      "engineering_relevance": "This enables reliable, computationally efficient defect-transport simulations for perovskite oxides, supporting better materials design for devices where oxygen vacancies affect performance.",
+      "method": [
+        "Trained an NNP on AIMD/DFT reference data for pristine and oxygen-deficient SrTiO3.",
+        "Validated energies, forces, virials, and vacancy formation energies across supercell sizes.",
+        "Ran large-scale, long-time NNP molecular dynamics to extract vacancy diffusion coefficients and migration enthalpy."
+      ],
+      "evidence_signal": "The NNP reproduces DFT reference properties and yields a vacancy migration enthalpy of 0.64 eV, close to the experimental 0.67 eV.",
+      "watch_item": "Accuracy depends on the quality and coverage of the DFT training set, so extrapolation to conditions outside the sampled defect states, temperatures, or compositions should be treated cautiously.",
+      "hashtags": [
+        "#NeuralNetworkPotential",
+        "#SrTiO3",
+        "#OxygenVacancy",
+        "#MolecularDynamics",
+        "#Perovskites"
+      ],
+      "paper_id": "2026-10-12-arxiv-theoretical_investigation_of_oxygen_vacancy_diffusion_in_srtio_3_using_neural_network_pote",
+      "paper_title": "Theoretical Investigation of Oxygen-Vacancy Diffusion in SrTiO$_3$ using Neural Network Potentials",
+      "paper_date": "2026-10-12",
+      "paper_category": "Perovskite Solar Cells",
+      "generated_at": "2026-10-19T09:45:06",
       "generator": "openai"
     }
   }

@@ -1,24 +1,24 @@
 {
-  "key_insight": "A neural network potential trained on DFT data can accurately model oxygen-vacancy formation and long-time diffusion in SrTiO3 at scales impractical for ab initio MD.",
-  "engineering_relevance": "This enables reliable, large-scale defect-transport simulations for perovskite oxides, improving prediction of degradation, conductivity, and device-relevant defect behavior.",
+  "key_insight": "A neural network potential trained on first-principles data can accurately capture oxygen-vacancy formation and long-time diffusion in SrTiO3, overcoming the scale limits of direct DFT molecular dynamics.",
+  "engineering_relevance": "This enables reliable, computationally efficient defect-transport simulations for perovskite oxides, supporting better materials design for devices where oxygen vacancies affect performance.",
   "method": [
-    "Generated a DFT/AIMD reference dataset for pristine and oxygen-deficient SrTiO3.",
-    "Trained a neural network potential to reproduce energies, forces, virials, and vacancy formation energies.",
-    "Ran large-scale NNP-MD and extracted oxygen-vacancy diffusion coefficients and Arrhenius migration enthalpy."
+    "Trained an NNP on AIMD/DFT reference data for pristine and oxygen-deficient SrTiO3.",
+    "Validated energies, forces, virials, and vacancy formation energies across supercell sizes.",
+    "Ran large-scale, long-time NNP molecular dynamics to extract vacancy diffusion coefficients and migration enthalpy."
   ],
-  "evidence_signal": "The NNP matches DFT reference properties and yields a 0.64 eV migration enthalpy, close to the experimental 0.67 eV.",
-  "watch_item": "The model is validated for SrTiO3 defect chemistry, but transferability to other compositions, defect types, or strongly different thermodynamic conditions may require retraining.",
+  "evidence_signal": "The NNP reproduces DFT reference properties and yields a vacancy migration enthalpy of 0.64 eV, close to the experimental 0.67 eV.",
+  "watch_item": "Accuracy depends on the quality and coverage of the DFT training set, so extrapolation to conditions outside the sampled defect states, temperatures, or compositions should be treated cautiously.",
   "hashtags": [
     "#NeuralNetworkPotential",
     "#SrTiO3",
     "#OxygenVacancy",
     "#MolecularDynamics",
-    "#PerovskiteOxides"
+    "#Perovskites"
   ],
   "paper_id": "2026-10-12-arxiv-theoretical_investigation_of_oxygen_vacancy_diffusion_in_srtio_3_using_neural_network_pote",
   "paper_title": "Theoretical Investigation of Oxygen-Vacancy Diffusion in SrTiO$_3$ using Neural Network Potentials",
   "paper_date": "2026-10-12",
   "paper_category": "Perovskite Solar Cells",
-  "generated_at": "2026-10-17T14:44:35",
+  "generated_at": "2026-10-19T09:45:06",
   "generator": "openai"
 }

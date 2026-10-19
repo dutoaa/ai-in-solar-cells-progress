@@ -1,24 +1,24 @@
 {
-  "key_insight": "Random train/test splits in perovskite-ML benchmarks can drastically overestimate performance because duplicated recipes leak information, so provenance-grouped evaluation is needed to measure true generalisation.",
-  "engineering_relevance": "For device optimization, this protocol helps researchers choose models and claims that transfer to genuinely new perovskite chemistries, fabrication routes, and institutions rather than to familiar historical records.",
+  "key_insight": "Random train/test splits overestimate perovskite ML performance because duplicate recipes leak across splits; provenance-grouped evaluation reveals a truer test of generalisation.",
+  "engineering_relevance": "For device optimization, the study provides a stricter benchmarking protocol that better distinguishes memorization from physically useful prediction when screening perovskite solar-cell recipes.",
   "method": [
     "Mapped institutional provenance in the Perovskite Database.",
-    "Built a hierarchy of grouped splits to isolate duplicates, publications, and institutions.",
-    "Benchmarked 13 models across increasingly strict evaluation settings."
+    "Built a hierarchy of grouped splits that isolate duplicates, publications, and institutions.",
+    "Benchmarked 13 models across random and progressively stricter evaluation settings."
   ],
-  "evidence_signal": "The abstract reports that nearly two-thirds of curated devices share their exact recipe with another, and that model rankings shift sharply when moving from random splits to unseen institutions and future-discovery splits.",
-  "watch_item": "Grouped evaluation is more realistic but may reduce apparent scores and requires careful provenance tracking, especially when metadata are incomplete or inconsistently recorded.",
+  "evidence_signal": "The abstract reports that nearly two-thirds of curated devices share an exact recipe match, making random splits prone to leakage and inflated accuracy.",
+  "watch_item": "Performance rankings can shift sharply under grouped splits, so models should not be selected using random-split results alone.",
   "hashtags": [
-    "#PerovskiteSolarCells",
+    "#PerovskitePV",
     "#MachineLearning",
-    "#DataProvenance",
     "#ModelEvaluation",
-    "#DeviceOptimization"
+    "#DataLeakage",
+    "#SolarCells"
   ],
   "paper_id": "2026-10-08-arxiv-provenance_grouped_protocol_for_evaluating_machine_learning_in_perovskite_photovoltaics",
   "paper_title": "Provenance-grouped protocol for evaluating machine learning in perovskite photovoltaics",
   "paper_date": "2026-10-08",
   "paper_category": "Device Optimization",
-  "generated_at": "2026-10-18T15:09:05",
+  "generated_at": "2026-10-19T09:44:25",
   "generator": "openai"
 }
