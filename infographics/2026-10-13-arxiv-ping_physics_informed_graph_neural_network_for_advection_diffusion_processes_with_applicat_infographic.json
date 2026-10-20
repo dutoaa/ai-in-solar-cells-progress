@@ -1,13 +1,13 @@
 {
-  "key_insight": "PING combines graph neural networks with advection–diffusion physics to forecast transport on irregular sensor networks and support solar power forecasting.",
-  "engineering_relevance": "Better cloud-motion forecasts can improve intra-day photovoltaic power predictions and help integrate more solar generation into the grid.",
+  "key_insight": "PING embeds advection–diffusion physics in a graph neural network to forecast transport dynamics on irregular sensor networks and improve solar power forecasting.",
+  "engineering_relevance": "Better intra-day photovoltaic power forecasts can support grid integration by combining satellite cloud observations with ground-based station data.",
   "method": [
-    "Represent transported particle concentrations as signals on an irregular graph.",
+    "Represent transported particle concentrations as signals on a graph.",
     "Use a discretized advection–diffusion equation as a soft constraint in the training loss.",
-    "Couple PING with PV forecasting models using ground-sensor and satellite cloud data."
+    "Couple PING forecasts with photovoltaic power prediction models."
   ],
   "evidence_signal": "The abstract reports performance on par with state-of-the-art models on synthetic and real transport datasets, including sea surface temperature and cloud index data, plus improved intra-day PV forecasting.",
-  "watch_item": "The abstract provides no numerical PV forecasting gains, so deployment benefits require site-specific validation.",
+  "watch_item": "A soft physics constraint does not guarantee physical consistency, and the abstract provides no quantitative PV forecast gains.",
   "hashtags": [
     "#PhysicsInformedAI",
     "#GraphNeuralNetworks",
@@ -21,6 +21,6 @@
   "paper_title": "PING: physics informed graph neural network for advection-diffusion processes with applications to solar power forecasting",
   "paper_date": "2026-10-13",
   "paper_category": "Device Optimization",
-  "generated_at": "2026-10-19T18:02:26",
+  "generated_at": "2026-10-20T16:06:20",
   "generator": "openai"
 }

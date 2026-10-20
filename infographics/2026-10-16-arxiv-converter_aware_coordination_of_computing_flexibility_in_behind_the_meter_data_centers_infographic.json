@@ -1,13 +1,13 @@
 {
-  "key_insight": "Data-center workload flexibility becomes usable electrical flexibility only when scheduling respects converter and network operating limits.",
-  "engineering_relevance": "Coordinating computing demand with photovoltaic generation, storage, and grid purchases can reduce grid dependence while maintaining electrical feasibility and computing service.",
+  "key_insight": "Data-center workload flexibility becomes electrically usable only when scheduling respects converter and network operating limits.",
+  "engineering_relevance": "Coordinating computing demand with photovoltaic generation, storage, and grid purchases can reduce grid dependence without compromising electrical feasibility.",
   "method": [
     "Model training tasks with mixed-integer constraints preserving synchronous configurations and completion requirements.",
-    "Aggregate inference flexibility using Minkowski sums and Shapley–Folkman convexification without unit-level binary variables.",
+    "Aggregate inference flexibility using Minkowski sums and Shapley–Folkman convexification.",
     "Coordinate workloads and energy resources through a four-node electrical model with second-order cone relaxation."
   ],
-  "evidence_signal": "In the reported case studies, fixed training could not support full inference service within voltage limits, while coordinated scheduling achieved negligible inference shortage and passed verification against the original AC model.",
-  "watch_item": "The inference relaxation-gap bound is conditional, and broader applicability beyond the studied four-node system requires further validation.",
+  "evidence_signal": "Case studies report negligible inference shortage with coordinated scheduling and verification against the original AC model, while fixed training cannot support full inference service within voltage limits under the studied conditions.",
+  "watch_item": "The inference relaxation-gap bound is conditional, and deployments should verify relaxed schedules against their actual electrical networks.",
   "hashtags": [
     "#DataCenterEnergy",
     "#WorkloadScheduling",
@@ -21,6 +21,6 @@
   "paper_title": "Converter-Aware Coordination of Computing Flexibility in Behind-the-Meter Data Centers",
   "paper_date": "2026-10-16",
   "paper_category": "AI solar cells",
-  "generated_at": "2026-10-19T18:02:49",
+  "generated_at": "2026-10-20T16:06:40",
   "generator": "openai"
 }
