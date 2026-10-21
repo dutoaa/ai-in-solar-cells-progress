@@ -1,0 +1,26 @@
+{
+  "key_insight": "A shared PV forecasting model pretrained across sites and horizons can forecast at unseen stations without station-specific training.",
+  "engineering_relevance": "The framework offers a scalable way to forecast distributed PV fleets while reducing repeated model training and maintenance as stations are added.",
+  "method": [
+    "Formulate forecasting as sequence completion using historical PV power, weather observations, future numerical weather predictions, and time encodings.",
+    "Compare forecast-aligned, generic, and mixed reconstruction pretraining objectives.",
+    "Use mixed reconstruction to balance forecasting accuracy, resilience to degraded weather predictions, and downstream adaptation."
+  ],
+  "evidence_signal": "Evaluation covered 479 PV stations, including 139 spatially held-out sites, and horizons from 6 hours to 7 days; the mixed-reconstruction model outperformed the tested station-specific, shared, and generalist time-series baselines.",
+  "watch_item": "Deployment requires compatible weather and PV data pipelines; transfer beyond the evaluated stations and operating conditions remains to be validated.",
+  "hashtags": [
+    "#PVForecasting",
+    "#SolarEnergy",
+    "#FoundationModels",
+    "#DistributedPV",
+    "#TransferLearning"
+  ],
+  "model": "gpt-6.1-sol",
+  "service_tier": "ultrafast",
+  "paper_id": "2026-10-20-arxiv-foundation_style_pretraining_for_scalable_and_transferable_distributed_pv_forecasting",
+  "paper_title": "Foundation-Style Pretraining for Scalable and Transferable Distributed PV Forecasting",
+  "paper_date": "2026-10-20",
+  "paper_category": "Manufacturing and Modules",
+  "generated_at": "2026-10-21T16:22:31",
+  "generator": "openai"
+}

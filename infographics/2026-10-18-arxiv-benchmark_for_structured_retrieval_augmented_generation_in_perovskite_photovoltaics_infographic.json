@@ -1,18 +1,18 @@
 {
-  "key_insight": "Read-only SQL access to structured perovskite device data raises quantitative question-answering accuracy to about 51%, versus 16–23% for passage retrieval.",
-  "engineering_relevance": "Reliable literature-scale comparisons of perovskite solar cells require structured experimental records, not text retrieval alone.",
+  "key_insight": "Read-only SQL access to structured perovskite device records raised quantitative question-answering accuracy to about 51%, versus 16–23% for passage retrieval.",
+  "engineering_relevance": "Reliable literature-scale comparisons of solar-cell measurements require structured experimental data, not text retrieval alone.",
   "method": [
     "Compute 755 ground-truth answers from 45,441 measured device records.",
-    "Benchmark six retrieval architectures across 158,274 passages from 25,662 papers.",
-    "Equip an open 14B language model with read-only SQL access on a single 24 GB GPU."
+    "Benchmark six retrieval architectures using an open 14B model on one 24 GB GPU.",
+    "Compare passage retrieval with read-only SQL queries over a structured device table."
   ],
-  "evidence_signal": "SQL-enabled accuracy reaches 51.5% on historical and 50.8% on prospective literature, while zero-shot accuracy ranges from 1.6% to 6.5%.",
-  "watch_item": "Structured access depends on accurate table extraction and curation, and roughly half of benchmark questions remain unanswered correctly.",
+  "evidence_signal": "Evaluation covered 158,274 passages from 25,662 papers; SQL-enabled accuracy reached 51.5% on historical and 50.8% on prospective literature.",
+  "watch_item": "SQL-enabled accuracy remained near 51%, and deployment depends on accurate extraction and maintenance of structured device records.",
   "hashtags": [
     "#PerovskiteSolarCells",
     "#RetrievalAugmentedGeneration",
-    "#MaterialsInformatics",
     "#StructuredData",
+    "#MaterialsInformatics",
     "#ScientificAI"
   ],
   "model": "gpt-6.1-sol",
@@ -21,6 +21,6 @@
   "paper_title": "Benchmark for Structured Retrieval-Augmented Generation in Perovskite Photovoltaics",
   "paper_date": "2026-10-18",
   "paper_category": "Perovskite Solar Cells",
-  "generated_at": "2026-10-20T16:05:55",
+  "generated_at": "2026-10-21T16:22:23",
   "generator": "openai"
 }
