@@ -1,19 +1,19 @@
 {
-  "key_insight": "A shared, domain-pretrained model forecasts distributed PV generation across sites and horizons, including previously unseen stations without local retraining.",
-  "engineering_relevance": "Fleet-wide forecasting could reduce per-station model training and maintenance while supporting later adaptation to local operating needs.",
+  "key_insight": "A shared pretrained model forecasts distributed PV generation across sites and horizons, including unseen stations without local retraining.",
+  "engineering_relevance": "Fleet-wide forecasting could reduce site-specific model training and maintenance while supporting local adaptation as station data become available.",
   "method": [
-    "Frame forecasting as sequence completion using historical PV power, weather observations, future NWP forecasts, and time encodings.",
-    "Pretrain across heterogeneous sites and forecasting horizons.",
-    "Compare forecast-aligned, generic, and mixed reconstruction objectives; mixed reconstruction provides the most balanced performance."
+    "Pretrain on heterogeneous multi-site, multi-horizon PV data.",
+    "Frame forecasting as sequence completion using historical power, weather observations, future NWP forecasts, and time encodings.",
+    "Combine forecast-aligned and random reconstruction in a mixed reconstruction (MR) objective."
   ],
-  "evidence_signal": "Evaluation spans 479 PV stations—340 for development and 139 spatially held out for zero-shot testing—with reported gains over station-specific, shared, and generalist baselines across 6-hour to 7-day horizons.",
-  "watch_item": "Deployment still requires validating NWP quality and transfer performance under weather and site conditions beyond the evaluated fleet.",
+  "evidence_signal": "Experiments used 479 PV stations—340 for model development and 139 spatially held out for zero-shot evaluation—with MR outperforming tested baselines across horizons from 6 hours to 7 days.",
+  "watch_item": "The abstract provides no numerical error reductions or deployment costs, limiting assessment of practical gains and operational scalability.",
   "hashtags": [
     "#PVForecasting",
-    "#DistributedSolar",
+    "#SolarEnergy",
     "#FoundationModels",
-    "#TimeSeriesAI",
-    "#RenewableEnergy"
+    "#DistributedPV",
+    "#TimeSeriesAI"
   ],
   "model": "gpt-6.1-sol",
   "service_tier": "ultrafast",
@@ -21,6 +21,6 @@
   "paper_title": "Foundation-Style Pretraining for Scalable and Transferable Distributed PV Forecasting",
   "paper_date": "2026-10-20",
   "paper_category": "Manufacturing and Modules",
-  "generated_at": "2026-10-22T16:22:21",
+  "generated_at": "2026-10-23T16:11:25",
   "generator": "openai"
 }

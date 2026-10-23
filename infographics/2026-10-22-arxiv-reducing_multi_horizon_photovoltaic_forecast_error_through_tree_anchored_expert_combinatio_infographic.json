@@ -1,0 +1,26 @@
+{
+  "key_insight": "A selective, tree-anchored combination reduced photovoltaic forecast MAE by 3.21% versus the strongest standalone tree model across 15–240-minute horizons.",
+  "engineering_relevance": "Solar forecasting pipelines can improve accuracy by combining complementary predictions while assigning zero weight to unhelpful models.",
+  "method": [
+    "Combine LightGBM with seven neural predictors using nonnegative weights that sum to one.",
+    "Fit shared cross-horizon weights to MAE, with the tree providing a development-stage fallback.",
+    "Test horizon-specific weights, alternative losses and a bounded neural correction."
+  ],
+  "evidence_signal": "On 56,078 windows from two co-located public PVDAQ systems, the historical shared-MAE combination lowered scaled MAE by 3.21%; the latest neural correction added no further MAE improvement.",
+  "watch_item": "Both analyses reused a previously inspected evaluation period, so independent validation is needed before assuming gains generalize.",
+  "hashtags": [
+    "#Photovoltaics",
+    "#SolarForecasting",
+    "#EnsembleLearning",
+    "#LightGBM",
+    "#RenewableEnergy"
+  ],
+  "model": "gpt-6.1-sol",
+  "service_tier": "ultrafast",
+  "paper_id": "2026-10-22-arxiv-reducing_multi_horizon_photovoltaic_forecast_error_through_tree_anchored_expert_combinatio",
+  "paper_title": "Reducing Multi-Horizon Photovoltaic Forecast Error through Tree-Anchored Expert Combination",
+  "paper_date": "2026-10-22",
+  "paper_category": "Degradation and Stability",
+  "generated_at": "2026-10-23T16:11:36",
+  "generator": "openai"
+}
