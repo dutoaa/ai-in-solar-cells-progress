@@ -1,19 +1,19 @@
 {
-  "key_insight": "A selective, tree-anchored combination reduced photovoltaic forecast MAE by 3.21% versus the strongest standalone tree model across 15–240-minute horizons.",
-  "engineering_relevance": "Solar forecasting pipelines can improve accuracy by combining complementary predictions while assigning zero weight to unhelpful models.",
+  "key_insight": "A tree-anchored weighted combination reduced photovoltaic forecast MAE by 3.21% versus LightGBM alone across 15–240-minute horizons.",
+  "engineering_relevance": "Selective combination can improve short-term solar power forecasts without requiring every candidate model to contribute.",
   "method": [
     "Combine LightGBM with seven neural predictors using nonnegative weights that sum to one.",
-    "Fit shared cross-horizon weights to MAE, with the tree providing a development-stage fallback.",
+    "Fit shared cross-horizon weights to MAE, allowing unhelpful candidates to receive zero weight.",
     "Test horizon-specific weights, alternative losses and a bounded neural correction."
   ],
-  "evidence_signal": "On 56,078 windows from two co-located public PVDAQ systems, the historical shared-MAE combination lowered scaled MAE by 3.21%; the latest neural correction added no further MAE improvement.",
-  "watch_item": "Both analyses reused a previously inspected evaluation period, so independent validation is needed before assuming gains generalize.",
+  "evidence_signal": "Evaluation used 56,078 windows from two co-located public PVDAQ systems; the historical shared-MAE combination improved on the tree, while the latest neural correction added no further MAE reduction.",
+  "watch_item": "Both analyses reused a previously inspected evaluation period, so independent validation is needed before assuming broader gains.",
   "hashtags": [
-    "#Photovoltaics",
     "#SolarForecasting",
+    "#Photovoltaics",
     "#EnsembleLearning",
     "#LightGBM",
-    "#RenewableEnergy"
+    "#RenewableEnergyAI"
   ],
   "model": "gpt-6.1-sol",
   "service_tier": "ultrafast",
@@ -21,6 +21,6 @@
   "paper_title": "Reducing Multi-Horizon Photovoltaic Forecast Error through Tree-Anchored Expert Combination",
   "paper_date": "2026-10-22",
   "paper_category": "Degradation and Stability",
-  "generated_at": "2026-10-23T16:11:36",
+  "generated_at": "2026-10-24T15:08:34",
   "generator": "openai"
 }

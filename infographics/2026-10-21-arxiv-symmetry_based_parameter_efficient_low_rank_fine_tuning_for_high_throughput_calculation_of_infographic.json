@@ -1,19 +1,19 @@
 {
-  "key_insight": "Symmetry-based low-rank fine-tuning enables one MatterSim 1M potential to predict lattice thermal conductivity across compounds sharing a crystal symmetry, including compounds absent from fine-tuning.",
-  "engineering_relevance": "Faster thermal-conductivity screening could support thermal management and materials selection for photovoltaic, microelectronic, and thermoelectric applications.",
+  "key_insight": "Symmetry-based low-rank fine-tuning enables one MatterSim 1M potential to predict lattice thermal conductivity across compounds sharing a crystal symmetry.",
+  "engineering_relevance": "Faster thermal-conductivity screening could support materials selection for thermoelectric, microelectronic, and photovoltaic applications; this is not a direct solar-cell performance study.",
   "method": [
     "Select a small set of compounds sharing a crystal symmetry.",
     "Fine-tune MatterSim 1M using symmetry-based few-shot low-rank adaptation.",
     "Calculate lattice thermal conductivity by solving the Boltzmann transport equation."
   ],
-  "evidence_signal": "Across half-Heuslers (space group 216), space-group-225 materials, and spinels (227), mean absolute relative differences versus MTP/polyMLP references were 2–3× smaller than for untuned MatterSim; potential preparation for 100 compounds was approximately 5–7× faster than individual fine-tuning.",
-  "watch_item": "Transfer was demonstrated within shared symmetry groups; the abstract does not establish generalization to other symmetries or improvements in solar-cell performance.",
+  "evidence_signal": "Across half-Heuslers (space group 216), space-group-225 materials, and spinels (227), the method reduced mean absolute relative differences from reference calculations by 2–3× versus untuned MatterSim 1M and cut fine-tuning time by approximately 5–7× for 100 compounds versus per-compound tuning.",
+  "watch_item": "Transfer was demonstrated within shared-symmetry groups against computational references, not established for arbitrary crystal symmetries or experimental measurements.",
   "hashtags": [
-    "#LatticeThermalConductivity",
-    "#MachineLearnedPotentials",
+    "#MaterialsAI",
+    "#ThermalConductivity",
     "#LowRankAdaptation",
-    "#MaterialsScreening",
-    "#ThermalManagement"
+    "#HighThroughputScreening",
+    "#PhotovoltaicMaterials"
   ],
   "model": "gpt-6.1-sol",
   "service_tier": "ultrafast",
@@ -21,6 +21,6 @@
   "paper_title": "Symmetry-Based Parameter Efficient Low-Rank Fine-Tuning for High-Throughput Calculation of Lattice Thermal Conductivity",
   "paper_date": "2026-10-21",
   "paper_category": "Device Optimization",
-  "generated_at": "2026-10-23T16:11:31",
+  "generated_at": "2026-10-24T15:08:28",
   "generator": "openai"
 }
