@@ -1,6 +1,6 @@
 # AI solar cells Progress Public Resources
 
-Generated: 2026-10-24
+Generated: 2026-10-25
 Public site: https://dutoaa.github.io/ai-in-solar-cells-progress/
 
 ## 1. Synergistic Graphene and PEDOT:PSS Layers on Silicon for Enhanced Efficiency and Stability in Schottky Junction Solar Cells
@@ -59,31 +59,7 @@ Public site: https://dutoaa.github.io/ai-in-solar-cells-progress/
 - PDF: https://arxiv.org/pdf/2610.30940v1
 - Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-10-22-arxiv-vision_transformers_for_estimating_irradiance_using_data_scarce_sky_images_infographic.json
 
-## 8. Intensity-driven Mott-like transition in a 2D Ruddlesden-Popper perovskite
-
-- Date: 2026-10-22
-- Category: Perovskite Solar Cells
-- arXiv: https://arxiv.org/abs/2610.30964v1
-- PDF: https://arxiv.org/pdf/2610.30964v1
-- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-10-22-arxiv-intensity_driven_mott_like_transition_in_a_2d_ruddlesden_popper_perovskite_infographic.json
-
-## 9. Anomalous polar chains in halide perovskites
-
-- Date: 2026-10-22
-- Category: Perovskite Solar Cells
-- arXiv: https://arxiv.org/abs/2610.31184v1
-- PDF: https://arxiv.org/pdf/2610.31184v1
-- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-10-22-arxiv-anomalous_polar_chains_in_halide_perovskites_infographic.json
-
-## 10. Foundation-Style Pretraining for Scalable and Transferable Distributed PV Forecasting
-
-- Date: 2026-10-20
-- Category: Manufacturing and Modules
-- arXiv: https://arxiv.org/abs/2610.27763v1
-- PDF: https://arxiv.org/pdf/2610.27763v1
-- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-10-20-arxiv-foundation_style_pretraining_for_scalable_and_transferable_distributed_pv_forecasting_infographic.json
-
-## 11. Wavelength-Dependent Photoluminescence Mapping of Depth-Dependent Degradation Under Thermal Stress in Phenethylammonium Tetrafluoroborate Treated Perovskite Solar Cells
+## 8. Wavelength-Dependent Photoluminescence Mapping of Depth-Dependent Degradation Under Thermal Stress in Phenethylammonium Tetrafluoroborate Treated Perovskite Solar Cells
 
 - Date: 2026-10-03
 - Category: Degradation and Stability
@@ -91,63 +67,15 @@ Public site: https://dutoaa.github.io/ai-in-solar-cells-progress/
 - PDF: https://arxiv.org/pdf/2610.04714v1
 - Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-10-03-arxiv-wavelength_dependent_photoluminescence_mapping_of_depth_dependent_degradation_under_therma_infographic.json
 
-## 12. Domain walls in $R3c$-structured NaNbO$_3$
-
-- Date: 2026-10-21
-- Category: Perovskite Solar Cells
-- arXiv: https://arxiv.org/abs/2610.30318v1
-- PDF: https://arxiv.org/pdf/2610.30318v1
-- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-10-21-arxiv-domain_walls_in_r3c_structured_nanbo_3_infographic.json
-
-## 13. Electronic Screening as a Design Lever in La-Doped BaTiO$_3$: Coupled Polarization, Dielectric Response, and Optical Anisotropy
-
-- Date: 2026-10-21
-- Category: Materials Discovery
-- arXiv: https://arxiv.org/abs/2610.30210v1
-- PDF: https://arxiv.org/pdf/2610.30210v1
-- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-10-21-arxiv-electronic_screening_as_a_design_lever_in_la_doped_batio_3_coupled_polarization_dielectric_infographic.json
-
-## 14. Symmetry-Based Parameter Efficient Low-Rank Fine-Tuning for High-Throughput Calculation of Lattice Thermal Conductivity
-
-- Date: 2026-10-21
-- Category: Device Optimization
-- arXiv: https://arxiv.org/abs/2610.29634v1
-- PDF: https://arxiv.org/pdf/2610.29634v1
-- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-10-21-arxiv-symmetry_based_parameter_efficient_low_rank_fine_tuning_for_high_throughput_calculation_of_infographic.json
-
-## 15. Coupling Evaporation, Chemical Reactions, and Crystallization: A Population-Balance Framework Applied to Two-Step Perovskite Crystallization
-
-- Date: 2026-10-19
-- Category: Perovskite Solar Cells
-- arXiv: https://arxiv.org/abs/2610.26591v1
-- PDF: https://arxiv.org/pdf/2610.26591v1
-- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-10-19-arxiv-coupling_evaporation_chemical_reactions_and_crystallization_a_population_balance_framework_infographic.json
-
-## 16. Climate-Driven Supply-Demand Matching Reshapes Global SolarEV Decarbonization Potential
-
-- Date: 2026-10-21
-- Category: AI solar cells
-- arXiv: https://arxiv.org/abs/2610.29344v1
-- PDF: https://arxiv.org/pdf/2610.29344v1
-- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-10-21-arxiv-climate_driven_supply_demand_matching_reshapes_global_solarev_decarbonization_potential_infographic.json
-
-## 17. Reducing Multi-Horizon Photovoltaic Forecast Error through Tree-Anchored Expert Combination
+## 9. Intensity-driven Mott-like transition in a 2D Ruddlesden-Popper perovskite
 
 - Date: 2026-10-22
-- Category: Degradation and Stability
-- arXiv: https://arxiv.org/abs/2610.31248v1
-- PDF: https://arxiv.org/pdf/2610.31248v1
-- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-10-22-arxiv-reducing_multi_horizon_photovoltaic_forecast_error_through_tree_anchored_expert_combinatio_infographic.json
+- Category: Perovskite Solar Cells
+- arXiv: https://arxiv.org/abs/2610.30964v1
+- PDF: https://arxiv.org/pdf/2610.30964v1
+- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-10-22-arxiv-intensity_driven_mott_like_transition_in_a_2d_ruddlesden_popper_perovskite_infographic.json
 
-## 18. Learning Inter-Graph Interactions Between Heterogeneous Substructures of Chemical Systems
-
-- Date: 2026-10-20
-- Category: Organic Photovoltaics
-- arXiv: https://arxiv.org/abs/2610.27614v1
-- PDF: https://arxiv.org/pdf/2610.27614v1
-- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-10-20-arxiv-learning_inter_graph_interactions_between_heterogeneous_substructures_of_chemical_systems_infographic.json
-
-## 19. PING: physics informed graph neural network for advection-diffusion processes with applications to solar power forecasting
+## 10. PING: physics informed graph neural network for advection-diffusion processes with applications to solar power forecasting
 
 - Date: 2026-10-13
 - Category: Device Optimization
@@ -155,10 +83,82 @@ Public site: https://dutoaa.github.io/ai-in-solar-cells-progress/
 - PDF: https://arxiv.org/pdf/2610.18280v1
 - Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-10-13-arxiv-ping_physics_informed_graph_neural_network_for_advection_diffusion_processes_with_applicat_infographic.json
 
-## 20. Space Solar Applications: Simulation with MATLAB-Simulink Environment and Transmission of Solar Power Generated
+## 11. Anomalous polar chains in halide perovskites
 
 - Date: 2026-10-22
+- Category: Perovskite Solar Cells
+- arXiv: https://arxiv.org/abs/2610.31184v1
+- PDF: https://arxiv.org/pdf/2610.31184v1
+- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-10-22-arxiv-anomalous_polar_chains_in_halide_perovskites_infographic.json
+
+## 12. Foundation-Style Pretraining for Scalable and Transferable Distributed PV Forecasting
+
+- Date: 2026-10-20
+- Category: Manufacturing and Modules
+- arXiv: https://arxiv.org/abs/2610.27763v1
+- PDF: https://arxiv.org/pdf/2610.27763v1
+- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-10-20-arxiv-foundation_style_pretraining_for_scalable_and_transferable_distributed_pv_forecasting_infographic.json
+
+## 13. Virtual-Alloy Physics-Aware Semantic System for extrapolative prediction of perovskite solar cells
+
+- Date: 2026-10-13
+- Category: Perovskite Solar Cells
+- arXiv: https://arxiv.org/abs/2610.18949v1
+- PDF: https://arxiv.org/pdf/2610.18949v1
+- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-10-13-arxiv-virtual_alloy_physics_aware_semantic_system_for_extrapolative_prediction_of_perovskite_sol_infographic.json
+
+## 14. Device Model Linking Singlet and Triplet Spin-State Properties to Organic Photovoltaic Device Characteristics
+
+- Date: 2026-10-13
+- Category: Organic Photovoltaics
+- arXiv: https://arxiv.org/abs/2610.18022v1
+- PDF: https://arxiv.org/pdf/2610.18022v1
+- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-10-13-arxiv-device_model_linking_singlet_and_triplet_spin_state_properties_to_organic_photovoltaic_dev_infographic.json
+
+## 15. Dynamic Chemical Changes of Ti3C2Tx MXenes in Halide Perovskite Precursor Environments
+
+- Date: 2026-10-08
+- Category: Perovskite Solar Cells
+- arXiv: https://arxiv.org/abs/2610.12771v1
+- PDF: https://arxiv.org/pdf/2610.12771v1
+- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-10-08-arxiv-dynamic_chemical_changes_of_ti3c2tx_mxenes_in_halide_perovskite_precursor_environments_infographic.json
+
+## 16. Domain walls in $R3c$-structured NaNbO$_3$
+
+- Date: 2026-10-21
+- Category: Perovskite Solar Cells
+- arXiv: https://arxiv.org/abs/2610.30318v1
+- PDF: https://arxiv.org/pdf/2610.30318v1
+- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-10-21-arxiv-domain_walls_in_r3c_structured_nanbo_3_infographic.json
+
+## 17. Electronic Screening as a Design Lever in La-Doped BaTiO$_3$: Coupled Polarization, Dielectric Response, and Optical Anisotropy
+
+- Date: 2026-10-21
+- Category: Materials Discovery
+- arXiv: https://arxiv.org/abs/2610.30210v1
+- PDF: https://arxiv.org/pdf/2610.30210v1
+- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-10-21-arxiv-electronic_screening_as_a_design_lever_in_la_doped_batio_3_coupled_polarization_dielectric_infographic.json
+
+## 18. Symmetry-Based Parameter Efficient Low-Rank Fine-Tuning for High-Throughput Calculation of Lattice Thermal Conductivity
+
+- Date: 2026-10-21
+- Category: Device Optimization
+- arXiv: https://arxiv.org/abs/2610.29634v1
+- PDF: https://arxiv.org/pdf/2610.29634v1
+- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-10-21-arxiv-symmetry_based_parameter_efficient_low_rank_fine_tuning_for_high_throughput_calculation_of_infographic.json
+
+## 19. Coupling Evaporation, Chemical Reactions, and Crystallization: A Population-Balance Framework Applied to Two-Step Perovskite Crystallization
+
+- Date: 2026-10-19
+- Category: Perovskite Solar Cells
+- arXiv: https://arxiv.org/abs/2610.26591v1
+- PDF: https://arxiv.org/pdf/2610.26591v1
+- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-10-19-arxiv-coupling_evaporation_chemical_reactions_and_crystallization_a_population_balance_framework_infographic.json
+
+## 20. Climate-Driven Supply-Demand Matching Reshapes Global SolarEV Decarbonization Potential
+
+- Date: 2026-10-21
 - Category: AI solar cells
-- arXiv: https://arxiv.org/abs/2610.31542v1
-- PDF: https://arxiv.org/pdf/2610.31542v1
-- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-10-22-arxiv-space_solar_applications_simulation_with_matlab_simulink_environment_and_transmission_of_s_infographic.json
+- arXiv: https://arxiv.org/abs/2610.29344v1
+- PDF: https://arxiv.org/pdf/2610.29344v1
+- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-10-21-arxiv-climate_driven_supply_demand_matching_reshapes_global_solarev_decarbonization_potential_infographic.json

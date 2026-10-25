@@ -1,19 +1,19 @@
 {
-  "key_insight": "V-PaSS uses physics-aware representations of perovskite alloys and device stacks to improve efficiency prediction for unfamiliar materials and architectures.",
-  "engineering_relevance": "The approach could help prioritize new absorber compositions and transport-layer combinations before fabricating solar cells.",
+  "key_insight": "V-PaSS uses physics-aware representations of perovskite alloys and device stacks to improve predictions for unfamiliar solar-cell materials and architectures.",
+  "engineering_relevance": "The approach could support screening new absorber compositions and transport-layer combinations without requiring a pre-solved crystal structure for every alloy.",
   "method": [
-    "Interpolate relaxed crystal graphs from 23 pure ABX₃ endpoints using Vegard’s law and learned bandgap bowing.",
-    "Encode layer sequence, cell polarity, and interfacial band offsets.",
+    "Interpolate relaxed crystal graphs of 23 pure ABX₃ endpoints using Vegard’s law and learned bandgap bowing.",
+    "Encode layer sequence, cell polarity and interfacial band offsets.",
     "Represent chemical descriptions with a scientific language model."
   ],
-  "evidence_signal": "On institution-grouped testing with unseen laboratories, untuned V-PaSS achieved 2.861% MAE versus 3.017% for a gradient-boosted baseline, with 15.7–19.0% error reductions on unseen absorber alloys.",
-  "watch_item": "Performance on unseen laboratory records does not establish prospective accuracy for newly fabricated devices or alloys that depart from the interpolation assumptions.",
+  "evidence_signal": "On institution-grouped tests using unseen laboratories, untuned V-PaSS achieved 2.861% MAE versus 3.017% for a gradient-boosted baseline, with 15.7–19.0% error reductions on unseen absorber alloys.",
+  "watch_item": "Virtual-alloy interpolation assumes physical continuity; accuracy for compositions that depart from this assumption needs validation.",
   "hashtags": [
     "#PerovskiteSolarCells",
     "#PhysicsAwareAI",
     "#MaterialsInformatics",
-    "#MachineLearning",
-    "#Photovoltaics"
+    "#SolarEnergy",
+    "#ExtrapolativeLearning"
   ],
   "model": "gpt-6.1-sol",
   "service_tier": "ultrafast",
@@ -21,6 +21,6 @@
   "paper_title": "Virtual-Alloy Physics-Aware Semantic System for extrapolative prediction of perovskite solar cells",
   "paper_date": "2026-10-13",
   "paper_category": "Perovskite Solar Cells",
-  "generated_at": "2026-10-22T16:22:41",
+  "generated_at": "2026-10-25T15:20:10",
   "generator": "openai"
 }
