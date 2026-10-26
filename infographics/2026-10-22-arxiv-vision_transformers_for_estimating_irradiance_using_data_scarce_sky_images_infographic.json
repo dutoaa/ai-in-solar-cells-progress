@@ -1,19 +1,19 @@
 {
-  "key_insight": "Physics-informed Vision Transformer frameworks estimate diffuse horizontal irradiance from scarce sky imagery with RMSE close to a full-dataset ViT baseline.",
-  "engineering_relevance": "The approach could reduce reliance on costly irradiance instrumentation for photovoltaic performance optimisation and solar energy forecasting.",
+  "key_insight": "Physics-informed Vision Transformer frameworks estimate diffuse horizontal irradiance from scarce sky imagery with RMSE close to a full-data ViT baseline.",
+  "engineering_relevance": "The approach could support photovoltaic performance optimisation and solar forecasting where irradiance instrumentation and long-term image datasets are limited.",
   "method": [
-    "Add calculated extraterrestrial irradiance and cyclic time features.",
-    "Use predicted global horizontal irradiance to refine diffuse irradiance estimates in a sequential pipeline.",
-    "Process raw and cloud-overlay sky images in parallel, using unsupervised, physics-informed segmentation."
+    "Add calculated extraterrestrial irradiance and cyclic time encodings as instrument-free atmospheric features.",
+    "Predict synthetic global horizontal irradiance, then use it to refine diffuse irradiance estimation.",
+    "Process raw and overlay-enhanced fisheye images in parallel, using unsupervised, physics-informed cloud segmentation."
   ],
-  "evidence_signal": "At Chilbolton Observatory, single-month training and temporally disjoint full-year testing yielded RMSE within 2–3 W/m² for the sequential framework and 1–6 W/m² for the dual-parallel framework relative to a full-dataset ViT.",
-  "watch_item": "Validation at one temperate-climate site leaves generalisation to other climates and imaging setups unestablished.",
+  "evidence_signal": "Using Chilbolton Observatory data, single-month training and temporally disjoint full-year testing yielded RMSE within 2–3 W/m² for the sequential framework and 1–6 W/m² for the dual-parallel framework of a full-data ViT baseline.",
+  "watch_item": "Validation at one temperate-climate observatory leaves transferability to other climates and sky-camera setups uncertain.",
   "hashtags": [
     "#VisionTransformers",
     "#SolarIrradiance",
     "#Photovoltaics",
     "#PhysicsInformedAI",
-    "#DataScarceLearning"
+    "#DataScarcity"
   ],
   "model": "gpt-6.1-sol",
   "service_tier": "ultrafast",
@@ -21,6 +21,6 @@
   "paper_title": "Vision Transformers for Estimating Irradiance Using Data Scarce Sky Images",
   "paper_date": "2026-10-22",
   "paper_category": "Device Optimization",
-  "generated_at": "2026-10-25T15:19:56",
+  "generated_at": "2026-10-26T18:00:07",
   "generator": "openai"
 }
