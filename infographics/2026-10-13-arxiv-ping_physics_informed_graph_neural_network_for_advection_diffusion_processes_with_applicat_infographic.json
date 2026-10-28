@@ -1,17 +1,17 @@
 {
-  "key_insight": "PING uses a physics-informed graph neural network to forecast transport dynamics on irregular sensor networks and support improved solar power forecasting.",
-  "engineering_relevance": "Better intra-day PV power forecasts can support grid integration of solar generation without changing solar cell hardware.",
+  "key_insight": "PING combines graph neural networks with advection–diffusion physics to forecast transport on irregular sensor networks and support improved solar power forecasting.",
+  "engineering_relevance": "More accurate intra-day PV power forecasts can support grid integration of solar generation rather than improve solar-cell efficiency directly.",
   "method": [
-    "Represent advection-diffusion particle concentrations as signals on a graph.",
-    "Add a discretized advection-diffusion equation as a soft constraint in the training loss.",
-    "Couple PING with PV forecasting models using ground-based sensor data and satellite-derived cloud information."
+    "Represent transported particle concentrations as signals on an irregular graph.",
+    "Use a discretized advection–diffusion equation as a soft constraint in the training loss.",
+    "Couple PING with PV forecasting models using ground-sensor measurements and satellite-derived cloud information."
   ],
-  "evidence_signal": "The abstract reports performance on par with state-of-the-art models on synthetic and real transport datasets, including sea surface temperature and cloud index data, and improved intra-day PV forecasts through hybrid modeling.",
-  "watch_item": "The abstract provides no numerical forecast gains, and a soft physics constraint does not guarantee physically consistent predictions.",
+  "evidence_signal": "The abstract reports performance on par with state-of-the-art models on synthetic and real transport datasets, including sea surface temperature and cloud index data, plus improved intra-day PV forecasting through the hybrid approach.",
+  "watch_item": "The abstract provides no numerical gains or deployment costs, so practical benefits require validation on the target PV network.",
   "hashtags": [
     "#PhysicsInformedAI",
     "#GraphNeuralNetworks",
-    "#SolarPowerForecasting",
+    "#SolarForecasting",
     "#AdvectionDiffusion",
     "#GridIntegration"
   ],
@@ -21,6 +21,6 @@
   "paper_title": "PING: physics informed graph neural network for advection-diffusion processes with applications to solar power forecasting",
   "paper_date": "2026-10-13",
   "paper_category": "Device Optimization",
-  "generated_at": "2026-10-27T17:07:31",
+  "generated_at": "2026-10-28T17:43:27",
   "generator": "openai"
 }
