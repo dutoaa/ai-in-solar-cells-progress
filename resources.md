@@ -1,6 +1,6 @@
 # AI solar cells Progress Public Resources
 
-Generated: 2026-10-28
+Generated: 2026-10-29
 Public site: https://dutoaa.github.io/ai-in-solar-cells-progress/
 
 ## 1. Multiwavelength Photoluminescence as a Non-destructive Probe of Depth-Dependent UV Damage in Perovskite Semiconductors
@@ -11,21 +11,21 @@ Public site: https://dutoaa.github.io/ai-in-solar-cells-progress/
 - PDF: https://arxiv.org/pdf/2610.36305v1
 - Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-10-26-arxiv-multiwavelength_photoluminescence_as_a_non_destructive_probe_of_depth_dependent_uv_damage_infographic.json
 
-## 2. Controlling Surface Chemistry in Tin-Lead Perovskites for High-Efficiency Solar Cells
-
-- Date: 2026-10-25
-- Category: Perovskite Solar Cells
-- arXiv: https://arxiv.org/abs/2610.34293v1
-- PDF: https://arxiv.org/pdf/2610.34293v1
-- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-10-25-arxiv-controlling_surface_chemistry_in_tin_lead_perovskites_for_high_efficiency_solar_cells_infographic.json
-
-## 3. Synergistic Graphene and PEDOT:PSS Layers on Silicon for Enhanced Efficiency and Stability in Schottky Junction Solar Cells
+## 2. Synergistic Graphene and PEDOT:PSS Layers on Silicon for Enhanced Efficiency and Stability in Schottky Junction Solar Cells
 
 - Date: 2026-10-15
 - Category: Device Optimization
 - arXiv: https://arxiv.org/abs/2610.21563v1
 - PDF: https://arxiv.org/pdf/2610.21563v1
 - Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-10-15-arxiv-synergistic_graphene_and_pedot_pss_layers_on_silicon_for_enhanced_efficiency_and_stability_infographic.json
+
+## 3. Controlling Surface Chemistry in Tin-Lead Perovskites for High-Efficiency Solar Cells
+
+- Date: 2026-10-25
+- Category: Perovskite Solar Cells
+- arXiv: https://arxiv.org/abs/2610.34293v1
+- PDF: https://arxiv.org/pdf/2610.34293v1
+- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-10-25-arxiv-controlling_surface_chemistry_in_tin_lead_perovskites_for_high_efficiency_solar_cells_infographic.json
 
 ## 4. AutoEnergyDesign: An LLM-Driven Agent for Automatic Energy System Design Optimization
 
@@ -91,15 +91,7 @@ Public site: https://dutoaa.github.io/ai-in-solar-cells-progress/
 - PDF: https://arxiv.org/pdf/2610.25575v1
 - Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-10-18-arxiv-benchmark_for_structured_retrieval_augmented_generation_in_perovskite_photovoltaics_infographic.json
 
-## 12. Polarized X-rays from table-top free-electron-driven van der Waals crystals
-
-- Date: 2026-10-24
-- Category: Degradation and Stability
-- arXiv: https://arxiv.org/abs/2610.33774v1
-- PDF: https://arxiv.org/pdf/2610.33774v1
-- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-10-24-arxiv-polarized_x_rays_from_table_top_free_electron_driven_van_der_waals_crystals_infographic.json
-
-## 13. Wavelength-Dependent Photoluminescence Mapping of Depth-Dependent Degradation Under Thermal Stress in Phenethylammonium Tetrafluoroborate Treated Perovskite Solar Cells
+## 12. Wavelength-Dependent Photoluminescence Mapping of Depth-Dependent Degradation Under Thermal Stress in Phenethylammonium Tetrafluoroborate Treated Perovskite Solar Cells
 
 - Date: 2026-10-03
 - Category: Degradation and Stability
@@ -107,23 +99,15 @@ Public site: https://dutoaa.github.io/ai-in-solar-cells-progress/
 - PDF: https://arxiv.org/pdf/2610.04714v1
 - Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-10-03-arxiv-wavelength_dependent_photoluminescence_mapping_of_depth_dependent_degradation_under_therma_infographic.json
 
-## 14. Spin and Charge Photocurrents from Electric-Magnetic Dipole Interference in Centrosymmetric Crystals
-
-- Date: 2026-10-25
-- Category: AI solar cells
-- arXiv: https://arxiv.org/abs/2610.34222v1
-- PDF: https://arxiv.org/pdf/2610.34222v1
-- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-10-25-arxiv-spin_and_charge_photocurrents_from_electric_magnetic_dipole_interference_in_centrosymmetri_infographic.json
-
-## 15. Physics-Informed Graph-Based Safe RL with Constraint-Specific Critics for Community Battery Coordination in Distribution Network
+## 13. Polarized X-rays from table-top free-electron-driven van der Waals crystals
 
 - Date: 2026-10-24
-- Category: Materials Discovery
-- arXiv: https://arxiv.org/abs/2610.33654v1
-- PDF: https://arxiv.org/pdf/2610.33654v1
-- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-10-24-arxiv-physics_informed_graph_based_safe_rl_with_constraint_specific_critics_for_community_batter_infographic.json
+- Category: Degradation and Stability
+- arXiv: https://arxiv.org/abs/2610.33774v1
+- PDF: https://arxiv.org/pdf/2610.33774v1
+- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-10-24-arxiv-polarized_x_rays_from_table_top_free_electron_driven_van_der_waals_crystals_infographic.json
 
-## 16. PING: physics informed graph neural network for advection-diffusion processes with applications to solar power forecasting
+## 14. PING: physics informed graph neural network for advection-diffusion processes with applications to solar power forecasting
 
 - Date: 2026-10-13
 - Category: Device Optimization
@@ -131,7 +115,7 @@ Public site: https://dutoaa.github.io/ai-in-solar-cells-progress/
 - PDF: https://arxiv.org/pdf/2610.18280v1
 - Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-10-13-arxiv-ping_physics_informed_graph_neural_network_for_advection_diffusion_processes_with_applicat_infographic.json
 
-## 17. Virtual-Alloy Physics-Aware Semantic System for extrapolative prediction of perovskite solar cells
+## 15. Virtual-Alloy Physics-Aware Semantic System for extrapolative prediction of perovskite solar cells
 
 - Date: 2026-10-13
 - Category: Perovskite Solar Cells
@@ -139,7 +123,7 @@ Public site: https://dutoaa.github.io/ai-in-solar-cells-progress/
 - PDF: https://arxiv.org/pdf/2610.18949v1
 - Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-10-13-arxiv-virtual_alloy_physics_aware_semantic_system_for_extrapolative_prediction_of_perovskite_sol_infographic.json
 
-## 18. Device Model Linking Singlet and Triplet Spin-State Properties to Organic Photovoltaic Device Characteristics
+## 16. Device Model Linking Singlet and Triplet Spin-State Properties to Organic Photovoltaic Device Characteristics
 
 - Date: 2026-10-13
 - Category: Organic Photovoltaics
@@ -147,13 +131,29 @@ Public site: https://dutoaa.github.io/ai-in-solar-cells-progress/
 - PDF: https://arxiv.org/pdf/2610.18022v1
 - Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-10-13-arxiv-device_model_linking_singlet_and_triplet_spin_state_properties_to_organic_photovoltaic_dev_infographic.json
 
-## 19. Dynamic Chemical Changes of Ti3C2Tx MXenes in Halide Perovskite Precursor Environments
+## 17. Dynamic Chemical Changes of Ti3C2Tx MXenes in Halide Perovskite Precursor Environments
 
 - Date: 2026-10-08
 - Category: Perovskite Solar Cells
 - arXiv: https://arxiv.org/abs/2610.12771v1
 - PDF: https://arxiv.org/pdf/2610.12771v1
 - Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-10-08-arxiv-dynamic_chemical_changes_of_ti3c2tx_mxenes_in_halide_perovskite_precursor_environments_infographic.json
+
+## 18. Spin and Charge Photocurrents from Electric-Magnetic Dipole Interference in Centrosymmetric Crystals
+
+- Date: 2026-10-25
+- Category: AI solar cells
+- arXiv: https://arxiv.org/abs/2610.34222v1
+- PDF: https://arxiv.org/pdf/2610.34222v1
+- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-10-25-arxiv-spin_and_charge_photocurrents_from_electric_magnetic_dipole_interference_in_centrosymmetri_infographic.json
+
+## 19. Physics-Informed Graph-Based Safe RL with Constraint-Specific Critics for Community Battery Coordination in Distribution Network
+
+- Date: 2026-10-24
+- Category: Materials Discovery
+- arXiv: https://arxiv.org/abs/2610.33654v1
+- PDF: https://arxiv.org/pdf/2610.33654v1
+- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-10-24-arxiv-physics_informed_graph_based_safe_rl_with_constraint_specific_critics_for_community_batter_infographic.json
 
 ## 20. Computing at the Edge Enabled by Indoor Photovoltaics and Ferroelectrics
 
