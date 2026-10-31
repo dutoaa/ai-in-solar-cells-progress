@@ -1,19 +1,19 @@
 {
-  "key_insight": "Readiness-constrained dispatch can preserve military microgrids’ ability to sustain critical loads during prolonged outages while allowing economical grid-connected operation.",
-  "engineering_relevance": "Operators can coordinate battery energy, fuel, and load shifting to maintain outage readiness rather than relying on a fixed battery reserve.",
+  "key_insight": "Resource-dependent dispatch constraints can preserve military microgrid readiness for prolonged outages while allowing economical grid-connected operation.",
+  "engineering_relevance": "Coordinating battery energy, generator fuel, and load shifting helps operators sustain mission-critical loads despite uncertain demand, solar generation, and generator availability.",
   "method": [
-    "Compute a robust viability kernel under uncertain demand and photovoltaic generation.",
-    "Translate generator start-failure and recovery probabilities into a generator-count requirement.",
-    "Constrain pre-islanding dispatch to preserve sufficient resources for critical loads."
+    "Compute a robust viability kernel defining resource combinations sufficient to sustain critical loads.",
+    "Translate generator start failures and recovery into a deterministic generator count using an availability probability bound.",
+    "Constrain pre-islanding dispatch to maintain readiness and use advance outage warning to prepare resources."
   ],
-  "evidence_signal": "Case studies targeting 14-day islanding and 0.999 islanding-entry availability preserved readiness at a modest modeled cost increase, while economic-only dispatch and the evaluated fixed-reserve policy could fail.",
-  "watch_item": "Readiness guarantees depend on the assumed uncertainty bounds and generator reliability model; the abstract reports case studies rather than field validation.",
+  "evidence_signal": "Case studies targeting 14-day islanding and 0.999 islanding-entry availability found that resource-dependent constraints preserved readiness at a modest modeled cost increase, while economic-only dispatch and the evaluated fixed battery reserve policy could fail.",
+  "watch_item": "Readiness guarantees depend on the assumed uncertainty bounds and generator failure-and-recovery model; the abstract reports case studies rather than field validation.",
   "hashtags": [
     "#MilitaryMicrogrids",
-    "#EnergyReadiness",
+    "#EnergyResilience",
     "#RobustOptimization",
-    "#SolarStorage",
-    "#ResilientPower"
+    "#SolarIntegration",
+    "#BatteryStorage"
   ],
   "model": "gpt-6.1-sol",
   "service_tier": "ultrafast",
@@ -21,6 +21,6 @@
   "paper_title": "Readiness-Constrained Pre-Islanding Dispatch for Military Microgrids",
   "paper_date": "2026-10-29",
   "paper_category": "AI solar cells",
-  "generated_at": "2026-10-30T17:31:43",
+  "generated_at": "2026-10-31T16:36:46",
   "generator": "openai"
 }
