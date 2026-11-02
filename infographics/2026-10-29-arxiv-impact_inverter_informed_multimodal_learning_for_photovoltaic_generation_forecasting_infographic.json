@@ -1,19 +1,19 @@
 {
-  "key_insight": "IMPACT combines inverter-level cloud dynamics with plant history and solar physics to improve probabilistic photovoltaic generation forecasts 10–110 minutes ahead.",
-  "engineering_relevance": "More accurate, calibrated short-term PV forecasts could support grid balancing and storage dispatch under changing cloud conditions.",
+  "key_insight": "IMPACT combines inverter-level cloud dynamics with plant history, solar geometry, and weather to improve probabilistic photovoltaic power forecasts 10–110 minutes ahead.",
+  "engineering_relevance": "More accurate, calibrated solar generation forecasts could support short-term grid balancing, storage dispatch, and photovoltaic plant operation.",
   "method": [
-    "Encode plant history, inverter spatial dynamics, future solar geometry, and current weather in four branches fused by gated cross-attention.",
-    "Use learned graph attention and horizon-weighted cloud heterogeneity and inverter ramp-down signals.",
-    "Learn corrections to smart persistence and calibrate forecast quantiles online with kernel-weighted adaptive conformal calibration."
+    "Encode four input branches, including inverter dynamics with learned-adjacency graph attention, and fuse them through gated cross-attention.",
+    "Augment solar geometry with horizon-weighted cloud heterogeneity and inverter ramp-down signals.",
+    "Learn horizon-specific corrections to smart persistence and calibrate quantiles online with kernel-weighted adaptive conformal calibration."
   ],
-  "evidence_signal": "The abstract reports a forecast skill score of 0.2950, exceeding all 14 baselines and the next-best model by 0.099; ablations show every branch contributes positively.",
-  "watch_item": "The abstract does not establish cross-site generalization, and deployment requires inverter-level telemetry and reliable online calibration.",
+  "evidence_signal": "The abstract reports performance above all 14 baselines, with forecast skill score 0.2950—0.099 above the next-best model—and positive contributions from every branch in ablation tests.",
+  "watch_item": "The abstract does not specify dataset scale or cross-site validation, leaving generalization to other plants and inverter layouts uncertain.",
   "hashtags": [
-    "#Photovoltaics",
     "#SolarForecasting",
-    "#PhysicsInformedAI",
+    "#Photovoltaics",
     "#MultimodalLearning",
-    "#GridIntegration"
+    "#GraphAttention",
+    "#ProbabilisticForecasting"
   ],
   "model": "gpt-6.1-sol",
   "service_tier": "ultrafast",
@@ -21,6 +21,6 @@
   "paper_title": "IMPACT: Inverter-Informed Multimodal Learning for Photovoltaic Generation Forecasting",
   "paper_date": "2026-10-29",
   "paper_category": "Device Optimization",
-  "generated_at": "2026-11-01T17:27:37",
+  "generated_at": "2026-11-02T21:11:21",
   "generator": "openai"
 }

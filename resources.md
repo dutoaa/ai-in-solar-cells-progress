@@ -1,6 +1,6 @@
 # AI solar cells Progress Public Resources
 
-Generated: 2026-11-01
+Generated: 2026-11-02
 Public site: https://dutoaa.github.io/ai-in-solar-cells-progress/
 
 ## 1. Synergistic Graphene and PEDOT:PSS Layers on Silicon for Enhanced Efficiency and Stability in Schottky Junction Solar Cells
@@ -19,15 +19,7 @@ Public site: https://dutoaa.github.io/ai-in-solar-cells-progress/
 - PDF: https://arxiv.org/pdf/2610.36305v1
 - Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-10-26-arxiv-multiwavelength_photoluminescence_as_a_non_destructive_probe_of_depth_dependent_uv_damage_infographic.json
 
-## 3. Amorphous selenium-alloyed TeOx thin-film solar cells
-
-- Date: 2026-10-28
-- Category: Device Optimization
-- arXiv: https://arxiv.org/abs/2610.38643v1
-- PDF: https://arxiv.org/pdf/2610.38643v1
-- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-10-28-arxiv-amorphous_selenium_alloyed_teox_thin_film_solar_cells_infographic.json
-
-## 4. Provenance-grouped protocol for evaluating machine learning in perovskite photovoltaics
+## 3. Provenance-grouped protocol for evaluating machine learning in perovskite photovoltaics
 
 - Date: 2026-10-08
 - Category: Device Optimization
@@ -35,15 +27,15 @@ Public site: https://dutoaa.github.io/ai-in-solar-cells-progress/
 - PDF: https://arxiv.org/pdf/2610.12766v1
 - Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-10-08-arxiv-provenance_grouped_protocol_for_evaluating_machine_learning_in_perovskite_photovoltaics_infographic.json
 
-## 5. Electronic-morphological decoupling in mixed-dimensional halide perovskite heterostructures
+## 4. Amorphous selenium-alloyed TeOx thin-film solar cells
 
-- Date: 2026-10-27
-- Category: Perovskite Solar Cells
-- arXiv: https://arxiv.org/abs/2610.37964v1
-- PDF: https://arxiv.org/pdf/2610.37964v1
-- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-10-27-arxiv-electronic_morphological_decoupling_in_mixed_dimensional_halide_perovskite_heterostructure_infographic.json
+- Date: 2026-10-28
+- Category: Device Optimization
+- arXiv: https://arxiv.org/abs/2610.38643v1
+- PDF: https://arxiv.org/pdf/2610.38643v1
+- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-10-28-arxiv-amorphous_selenium_alloyed_teox_thin_film_solar_cells_infographic.json
 
-## 6. Controlling Surface Chemistry in Tin-Lead Perovskites for High-Efficiency Solar Cells
+## 5. Controlling Surface Chemistry in Tin-Lead Perovskites for High-Efficiency Solar Cells
 
 - Date: 2026-10-25
 - Category: Perovskite Solar Cells
@@ -51,7 +43,7 @@ Public site: https://dutoaa.github.io/ai-in-solar-cells-progress/
 - PDF: https://arxiv.org/pdf/2610.34293v1
 - Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-10-25-arxiv-controlling_surface_chemistry_in_tin_lead_perovskites_for_high_efficiency_solar_cells_infographic.json
 
-## 7. The Utility of Physics-Informed Machine Learning in Solar Power Production Forecasting
+## 6. The Utility of Physics-Informed Machine Learning in Solar Power Production Forecasting
 
 - Date: 2026-10-28
 - Category: Device Optimization
@@ -59,7 +51,7 @@ Public site: https://dutoaa.github.io/ai-in-solar-cells-progress/
 - PDF: https://arxiv.org/pdf/2610.38976v1
 - Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-10-28-arxiv-the_utility_of_physics_informed_machine_learning_in_solar_power_production_forecasting_infographic.json
 
-## 8. Ammonium thiocyanate enables in-situ structural templating of MAPbI3 via quasi-2D perovskite scaffold
+## 7. Ammonium thiocyanate enables in-situ structural templating of MAPbI3 via quasi-2D perovskite scaffold
 
 - Date: 2026-10-29
 - Category: Perovskite Solar Cells
@@ -67,21 +59,29 @@ Public site: https://dutoaa.github.io/ai-in-solar-cells-progress/
 - PDF: https://arxiv.org/pdf/2610.39887v1
 - Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-10-29-arxiv-ammonium_thiocyanate_enables_in_situ_structural_templating_of_mapbi3_via_quasi_2d_perovski_infographic.json
 
-## 9. VerifiedLab: Harnessing Knowns for Unknowns
+## 8. Electronic-morphological decoupling in mixed-dimensional halide perovskite heterostructures
 
 - Date: 2026-10-27
 - Category: Perovskite Solar Cells
-- arXiv: https://arxiv.org/abs/2610.37923v1
-- PDF: https://arxiv.org/pdf/2610.37923v1
-- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-10-27-arxiv-verifiedlab_harnessing_knowns_for_unknowns_infographic.json
+- arXiv: https://arxiv.org/abs/2610.37964v1
+- PDF: https://arxiv.org/pdf/2610.37964v1
+- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-10-27-arxiv-electronic_morphological_decoupling_in_mixed_dimensional_halide_perovskite_heterostructure_infographic.json
 
-## 10. AutoEnergyDesign: An LLM-Driven Agent for Automatic Energy System Design Optimization
+## 9. AutoEnergyDesign: An LLM-Driven Agent for Automatic Energy System Design Optimization
 
 - Date: 2026-10-26
 - Category: Device Optimization
 - arXiv: https://arxiv.org/abs/2610.35160v1
 - PDF: https://arxiv.org/pdf/2610.35160v1
 - Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-10-26-arxiv-autoenergydesign_an_llm_driven_agent_for_automatic_energy_system_design_optimization_infographic.json
+
+## 10. A Hybrid TFT-NBEATS Framework for Robust Multi-Horizon Photovoltaic Power Forecasting
+
+- Date: 2026-10-19
+- Category: Perovskite Solar Cells
+- arXiv: https://arxiv.org/abs/2610.27155v1
+- PDF: https://arxiv.org/pdf/2610.27155v1
+- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-10-19-arxiv-a_hybrid_tft_nbeats_framework_for_robust_multi_horizon_photovoltaic_power_forecasting_infographic.json
 
 ## 11. IMPACT: Inverter-Informed Multimodal Learning for Photovoltaic Generation Forecasting
 
@@ -99,23 +99,7 @@ Public site: https://dutoaa.github.io/ai-in-solar-cells-progress/
 - PDF: https://arxiv.org/pdf/2610.35247v1
 - Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-10-26-arxiv-impact_of_organic_spacer_cations_on_the_light_and_thermal_stability_of_two_dimensional_lea_infographic.json
 
-## 13. Confinement Controlled Phase-Pure 2D Layered Perovskites for Band-Edge Engineering
-
-- Date: 2026-10-29
-- Category: Perovskite Solar Cells
-- arXiv: https://arxiv.org/abs/2610.39974v1
-- PDF: https://arxiv.org/pdf/2610.39974v1
-- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-10-29-arxiv-confinement_controlled_phase_pure_2d_layered_perovskites_for_band_edge_engineering_infographic.json
-
-## 14. A Hybrid TFT-NBEATS Framework for Robust Multi-Horizon Photovoltaic Power Forecasting
-
-- Date: 2026-10-19
-- Category: Perovskite Solar Cells
-- arXiv: https://arxiv.org/abs/2610.27155v1
-- PDF: https://arxiv.org/pdf/2610.27155v1
-- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-10-19-arxiv-a_hybrid_tft_nbeats_framework_for_robust_multi_horizon_photovoltaic_power_forecasting_infographic.json
-
-## 15. Unifying Low-Frequency Raman and Infrared Signatures across Perovskites
+## 13. Unifying Low-Frequency Raman and Infrared Signatures across Perovskites
 
 - Date: 2026-10-22
 - Category: Perovskite Solar Cells
@@ -123,7 +107,7 @@ Public site: https://dutoaa.github.io/ai-in-solar-cells-progress/
 - PDF: https://arxiv.org/pdf/2610.31830v1
 - Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-10-22-arxiv-unifying_low_frequency_raman_and_infrared_signatures_across_perovskites_infographic.json
 
-## 16. Benchmark for Structured Retrieval-Augmented Generation in Perovskite Photovoltaics
+## 14. Benchmark for Structured Retrieval-Augmented Generation in Perovskite Photovoltaics
 
 - Date: 2026-10-18
 - Category: Perovskite Solar Cells
@@ -131,23 +115,23 @@ Public site: https://dutoaa.github.io/ai-in-solar-cells-progress/
 - PDF: https://arxiv.org/pdf/2610.25575v1
 - Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-10-18-arxiv-benchmark_for_structured_retrieval_augmented_generation_in_perovskite_photovoltaics_infographic.json
 
-## 17. Wavelength-Dependent Photoluminescence Mapping of Depth-Dependent Degradation Under Thermal Stress in Phenethylammonium Tetrafluoroborate Treated Perovskite Solar Cells
-
-- Date: 2026-10-03
-- Category: Degradation and Stability
-- arXiv: https://arxiv.org/abs/2610.04714v1
-- PDF: https://arxiv.org/pdf/2610.04714v1
-- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-10-03-arxiv-wavelength_dependent_photoluminescence_mapping_of_depth_dependent_degradation_under_therma_infographic.json
-
-## 18. Polarization-locked chiral persistent spin textures in two-dimensional lead-halide perovskites
+## 15. Confinement Controlled Phase-Pure 2D Layered Perovskites for Band-Edge Engineering
 
 - Date: 2026-10-29
 - Category: Perovskite Solar Cells
-- arXiv: https://arxiv.org/abs/2610.39250v1
-- PDF: https://arxiv.org/pdf/2610.39250v1
-- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-10-29-arxiv-polarization_locked_chiral_persistent_spin_textures_in_two_dimensional_lead_halide_perovsk_infographic.json
+- arXiv: https://arxiv.org/abs/2610.39974v1
+- PDF: https://arxiv.org/pdf/2610.39974v1
+- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-10-29-arxiv-confinement_controlled_phase_pure_2d_layered_perovskites_for_band_edge_engineering_infographic.json
 
-## 19. PING: physics informed graph neural network for advection-diffusion processes with applications to solar power forecasting
+## 16. VerifiedLab: Harnessing Knowns for Unknowns
+
+- Date: 2026-10-27
+- Category: Perovskite Solar Cells
+- arXiv: https://arxiv.org/abs/2610.37923v1
+- PDF: https://arxiv.org/pdf/2610.37923v1
+- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-10-27-arxiv-verifiedlab_harnessing_knowns_for_unknowns_infographic.json
+
+## 17. PING: physics informed graph neural network for advection-diffusion processes with applications to solar power forecasting
 
 - Date: 2026-10-13
 - Category: Device Optimization
@@ -155,10 +139,26 @@ Public site: https://dutoaa.github.io/ai-in-solar-cells-progress/
 - PDF: https://arxiv.org/pdf/2610.18280v1
 - Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-10-13-arxiv-ping_physics_informed_graph_neural_network_for_advection_diffusion_processes_with_applicat_infographic.json
 
-## 20. Virtual-Alloy Physics-Aware Semantic System for extrapolative prediction of perovskite solar cells
+## 18. Virtual-Alloy Physics-Aware Semantic System for extrapolative prediction of perovskite solar cells
 
 - Date: 2026-10-13
 - Category: Perovskite Solar Cells
 - arXiv: https://arxiv.org/abs/2610.18949v1
 - PDF: https://arxiv.org/pdf/2610.18949v1
 - Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-10-13-arxiv-virtual_alloy_physics_aware_semantic_system_for_extrapolative_prediction_of_perovskite_sol_infographic.json
+
+## 19. Device Model Linking Singlet and Triplet Spin-State Properties to Organic Photovoltaic Device Characteristics
+
+- Date: 2026-10-13
+- Category: Organic Photovoltaics
+- arXiv: https://arxiv.org/abs/2610.18022v1
+- PDF: https://arxiv.org/pdf/2610.18022v1
+- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-10-13-arxiv-device_model_linking_singlet_and_triplet_spin_state_properties_to_organic_photovoltaic_dev_infographic.json
+
+## 20. Dynamic Chemical Changes of Ti3C2Tx MXenes in Halide Perovskite Precursor Environments
+
+- Date: 2026-10-08
+- Category: Perovskite Solar Cells
+- arXiv: https://arxiv.org/abs/2610.12771v1
+- PDF: https://arxiv.org/pdf/2610.12771v1
+- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-10-08-arxiv-dynamic_chemical_changes_of_ti3c2tx_mxenes_in_halide_perovskite_precursor_environments_infographic.json
