@@ -1,0 +1,85 @@
+{
+  "repo_title": "AI in Solar Cells",
+  "period": "month",
+  "label": "2026-10",
+  "author": "William Sun with help from OpenAI",
+  "paper_count": 92,
+  "analysis": {
+    "author": "William Sun with help from OpenAI",
+    "period": "2026-10",
+    "executive_summary": "The supplied October 2026 papers point to progress in AI-enabled photovoltaics across model evaluation, materials representation, scientific literature analysis, and power-system operation. The clearest methodological advance is a stronger emphasis on credible generalization: provenance-grouped evaluation exposes duplication-driven leakage in perovskite datasets, while quantitative retrieval benchmarks test scientific assistants against measured device records. Physics-aware representations, graph neural networks, and machine-learned atomistic simulations aim to connect predictions more closely to chemistry and device physics. At the deployment level, multimodal forecasting and LLM-driven energy-system optimization broaden AI's role beyond individual solar cells. These developments should not be read as uniformly demonstrated performance breakthroughs: several abstracts are truncated, many omit quantitative comparisons, and several supplied category labels describe papers without an explicit AI contribution.",
+    "major_themes": [
+      "Evaluation beyond random splits: grouping devices by recipe, publication, and institution provides more demanding tests of generalization than conventional random partitions.",
+      "Grounded scientific assistants: quantitative retrieval benchmarks and verified-record workflows shift attention from fluent answers toward traceable experimental evidence.",
+      "Chemistry-aware prediction: virtual-alloy representations and heterogeneous graph learning seek to represent compositions, interfaces, and device architectures more meaningfully.",
+      "AI-accelerated materials physics: equivariant neural networks and machine-learned interatomic potentials extend access to optical responses, lattice dynamics, and defect behavior.",
+      "Multiscale PV forecasting: transformers, graph models, multimodal fusion, and shared pretraining address temporal variation, spatial cloud dynamics, and transfer across sites.",
+      "Testing the value of physical constraints: large-scale evaluations distinguish plausible physics-informed architectures from demonstrated improvements in accuracy or transferability.",
+      "Agents and operational control: LLM-based design search and reinforcement-learning dispatch connect PV with storage, buildings, charging infrastructure, and grid constraints.",
+      "Experimental foundations for future AI: interface chemistry and nondestructive degradation measurements supply mechanistic information, although these studies do not themselves establish AI advances."
+    ],
+    "notable_papers": [
+      {
+        "title": "Provenance-grouped protocol for evaluating machine learning in perovskite photovoltaics",
+        "why_it_matters": "Reports that nearly two-thirds of curated devices share an exact recipe with another device and introduces grouped evaluation across devices, publications, and institutions. Its thirteen-model benchmark shows that model rankings change under harder generalization tests, challenging conclusions drawn from random splits."
+      },
+      {
+        "title": "Benchmark for Structured Retrieval-Augmented Generation in Perovskite Photovoltaics",
+        "why_it_matters": "Defines 755 quantitative questions with answers computed from 45,441 measured device records and evaluates six retrieval architectures over 158,274 passages. This establishes a concrete framework for assessing numerical scientific reasoning rather than textual similarity alone; the truncated abstract does not provide the complete comparative results."
+      },
+      {
+        "title": "Virtual-Alloy Physics-Aware Semantic System for extrapolative prediction of perovskite solar cells",
+        "why_it_matters": "Represents mixed absorbers using interpolated crystal graphs from 23 endpoint compounds, with learned bandgap bowing, and incorporates device polarity and interfacial band offsets. It directly targets prediction for unfamiliar alloys and architectures, although extrapolation gains cannot be quantified from the supplied excerpt."
+      },
+      {
+        "title": "VerifiedLab: Harnessing Knowns for Unknowns",
+        "why_it_matters": "Proposes a multi-agent research workflow grounded in records verified field by field, including an evidence-computing librarian role. It offers an architecture for more auditable scientific assistance, but the excerpt does not establish its reliability or downstream discovery performance."
+      },
+      {
+        "title": "The Utility of Physics-Informed Machine Learning in Solar Power Production Forecasting",
+        "why_it_matters": "Evaluates ADR physical-model integration with TSMixer through feature augmentation and residual learning on more than 3 million samples from 3,713 installations across 33 European countries. Its scale and explicit tests of accuracy, transferability, and data efficiency are important; the excerpt reports slightly faster apparent convergence but truncates the remaining conclusions."
+      },
+      {
+        "title": "IMPACT: Inverter-Informed Multimodal Learning for Photovoltaic Generation Forecasting",
+        "why_it_matters": "Combines plant history, inverter-level graph information, solar geometry, and meteorology for 10- to 110-minute-ahead probabilistic forecasting. Persistence-anchored predictions and adaptive conformal calibration make uncertainty handling central to the design, although comparative performance is unavailable in the excerpt."
+      },
+      {
+        "title": "Accelerating dynamic polarizability calculations of organic molecules using equivariant graph neural networks",
+        "why_it_matters": "Predicts frequency-dependent complex polarizability tensors and evaluates molecules from QM9 and the Harvard organic photovoltaic dataset. This targets an expensive optical-property calculation relevant to molecular screening; the supplied text does not quantify speedups or predictive accuracy."
+      },
+      {
+        "title": "Unifying Low-Frequency Raman and Infrared Signatures across Perovskites",
+        "why_it_matters": "Uses machine-learning-based molecular dynamics to simulate infrared and Raman spectra across oxide, halide, and double-halide perovskites. The approach connects AI-enabled simulation with experimentally observable lattice behavior rather than only device-efficiency prediction."
+      },
+      {
+        "title": "AutoEnergyDesign: An LLM-Driven Agent for Automatic Energy System Design Optimization",
+        "why_it_matters": "Introduces an agent that proposes simulation-tested design changes, maintains explicit memory, and automatically reverts unsuccessful modifications. Its eight-technology simulator includes photovoltaics and storage, extending AI-assisted optimization to integrated energy systems without establishing evaluation savings in the available excerpt."
+      },
+      {
+        "title": "Foundation-Style Pretraining for Scalable and Transferable Distributed PV Forecasting",
+        "why_it_matters": "Frames multi-site, multi-horizon forecasting as sequence completion using historical generation, weather observations, and future numerical weather predictions. Shared pretraining addresses the practical burden of retraining models for each installation, but transfer results are not included in the supplied abstract."
+      }
+    ],
+    "field_progress": [
+      "Photovoltaic ML evaluation is becoming more realistic: provenance-aware splits expose recipe recall and institutional overlap that can masquerade as predictive generalization.",
+      "Scientific literature assistance is gaining measurable targets through record-derived numerical answers and explicit evidence-verification workflows.",
+      "Materials modeling is moving beyond categorical composition labels toward representations of alloy continuity, molecular symmetry, heterogeneous substructures, and device interfaces.",
+      "PV forecasting research increasingly combines spatial and temporal information with uncertainty calibration and cross-site reuse, addressing operational needs beyond point accuracy.",
+      "AI applications span a wider photovoltaic workflow, from optical-property surrogates and lattice simulations to energy-system design and dispatch; evidence of laboratory-validated AI-led solar-cell improvement remains limited in the supplied excerpts."
+    ],
+    "open_questions": [
+      "Which models retain useful accuracy when duplicate recipes, publications, institutions, and future devices are all separated from training data?",
+      "Can physics-aware alloy and interface representations extrapolate to genuinely new chemistries, and how should uncertainty be validated in those regimes?",
+      "Can retrieval and multi-agent systems reliably reconcile inconsistent measurements, preserve provenance, and abstain when experimental evidence is incomplete?",
+      "Under what data volumes, climates, forecasting horizons, and distribution shifts does physics-informed learning outperform well-tuned data-driven baselines?",
+      "Do forecasting pretraining, calibrated uncertainty, and agent-guided optimization deliver measurable operational savings without compromising grid safety?",
+      "How can nondestructive degradation measurements and interface-chemistry findings become standardized training data for lifetime prediction and experimentally verified device optimization?"
+    ],
+    "outlook": "The next useful step is to connect these methodological advances through shared, leakage-resistant benchmarks and prospective experimental or operational tests. For solar-cell research, that means evaluating chemistry-aware models on genuinely unseen compositions and linking predictions to fabrication, efficiency, and stability measurements. For PV operations, it means testing transferable forecasts and decision-making agents under changing weather, hardware, and network constraints. Progress should be judged by reproducible generalization, calibrated uncertainty, and measured downstream benefit—not by architectural complexity alone. These conclusions are based solely on the supplied metadata and abstract excerpts; truncated results and category labels were not treated as evidence of unreported outcomes.",
+    "model": "gpt-6.1-sol",
+    "service_tier": "ultrafast",
+    "generator": "openai"
+  },
+  "markdown_file": "2026-10.md",
+  "generated_at": "2026-11-02T09:44:09"
+}
