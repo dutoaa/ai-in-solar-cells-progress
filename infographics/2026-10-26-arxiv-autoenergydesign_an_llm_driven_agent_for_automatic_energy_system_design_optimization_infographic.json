@@ -1,19 +1,19 @@
 {
-  "key_insight": "AutoEnergyDesign uses an LLM agent to optimize building energy systems, achieving a roughly €3.53 million net present cost with fewer simulations than tested black-box baselines.",
-  "engineering_relevance": "The framework could reduce simulation costs when sizing integrated energy technologies, including photovoltaics, batteries and heat pumps; it does not optimize solar cells themselves.",
+  "key_insight": "AutoEnergyDesign uses an LLM agent to optimize building energy systems—not solar cells—reaching a roughly €3.53 million lifetime cost with fewer simulations than tested conventional optimizers.",
+  "engineering_relevance": "The framework could reduce simulation-intensive design effort for systems combining photovoltaics, storage, heating and other energy technologies.",
   "method": [
-    "Propose configuration changes using prior simulation results and structured memory.",
-    "Evaluate designs with year-long simulations and a 25-year net present cost objective.",
-    "Use constrained actions and git-based keep/revert decisions to retain improvements and audit decisions."
+    "Propose configuration changes using simulation history and structured memory.",
+    "Evaluate eight technology types through annual simulations and 25-year Net Present Cost.",
+    "Keep successful changes and automatically revert unsuccessful ones using git."
   ],
-  "evidence_signal": "On one measured-load building case, LLM agents received 50 simulations per run versus 300 for baselines; Opus reached the best design in all ten runs and came within 1% after a median of 18 simulations.",
-  "watch_item": "Results come from a single building case, and reliability varied across models, so broader validation is needed before generalizing performance.",
+  "evidence_signal": "On one measured-load case study, three LLM variants were tested in ten 50-simulation runs each; the best design cost 1.20% less than the best TPE result and 0.23% less than the best evolution-strategy result.",
+  "watch_item": "Results come from a single case study, and reliability varied by LLM; broader validation and accounting for inference costs remain important.",
   "hashtags": [
-    "#EnergySystemOptimization",
+    "#EnergySystemDesign",
     "#LLMAgents",
-    "#BuildingEnergy",
+    "#SimulationOptimization",
     "#Photovoltaics",
-    "#SimulationOptimization"
+    "#BuildingEnergy"
   ],
   "model": "gpt-6.1-sol",
   "service_tier": "ultrafast",
@@ -21,6 +21,6 @@
   "paper_title": "AutoEnergyDesign: An LLM-Driven Agent for Automatic Energy System Design Optimization",
   "paper_date": "2026-10-26",
   "paper_category": "Device Optimization",
-  "generated_at": "2026-11-02T21:11:16",
+  "generated_at": "2026-11-03T18:53:43",
   "generator": "openai"
 }

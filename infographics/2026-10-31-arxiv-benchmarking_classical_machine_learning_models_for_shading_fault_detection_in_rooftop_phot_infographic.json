@@ -1,0 +1,26 @@
+{
+  "key_insight": "Random Forest and XGBoost led shading-fault detection, but operating-condition differences limit conclusions about classifier superiority.",
+  "engineering_relevance": "Reliable rooftop PV fault detection requires episode-aware validation and no-fault samples matched to fault operating conditions.",
+  "method": [
+    "Benchmarked seven classifiers on real sensor data from a 4 kW rooftop PV plant with physically staged shading.",
+    "Used three repeats of five-fold group-aware nested cross-validation to keep episodes separate.",
+    "Applied SMOTE within training folds and Holm correction to pairwise statistical tests."
+  ],
+  "evidence_signal": "Across 20,800 rows retaining all 17 fault episodes, Random Forest achieved 0.838 accuracy and 0.526 MCC, yet almost entirely missed four fault episodes.",
+  "watch_item": "Clock time alone reached 0.44 MCC and PV-side voltage alone 0.72 MCC in post-hoc diagnostics, suggesting operating-condition confounding; matched no-fault sampling is needed before generalising rankings.",
+  "hashtags": [
+    "#SolarAI",
+    "#Photovoltaics",
+    "#FaultDetection",
+    "#MachineLearning",
+    "#RobustValidation"
+  ],
+  "model": "gpt-6.1-sol",
+  "service_tier": "ultrafast",
+  "paper_id": "2026-10-31-arxiv-benchmarking_classical_machine_learning_models_for_shading_fault_detection_in_rooftop_phot",
+  "paper_title": "Benchmarking Classical Machine Learning Models for Shading-Fault Detection in Rooftop Photovoltaic Systems Using Real Sensor Data",
+  "paper_date": "2026-10-31",
+  "paper_category": "AI solar cells",
+  "generated_at": "2026-11-03T18:53:38",
+  "generator": "openai"
+}
