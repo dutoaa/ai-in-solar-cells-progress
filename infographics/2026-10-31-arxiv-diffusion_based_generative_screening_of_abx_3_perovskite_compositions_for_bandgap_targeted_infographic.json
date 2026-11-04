@@ -1,17 +1,17 @@
 {
-  "key_insight": "Diffusion generation expands ABX₃ perovskite structural and chemical coverage, but reliable bandgap-targeted discovery requires topology checks and property validation.",
-  "engineering_relevance": "For solar-cell materials screening, generated perovskites offer candidate diversity rather than validated absorber performance.",
+  "key_insight": "Diffusion generation expands accessible ABX₃ perovskite compositions, including ordered double perovskites, but does not establish enrichment near the 1.4 eV bandgap target.",
+  "engineering_relevance": "The workflow could support photovoltaic absorber screening if generated candidates undergo topology checks, chemistry-aware property validation and first-principles relaxation.",
   "method": [
-    "Generate ABX₃ candidates with a pretrained crystal diffusion model.",
+    "Generate candidate ABX₃ structures with a pretrained diffusion model.",
     "Filter for three-dimensional corner-sharing perovskite connectivity.",
-    "Evaluate ALIGNN bandgap predictions and perform first-principles checks on six structures."
+    "Evaluate chemistry and ALIGNN-predicted bandgaps; check six structures with first-principles calculations."
   ],
-  "evidence_signal": "The generated target-window fraction was 8.2% versus 7.3% for Materials Project, while ALIGNN failed to outperform a constant baseline on a severe B-site-disjoint test.",
-  "watch_item": "Different MatterGen and ALIGNN label sources prevent claiming target-condition enrichment; relaxation can change topology, and calculated gaps can differ appreciably from predictions.",
+  "evidence_signal": "The predicted target-window fraction was 8.2% versus 7.3% for the Materials Project reference, while ALIGNN failed to outperform a constant baseline on a severe B-site-disjoint test.",
+  "watch_item": "Different conditioning and evaluation label sources limit target-enrichment claims, and relaxation can change structural classification while calculated gaps can differ appreciably from predictions.",
   "hashtags": [
-    "#MaterialsDiscovery",
-    "#GenerativeAI",
+    "#AIForMaterials",
     "#Perovskites",
+    "#DiffusionModels",
     "#BandgapEngineering",
     "#SolarMaterials"
   ],
@@ -21,6 +21,6 @@
   "paper_title": "Diffusion-Based Generative Screening of ABX$_3$ Perovskite Compositions for Bandgap-Targeted Materials Discovery",
   "paper_date": "2026-10-31",
   "paper_category": "Materials Discovery",
-  "generated_at": "2026-11-03T18:53:29",
+  "generated_at": "2026-11-04T19:10:01",
   "generator": "openai"
 }
