@@ -1,18 +1,18 @@
 {
-  "key_insight": "MV-PVMapper maps individual rooftop photovoltaic modules with near-complete recovery by combining training-free segmentation with multi-view UAV photogrammetry.",
-  "engineering_relevance": "Accurate module-level maps can support PV asset inventories and inspection workflows without task-specific image annotation or segmentation-model weight updates.",
+  "key_insight": "MV-PVMapper maps individual rooftop photovoltaic modules with near-complete recovery and precise boundaries, without task-specific annotations or model weight updates.",
+  "engineering_relevance": "Accurate module-level maps can support rooftop PV inventory and inspection workflows using multi-view UAV imagery.",
   "method": [
-    "Generate candidate masks from UAV images using text-prompted SAM 3.",
+    "Generate module candidates with text-prompted SAM 3.",
     "Project contours into object space with per-module slope correction and verify against representative module dimensions.",
-    "Feed accepted instances back to all covering views as box prompts for iterative segmentation, verification and fusion."
+    "Feed accepted instances back to all covering views as box prompts for iterative segmentation and fusion."
   ],
-  "evidence_signal": "Across three rooftop PV plants surveyed from five directions at approximately 1 cm nadir ground sampling distance, two feedback iterations recovered 7,710 of 7,711 reference modules with no false positives at IoU 0.5 and achieved a site-averaged aggregated Jaccard index of 97.55%.",
-  "watch_item": "Performance beyond these three high-resolution rooftop surveys remains unproven, and implementation depends on reliable photogrammetry and representative module dimensions.",
+  "evidence_signal": "Across three operational rooftop plants surveyed from five directions at approximately 1 cm nadir resolution, two feedback iterations recovered 7,710 of 7,711 modules with no false positives at IoU ≥ 0.5 and achieved a site-averaged aggregated Jaccard index of 97.55%.",
+  "watch_item": "Performance beyond the three evaluated rooftop sites remains unproven, and deployment depends on high-resolution multi-view imagery, photogrammetry and representative module dimensions.",
   "hashtags": [
     "#Photovoltaics",
     "#UAVMapping",
     "#ComputerVision",
-    "#TrainingFreeAI",
+    "#FoundationModels",
     "#SolarInspection"
   ],
   "model": "gpt-6.1-sol",
@@ -21,6 +21,6 @@
   "paper_title": "High-fidelity training-free photovoltaic module mapping from multi-view UAV imagery",
   "paper_date": "2026-11-03",
   "paper_category": "Materials Discovery",
-  "generated_at": "2026-11-04T19:09:58",
+  "generated_at": "2026-11-05T19:17:21",
   "generator": "openai"
 }
