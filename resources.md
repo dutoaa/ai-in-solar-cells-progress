@@ -1,23 +1,23 @@
 # AI solar cells Progress Public Resources
 
-Generated: 2026-11-05
+Generated: 2026-11-06
 Public site: https://dutoaa.github.io/ai-in-solar-cells-progress/
 
-## 1. Evidence-grounded large language models guide perovskite solar cell design and optimization
-
-- Date: 2026-10-31
-- Category: Device Optimization
-- arXiv: https://arxiv.org/abs/2611.00633v2
-- PDF: https://arxiv.org/pdf/2611.00633v2
-- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-10-31-arxiv-evidence_grounded_large_language_models_guide_perovskite_solar_cell_design_and_optimizatio_infographic.json
-
-## 2. Synergistic Graphene and PEDOT:PSS Layers on Silicon for Enhanced Efficiency and Stability in Schottky Junction Solar Cells
+## 1. Synergistic Graphene and PEDOT:PSS Layers on Silicon for Enhanced Efficiency and Stability in Schottky Junction Solar Cells
 
 - Date: 2026-10-15
 - Category: Device Optimization
 - arXiv: https://arxiv.org/abs/2610.21563v1
 - PDF: https://arxiv.org/pdf/2610.21563v1
 - Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-10-15-arxiv-synergistic_graphene_and_pedot_pss_layers_on_silicon_for_enhanced_efficiency_and_stability_infographic.json
+
+## 2. Evidence-grounded large language models guide perovskite solar cell design and optimization
+
+- Date: 2026-10-31
+- Category: Device Optimization
+- arXiv: https://arxiv.org/abs/2611.00633v2
+- PDF: https://arxiv.org/pdf/2611.00633v2
+- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-10-31-arxiv-evidence_grounded_large_language_models_guide_perovskite_solar_cell_design_and_optimizatio_infographic.json
 
 ## 3. Multiwavelength Photoluminescence as a Non-destructive Probe of Depth-Dependent UV Damage in Perovskite Semiconductors
 
@@ -35,15 +35,7 @@ Public site: https://dutoaa.github.io/ai-in-solar-cells-progress/
 - PDF: https://arxiv.org/pdf/2610.12766v1
 - Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-10-08-arxiv-provenance_grouped_protocol_for_evaluating_machine_learning_in_perovskite_photovoltaics_infographic.json
 
-## 5. Stable AgBiS2 near-infrared absorbers for thin film tandem photovoltaics
-
-- Date: 2026-11-01
-- Category: Perovskite Solar Cells
-- arXiv: https://arxiv.org/abs/2611.01797v1
-- PDF: https://arxiv.org/pdf/2611.01797v1
-- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-11-01-arxiv-stable_agbis2_near_infrared_absorbers_for_thin_film_tandem_photovoltaics_infographic.json
-
-## 6. Controlling Surface Chemistry in Tin-Lead Perovskites for High-Efficiency Solar Cells
+## 5. Controlling Surface Chemistry in Tin-Lead Perovskites for High-Efficiency Solar Cells
 
 - Date: 2026-10-25
 - Category: Perovskite Solar Cells
@@ -51,23 +43,15 @@ Public site: https://dutoaa.github.io/ai-in-solar-cells-progress/
 - PDF: https://arxiv.org/pdf/2610.34293v1
 - Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-10-25-arxiv-controlling_surface_chemistry_in_tin_lead_perovskites_for_high_efficiency_solar_cells_infographic.json
 
-## 7. High-Entropy A-Site Disorder Enhances Oxygen Evolution Reaction Activity and Stability in Nickelate Thin Films
+## 6. Stable AgBiS2 near-infrared absorbers for thin film tandem photovoltaics
 
-- Date: 2026-11-02
+- Date: 2026-11-01
 - Category: Perovskite Solar Cells
-- arXiv: https://arxiv.org/abs/2611.02796v1
-- PDF: https://arxiv.org/pdf/2611.02796v1
-- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-11-02-arxiv-high_entropy_a_site_disorder_enhances_oxygen_evolution_reaction_activity_and_stability_in_infographic.json
+- arXiv: https://arxiv.org/abs/2611.01797v1
+- PDF: https://arxiv.org/pdf/2611.01797v1
+- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-11-01-arxiv-stable_agbis2_near_infrared_absorbers_for_thin_film_tandem_photovoltaics_infographic.json
 
-## 8. Controlling nitrogen incorporation in (Eu,Ba,Ca)TiO$_3$-derived perovskite-type oxynitrides through Fermi Level Engineering
-
-- Date: 2026-11-03
-- Category: Perovskite Solar Cells
-- arXiv: https://arxiv.org/abs/2611.04745v1
-- PDF: https://arxiv.org/pdf/2611.04745v1
-- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-11-03-arxiv-controlling_nitrogen_incorporation_in_eu_ba_ca_tio_3_derived_perovskite_type_oxynitrides_t_infographic.json
-
-## 9. Amorphous selenium-alloyed TeOx thin-film solar cells
+## 7. Amorphous selenium-alloyed TeOx thin-film solar cells
 
 - Date: 2026-10-28
 - Category: Device Optimization
@@ -75,29 +59,45 @@ Public site: https://dutoaa.github.io/ai-in-solar-cells-progress/
 - PDF: https://arxiv.org/pdf/2610.38643v1
 - Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-10-28-arxiv-amorphous_selenium_alloyed_teox_thin_film_solar_cells_infographic.json
 
-## 10. A Hybrid TFT-NBEATS Framework for Robust Multi-Horizon Photovoltaic Power Forecasting
+## 8. High-Entropy A-Site Disorder Enhances Oxygen Evolution Reaction Activity and Stability in Nickelate Thin Films
+
+- Date: 2026-11-02
+- Category: Perovskite Solar Cells
+- arXiv: https://arxiv.org/abs/2611.02796v1
+- PDF: https://arxiv.org/pdf/2611.02796v1
+- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-11-02-arxiv-high_entropy_a_site_disorder_enhances_oxygen_evolution_reaction_activity_and_stability_in_infographic.json
+
+## 9. The polar discontinuity picture in nickelate superlattices: comparison of the insulating and metallic phases
+
+- Date: 2026-11-05
+- Category: Perovskite Solar Cells
+- arXiv: https://arxiv.org/abs/2611.08067v1
+- PDF: https://arxiv.org/pdf/2611.08067v1
+- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-11-05-arxiv-the_polar_discontinuity_picture_in_nickelate_superlattices_comparison_of_the_insulating_an_infographic.json
+
+## 10. Zero-Point Renormalization Reshapes the Shift Current: The Role of Electron-Phonon Coupling
+
+- Date: 2026-11-05
+- Category: Device Optimization
+- arXiv: https://arxiv.org/abs/2611.08019v1
+- PDF: https://arxiv.org/pdf/2611.08019v1
+- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-11-05-arxiv-zero_point_renormalization_reshapes_the_shift_current_the_role_of_electron_phonon_coupling_infographic.json
+
+## 11. Controlling nitrogen incorporation in (Eu,Ba,Ca)TiO$_3$-derived perovskite-type oxynitrides through Fermi Level Engineering
+
+- Date: 2026-11-03
+- Category: Perovskite Solar Cells
+- arXiv: https://arxiv.org/abs/2611.04745v1
+- PDF: https://arxiv.org/pdf/2611.04745v1
+- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-11-03-arxiv-controlling_nitrogen_incorporation_in_eu_ba_ca_tio_3_derived_perovskite_type_oxynitrides_t_infographic.json
+
+## 12. A Hybrid TFT-NBEATS Framework for Robust Multi-Horizon Photovoltaic Power Forecasting
 
 - Date: 2026-10-19
 - Category: Perovskite Solar Cells
 - arXiv: https://arxiv.org/abs/2610.27155v1
 - PDF: https://arxiv.org/pdf/2610.27155v1
 - Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-10-19-arxiv-a_hybrid_tft_nbeats_framework_for_robust_multi_horizon_photovoltaic_power_forecasting_infographic.json
-
-## 11. High-fidelity training-free photovoltaic module mapping from multi-view UAV imagery
-
-- Date: 2026-11-03
-- Category: Materials Discovery
-- arXiv: https://arxiv.org/abs/2611.05131v2
-- PDF: https://arxiv.org/pdf/2611.05131v2
-- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-11-03-arxiv-high_fidelity_training_free_photovoltaic_module_mapping_from_multi_view_uav_imagery_infographic.json
-
-## 12. Diffusion-Based Generative Screening of ABX$_3$ Perovskite Compositions for Bandgap-Targeted Materials Discovery
-
-- Date: 2026-10-31
-- Category: Materials Discovery
-- arXiv: https://arxiv.org/abs/2611.00766v1
-- PDF: https://arxiv.org/pdf/2611.00766v1
-- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-10-31-arxiv-diffusion_based_generative_screening_of_abx_3_perovskite_compositions_for_bandgap_targeted_infographic.json
 
 ## 13. Electronic-morphological decoupling in mixed-dimensional halide perovskite heterostructures
 
@@ -131,15 +131,23 @@ Public site: https://dutoaa.github.io/ai-in-solar-cells-progress/
 - PDF: https://arxiv.org/pdf/2610.25575v1
 - Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-10-18-arxiv-benchmark_for_structured_retrieval_augmented_generation_in_perovskite_photovoltaics_infographic.json
 
-## 17. Nonadiabatic molecular dynamics simulation with external field
+## 17. High-fidelity training-free photovoltaic module mapping from multi-view UAV imagery
 
-- Date: 2026-11-02
-- Category: Perovskite Solar Cells
-- arXiv: https://arxiv.org/abs/2611.02606v1
-- PDF: https://arxiv.org/pdf/2611.02606v1
-- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-11-02-arxiv-nonadiabatic_molecular_dynamics_simulation_with_external_field_infographic.json
+- Date: 2026-11-03
+- Category: Materials Discovery
+- arXiv: https://arxiv.org/abs/2611.05131v2
+- PDF: https://arxiv.org/pdf/2611.05131v2
+- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-11-03-arxiv-high_fidelity_training_free_photovoltaic_module_mapping_from_multi_view_uav_imagery_infographic.json
 
-## 18. PING: physics informed graph neural network for advection-diffusion processes with applications to solar power forecasting
+## 18. Diffusion-Based Generative Screening of ABX$_3$ Perovskite Compositions for Bandgap-Targeted Materials Discovery
+
+- Date: 2026-10-31
+- Category: Materials Discovery
+- arXiv: https://arxiv.org/abs/2611.00766v1
+- PDF: https://arxiv.org/pdf/2611.00766v1
+- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-10-31-arxiv-diffusion_based_generative_screening_of_abx_3_perovskite_compositions_for_bandgap_targeted_infographic.json
+
+## 19. PING: physics informed graph neural network for advection-diffusion processes with applications to solar power forecasting
 
 - Date: 2026-10-13
 - Category: Device Optimization
@@ -147,18 +155,10 @@ Public site: https://dutoaa.github.io/ai-in-solar-cells-progress/
 - PDF: https://arxiv.org/pdf/2610.18280v1
 - Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-10-13-arxiv-ping_physics_informed_graph_neural_network_for_advection_diffusion_processes_with_applicat_infographic.json
 
-## 19. Moiré reconstruction at a twisted SrTiO3 interface
+## 20. The Utility of Physics-Informed Machine Learning in Solar Power Production Forecasting
 
-- Date: 2026-11-02
-- Category: Perovskite Solar Cells
-- arXiv: https://arxiv.org/abs/2611.02464v1
-- PDF: https://arxiv.org/pdf/2611.02464v1
-- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-11-02-arxiv-moir_reconstruction_at_a_twisted_srtio3_interface_infographic.json
-
-## 20. Benchmarking Classical Machine Learning Models for Shading-Fault Detection in Rooftop Photovoltaic Systems Using Real Sensor Data
-
-- Date: 2026-10-31
-- Category: AI solar cells
-- arXiv: https://arxiv.org/abs/2611.00917v1
-- PDF: https://arxiv.org/pdf/2611.00917v1
-- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-10-31-arxiv-benchmarking_classical_machine_learning_models_for_shading_fault_detection_in_rooftop_phot_infographic.json
+- Date: 2026-10-28
+- Category: Device Optimization
+- arXiv: https://arxiv.org/abs/2610.38976v1
+- PDF: https://arxiv.org/pdf/2610.38976v1
+- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-10-28-arxiv-the_utility_of_physics_informed_machine_learning_in_solar_power_production_forecasting_infographic.json
