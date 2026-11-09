@@ -1,13 +1,13 @@
 {
-  "key_insight": "Adding the ADR physical PV efficiency model to TSMixer did not consistently improve day-ahead solar power forecasting over a purely data-driven baseline.",
-  "engineering_relevance": "For large-scale PV forecasting, physics-informed model complexity may offer limited practical benefit beyond a modern neural forecasting architecture.",
+  "key_insight": "Adding an ADR physical PV efficiency model to TSMixer provides limited practical benefit for day-ahead solar power forecasting compared with the purely data-driven baseline.",
+  "engineering_relevance": "For large-scale PV forecasting, added physics-model complexity may not yield consistent accuracy, geographic transferability, or data-efficiency gains.",
   "method": [
-    "Combine the ADR physical PV efficiency model with TSMixer through feature augmentation.",
-    "Build a second hybrid architecture using residual learning.",
-    "Compare convergence, accuracy, geographic transferability, and data efficiency."
+    "Combine the ADR physical PV efficiency model with TSMixer.",
+    "Integrate physics through feature augmentation and residual learning.",
+    "Compare convergence, accuracy, geographic transferability, and limited-data performance."
   ],
-  "evidence_signal": "Evaluation used over 3 million samples from 3,713 PV installations across 33 European countries, showing slightly faster apparent convergence but no consistent gains in test accuracy, generalization, or limited-data performance.",
-  "watch_item": "The findings concern ADR–TSMixer hybrids for day-ahead PV forecasting and should not be generalized to all physics-informed approaches.",
+  "evidence_signal": "Evaluation used over 3 million samples from 3,713 PV installations across 33 European countries; slightly faster training convergence did not translate into consistent test-set improvements.",
+  "watch_item": "The findings concern ADR–TSMixer hybrids for day-ahead PV forecasting and should not be generalized to all physics-informed models or forecasting settings.",
   "hashtags": [
     "#SolarPowerForecasting",
     "#PhysicsInformedML",
@@ -21,6 +21,6 @@
   "paper_title": "The Utility of Physics-Informed Machine Learning in Solar Power Production Forecasting",
   "paper_date": "2026-10-28",
   "paper_category": "Device Optimization",
-  "generated_at": "2026-11-08T17:26:44",
+  "generated_at": "2026-11-09T21:47:48",
   "generator": "openai"
 }
