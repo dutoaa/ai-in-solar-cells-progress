@@ -1,19 +1,19 @@
 {
   "key_insight": "MOTIF improves out-of-distribution materials prediction by using LLMs to propose chemical taxonomies rather than predict properties directly.",
-  "engineering_relevance": "More robust prediction across unfamiliar chemistries could support perovskite screening, with transfer evaluated on 3D perovskite solar-cell efficiencies.",
+  "engineering_relevance": "More robust prediction across unfamiliar chemistries could support perovskite materials screening, with transfer evaluated on 3D perovskite solar cell efficiencies.",
   "method": [
     "Generate candidate material taxonomies with LLMs.",
     "Retain taxonomies that improve training-only pseudo-OOD validation.",
     "Select invariant features within each taxonomy and combine predictions through gated aggregation."
   ],
-  "evidence_signal": "On 2D halide perovskites, mean OOD bandgap MAE fell from 0.122 to 0.111 eV; frozen dev/test evaluation reduced electronic and optical bandgap errors from 0.123 to 0.117 eV and 0.181 to 0.173 eV, respectively.",
-  "watch_item": "Benefits depend on taxonomy quality and validation splits that reflect deployment shifts; the abstract does not quantify solar-cell efficiency gains.",
+  "evidence_signal": "On 2D halide perovskites, mean OOD bandgap MAE fell from 0.122 to 0.111 eV; frozen dev/test evaluation reduced electronic and optical bandgap MAE from 0.123 to 0.117 eV and 0.181 to 0.173 eV, respectively.",
+  "watch_item": "Gains on unseen chemistries may depend on how well training-only pseudo-OOD splits represent deployment shifts.",
   "hashtags": [
-    "#Perovskites",
-    "#SolarCells",
-    "#MaterialsInformatics",
+    "#AIForMaterials",
+    "#PerovskiteSolarCells",
     "#OODGeneralization",
-    "#LargeLanguageModels"
+    "#InvariantFeatureSelection",
+    "#MaterialsInformatics"
   ],
   "model": "gpt-6.1-sol",
   "service_tier": "ultrafast",
@@ -21,6 +21,6 @@
   "paper_title": "MOTIF: LLM-Defined Material Taxonomies for OOD Property Prediction via Invariant Feature Selection",
   "paper_date": "2026-11-09",
   "paper_category": "Perovskite Solar Cells",
-  "generated_at": "2026-11-10T19:07:24",
+  "generated_at": "2026-11-11T19:03:55",
   "generator": "openai"
 }
