@@ -1,19 +1,19 @@
 {
-  "key_insight": "Differentiable foundation models enable joint optimization of crystal composition and structure toward target properties, including band gaps suited to solar absorbers.",
-  "engineering_relevance": "This approach could accelerate photovoltaic materials screening by designing crystals toward a 1.34 eV band gap while penalizing energetic instability.",
+  "key_insight": "DEFEAT enables gradient-based crystal design across composition and structure, including semiconductor candidates targeting a 1.34 eV band gap for photovoltaic absorption.",
+  "engineering_relevance": "Jointly optimizing elements, atom counts, positions, and lattice vectors could accelerate the search for solar absorber materials with suitable band gaps and competitive stability.",
   "method": [
-    "DEFEAT extends pretrained EquiformerV3 to continuous species weights and site occupancies without fractional-data retraining.",
-    "Property-model gradients and a learned energy penalty jointly optimize composition, atom count, positions, and lattice vectors.",
-    "Validate candidates with first-principles calculations and assess finite-temperature phase competition using machine-learned potentials."
+    "Extend a pretrained EquiformerV3 model to continuous species weights and site occupancies without fractional-data retraining.",
+    "Combine gradients from fine-tuned property models with a learned energy penalty.",
+    "Validate candidate band gaps and stability using SCAN calculations and assess finite-temperature competition with machine-learned potentials."
   ],
-  "evidence_signal": "SCAN calculations confirm ten novel crystal structures with gaps within 20% of the 1.34 eV target on their respective raw or empirically corrected scales, all within 70 meV/atom of the DFT hull.",
-  "watch_item": "Training-functional band-gap bias propagates into designs unless corrected in the objective; the reported calculations do not establish solar-cell efficiency or experimental synthesizability.",
+  "evidence_signal": "SCAN calculations confirmed ten novel crystal structures with band gaps within 20% of 1.34 eV on their respective raw or empirically corrected scales, all within 70 meV/atom of the DFT hull.",
+  "watch_item": "Training-functional band-gap bias can propagate into designs unless corrected in the objective; these computational candidates are not demonstrated solar cells.",
   "hashtags": [
+    "#AIForMaterials",
     "#InverseDesign",
-    "#MaterialsDiscovery",
-    "#DifferentiableAI",
     "#Photovoltaics",
-    "#FoundationModels"
+    "#DifferentiableModeling",
+    "#MaterialsDiscovery"
   ],
   "model": "gpt-6.1-sol",
   "service_tier": "ultrafast",
@@ -21,6 +21,6 @@
   "paper_title": "Inverse design of superconductors and semiconductors with differentiable foundation models",
   "paper_date": "2026-11-06",
   "paper_category": "Materials Discovery",
-  "generated_at": "2026-11-11T19:04:07",
+  "generated_at": "2026-11-12T19:22:39",
   "generator": "openai"
 }

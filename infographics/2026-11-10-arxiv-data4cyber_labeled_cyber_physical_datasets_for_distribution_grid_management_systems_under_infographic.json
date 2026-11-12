@@ -1,19 +1,19 @@
 {
-  "key_insight": "Data4Cyber links OT network traffic with physical grid behavior to support detection of cyberattacks on solar-integrated distribution management systems.",
-  "engineering_relevance": "The dataset supports testing intrusion detectors for systems coordinating photovoltaic generation, battery storage, controllable loads, and price-driven operation.",
+  "key_insight": "Data4Cyber aligns OT network traffic, physical measurements, and control context to support cyberattack detection in distribution grids with solar generation and battery storage.",
+  "engineering_relevance": "The dataset supports testing process-aware security monitoring for distribution management systems coordinating photovoltaics, batteries, and controllable loads.",
   "method": [
-    "Record synchronized process measurements, controller context, price incentives, and Modbus/TCP and MQTT traffic in a laboratory DMS.",
+    "Record synchronized process data, controller context, price incentives, and Modbus/TCP and MQTT traffic in a laboratory DMS.",
     "Capture one benign baseline and six attack scenarios involving Modbus manipulation, MitM false-data injection, and MQTT price manipulation.",
     "Provide a fixed 1-second time base and phase-resolved labels for temporally blocked, stateful-detector evaluation."
   ],
-  "evidence_signal": "Baseline evaluations show that high recall can result from alarm saturation, while context-driven attacks require process-aware interpretation.",
-  "watch_item": "Laboratory results should not be assumed to generalize to deployed grids without validation under field conditions.",
+  "evidence_signal": "Baseline evaluations show that some detectors achieve high recall through alarm saturation, while context-driven attacks require process-aware interpretation.",
+  "watch_item": "Laboratory results need validation under field conditions, and detector evaluation should assess alarm burden alongside recall.",
   "hashtags": [
-    "#GridCybersecurity",
+    "#CyberPhysicalSecurity",
+    "#SmartGrid",
     "#SolarIntegration",
-    "#CyberPhysicalSystems",
-    "#IntrusionDetection",
-    "#OTSecurity"
+    "#OTSecurity",
+    "#IntrusionDetection"
   ],
   "model": "gpt-6.1-sol",
   "service_tier": "ultrafast",
@@ -21,6 +21,6 @@
   "paper_title": "Data4Cyber: Labeled Cyber-Physical Datasets for Distribution-Grid Management Systems Under Representative OT Attacks",
   "paper_date": "2026-11-10",
   "paper_category": "Device Optimization",
-  "generated_at": "2026-11-11T19:04:09",
+  "generated_at": "2026-11-12T19:22:49",
   "generator": "openai"
 }
