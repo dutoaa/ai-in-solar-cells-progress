@@ -1,0 +1,26 @@
+{
+  "key_insight": "Machine learning can diagnose simulated degradation mechanisms in lead-free RbSn₀.₅Ge₀.₅I₃ solar cells, but strong test scores do not guarantee generalization.",
+  "engineering_relevance": "Replacing Spiro-OMeTAD with CuI raises simulated efficiency from 19.6% to 21.6%, mainly by improving fill factor.",
+  "method": [
+    "Generate approximately 42,000 SCAPS-1D device simulations.",
+    "Compare surrogate models trained on factorial grids and Latin hypercube samples.",
+    "Identify six degradation mechanisms with multi-label classification of temperature- and illumination-dependent open-circuit voltage."
+  ],
+  "evidence_signal": "The classifier achieves macro F₁ = 0.938 versus 0.687 for a calibrated physics-rule baseline; grid-trained XGBoost falls from R² = 0.9997 on held-out grid points to 0.58 on independently sampled devices.",
+  "watch_item": "The classifier fails to generalize to mechanism combinations absent from training, and experimental-device validation remains necessary.",
+  "hashtags": [
+    "#LeadFreeSolarCells",
+    "#MachineLearning",
+    "#DeviceDiagnostics",
+    "#SCAPS1D",
+    "#SolarCellOptimization"
+  ],
+  "model": "gpt-6.1-sol",
+  "service_tier": "ultrafast",
+  "paper_id": "2026-11-12-arxiv-interpretable_machine_learning_diagnosis_of_degradation_mechanisms_in_lead_free_rbsn_0_5_g",
+  "paper_title": "Interpretable machine learning diagnosis of degradation mechanisms in lead-free $RbSn_{0.5}Ge_{0.5}I_{3}$ solar cells from temperature- and illumination-dependent electrical measurements",
+  "paper_date": "2026-11-12",
+  "paper_category": "Device Optimization",
+  "generated_at": "2026-11-13T18:59:44",
+  "generator": "openai"
+}

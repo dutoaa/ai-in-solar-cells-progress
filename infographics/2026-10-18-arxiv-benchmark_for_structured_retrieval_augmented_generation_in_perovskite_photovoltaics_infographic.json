@@ -1,13 +1,13 @@
 {
-  "key_insight": "Read-only SQL access to structured perovskite device data raised quantitative question-answering accuracy to about 51%, versus 16–23% for standard passage retrieval.",
-  "engineering_relevance": "Reliable literature-scale comparisons of perovskite solar cells require structured experimental records, not text retrieval alone.",
+  "key_insight": "Giving a language model read-only SQL access to structured perovskite device data raised quantitative question-answering accuracy to about 51%, versus 16–23% with passage retrieval.",
+  "engineering_relevance": "Literature-scale comparisons of solar-cell measurements benefit from validated device tables and executable queries, not text retrieval alone.",
   "method": [
-    "Compute 755 ground-truth answers from 45,441 measured device records.",
-    "Benchmark six retrieval architectures across 158,274 passages from 25,662 papers.",
-    "Equip an open 14B model with read-only SQL access on a single 24 GB GPU."
+    "Compute 755 ground-truth answers directly from measured device records.",
+    "Benchmark six retrieval architectures with an open 14B model on one 24 GB GPU.",
+    "Compare passage retrieval with read-only SQL access for quantitative queries."
   ],
-  "evidence_signal": "SQL-enabled accuracy reached 51.5% on historical literature and 50.8% on prospective literature, compared with 1.6–6.5% zero-shot accuracy.",
-  "watch_item": "Accuracy remained near 51%, and deployment depends on extracting and validating reliable structured device records.",
+  "evidence_signal": "Evaluation used 45,441 device records and 158,274 passages from 25,662 papers; SQL-enabled accuracy reached 51.5% on historical and 50.8% on prospective literature.",
+  "watch_item": "Accuracy remains near 51%, and deployment depends on reliable extraction and maintenance of structured device data.",
   "hashtags": [
     "#PerovskiteSolarCells",
     "#RetrievalAugmentedGeneration",
@@ -21,6 +21,6 @@
   "paper_title": "Benchmark for Structured Retrieval-Augmented Generation in Perovskite Photovoltaics",
   "paper_date": "2026-10-18",
   "paper_category": "Perovskite Solar Cells",
-  "generated_at": "2026-11-12T19:22:47",
+  "generated_at": "2026-11-13T19:00:28",
   "generator": "openai"
 }

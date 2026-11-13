@@ -1,19 +1,19 @@
 {
-  "key_insight": "MOTIF improves out-of-distribution materials prediction by using LLMs to propose chemical taxonomies rather than predict properties directly.",
-  "engineering_relevance": "More robust prediction across unfamiliar chemistries could support perovskite materials screening, with transfer evaluated on 3D perovskite solar-cell efficiencies.",
+  "key_insight": "MOTIF improves materials-property prediction under distribution shift by using LLMs to propose chemical taxonomies, rather than predict numerical properties directly.",
+  "engineering_relevance": "More robust prediction for unfamiliar material families could support perovskite screening, with transferability also evaluated on 3D perovskite solar-cell efficiencies.",
   "method": [
     "Generate candidate material taxonomies with LLMs.",
     "Retain taxonomies that improve training-only pseudo-OOD validation.",
     "Select invariant features within accepted taxonomies and combine predictions through gated aggregation."
   ],
-  "evidence_signal": "On 2D halide perovskites, mean OOD bandgap MAE fell from 0.122 to 0.111 eV; frozen dev/test evaluation also showed smaller gains for electronic and optical bandgaps.",
-  "watch_item": "Benefits depend on taxonomy quality and validation splits that reflect deployment shifts; bandgap improvements do not directly establish better device performance.",
+  "evidence_signal": "On 2D halide perovskites, mean OOD bandgap MAE fell from 0.122 to 0.111 eV; frozen dev/test evaluation also showed electronic and optical bandgap improvements.",
+  "watch_item": "Benefits depend on taxonomy quality and validation design; the abstract does not quantify solar-cell efficiency gains.",
   "hashtags": [
     "#Perovskites",
-    "#SolarCells",
     "#MaterialsInformatics",
     "#OODGeneralization",
-    "#LargeLanguageModels"
+    "#LargeLanguageModels",
+    "#SolarCells"
   ],
   "model": "gpt-6.1-sol",
   "service_tier": "ultrafast",
@@ -21,6 +21,6 @@
   "paper_title": "MOTIF: LLM-Defined Material Taxonomies for OOD Property Prediction via Invariant Feature Selection",
   "paper_date": "2026-11-09",
   "paper_category": "Perovskite Solar Cells",
-  "generated_at": "2026-11-12T19:22:27",
+  "generated_at": "2026-11-13T19:00:16",
   "generator": "openai"
 }
