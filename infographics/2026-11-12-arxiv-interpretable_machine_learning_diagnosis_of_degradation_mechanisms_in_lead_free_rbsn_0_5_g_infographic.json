@@ -1,13 +1,13 @@
 {
-  "key_insight": "Machine learning can diagnose simulated degradation mechanisms in lead-free RbSn₀.₅Ge₀.₅I₃ solar cells, but strong test scores do not guarantee generalization.",
-  "engineering_relevance": "Replacing Spiro-OMeTAD with CuI raises simulated efficiency from 19.6% to 21.6%, mainly by improving fill factor.",
+  "key_insight": "Machine learning can diagnose degradation mechanisms in simulated lead-free solar cells, but reliable predictions depend on representative training data.",
+  "engineering_relevance": "For RbSn₀.₅Ge₀.₅I₃ cells, replacing Spiro-OMeTAD with CuI raised simulated efficiency from 19.6% to 21.6%, mainly through improved fill factor.",
   "method": [
-    "Generate approximately 42,000 SCAPS-1D device simulations.",
-    "Compare surrogate models trained on factorial grids and Latin hypercube samples.",
-    "Identify six degradation mechanisms with multi-label classification of temperature- and illumination-dependent open-circuit voltage."
+    "Generated approximately 42,000 SCAPS-1D device simulations.",
+    "Compared surrogate models trained on factorial grids and Latin hypercube samples.",
+    "Identified six degradation mechanisms using multi-label classification of temperature- and illumination-dependent open-circuit voltage."
   ],
-  "evidence_signal": "The classifier achieves macro F₁ = 0.938 versus 0.687 for a calibrated physics-rule baseline; grid-trained XGBoost falls from R² = 0.9997 on held-out grid points to 0.58 on independently sampled devices.",
-  "watch_item": "The classifier fails to generalize to mechanism combinations absent from training, and experimental-device validation remains necessary.",
+  "evidence_signal": "The diagnostic classifier achieved macro F₁ = 0.938 versus 0.687 for physics rules; grid-trained XGBoost fell from R² = 0.9997 on held-out grid points to 0.58 on independently sampled devices, while Latin hypercube training achieved 0.995.",
+  "watch_item": "The classifier failed to generalize to degradation-mechanism combinations absent from training, and experimental validation remains necessary.",
   "hashtags": [
     "#LeadFreeSolarCells",
     "#MachineLearning",
@@ -21,6 +21,6 @@
   "paper_title": "Interpretable machine learning diagnosis of degradation mechanisms in lead-free $RbSn_{0.5}Ge_{0.5}I_{3}$ solar cells from temperature- and illumination-dependent electrical measurements",
   "paper_date": "2026-11-12",
   "paper_category": "Device Optimization",
-  "generated_at": "2026-11-13T18:59:44",
+  "generated_at": "2026-11-14T17:30:17",
   "generator": "openai"
 }

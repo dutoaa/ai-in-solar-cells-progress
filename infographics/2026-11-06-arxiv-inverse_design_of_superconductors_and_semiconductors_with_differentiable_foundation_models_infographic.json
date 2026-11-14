@@ -1,18 +1,18 @@
 {
-  "key_insight": "DEFEAT enables gradient-based crystal design across composition and structure, including semiconductor candidates targeting a 1.34 eV band gap for photovoltaic absorption.",
-  "engineering_relevance": "Jointly optimizing elements, atom counts, positions, and lattice vectors could accelerate the search for solar absorber materials with suitable band gaps and competitive stability.",
+  "key_insight": "DEFEAT enables gradient-based crystal design by jointly optimizing composition, atom count, atomic positions, and lattice vectors, including searches for photovoltaic absorbers.",
+  "engineering_relevance": "The approach could accelerate solar-cell absorber discovery by targeting useful band gaps while penalizing energetically unfavorable designs.",
   "method": [
     "Extend a pretrained EquiformerV3 model to continuous species weights and site occupancies without fractional-data retraining.",
-    "Combine gradients from fine-tuned property models with a learned energy penalty.",
-    "Validate candidate band gaps and stability using SCAN calculations and assess finite-temperature competition with machine-learned potentials."
+    "Use property-model gradients and a learned energy penalty to optimize composition and structure together.",
+    "Validate candidate band gaps and stability with SCAN calculations and assess finite-temperature competition using learned potentials."
   ],
-  "evidence_signal": "SCAN calculations confirmed ten novel crystal structures with band gaps within 20% of 1.34 eV on their respective raw or empirically corrected scales, all within 70 meV/atom of the DFT hull.",
-  "watch_item": "Training-functional band-gap bias can propagate into designs unless corrected in the objective; these computational candidates are not demonstrated solar cells.",
+  "evidence_signal": "SCAN calculations confirmed ten novel crystal structures with band gaps within 20% of a 1.34 eV target on their respective raw or empirically corrected scales, all within 70 meV/atom of the DFT hull.",
+  "watch_item": "Training-functional band-gap bias propagates into designs unless corrected in the objective; target gaps and near-hull energies do not establish solar-cell performance.",
   "hashtags": [
     "#AIForMaterials",
     "#InverseDesign",
     "#Photovoltaics",
-    "#DifferentiableModeling",
+    "#DifferentiableModels",
     "#MaterialsDiscovery"
   ],
   "model": "gpt-6.1-sol",
@@ -21,6 +21,6 @@
   "paper_title": "Inverse design of superconductors and semiconductors with differentiable foundation models",
   "paper_date": "2026-11-06",
   "paper_category": "Materials Discovery",
-  "generated_at": "2026-11-12T19:22:39",
+  "generated_at": "2026-11-14T17:30:54",
   "generator": "openai"
 }
