@@ -1,18 +1,18 @@
 {
-  "key_insight": "An attention-fused TFT–N-BEATS model forecasts PV power across five horizons, with the abstract reporting 35–40% lower RMSE than the best baseline, TFT.",
-  "engineering_relevance": "Unified forecasts from 30 minutes to 24 hours could support grid scheduling and coordinated PV–battery operation; this is forecasting research, not perovskite cell design.",
+  "key_insight": "A hybrid TFT–N-BEATS model combines short-term dynamics with long-term patterns to forecast PV power across five horizons in one pipeline.",
+  "engineering_relevance": "Multi-horizon PV forecasts can support grid balancing, energy scheduling, and coordinated PV–battery–grid operation.",
   "method": [
-    "TFT models short-term dependencies and dynamic feature importance.",
+    "TFT learns short-term dependencies and dynamic feature importance.",
     "N-BEATS decomposes longer-term trends and seasonality.",
-    "Adaptive attention fuses both branches for five forecast horizons."
+    "Adaptive attention fuses both branches for 30-minute, 2-hour, 6-hour, 12-hour, and 24-hour forecasts."
   ],
-  "evidence_signal": "Evaluation on multi-year DKASC datasets reports RMSE values of 42.35, 46.27, 52.29, and 48.11, with MAPE below 5% across all datasets.",
-  "watch_item": "The abstract omits RMSE units, horizon-specific results, and validation-split details, limiting assessment of operational reliability and generalization.",
+  "evidence_signal": "On multi-year DKASC datasets, the abstract reports RMSE values of 42.35–52.29, a 35–40% reduction versus TFT, and MAPE below 5% across all datasets.",
+  "watch_item": "RMSE units and horizon-specific results are not provided in the abstract; this is PV forecasting research, not a perovskite cell materials study.",
   "hashtags": [
     "#PVForecasting",
-    "#TimeSeriesAI",
-    "#TemporalFusionTransformer",
-    "#NBEATS",
+    "#HybridDeepLearning",
+    "#TimeSeriesForecasting",
+    "#ExplainableAI",
     "#GridIntegration"
   ],
   "model": "gpt-6.1-sol",
@@ -21,6 +21,6 @@
   "paper_title": "A Hybrid TFT-NBEATS Framework for Robust Multi-Horizon Photovoltaic Power Forecasting",
   "paper_date": "2026-10-19",
   "paper_category": "Perovskite Solar Cells",
-  "generated_at": "2026-11-15T18:18:20",
+  "generated_at": "2026-11-16T21:28:27",
   "generator": "openai"
 }
