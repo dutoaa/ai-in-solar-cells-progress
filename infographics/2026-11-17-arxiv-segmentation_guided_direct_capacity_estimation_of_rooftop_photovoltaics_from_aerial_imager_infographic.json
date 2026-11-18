@@ -1,0 +1,26 @@
+{
+  "key_insight": "Segmentation-guided direct regression estimates rooftop PV capacity more accurately than forcing predictions to equal mask-derived area times power density.",
+  "engineering_relevance": "Aerial-image capacity estimates could help distribution planners fill gaps in installation-level PV inventories when interconnection records are incomplete.",
+  "method": [
+    "Retain U-Net segmentation to identify PV regions.",
+    "Use soft-mask pooling to extract PV-region features and area descriptors.",
+    "Directly regress nonnegative capacity rather than an area–density product."
+  ],
+  "evidence_signal": "Across three independent runs on 7,590 French rooftop installations, Direct Head reduced MAE by 8.7% and 12.5% and symmetric MAPE by 14.0% and 20.7% versus a parameter-matched area-density neural model under the original split and department-based holdout, respectively.",
+  "watch_item": "Generalization beyond French rooftop installations and across different aerial-imagery conditions remains unestablished by the reported evaluation.",
+  "hashtags": [
+    "#RooftopSolar",
+    "#CapacityEstimation",
+    "#ComputerVision",
+    "#RemoteSensing",
+    "#GridPlanning"
+  ],
+  "model": "gpt-6.1-sol",
+  "service_tier": "ultrafast",
+  "paper_id": "2026-11-17-arxiv-segmentation_guided_direct_capacity_estimation_of_rooftop_photovoltaics_from_aerial_imager",
+  "paper_title": "Segmentation-Guided Direct Capacity Estimation of Rooftop Photovoltaics from Aerial Imagery",
+  "paper_date": "2026-11-17",
+  "paper_category": "Device Optimization",
+  "generated_at": "2026-11-18T19:47:42",
+  "generator": "openai"
+}
