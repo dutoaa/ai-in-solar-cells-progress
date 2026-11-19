@@ -1,17 +1,17 @@
 {
-  "key_insight": "Surrogate-guided reinforcement learning enriched virtual perovskite recipe shortlists near high-performing experimental neighbors, without establishing fabricated-device performance.",
-  "engineering_relevance": "The framework could help prioritize perovskite compositions, device layers, and processing recipes before costly fabrication.",
+  "key_insight": "Surrogate-guided reinforcement learning enriches virtual perovskite solar-cell shortlists with recipes near high-performing measured devices.",
+  "engineering_relevance": "The framework could help prioritize fabrication candidates across a large recipe space, but experimental performance remains unverified.",
   "method": [
-    "Generate device recipes using reinforcement-learning policies guided by a frozen TabPFN surrogate.",
-    "Assess neighborhood support against 890 experimentally measured devices.",
+    "Generate device recipes with reinforcement-learning policies guided by a frozen TabPFN surrogate.",
+    "Assess neighborhood support using a reference pool of 890 measured devices.",
     "Compare three learned policies with six baselines using 3,000 surrogate evaluations per run."
   ],
-  "evidence_signal": "At top-100 selection, PPO and recurrent PPO achieved neighborhood-supported hit rates of 23% and 24%, versus 2.9% for Pure Random and 10% for the strongest baselines on this metric.",
-  "watch_item": "Experimental performance, seed robustness, and matched-budget advantage remain unproven; composition-family support also drops sharply at stricter similarity thresholds.",
+  "evidence_signal": "Five-fold evaluation on 1,846 devices raised mean PCE from 19.68% to 23.74% through top-ten selection; top-100 neighborhood-supported hit rates reached 23% for PPO and 24% for recurrent PPO, versus 2.9% for Pure Random.",
+  "watch_item": "Neighborhood support weakens at stricter similarity thresholds, and the results do not establish experimental gains, seed robustness, or matched-budget advantage.",
   "hashtags": [
     "#PerovskiteSolarCells",
-    "#ReinforcementLearning",
     "#MaterialsDiscovery",
+    "#ReinforcementLearning",
     "#VirtualScreening",
     "#AIForScience"
   ],
@@ -21,6 +21,6 @@
   "paper_title": "Enrichment-Oriented Virtual Screening of Perovskite Solar Cells through Reinforcement Learning",
   "paper_date": "2026-11-13",
   "paper_category": "Materials Discovery",
-  "generated_at": "2026-11-18T19:47:16",
+  "generated_at": "2026-11-19T19:47:43",
   "generator": "openai"
 }

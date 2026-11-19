@@ -24,21 +24,21 @@
         "url": "https://arxiv.org/pdf/2611.18043v1"
       }
     ],
-    "score": 83,
+    "score": 78,
     "infographic": {
-      "key_insight": "Surrogate-guided reinforcement learning enriched virtual perovskite recipe shortlists near high-performing experimental neighbors, without establishing fabricated-device performance.",
-      "engineering_relevance": "The framework could help prioritize perovskite compositions, device layers, and processing recipes before costly fabrication.",
+      "key_insight": "Surrogate-guided reinforcement learning enriches virtual perovskite solar-cell shortlists with recipes near high-performing measured devices.",
+      "engineering_relevance": "The framework could help prioritize fabrication candidates across a large recipe space, but experimental performance remains unverified.",
       "method": [
-        "Generate device recipes using reinforcement-learning policies guided by a frozen TabPFN surrogate.",
-        "Assess neighborhood support against 890 experimentally measured devices.",
+        "Generate device recipes with reinforcement-learning policies guided by a frozen TabPFN surrogate.",
+        "Assess neighborhood support using a reference pool of 890 measured devices.",
         "Compare three learned policies with six baselines using 3,000 surrogate evaluations per run."
       ],
-      "evidence_signal": "At top-100 selection, PPO and recurrent PPO achieved neighborhood-supported hit rates of 23% and 24%, versus 2.9% for Pure Random and 10% for the strongest baselines on this metric.",
-      "watch_item": "Experimental performance, seed robustness, and matched-budget advantage remain unproven; composition-family support also drops sharply at stricter similarity thresholds.",
+      "evidence_signal": "Five-fold evaluation on 1,846 devices raised mean PCE from 19.68% to 23.74% through top-ten selection; top-100 neighborhood-supported hit rates reached 23% for PPO and 24% for recurrent PPO, versus 2.9% for Pure Random.",
+      "watch_item": "Neighborhood support weakens at stricter similarity thresholds, and the results do not establish experimental gains, seed robustness, or matched-budget advantage.",
       "hashtags": [
         "#PerovskiteSolarCells",
-        "#ReinforcementLearning",
         "#MaterialsDiscovery",
+        "#ReinforcementLearning",
         "#VirtualScreening",
         "#AIForScience"
       ],
@@ -48,7 +48,7 @@
       "paper_title": "Enrichment-Oriented Virtual Screening of Perovskite Solar Cells through Reinforcement Learning",
       "paper_date": "2026-11-13",
       "paper_category": "Materials Discovery",
-      "generated_at": "2026-11-18T19:47:16",
+      "generated_at": "2026-11-19T19:47:43",
       "generator": "openai"
     }
   },
@@ -80,18 +80,18 @@
     "score": 76,
     "infographic": {
       "key_insight": "Training language models on structured experimental evidence enabled stronger perovskite reasoning and guided a contact-material choice that outperformed the expert-preferred alternative.",
-      "engineering_relevance": "Evidence-grounded AI can help prioritize perovskite device experiments, with the selected contact yielding 27.05% efficiency and 96.74% retention after 1,000 hours of dark thermal ageing at 85°C.",
+      "engineering_relevance": "Evidence-grounded AI could help prioritize perovskite device experiments, with the selected contact yielding 27.05% efficiency and 96.74% efficiency retention after 1,000 hours at 85°C in dark thermal ageing.",
       "method": [
-        "Reconstruct expert-calibrated evidence records from 4,035 training articles.",
-        "Adapt OpenPerov using links among experimental strategies, controls, observations and mechanisms.",
-        "Refine selected responses with retrieved evidence and experimentally test a K-based self-assembled monolayer analogue."
+        "Build PSM-Bench: 800 expert-developed questions on perovskite photovoltaics.",
+        "Adapt OpenPerov using evidence records reconstructed from 4,035 articles, linking strategies, controls, observations and mechanisms.",
+        "Refine selected answers with retrieved evidence and experimentally test a recommended self-assembled monolayer analogue."
       ],
-      "evidence_signal": "On the 800-question PSM-Bench, OpenPerov Flash ranked first among 13 closed-book systems; retrieval-assisted OpenPerov Pro increased Scientific Mastery from 87.6 to 89.1.",
-      "watch_item": "Dark thermal ageing and one demonstrated contact-selection task do not establish operational stability or generalization across device architectures.",
+      "evidence_signal": "OpenPerov Flash ranked first among 13 closed-book systems; retrieval-assisted OpenPerov Pro increased Scientific Mastery from 87.6 to 89.1.",
+      "watch_item": "The reported thermal-ageing result does not establish durability under illumination, humidity or outdoor operating conditions.",
       "hashtags": [
         "#PerovskiteSolarCells",
         "#EvidenceGroundedAI",
-        "#MaterialsInformatics",
+        "#MaterialsDiscovery",
         "#DeviceOptimization",
         "#ScientificReasoning"
       ],
@@ -101,7 +101,7 @@
       "paper_title": "Evidence-grounded large language models guide perovskite solar cell design and optimization",
       "paper_date": "2026-10-31",
       "paper_category": "Device Optimization",
-      "generated_at": "2026-11-18T19:47:18",
+      "generated_at": "2026-11-19T19:47:46",
       "generator": "openai"
     }
   },
@@ -135,18 +135,18 @@
       "key_insight": "Multiwavelength photoluminescence non-destructively reveals depth-dependent UV damage in perovskite solar cells, with degradation concentrated near the buried hole-transport-layer interface.",
       "engineering_relevance": "Depth-sensitive optical screening can guide interface design, including 3-mercaptopropyltrimethoxysilane modification to improve UV stability.",
       "method": [
-        "Use wavelength-dependent absorption to probe different depths.",
-        "Combine wide-field PL imaging, time-resolved PL and ideality-factor measurements during UV soaking.",
+        "Use wavelength-dependent absorption to probe different depths with photoluminescence.",
+        "Combine wide-field PL imaging, time-resolved PL, and ideality factor measurements during UV soaking.",
         "Compare perovskite films and p-i-n devices with different ITO interface modifiers."
       ],
-      "evidence_signal": "Nondestructive measurements localized UV degradation near the HTL interface, consistent with destructive tests, and showed reduced damage with 3-mercaptopropyltrimethoxysilane modification.",
-      "watch_item": "The abstract provides no quantitative stability gains or depth resolution, and UV-soaking results alone do not establish long-term operational durability.",
+      "evidence_signal": "Nondestructive measurements localized preferential interface degradation consistently with ex-situ destructive tests and showed reduced UV damage after interface modification.",
+      "watch_item": "The abstract provides no quantitative stability gains or evidence that UV-soaking results generalize to long-term operation under combined stressors.",
       "hashtags": [
         "#PerovskiteSolarCells",
         "#Photoluminescence",
         "#NondestructiveTesting",
         "#InterfaceEngineering",
-        "#SolarCellStability"
+        "#UVStability"
       ],
       "model": "gpt-6.1-sol",
       "service_tier": "ultrafast",
@@ -154,7 +154,7 @@
       "paper_title": "Multiwavelength Photoluminescence as a Non-destructive Probe of Depth-Dependent UV Damage in Perovskite Semiconductors",
       "paper_date": "2026-10-26",
       "paper_category": "Degradation and Stability",
-      "generated_at": "2026-11-18T19:47:20",
+      "generated_at": "2026-11-19T19:47:49",
       "generator": "openai"
     }
   },
@@ -187,20 +187,20 @@
     "score": 72,
     "infographic": {
       "key_insight": "Hierarchical multipoint anchoring strengthens buried interfaces in inverted perovskite solar cells, improving efficiency and resistance to thermal cycling.",
-      "engineering_relevance": "Engineering adhesion at self-assembled monolayer interfaces offers a route to reduce thermo-mechanical failure in high-efficiency perovskite photovoltaics.",
+      "engineering_relevance": "Engineering stronger transparent-conductor/SAM interfaces targets stress-driven adhesion failure that limits device durability under temperature fluctuations.",
       "method": [
-        "Pretreat transparent conductive oxides with a homometallic halide to guide ordered self-assembled monolayer formation.",
-        "Increase surface hydroxyl density to strengthen metal–oxygen coordination.",
-        "Add cooperative chloride-induced hydrogen bonding for robust multipoint anchoring."
+        "Pretreat transparent conductive oxides with a homometallic halide.",
+        "Increase surface hydroxyl species to guide ordered self-assembled monolayer (SAM) assembly.",
+        "Combine metal–oxygen coordination with cooperative chloride-induced hydrogen bonding for robust anchoring."
       ],
-      "evidence_signal": "Devices achieved 27.3% efficiency (26.9% certified) and retained 94% of initial efficiency after 400 temperature cycles between −40 and 85 °C under ISOS-T-3.",
-      "watch_item": "The abstract does not establish large-area manufacturing compatibility or durability under combined outdoor stresses.",
+      "evidence_signal": "Devices achieved 27.3% efficiency (26.9% certified) and retained 94% of initial efficiency after 400 temperature cycles between −40 and 85 °C under ISOS-T-3 testing.",
+      "watch_item": "Thermal-cycle durability is promising, but the abstract does not establish module-scale manufacturability or long-term outdoor reliability.",
       "hashtags": [
         "#PerovskiteSolarCells",
         "#InterfaceEngineering",
+        "#SelfAssembledMonolayers",
         "#ThermalCycling",
-        "#Photovoltaics",
-        "#DeviceReliability"
+        "#PhotovoltaicReliability"
       ],
       "model": "gpt-6.1-sol",
       "service_tier": "ultrafast",
@@ -208,7 +208,7 @@
       "paper_title": "Hierarchical interfacial anchoring for durable perovskite solar cells",
       "paper_date": "2026-11-10",
       "paper_category": "Device Optimization",
-      "generated_at": "2026-11-18T19:47:22",
+      "generated_at": "2026-11-19T19:47:52",
       "generator": "openai"
     }
   },
@@ -240,15 +240,15 @@
     ],
     "score": 70,
     "infographic": {
-      "key_insight": "1-acetylpiperazine (PX) dynamically couples crystallization control with interface passivation to improve lead-free tin-based perovskite solar cells.",
-      "engineering_relevance": "A single additive addresses both film formation and interfacial defects, offering a route toward more efficient and stable tin-based photovoltaics.",
+      "key_insight": "Dynamic transformation of 1-acetylpiperazine (PX) couples crystallization control with interface passivation in lead-free tin-based perovskite solar cells.",
+      "engineering_relevance": "A single additive offers a route to better film quality and reduced interfacial recombination, supporting more efficient and stable lead-free photovoltaics.",
       "method": [
-        "PX carbonyl groups coordinate with Sn²⁺ to stabilize precursor complexes and moderate supersaturation.",
-        "Controlled crystal growth produces compact, highly crystalline films.",
-        "Annealing is proposed to transform PX into amidinium-functionalized species that passivate surface A-site vacancies."
+        "Coordinate PX carbonyl groups with Sn²⁺ to stabilize precursor complexes and moderate crystal growth.",
+        "Anneal films to induce PX transformation, suggested to form amidinium-functionalized species.",
+        "Passivate surface A-site vacancies with transformed species to suppress nonradiative recombination."
       ],
-      "evidence_signal": "Devices reached 15.18% power conversion efficiency and retained 94.1% of initial efficiency after 500 hours of continuous illumination.",
-      "watch_item": "The proposed annealing-induced molecular transformation requires further confirmation; the abstract does not specify device statistics or illumination-test conditions.",
+      "evidence_signal": "The abstract reports 15.18% power conversion efficiency and retention of 94.1% of initial efficiency after 500 hours of continuous illumination.",
+      "watch_item": "The proposed amidinium-forming transformation remains tentative, and the abstract does not specify operational stability test conditions.",
       "hashtags": [
         "#TinPerovskites",
         "#LeadFreePhotovoltaics",
@@ -262,7 +262,7 @@
       "paper_title": "Dynamic Molecular Transformation Mediated Crystallization Regulation and Interface Passivation in Tin Based Perovskite Solar Cells",
       "paper_date": "2026-11-07",
       "paper_category": "Perovskite Solar Cells",
-      "generated_at": "2026-11-18T19:47:25",
+      "generated_at": "2026-11-19T19:47:54",
       "generator": "openai"
     }
   },
@@ -294,15 +294,15 @@
     ],
     "score": 67,
     "infographic": {
-      "key_insight": "Ethylenediamine reconstructs tin-rich tin–lead perovskite surfaces toward stoichiometric composition, improving electron extraction and suppressing interfacial nonradiative recombination.",
-      "engineering_relevance": "Controlling molecular protonation and surface defects offers a route to more efficient methylammonium-free perovskite solar cells.",
+      "key_insight": "Neutral ethylenediamine reconstructs tin-rich tin–lead perovskite surfaces by removing excess tin, reducing interfacial recombination and enabling 25.86% solar-cell efficiency.",
+      "engineering_relevance": "Controlling molecular protonation and surface defects offers a route to improve electron extraction into C60 in methylammonium-free perovskite solar cells.",
       "method": [
         "Compare neutral ethylenediamine with protonated ethylenediammonium iodide surface treatments.",
-        "Identify metal chelation, excess-tin removal, and defect-assisted deprotonation pathways.",
-        "Use atomistic simulations to examine iodide migration and deprotonation energetics."
+        "Use atomistic simulations to examine vacancy-assisted iodide migration and deprotonation.",
+        "Connect surface reconstruction to electronic character, electron extraction and recombination."
       ],
       "evidence_signal": "The abstract reports 25.86% power conversion efficiency and simulations showing that subsurface iodide vacancies lower the energetic cost of deprotonation.",
-      "watch_item": "Long-term stability and manufacturing-scale reproducibility of the reconstructed surfaces are not established in the abstract.",
+      "watch_item": "Long-term operational stability and reproducibility of the surface treatment at scale are not established in the abstract.",
       "hashtags": [
         "#PerovskiteSolarCells",
         "#SurfaceChemistry",
@@ -316,61 +316,166 @@
       "paper_title": "Controlling Surface Chemistry in Tin-Lead Perovskites for High-Efficiency Solar Cells",
       "paper_date": "2026-10-25",
       "paper_category": "Perovskite Solar Cells",
-      "generated_at": "2026-11-18T19:47:27",
+      "generated_at": "2026-11-19T19:47:56",
       "generator": "openai"
     }
   },
   {
-    "id": "2026-11-12-arxiv-interpretable_machine_learning_diagnosis_of_degradation_mechanisms_in_lead_free_rbsn_0_5_g",
-    "arxiv_id": "2611.16750v1",
-    "date": "2026-11-12",
-    "title": "Interpretable machine learning diagnosis of degradation mechanisms in lead-free $RbSn_{0.5}Ge_{0.5}I_{3}$ solar cells from temperature- and illumination-dependent electrical measurements",
-    "authors": "Nabanita Sarker, Hafiz Imtiaz",
-    "abstract": "Machine learning coupled with device simulation is widely used to optimize thin-film solar cells, but almost exclusively in the forward direction, from device parameters to predicted performance. The inverse problem encountered after fabrication, namely identifying the mechanism that limits a given device, is still addressed by manual inspection of characterization data. In this work, both directions are examined for lead-free $RbSn_{0.5}Ge_{0.5}I_{3}$ solar cells using approximately 42,000 SCAPS-1D simulations. Replacing the Spiro-OMeTAD hole transport layer with CuI increases the simulated power conversion efficiency from 19.6\\% to 21.6\\%, almost entirely through the fill factor. Surrogate models trained and tested on a factorial parameter grid substantially overstate their predictive accuracy. An XGBoost regressor attains $R^2 = 0.9997$ on held-out grid points but only 0.58 on independently sampled devices, whereas training on a Latin hypercube design of comparable size restores $R^2 = 0.995$. For the inverse problem, a multi-label classifier identifies which of six degradation mechanisms are present from simulated temperature- and illumination-dependent open-circuit-voltage measurements. It achieves a macro $F_1$ score of 0.938, compared to 0.687 for a calibrated physics-rule baseline. The classifier does not, however, generalize to combinations of mechanisms absent from the training set.",
-    "category": "Device Optimization",
+    "id": "2026-11-18-arxiv-properties_of_111_oriented_ferroelectric_superlattices_based_on_oxides_with_a_perovskite_s",
+    "arxiv_id": "2611.24129v1",
+    "date": "2026-11-18",
+    "title": "Properties of [111]-oriented ferroelectric superlattices based on oxides with a perovskite structure",
+    "authors": "A. I. Lebedev",
+    "abstract": "The ground-state structures of fifteen free-standing [111]-oriented ferroelectric superlattices (SLs) based on perovskite oxides and involving a single-atom substitution---BaTiO$_3$/SrTiO$_3$, PbTiO$_3$/SrTiO$_3$, PbTiO$_3$/PbZrO$_3$, SrZrO$_3$/SrTiO$_3$, PbZrO$_3$/BaZrO$_3$, BaTiO$_3$/BaZrO$_3$, PbTiO$_3$/BaTiO$_3$, BaTiO$_3$/CaTiO$_3$, KNbO$_3$/KTaO$_3$, KNbO$_3$/NaNbO$_3$, SrTiO$_3$/SrHfO$_3$, BaTiO$_3$/BaSnO$_3$, PbTiO$_3$/CaTiO$_3$, SrTiO$_3$/CaTiO$_3$, and PbZrO$_3$/SrZrO$_3$---are calculated from first principles. It is shown that in eleven considered SLs the ground state is ferroelectric. A distinctive feature of the structure of the superlattices is that both the ferroelectric distortions and the distortions associated with octahedral rotations are described by phonons at the $Γ$~point of the Brillouin zone. The importance of taking into account structural distortions associated with octahedral rotations, which in some cases lead to significant changes in the ferroelectric properties of SLs, is demonstrated. The thermodynamic stability of superlattices grown in the [111] and [100] directions is compared. An analysis of the force constants of the superlattices helps to explain the peculiarities of the ferroelectric properties of the superlattices and the corresponding solid solutions.",
+    "category": "Perovskite Solar Cells",
     "source": "arXiv",
-    "published": "2026-11-12T13:03:51Z",
-    "updated": "2026-11-12T13:03:51Z",
-    "primary_category": "cs.LG",
+    "published": "2026-11-18T09:44:14Z",
+    "updated": "2026-11-18T09:44:14Z",
+    "primary_category": "cond-mat.mtrl-sci",
     "categories": [
-      "cs.LG",
-      "math-ph"
+      "cond-mat.mtrl-sci"
     ],
     "links": [
       {
         "title": "arXiv",
-        "url": "https://arxiv.org/abs/2611.16750v1"
+        "url": "https://arxiv.org/abs/2611.24129v1"
       },
       {
         "title": "PDF",
-        "url": "https://arxiv.org/pdf/2611.16750v1"
+        "url": "https://arxiv.org/pdf/2611.24129v1"
+      }
+    ],
+    "score": 66,
+    "infographic": {
+      "key_insight": "First-principles calculations predict ferroelectric ground states in 11 of 15 [111]-oriented perovskite-oxide superlattices, with octahedral rotations substantially affecting ferroelectric properties in some cases.",
+      "engineering_relevance": "The findings can guide orientation and composition choices for ferroelectric oxide heterostructures, but do not establish solar-cell performance or an AI application.",
+      "method": [
+        "Calculate ground-state structures of 15 free-standing oxide superlattices from first principles.",
+        "Analyze zone-center phonons, ferroelectric distortions, octahedral rotations, and force constants.",
+        "Compare thermodynamic stability for [111] and [100] growth orientations."
+      ],
+      "evidence_signal": "The abstract reports ferroelectric ground states in 11 of 15 calculated superlattices, without experimental validation or photovoltaic efficiency measurements.",
+      "watch_item": "Predictions for free-standing structures may change under substrate strain and other device-integration conditions.",
+      "hashtags": [
+        "#Ferroelectrics",
+        "#PerovskiteOxides",
+        "#Superlattices",
+        "#FirstPrinciples",
+        "#OctahedralRotations"
+      ],
+      "model": "gpt-6.1-sol",
+      "service_tier": "ultrafast",
+      "paper_id": "2026-11-18-arxiv-properties_of_111_oriented_ferroelectric_superlattices_based_on_oxides_with_a_perovskite_s",
+      "paper_title": "Properties of [111]-oriented ferroelectric superlattices based on oxides with a perovskite structure",
+      "paper_date": "2026-11-18",
+      "paper_category": "Perovskite Solar Cells",
+      "generated_at": "2026-11-19T19:47:58",
+      "generator": "openai"
+    }
+  },
+  {
+    "id": "2026-11-18-arxiv-metadata_driven_ai_an_architectural_pattern_for_sustainable_data_analysis_with_llms",
+    "arxiv_id": "2611.24661v1",
+    "date": "2026-11-18",
+    "title": "Metadata-Driven AI: An Architectural Pattern for Sustainable Data Analysis with LLMs",
+    "authors": "Renaud Pawlak, Armen Sulejmani, Jordi Cabot",
+    "abstract": "Large Language Models (LLMs) let users analyse data in natural language, either by giving the data to the model to read directly or by having the model generate code to process it. Both routes send the data, or fragments of it, to the model; both pay for inference on every run; and the code a model writes to answer a question is usually discarded once the question is answered. We present Metadata-Driven AI, an architectural pattern that keeps the data away from the model and turns each analysis into a reusable program. Only metadata (not the actual data) crosses a one-way inference boundary to the LLM. The program the LLM returns runs next to the data and is kept, so that inference is paid once per analysis rather than once per run. We describe the pattern together with a simple cost model, a measurement of how little information crosses the boundary on public datasets, and a benchmark showing that a small, locally hosted model can serve as the generator. We illustrate the pattern on three applications, each built on a different implementation of it: geospatial photovoltaic prospection over live public APIs, extraction of portfolio positions from bank statements, and a conversational assistant over smart-city dashboards.",
+    "category": "AI solar cells",
+    "source": "arXiv",
+    "published": "2026-11-18T15:59:03Z",
+    "updated": "2026-11-18T15:59:03Z",
+    "primary_category": "cs.SE",
+    "categories": [
+      "cs.SE"
+    ],
+    "links": [
+      {
+        "title": "arXiv",
+        "url": "https://arxiv.org/abs/2611.24661v1"
+      },
+      {
+        "title": "PDF",
+        "url": "https://arxiv.org/pdf/2611.24661v1"
       }
     ],
     "score": 64,
     "infographic": {
-      "key_insight": "Machine learning can diagnose degradation mechanisms in simulated lead-free solar cells, but strong predictions require representative training data.",
-      "engineering_relevance": "Replacing Spiro-OMeTAD with CuI raises simulated efficiency from 19.6% to 21.6%, almost entirely through improved fill factor.",
+      "key_insight": "Metadata-Driven AI uses LLMs to generate reusable analysis programs from metadata, keeping actual data outside the model.",
+      "engineering_relevance": "For photovoltaic site prospecting, this pattern enables analysis over live geospatial APIs while reducing repeated inference and limiting data exposure.",
       "method": [
-        "Generate approximately 42,000 SCAPS-1D simulations of RbSn₀.₅Ge₀.₅I₃ solar cells.",
-        "Compare surrogate models trained on factorial-grid and Latin hypercube samples.",
-        "Identify six degradation mechanisms using multi-label classification of temperature- and illumination-dependent open-circuit voltage."
+        "Send only metadata across a one-way inference boundary to the LLM.",
+        "Execute generated analysis programs next to the data.",
+        "Retain programs for reuse without repeating inference for the same analysis."
       ],
-      "evidence_signal": "The classifier achieves macro F1 = 0.938 versus 0.687 for a physics-rule baseline; XGBoost R² falls from 0.9997 on held-out grid points to 0.58 on independently sampled devices, while Latin hypercube training restores R² = 0.995.",
-      "watch_item": "Results are simulation-based, and the classifier does not generalize to degradation-mechanism combinations absent from training.",
+      "evidence_signal": "The abstract reports a cost model, metadata-transfer measurements on public datasets, a small locally hosted model benchmark, and three applications, but provides no numerical results.",
+      "watch_item": "Generated programs require validation before execution; keeping data outside the LLM does not guarantee correct or secure analysis.",
       "hashtags": [
-        "#LeadFreeSolarCells",
-        "#MachineLearning",
-        "#DegradationDiagnosis",
-        "#DeviceSimulation",
-        "#SolarCellOptimization"
+        "#MetadataDrivenAI",
+        "#LLM",
+        "#Photovoltaics",
+        "#DataPrivacy",
+        "#SustainableComputing"
       ],
       "model": "gpt-6.1-sol",
       "service_tier": "ultrafast",
-      "paper_id": "2026-11-12-arxiv-interpretable_machine_learning_diagnosis_of_degradation_mechanisms_in_lead_free_rbsn_0_5_g",
-      "paper_title": "Interpretable machine learning diagnosis of degradation mechanisms in lead-free $RbSn_{0.5}Ge_{0.5}I_{3}$ solar cells from temperature- and illumination-dependent electrical measurements",
-      "paper_date": "2026-11-12",
+      "paper_id": "2026-11-18-arxiv-metadata_driven_ai_an_architectural_pattern_for_sustainable_data_analysis_with_llms",
+      "paper_title": "Metadata-Driven AI: An Architectural Pattern for Sustainable Data Analysis with LLMs",
+      "paper_date": "2026-11-18",
+      "paper_category": "AI solar cells",
+      "generated_at": "2026-11-19T19:48:01",
+      "generator": "openai"
+    }
+  },
+  {
+    "id": "2026-11-18-arxiv-nonideal_absorbers_in_hot_carrier_and_hot_absorber_solar_cells_losses_and_heat_recycling",
+    "arxiv_id": "2611.24194v1",
+    "date": "2026-11-18",
+    "title": "Nonideal Absorbers in Hot-Carrier and Hot-Absorber Solar Cells: Losses and Heat Recycling",
+    "authors": "Inés Durán, Simon A. Svatek, Irene Artacho, Elisa Antolín, Antonio Martí",
+    "abstract": "The hot carrier solar cell exhibits a photovoltaic conversion efficiency limit of 85.4%. Among the idealizations necessary to achieve this efficiency, it has traditionally been considered essential that the electrons absorbing sunlight do not end up transferring the captured energy to the crystal lattice. In this work, we argue that such a requirement is not necessary if the absorber is thermally insulated. In our analysis, we also consider the possibility of ohmic losses in the absorber due to finite electrical conductivity. We also demonstrate that such losses, delivered as heat, can be partially recycled into electrical work with an efficiency that is given by the Carnot factor. The high efficiencies reported here are thermodynamic limits obtained with ideal energy-selective contacts and negligible parasitic contact conductance, not projections of practical device efficiency. Our work includes a sensitivity analysis for finite contact-mediated heat leakage, and the results are presented as design targets.",
+    "category": "Device Optimization",
+    "source": "arXiv",
+    "published": "2026-11-18T10:29:25Z",
+    "updated": "2026-11-18T10:29:25Z",
+    "primary_category": "physics.app-ph",
+    "categories": [
+      "physics.app-ph"
+    ],
+    "links": [
+      {
+        "title": "arXiv",
+        "url": "https://arxiv.org/abs/2611.24194v1"
+      },
+      {
+        "title": "PDF",
+        "url": "https://arxiv.org/pdf/2611.24194v1"
+      }
+    ],
+    "score": 64,
+    "infographic": {
+      "key_insight": "Thermal insulation can relax the need to prevent carrier-to-lattice energy transfer, while absorber ohmic heat can be partially recycled into electrical work at the Carnot efficiency.",
+      "engineering_relevance": "The analysis identifies absorber thermal insulation and suppression of contact-mediated heat leakage as design targets for high-efficiency solar cells.",
+      "method": [
+        "Thermodynamic analysis of nonideal hot-carrier and hot-absorber solar cells",
+        "Inclusion of finite absorber conductivity and ohmic heating",
+        "Sensitivity analysis for finite contact-mediated heat leakage"
+      ],
+      "evidence_signal": "The abstract reports thermodynamic-limit calculations and heat-leakage sensitivity analysis, not experimental device efficiencies; 85.4% is the cited ideal hot-carrier efficiency limit.",
+      "watch_item": "High efficiencies assume ideal energy-selective contacts and negligible parasitic contact conductance, so they are not practical device-efficiency projections.",
+      "hashtags": [
+        "#HotCarrierSolarCells",
+        "#Photovoltaics",
+        "#HeatRecycling",
+        "#ThermalManagement",
+        "#DeviceOptimization"
+      ],
+      "model": "gpt-6.1-sol",
+      "service_tier": "ultrafast",
+      "paper_id": "2026-11-18-arxiv-nonideal_absorbers_in_hot_carrier_and_hot_absorber_solar_cells_losses_and_heat_recycling",
+      "paper_title": "Nonideal Absorbers in Hot-Carrier and Hot-Absorber Solar Cells: Losses and Heat Recycling",
+      "paper_date": "2026-11-18",
       "paper_category": "Device Optimization",
-      "generated_at": "2026-11-18T19:47:29",
+      "generated_at": "2026-11-19T19:48:03",
       "generator": "openai"
     }
   },
@@ -402,19 +507,19 @@
     "score": 62,
     "infographic": {
       "key_insight": "Selenium alloying and air annealing suppress residual metallic tellurium in amorphous TeOx films, enabling thin-film solar cells with approximately 1.87% efficiency.",
-      "engineering_relevance": "Chemical-state control offers a route to improve oxide-derived photovoltaic absorbers fabricated by scalable vacuum deposition.",
+      "engineering_relevance": "Chemical-state control offers a route to improving oxide-derived photovoltaic absorbers made by scalable vacuum deposition.",
       "method": [
-        "Thermally evaporate a 90:10 wt% TeO₂:Se powder mixture.",
+        "Thermally evaporate a 90:10 wt% TeO2:Se powder mixture.",
         "Anneal films in air at 225 °C for up to 9 hours.",
         "Integrate an 80 nm absorber into an ITO/ZnO/TeOx:Se/MoOx/Ag device."
       ],
-      "evidence_signal": "Optimized devices achieved 0.50 V open-circuit voltage, 8.50 mA/cm² short-circuit current density, 0.44 fill factor, and photocurrent response from 300–1000 nm; film analysis showed residual metallic Te reduced to approximately 0.4%.",
-      "watch_item": "The 9-hour annealing step may constrain manufacturing throughput, while long-term stability and large-area reproducibility are not established in the abstract.",
+      "evidence_signal": "The optimal 9-hour-annealed device achieved 0.50 V open-circuit voltage, 8.50 mA/cm² short-circuit current density, 0.44 fill factor, and approximately 1.87% efficiency; film analysis showed residual metallic Te reduced to approximately 0.4%.",
+      "watch_item": "The 9-hour anneal may constrain manufacturing throughput, while long-term device stability is not established in the abstract.",
       "hashtags": [
         "#ThinFilmSolarCells",
         "#SeleniumAlloying",
+        "#TelluriumOxide",
         "#DefectEngineering",
-        "#AmorphousSemiconductors",
         "#Photovoltaics"
       ],
       "model": "gpt-6.1-sol",
@@ -423,7 +528,275 @@
       "paper_title": "Amorphous selenium-alloyed TeOx thin-film solar cells",
       "paper_date": "2026-10-28",
       "paper_category": "Device Optimization",
-      "generated_at": "2026-11-18T19:47:32",
+      "generated_at": "2026-11-19T19:48:05",
+      "generator": "openai"
+    }
+  },
+  {
+    "id": "2026-11-18-arxiv-uncovering_the_structural_electronic_and_electrostatic_landscapes_of_srtio_3_grain_boundar",
+    "arxiv_id": "2611.24097v1",
+    "date": "2026-11-18",
+    "title": "Uncovering the Structural, Electronic, and Electrostatic Landscapes of SrTiO$_3$ Grain Boundaries via Grand Canonical Monte Carlo with a Machine-Learning Interatomic Potential",
+    "authors": "Xing He, Kairi Masuda, Aaron M. Schankler, Songsong Zhou, Andrew M. Rappe",
+    "abstract": "Grain boundaries in perovskites exhibit a rich variety of electronic, polar and magnetic properties, yet identifying their atomic structures and compositions remains challenging. Here, we combine the Grand Canonical Monte Carlo (GCMC) method with a universal machine-learning interatomic potential to explore the coupled compositional and structural phase space of $Σ$5(310)[001] SrTiO$_3$ grain boundaries. The resulting chemical potential phase diagram identifies ten stable structures belonging to four motif families: large Sr kite, small Sr kite, incomplete Sr large kite, and Ti-rich structures. Extending the GCMC method to the Sigma5(210)[001] and Sigma17(410)[001] grain boundaries reveals how grain boundary plane and inclination angle influence the competition between small- and large-kite motifs. Density functional theory calculations of the predicted Sigma5(310)[001] grain boundaries show that the composition and atomic structure strongly govern the spatial distribution of conduction and valence band edge states, interfacial band alignment, and carrier localization. Four distinct electronic regimes emerge: localized electron-doped, delocalized electron-doped, insulating, and hole-attracting states. Our electrostatics analysis reveals the coexistence of the short-range electric fields at the reconstructed GB core associated with local atomic density and bonding, and the longer-range fields outside the core arising from the space charge. These fields can also couple to local polar distortions and generate composition-dependent polarization patterns. These results establish an efficient framework for exploring oxide perovskite grain boundary structures and reveal how stoichiometry and atomic reconstruction couple to electronic structure, electrostatics, and local polarization, providing a route toward predictive grain boundary engineering in functional perovskites.",
+    "category": "Perovskite Solar Cells",
+    "source": "arXiv",
+    "published": "2026-11-18T09:21:03Z",
+    "updated": "2026-11-18T09:21:03Z",
+    "primary_category": "cond-mat.mtrl-sci",
+    "categories": [
+      "cond-mat.mtrl-sci"
+    ],
+    "links": [
+      {
+        "title": "arXiv",
+        "url": "https://arxiv.org/abs/2611.24097v1"
+      },
+      {
+        "title": "PDF",
+        "url": "https://arxiv.org/pdf/2611.24097v1"
+      }
+    ],
+    "score": 60,
+    "infographic": {
+      "key_insight": "AI-assisted sampling identifies ten stable SrTiO₃ grain-boundary structures whose composition and reconstruction govern electronic behavior, electric fields, and local polarization.",
+      "engineering_relevance": "The framework could guide oxide-perovskite interface engineering for carrier control, but the abstract does not demonstrate solar-cell performance gains.",
+      "method": [
+        "Combine Grand Canonical Monte Carlo with a universal machine-learning interatomic potential to sample boundary structures and compositions.",
+        "Map chemical-potential stability and compare structural motifs across three grain boundaries.",
+        "Use density functional theory and electrostatics analysis to characterize electronic states, fields, and polarization."
+      ],
+      "evidence_signal": "For Σ5(310)[001], the phase diagram identifies ten stable structures in four motif families, and DFT reveals four electronic regimes: localized electron-doped, delocalized electron-doped, insulating, and hole-attracting.",
+      "watch_item": "Predictions concern selected SrTiO₃ grain boundaries; transferability to other perovskites and experimental devices remains to be validated.",
+      "hashtags": [
+        "#MachineLearningPotentials",
+        "#GrainBoundaryEngineering",
+        "#SrTiO3",
+        "#PerovskiteInterfaces",
+        "#ComputationalMaterials"
+      ],
+      "model": "gpt-6.1-sol",
+      "service_tier": "ultrafast",
+      "paper_id": "2026-11-18-arxiv-uncovering_the_structural_electronic_and_electrostatic_landscapes_of_srtio_3_grain_boundar",
+      "paper_title": "Uncovering the Structural, Electronic, and Electrostatic Landscapes of SrTiO$_3$ Grain Boundaries via Grand Canonical Monte Carlo with a Machine-Learning Interatomic Potential",
+      "paper_date": "2026-11-18",
+      "paper_category": "Perovskite Solar Cells",
+      "generated_at": "2026-11-19T19:48:08",
+      "generator": "openai"
+    }
+  },
+  {
+    "id": "2026-11-18-arxiv-two_color_coherent_control_of_the_spin_photovoltaic_effect_in_centrosymmetric_crystals",
+    "arxiv_id": "2611.24045v1",
+    "date": "2026-11-18",
+    "title": "Two-Color Coherent Control of the Spin Photovoltaic Effect in Centrosymmetric Crystals",
+    "authors": "Songmin Liu, Pan Zhou, Lizhong Sun",
+    "abstract": "Spatial inversion forbids the conventional electric-dipole second-order bulk charge and spin photovoltaic responses in centrosymmetric crystals. Here we show that a phase-coherent two-color field at frequencies $ω$ and $2ω$ can generate symmetry-selected charge and spin photocurrents through an inversion-even third-order dc response. More importantly, the polarization direction and relative phase of the two-color field provide direct control over the current direction and can isolate transport channels in which the charge current vanishes while a finite spin current remains. A systematic symmetry analysis of centrosymmetric magnetic point groups and collinear antiferromagnetic spin point groups shows that pure-spin channels are allowed in a broad class of such systems under appropriate two-color driving. Furthermore, the relative optical phase governs both the magnitude and sign of the response. Our calculations on inversion-stacked bilayer 2H-MoS$_2$ and a centrosymmetric collinear altermagnet demonstrate resonantly enhanced, phase-tunable spin photocurrents in these complementary systems with strong and weak spin-orbit coupling, respectively. Our results establish the polarization direction and phase of coherent two-color light as active control parameters for spin transport in centrosymmetric materials.",
+    "category": "Device Optimization",
+    "source": "arXiv",
+    "published": "2026-11-18T08:34:03Z",
+    "updated": "2026-11-18T08:34:03Z",
+    "primary_category": "cond-mat.mtrl-sci",
+    "categories": [
+      "cond-mat.mtrl-sci"
+    ],
+    "links": [
+      {
+        "title": "arXiv",
+        "url": "https://arxiv.org/abs/2611.24045v1"
+      },
+      {
+        "title": "PDF",
+        "url": "https://arxiv.org/pdf/2611.24045v1"
+      }
+    ],
+    "score": 59,
+    "infographic": {
+      "key_insight": "Phase-coherent light at ω and 2ω can generate controllable spin photocurrents in centrosymmetric crystals, including channels with zero charge current.",
+      "engineering_relevance": "Optical polarization and relative phase offer control knobs for light-driven spin transport, rather than a demonstrated AI or solar-cell efficiency advance.",
+      "method": [
+        "Use coherent two-color driving to access an inversion-even third-order dc response.",
+        "Analyze magnetic and spin point-group symmetries to identify pure-spin channels.",
+        "Calculate responses in inversion-stacked bilayer 2H-MoS₂ and a centrosymmetric collinear altermagnet."
+      ],
+      "evidence_signal": "Calculations in the two model systems show resonantly enhanced spin photocurrents whose magnitude and sign are tunable by relative optical phase.",
+      "watch_item": "Experimental realization remains unproven in the abstract and requires phase-coherent two-color illumination with appropriate polarization.",
+      "hashtags": [
+        "#SpinPhotovoltaics",
+        "#CoherentControl",
+        "#Spintronics",
+        "#CentrosymmetricCrystals",
+        "#ComputationalMaterials"
+      ],
+      "model": "gpt-6.1-sol",
+      "service_tier": "ultrafast",
+      "paper_id": "2026-11-18-arxiv-two_color_coherent_control_of_the_spin_photovoltaic_effect_in_centrosymmetric_crystals",
+      "paper_title": "Two-Color Coherent Control of the Spin Photovoltaic Effect in Centrosymmetric Crystals",
+      "paper_date": "2026-11-18",
+      "paper_category": "Device Optimization",
+      "generated_at": "2026-11-19T19:48:10",
+      "generator": "openai"
+    }
+  },
+  {
+    "id": "2026-11-18-arxiv-approximating_anisotropic_solar_radiation_pressure",
+    "arxiv_id": "2611.23772v1",
+    "date": "2026-11-18",
+    "title": "Approximating Anisotropic Solar Radiation Pressure",
+    "authors": "Yasuhiro Yoshimura, Toshiya Hanada",
+    "abstract": "Solar radiation pressure (SRP) significantly influences satellite dynamics in high-altitude orbits, depending not only on the satellite's trajectory and attitude but also on its surface optical characteristics. Metallic surfaces, such as solar cells with periodic metal bars, exhibit anisotropic reflection that produces an anisotropic SRP. The difficulty in dealing with anisotropic SRP arises because anisotropic SRP does not have a general analytical solution, and accurate computation therefore requires numerical integration. An analytical formulation of anisotropic SRP is useful for stability analysis and controller design for satellites that exploit SRP. To this end, this paper derives an analytical approximation method to calculate the anisotropic SRP modeled with the Ashikhmin-Shirley model. The anisotropy is approximated using multiple spherical Gaussians. Because the product of spherical Gaussians is also a spherical Gaussian, anisotropic reflection can be expressed in an analytically tractable form. The approximation accuracy of the anisotropic SRP is numerically verified for two cases: weak anisotropy and strong anisotropy.",
+    "category": "Perovskite Solar Cells",
+    "source": "arXiv",
+    "published": "2026-11-18T03:27:36Z",
+    "updated": "2026-11-18T03:27:36Z",
+    "primary_category": "eess.SY",
+    "categories": [
+      "eess.SY"
+    ],
+    "links": [
+      {
+        "title": "arXiv",
+        "url": "https://arxiv.org/abs/2611.23772v1"
+      },
+      {
+        "title": "PDF",
+        "url": "https://arxiv.org/pdf/2611.23772v1"
+      }
+    ],
+    "score": 59,
+    "infographic": {
+      "key_insight": "Multiple spherical Gaussians provide an analytically tractable approximation of anisotropic solar radiation pressure caused by direction-dependent surface reflection.",
+      "engineering_relevance": "The method could support stability analysis and controller design for satellites that exploit solar radiation pressure.",
+      "method": [
+        "Model anisotropic reflection using the Ashikhmin–Shirley model.",
+        "Approximate anisotropy with multiple spherical Gaussians.",
+        "Use the closure of spherical Gaussians under multiplication to derive an analytical pressure approximation."
+      ],
+      "evidence_signal": "The abstract reports numerical verification for weak and strong anisotropy, without specifying error metrics.",
+      "watch_item": "This is satellite-dynamics research, not AI or perovskite-cell research; accuracy beyond the two evaluated anisotropy cases remains unspecified.",
+      "hashtags": [
+        "#SolarRadiationPressure",
+        "#SatelliteDynamics",
+        "#AnisotropicReflection",
+        "#SphericalGaussians",
+        "#SpacecraftControl"
+      ],
+      "model": "gpt-6.1-sol",
+      "service_tier": "ultrafast",
+      "paper_id": "2026-11-18-arxiv-approximating_anisotropic_solar_radiation_pressure",
+      "paper_title": "Approximating Anisotropic Solar Radiation Pressure",
+      "paper_date": "2026-11-18",
+      "paper_category": "Perovskite Solar Cells",
+      "generated_at": "2026-11-19T19:48:12",
+      "generator": "openai"
+    }
+  },
+  {
+    "id": "2026-11-12-arxiv-interpretable_machine_learning_diagnosis_of_degradation_mechanisms_in_lead_free_rbsn_0_5_g",
+    "arxiv_id": "2611.16750v1",
+    "date": "2026-11-12",
+    "title": "Interpretable machine learning diagnosis of degradation mechanisms in lead-free $RbSn_{0.5}Ge_{0.5}I_{3}$ solar cells from temperature- and illumination-dependent electrical measurements",
+    "authors": "Nabanita Sarker, Hafiz Imtiaz",
+    "abstract": "Machine learning coupled with device simulation is widely used to optimize thin-film solar cells, but almost exclusively in the forward direction, from device parameters to predicted performance. The inverse problem encountered after fabrication, namely identifying the mechanism that limits a given device, is still addressed by manual inspection of characterization data. In this work, both directions are examined for lead-free $RbSn_{0.5}Ge_{0.5}I_{3}$ solar cells using approximately 42,000 SCAPS-1D simulations. Replacing the Spiro-OMeTAD hole transport layer with CuI increases the simulated power conversion efficiency from 19.6\\% to 21.6\\%, almost entirely through the fill factor. Surrogate models trained and tested on a factorial parameter grid substantially overstate their predictive accuracy. An XGBoost regressor attains $R^2 = 0.9997$ on held-out grid points but only 0.58 on independently sampled devices, whereas training on a Latin hypercube design of comparable size restores $R^2 = 0.995$. For the inverse problem, a multi-label classifier identifies which of six degradation mechanisms are present from simulated temperature- and illumination-dependent open-circuit-voltage measurements. It achieves a macro $F_1$ score of 0.938, compared to 0.687 for a calibrated physics-rule baseline. The classifier does not, however, generalize to combinations of mechanisms absent from the training set.",
+    "category": "Device Optimization",
+    "source": "arXiv",
+    "published": "2026-11-12T13:03:51Z",
+    "updated": "2026-11-12T13:03:51Z",
+    "primary_category": "cs.LG",
+    "categories": [
+      "cs.LG",
+      "math-ph"
+    ],
+    "links": [
+      {
+        "title": "arXiv",
+        "url": "https://arxiv.org/abs/2611.16750v1"
+      },
+      {
+        "title": "PDF",
+        "url": "https://arxiv.org/pdf/2611.16750v1"
+      }
+    ],
+    "score": 59,
+    "infographic": {
+      "key_insight": "Machine learning can diagnose degradation mechanisms in simulated lead-free solar cells from temperature- and illumination-dependent voltage measurements, but generalization depends strongly on training coverage.",
+      "engineering_relevance": "The approach could support post-fabrication fault diagnosis, while simulations suggest replacing Spiro-OMeTAD with CuI raises efficiency from 19.6% to 21.6%, mainly through fill-factor gains.",
+      "method": [
+        "Generate approximately 42,000 SCAPS-1D simulations of RbSn₀.₅Ge₀.₅I₃ solar cells.",
+        "Compare surrogate regression trained on factorial grids versus Latin hypercube sampling.",
+        "Use multi-label classification to identify six degradation mechanisms from temperature- and illumination-dependent open-circuit voltage."
+      ],
+      "evidence_signal": "Diagnostic macro F1 reached 0.938 versus 0.687 for a calibrated physics-rule baseline; regression R² fell from 0.9997 on held-out grid points to 0.58 on independently sampled devices, while Latin hypercube training achieved 0.995.",
+      "watch_item": "Results are simulation-based, and the diagnostic classifier fails to generalize to mechanism combinations absent from training.",
+      "hashtags": [
+        "#SolarCells",
+        "#LeadFreePerovskites",
+        "#MachineLearning",
+        "#DeviceDiagnostics",
+        "#SCAPS1D"
+      ],
+      "model": "gpt-6.1-sol",
+      "service_tier": "ultrafast",
+      "paper_id": "2026-11-12-arxiv-interpretable_machine_learning_diagnosis_of_degradation_mechanisms_in_lead_free_rbsn_0_5_g",
+      "paper_title": "Interpretable machine learning diagnosis of degradation mechanisms in lead-free $RbSn_{0.5}Ge_{0.5}I_{3}$ solar cells from temperature- and illumination-dependent electrical measurements",
+      "paper_date": "2026-11-12",
+      "paper_category": "Device Optimization",
+      "generated_at": "2026-11-19T19:48:14",
+      "generator": "openai"
+    }
+  },
+  {
+    "id": "2026-11-18-arxiv-laadt_dss_decision_support_for_non_experts_on_rooftop_pv_incentive_and_grid_simulations_un",
+    "arxiv_id": "2611.24810v1",
+    "date": "2026-11-18",
+    "title": "LAaDT-DSS: decision support for non-experts on rooftop PV, incentive and grid simulations under Turkish tariff rules",
+    "authors": "Baran Kaynak",
+    "abstract": "Rooftop photovoltaics raise three questions: should a household invest, which incentive costs the state least, and does the feeder stay within limits? Those who ask are rarely modellers. We present LAaDT-DSS, decision-support software that answers all three under Turkish tariff rules from one simulation core. Non-experts reach it by clicking a house on a 3D map or by asking in plain words; a language model is asked to call the simulation tools, not to compute. Each entry of its 125-entry parameter registry is marked as sourced or estimated. Case studies test the system. Its PV yield lies within $\\pm$3.6% of two independent tools at equal losses. Across 2,048 draws of its estimated inputs, the answer for PV alone held in all but one; with a battery, it changed in 31-41% of the draws. Four scripted chat scenarios ran end to end; no user study was run.",
+    "category": "AI solar cells",
+    "source": "arXiv",
+    "published": "2026-11-18T17:45:52Z",
+    "updated": "2026-11-18T17:45:52Z",
+    "primary_category": "cs.CE",
+    "categories": [
+      "cs.CE",
+      "cs.AI",
+      "eess.SY"
+    ],
+    "links": [
+      {
+        "title": "arXiv",
+        "url": "https://arxiv.org/abs/2611.24810v1"
+      },
+      {
+        "title": "PDF",
+        "url": "https://arxiv.org/pdf/2611.24810v1"
+      }
+    ],
+    "score": 57,
+    "infographic": {
+      "key_insight": "LAaDT-DSS helps non-experts assess rooftop PV investment, state incentive costs and feeder limits under Turkish tariff rules using one simulation core.",
+      "engineering_relevance": "The system connects household economics, public incentive design and grid constraints through map-based and plain-language interfaces.",
+      "method": [
+        "Access simulations by clicking a house on a 3D map or asking in plain language.",
+        "Use a language model to call simulation tools rather than perform calculations.",
+        "Label all 125 registry parameters as sourced or estimated."
+      ],
+      "evidence_signal": "PV yield agreed within ±3.6% of two independent tools at equal losses; across 2,048 estimated-input draws, the PV-only decision changed once, while battery-inclusive decisions changed in 31–41% of draws.",
+      "watch_item": "Battery-inclusive decisions were sensitive to estimated inputs, and usability remains unvalidated beyond four scripted chat scenarios with no user study.",
+      "hashtags": [
+        "#RooftopPV",
+        "#DecisionSupport",
+        "#ToolCallingAI",
+        "#GridSimulation",
+        "#EnergyPolicy"
+      ],
+      "model": "gpt-6.1-sol",
+      "service_tier": "ultrafast",
+      "paper_id": "2026-11-18-arxiv-laadt_dss_decision_support_for_non_experts_on_rooftop_pv_incentive_and_grid_simulations_un",
+      "paper_title": "LAaDT-DSS: decision support for non-experts on rooftop PV, incentive and grid simulations under Turkish tariff rules",
+      "paper_date": "2026-11-18",
+      "paper_category": "AI solar cells",
+      "generated_at": "2026-11-19T19:48:17",
       "generator": "openai"
     }
   },
@@ -453,17 +826,17 @@
         "url": "https://arxiv.org/pdf/2611.22861v1"
       }
     ],
-    "score": 60,
+    "score": 55,
     "infographic": {
-      "key_insight": "Atomically engineered LaVO3/PrVO3 superlattices enable composition-dependent tuning of antiferromagnetic ordering alongside controlled structural distortions.",
-      "engineering_relevance": "Layer-by-layer oxide growth offers a route to tailoring magnetic properties through strain and interface design; the abstract does not report AI methods or solar-cell applications.",
+      "key_insight": "Atomically engineered LaVO3/PrVO3 superlattices enable control of structural distortions and antiferromagnetic transition temperature by varying layer proportions.",
+      "engineering_relevance": "Interface and strain engineering offer a route to tunable magnetic perovskite oxides; the abstract does not report AI methods or solar-cell applications.",
       "method": [
-        "Grow LaVO3/PrVO3 superlattices by molecular beam epitaxy on (001) SrTiO3.",
-        "Characterize epitaxial strain and crystal quality using X-ray diffraction and reciprocal space mapping.",
-        "Map atomic displacements and orbital hybridization using high-resolution STEM and layer-resolved spectroscopy."
+        "Grow layered superlattices by molecular beam epitaxy on (001) SrTiO3.",
+        "Characterize epitaxy and atomic displacements using X-ray diffraction, reciprocal space mapping, and high-resolution STEM.",
+        "Probe layer-resolved orbital hybridization and relate it to oxygen-octahedra rotations."
       ],
-      "evidence_signal": "The abstract reports a single tunable antiferromagnetic transition, periodicity-dependent antipolar displacements, and interface-suppressed distortions that recover over a few unit cells.",
-      "watch_item": "Trilinear structural coupling is inferred indirectly from displacement and hybridization proxies, and the abstract provides no quantitative tuning range.",
+      "evidence_signal": "Diffraction confirms crystalline quality and strain state, while microscopy and spectroscopy reveal periodicity-dependent displacements and hybridization; the abstract reports a tunable antiferromagnetic transition without numerical values.",
+      "watch_item": "Trilinear coupling is visualized indirectly through structural and spectroscopic proxies rather than measured directly.",
       "hashtags": [
         "#OxideSuperlattices",
         "#Antiferromagnetism",
@@ -477,7 +850,7 @@
       "paper_title": "Engineering antiferromagnetic (LaVO3)m/(PrVO3)n superlattices",
       "paper_date": "2026-11-17",
       "paper_category": "Perovskite Solar Cells",
-      "generated_at": "2026-11-18T19:47:34",
+      "generated_at": "2026-11-19T19:48:19",
       "generator": "openai"
     }
   },
@@ -507,23 +880,23 @@
         "url": "https://arxiv.org/pdf/2611.21972v1"
       }
     ],
-    "score": 60,
+    "score": 55,
     "infographic": {
-      "key_insight": "A proposed photonic Maxwell’s demon uses wavelength-selective mirrors and irreversible wavelength conversion to admit sunlight while trapping converted radiation for energy use.",
-      "engineering_relevance": "The concept could improve solar-thermal storage and thermophotovoltaic conversion through repeated photon recycling and nearly complete optical utilization in the ideal limit.",
+      "key_insight": "A proposed photonic Maxwell’s demon admits sunlight and traps wavelength-converted radiation, enabling photon recycling for solar heat storage and thermophotovoltaics.",
+      "engineering_relevance": "Spectrally selective enclosures could improve optical utilization in solar thermal systems and ultra-low-bandgap photovoltaic devices.",
       "method": [
-        "Pair a multilayer dielectric mirror with a material that irreversibly converts transmitted photons to longer wavelengths.",
-        "Construct a 3D enclosure that admits visible light and reflects converted infrared radiation inward.",
-        "Combine the enclosure with a blackbody absorber and, for thermophotovoltaics, an ultra-low-bandgap photovoltaic cell."
+        "Use multilayer dielectric mirrors that transmit incoming wavelengths but reflect longer wavelengths.",
+        "Place an irreversible wavelength converter or blackbody behind the mirrors inside a 3D enclosure.",
+        "Recycle trapped radiation, optionally coupling it to an internal ultra-low-bandgap photovoltaic cell."
       ],
-      "evidence_signal": "The abstract describes a theoretical proposal and analysis, citing the 93.3% Landsberg limit as an ideal thermodynamic target rather than a demonstrated efficiency.",
-      "watch_item": "Real performance depends on nonideal spectral selectivity, conversion losses, and heat leakage; no experimental validation or AI method is reported in the abstract.",
+      "evidence_signal": "The abstract presents a theoretical proposal, citing the 93.3% Landsberg limit as an ideal benchmark rather than a demonstrated device efficiency.",
+      "watch_item": "Practical gains depend on broadband, angle-tolerant spectral selectivity and low parasitic losses; near-complete optical utilization does not guarantee comparable electrical efficiency.",
       "hashtags": [
-        "#SolarEnergy",
         "#PhotonRecycling",
         "#Thermophotovoltaics",
-        "#PhotonicDevices",
-        "#EnergyStorage"
+        "#SolarThermal",
+        "#PhotonicDesign",
+        "#EnergyConversion"
       ],
       "model": "gpt-6.1-sol",
       "service_tier": "ultrafast",
@@ -531,7 +904,7 @@
       "paper_title": "Photonic Maxwells demon as an energy resource",
       "paper_date": "2026-11-16",
       "paper_category": "Device Optimization",
-      "generated_at": "2026-11-18T19:47:36",
+      "generated_at": "2026-11-19T19:48:22",
       "generator": "openai"
     }
   },
@@ -561,22 +934,22 @@
         "url": "https://arxiv.org/pdf/2611.21024v1"
       }
     ],
-    "score": 60,
+    "score": 55,
     "infographic": {
-      "key_insight": "This review chapter surveys laser processing across fusion, solar energy, electrochemical systems, and batteries; it is not specifically an AI solar-cell study.",
-      "engineering_relevance": "Laser techniques offer routes to optimize photovoltaic cells, recycle solar modules, and improve battery manufacturing and electrochemical performance.",
+      "key_insight": "This review chapter surveys how laser processing can support energy generation, solar harvesting, electrochemical devices, and battery manufacturing; it is not an AI solar-cell study.",
+      "engineering_relevance": "Laser-based fabrication and surface modification offer routes to improve energy-device performance, manufacturing precision, and recyclability.",
       "method": [
-        "Review laser-driven fusion facilities and key laser parameters.",
+        "Review laser-driven inertial confinement fusion and key laser parameters.",
         "Survey photovoltaic optimization, concentrated solar power, and laser-assisted module recycling.",
-        "Examine multiscale surface texturing and laser processing for lithium-ion batteries."
+        "Examine surface texturing and laser techniques for lithium-ion battery materials and manufacturing."
       ],
-      "evidence_signal": "The abstract describes a broad technology review but reports no quantitative results, datasets, or comparative benchmarks.",
-      "watch_item": "Industrial scalability and performance benefits require application-specific validation beyond the overview provided in the abstract.",
+      "evidence_signal": "The abstract describes a broad technology review but reports no quantitative results, datasets, or comparative evaluations.",
+      "watch_item": "Industrial adoption requires application-specific validation of performance, safety, scalability, and processing costs.",
       "hashtags": [
         "#LaserProcessing",
         "#SolarEnergy",
         "#BatteryManufacturing",
-        "#SurfaceTexturing",
+        "#SurfaceEngineering",
         "#SustainableEnergy"
       ],
       "model": "gpt-6.1-sol",
@@ -585,7 +958,7 @@
       "paper_title": "Laser Processing for Energy Applications",
       "paper_date": "2026-11-16",
       "paper_category": "Manufacturing and Modules",
-      "generated_at": "2026-11-18T19:47:38",
+      "generated_at": "2026-11-19T19:48:24",
       "generator": "openai"
     }
   },
@@ -614,17 +987,17 @@
         "url": "https://arxiv.org/pdf/2611.17612v1"
       }
     ],
-    "score": 60,
+    "score": 55,
     "infographic": {
-      "key_insight": "Constraint-aware reinforcement learning reduces battery sizing needs for PV ramp-rate smoothing while maintaining grid-code compliance.",
-      "engineering_relevance": "Joint controller design and battery sizing can reduce required storage power and energy capacity for grid-connected PV systems.",
+      "key_insight": "Constraint-aware reinforcement learning reduces battery power and energy requirements for PV ramp-rate smoothing while maintaining grid-code compliance.",
+      "engineering_relevance": "Co-designing battery sizing and control can reduce storage requirements for grid-connected PV systems without requiring PV forecasts during deployment.",
       "method": [
-        "Learn a causal state-feedback policy from historical PV data without deployment-time forecasts.",
-        "Constrain actions using a feasibility interval incorporating ramp-rate, converter-power, and state-of-charge limits.",
-        "Benchmark against full-horizon, noncausal optimization using an input-convex neural network."
+        "Learn a causal state-feedback policy from historical PV data.",
+        "Restrict actions to a feasibility interval incorporating ramp-rate, converter-power, and state-of-charge constraints.",
+        "Compare against a full-horizon, noncausal input-convex neural network optimization benchmark."
       ],
       "evidence_signal": "Across three real-world PV datasets at a 10%/min ramp-rate limit, CARL reduced peak battery power by 8.7–10.4% and energy capacity by 47.5–62.6% versus conventional ramp-rate control.",
-      "watch_item": "Performance beyond the evaluated datasets and robustness to deployment conditions require validation; this study concerns PV system control, not perovskite cell materials.",
+      "watch_item": "Generalization to unseen PV conditions and field operation remains to be established beyond the reported dataset evaluation.",
       "hashtags": [
         "#SolarPV",
         "#BatteryStorage",
@@ -638,433 +1011,60 @@
       "paper_title": "Battery Energy Storage Sizing in PV Ramp-Rate Smoothing using Constraint-Aware Reinforcement Learning-Based Controller",
       "paper_date": "2026-11-13",
       "paper_category": "Perovskite Solar Cells",
-      "generated_at": "2026-11-18T19:47:40",
+      "generated_at": "2026-11-19T19:48:26",
       "generator": "openai"
     }
   },
   {
-    "id": "2026-11-17-arxiv-segmentation_guided_direct_capacity_estimation_of_rooftop_photovoltaics_from_aerial_imager",
-    "arxiv_id": "2611.22076v1",
-    "date": "2026-11-17",
-    "title": "Segmentation-Guided Direct Capacity Estimation of Rooftop Photovoltaics from Aerial Imagery",
-    "authors": "Guibin Chen, Emma Fan, Yuzhang Lin",
-    "abstract": "Distribution planners need installation-level inventories of rooftop photovoltaic (PV) capacity, but interconnection records may be incomplete or spatially aggregated. Conventional image-based estimators segment PV arrays, convert the mask to physical area, and multiply by an estimated power density, coupling capacity prediction to mask-derived area. We propose Direct Head, a segmentation-guided architecture that retains U-Net segmentation and soft-mask pooling while directly regressing nonnegative capacity from PV-region features and area descriptors. We evaluate three independent runs on 7,590 French rooftop installations under the original split and a department-based holdout. Relative to a parameter-matched area-density neural model, Direct Head reduces mean absolute error by 8.7% and 12.5%, and symmetric mean absolute percentage error by 14.0% and 20.7%, respectively. Comparisons with conventional estimators, controlled architecture variants, auxiliary-loss ablations, and representative cases show that segmentation provides useful spatial evidence without requiring capacity to be determined by an area-density product.",
-    "category": "Device Optimization",
-    "source": "arXiv",
-    "published": "2026-11-17T01:56:30Z",
-    "updated": "2026-11-17T01:56:30Z",
-    "primary_category": "cs.CV",
-    "categories": [
-      "cs.CV",
-      "cs.AI"
-    ],
-    "links": [
-      {
-        "title": "arXiv",
-        "url": "https://arxiv.org/abs/2611.22076v1"
-      },
-      {
-        "title": "PDF",
-        "url": "https://arxiv.org/pdf/2611.22076v1"
-      }
-    ],
-    "score": 59,
-    "infographic": {
-      "key_insight": "Segmentation-guided direct regression estimates rooftop PV capacity more accurately than forcing predictions to equal mask-derived area times power density.",
-      "engineering_relevance": "Aerial-image capacity estimates could help distribution planners fill gaps in installation-level PV inventories when interconnection records are incomplete.",
-      "method": [
-        "Retain U-Net segmentation to identify PV regions.",
-        "Use soft-mask pooling to extract PV-region features and area descriptors.",
-        "Directly regress nonnegative capacity rather than an area–density product."
-      ],
-      "evidence_signal": "Across three independent runs on 7,590 French rooftop installations, Direct Head reduced MAE by 8.7% and 12.5% and symmetric MAPE by 14.0% and 20.7% versus a parameter-matched area-density neural model under the original split and department-based holdout, respectively.",
-      "watch_item": "Generalization beyond French rooftop installations and across different aerial-imagery conditions remains unestablished by the reported evaluation.",
-      "hashtags": [
-        "#RooftopSolar",
-        "#CapacityEstimation",
-        "#ComputerVision",
-        "#RemoteSensing",
-        "#GridPlanning"
-      ],
-      "model": "gpt-6.1-sol",
-      "service_tier": "ultrafast",
-      "paper_id": "2026-11-17-arxiv-segmentation_guided_direct_capacity_estimation_of_rooftop_photovoltaics_from_aerial_imager",
-      "paper_title": "Segmentation-Guided Direct Capacity Estimation of Rooftop Photovoltaics from Aerial Imagery",
-      "paper_date": "2026-11-17",
-      "paper_category": "Device Optimization",
-      "generated_at": "2026-11-18T19:47:42",
-      "generator": "openai"
-    }
-  },
-  {
-    "id": "2026-11-17-arxiv-solvent_antisolvent_driven_etching_of_2d_layered_halide_perovskite_microcrystals_toward_en",
-    "arxiv_id": "2611.22529v1",
-    "date": "2026-11-17",
-    "title": "Solvent/Antisolvent-Driven Etching of 2D Layered Halide Perovskite Microcrystals toward Endo-Epitaxial Heterostructures",
-    "authors": "Ajeet Singh, Sudhir Kumar Saini, Hriday Kumar Pal, Cara Elisabeth Bradsher, Sirous Khabbaz Abkenar, Roman Krahne",
-    "abstract": "Engineering internal interfaces within single crystals remains challenging, particularly in soft ionic materials such as layered halide perovskites (LHPs), for which conventional lithographic approaches are difficult to implement. Here we report a solvent/antisolvent-driven strategy for controlled etching of LHP microcrystals, producing well-defined rectangular cavities. Etching initiates at the top surface and proceeds preferentially along the crystallographic [100] and [010] directions. Cavity dimensions are tuned through etching time, temperature and etchant composition. The reaction can be interrupted and resumed, enabling stepwise cavity evolution through successive etching cycles. The resulting cavities serve as confined templates for regrowth of compositionally distinct LHPs, yielding endo-epitaxial heterostructures with designed internal architectures. The approach extends across diverse LHP compositions and antisolvent systems, while sequential precursor addition controls the extent of internal regrowth. This strategy establishes a route to engineering internal heterointerfaces in single-crystal perovskites through controlled chemical etching and confined growth.",
+    "id": "2026-11-18-arxiv-gas_induced_reversible_spectral_tuning_of_bound_states_in_the_continuum_in_perovskite_meta",
+    "arxiv_id": "2611.24096v1",
+    "date": "2026-11-18",
+    "title": "Gas-induced reversible spectral tuning of bound states in the continuum in perovskite metasurfaces",
+    "authors": "Nikita Glebov, Yuliya Kenzhebayeva, Pavel Pankin, Mikhail Masharin, Martin Rojas Bustamante, Xiuzhen Liu",
+    "abstract": "Bound states in the continuum (BICs) provide a powerful route to engineering optical resonances in compact photonic structures, enabling enhanced light--matter interaction for sensing, nonlinear optics, optical modulation, and lasing. The next step towards practical BIC-based meta-optics is dynamic and reversible spectral control after fabrication. However, optical and electro-optical tuning typically produces limited refractive-index changes, thermo-optical approaches require continuous external actuation, and phase-change materials often provide discrete switching rather than continuous spectral reconfiguration. Here we demonstrate giant, fully reversible, and continuous spectral tuning of BIC resonances in halide-perovskite metasurfaces. Using nanoimprint lithography, we fabricate MAPbBr$_3$ metasurfaces, that support BIC-derived resonances in the visible spectral range. Exposure to HCl vapor initiates an anion-exchange reaction in which Cl$^-$ ions diffuse into the perovskite crystalline lattice and partially replace Br$^-$ ions, producing a monotonic increase of the electronic bandgap and blueshift of the excitonic resonance on a minute timescale. This leads to a decrease in the refractive index and tunes the BIC resonance by more than 40~nm in the visible range. Subsequent exposure to HBr vapor reverses the exchange process and restores the resonance to its initial spectral position. As a functional demonstration, we show continuous reversible spectral tuning of BIC-mediated lasing from the same metasurface. Our results establish gas-phase anion exchange as a non-destructive mechanism for continuous, reversible, and large-range post-fabrication control of perovskite metasurfaces, opening opportunities for chemically programmable lasers, adaptive meta-optics, and active nanophotonic devices.",
     "category": "Perovskite Solar Cells",
     "source": "arXiv",
-    "published": "2026-11-17T10:20:20Z",
-    "updated": "2026-11-17T10:20:20Z",
-    "primary_category": "cond-mat.mtrl-sci",
+    "published": "2026-11-18T09:20:51Z",
+    "updated": "2026-11-18T09:20:51Z",
+    "primary_category": "physics.optics",
     "categories": [
-      "cond-mat.mtrl-sci"
+      "physics.optics"
     ],
     "links": [
       {
         "title": "arXiv",
-        "url": "https://arxiv.org/abs/2611.22529v1"
+        "url": "https://arxiv.org/abs/2611.24096v1"
       },
       {
         "title": "PDF",
-        "url": "https://arxiv.org/pdf/2611.22529v1"
-      }
-    ],
-    "score": 57,
-    "infographic": {
-      "key_insight": "Controlled solvent/antisolvent etching creates rectangular cavities inside layered halide perovskite microcrystals for regrowing compositionally distinct, endo-epitaxial heterostructures.",
-      "engineering_relevance": "The method offers a chemical route to designed internal perovskite interfaces without conventional lithography, although solar-cell performance is not demonstrated in the abstract.",
-      "method": [
-        "Etch from the top surface preferentially along crystallographic [100] and [010] directions.",
-        "Tune cavities through etching time, temperature, and etchant composition, with interruptible etching cycles.",
-        "Regrow distinct layered perovskites inside cavities using sequential precursor addition."
-      ],
-      "evidence_signal": "The abstract reports tunable cavity formation, stepwise etching, and confined regrowth across diverse perovskite compositions and antisolvent systems, but provides no quantitative metrics.",
-      "watch_item": "Reproducible interface quality and compatibility with photovoltaic device fabrication remain to be established.",
-      "hashtags": [
-        "#LayeredPerovskites",
-        "#ChemicalEtching",
-        "#EndoEpitaxy",
-        "#Heterostructures",
-        "#InterfaceEngineering"
-      ],
-      "model": "gpt-6.1-sol",
-      "service_tier": "ultrafast",
-      "paper_id": "2026-11-17-arxiv-solvent_antisolvent_driven_etching_of_2d_layered_halide_perovskite_microcrystals_toward_en",
-      "paper_title": "Solvent/Antisolvent-Driven Etching of 2D Layered Halide Perovskite Microcrystals toward Endo-Epitaxial Heterostructures",
-      "paper_date": "2026-11-17",
-      "paper_category": "Perovskite Solar Cells",
-      "generated_at": "2026-11-18T19:47:45",
-      "generator": "openai"
-    }
-  },
-  {
-    "id": "2026-11-17-arxiv-supercell_periodicity_biases_octahedral_tilting_and_energetics_in_high_entropy_perovskite",
-    "arxiv_id": "2611.22313v1",
-    "date": "2026-11-17",
-    "title": "Supercell periodicity biases octahedral tilting and energetics in high-entropy perovskite oxides",
-    "authors": "Hanzo Tsubota, Wai Kian Tan, Hiroyuki Muto, Atsunori Matsuda, Tom Ichibha, Kenta Hongo",
-    "abstract": "Odd-period supercells such as $3 \\times 3 \\times 5$ are often used for equimolar five-component compositions in computational studies of high-entropy perovskite oxides (HEPOs). However, such cells are known to constrain octahedral tilting because they cannot accommodate all standard tilt patterns (Glazer tilt systems). How strongly this constraint affects HEPOs, whose octahedra respond to local cation environments, remains unclear. Here we show that supercell periodicity systematically biases computed octahedral tilting and energetics. Using a machine-learning interatomic potential, we compared odd-period and tilt-commensurate cells for 13 HEPOs. Odd-period cells yielded smaller and less coherent tilts and higher energies, even after configurational averaging. In ~1,700-atom cells, tilt differences persisted in all compositions and energy differences in most. The bias extended to defects, with lower oxygen vacancy formation energies in odd-period cells for strongly tilted compositions. Based on these findings, a simple design rule for equimolar supercells is proposed to lift this constraint.",
-    "category": "Perovskite Solar Cells",
-    "source": "arXiv",
-    "published": "2026-11-17T07:09:23Z",
-    "updated": "2026-11-17T07:09:23Z",
-    "primary_category": "cond-mat.mtrl-sci",
-    "categories": [
-      "cond-mat.mtrl-sci"
-    ],
-    "links": [
-      {
-        "title": "arXiv",
-        "url": "https://arxiv.org/abs/2611.22313v1"
-      },
-      {
-        "title": "PDF",
-        "url": "https://arxiv.org/pdf/2611.22313v1"
-      }
-    ],
-    "score": 57,
-    "infographic": {
-      "key_insight": "Odd-period supercells systematically suppress octahedral tilting and raise computed energies in high-entropy perovskite oxides.",
-      "engineering_relevance": "Choosing tilt-compatible supercells can reduce structural and energetic bias in computational screening of perovskite oxides, including oxygen-vacancy predictions.",
-      "method": [
-        "Used a machine-learning interatomic potential to study 13 high-entropy perovskite oxides.",
-        "Compared odd-period and tilt-commensurate supercells with configurational averaging.",
-        "Evaluated octahedral tilts, energies, and oxygen-vacancy formation energies."
-      ],
-      "evidence_signal": "In approximately 1,700-atom cells, tilt differences persisted across all 13 compositions and energy differences persisted in most; odd-period cells also lowered vacancy formation energies in strongly tilted compositions.",
-      "watch_item": "The abstract reports oxide simulation results, not solar-cell performance, and does not specify the proposed equimolar-supercell design rule.",
-      "hashtags": [
-        "#HighEntropyOxides",
-        "#Perovskites",
-        "#MachineLearningPotentials",
-        "#SupercellDesign",
-        "#ComputationalMaterials"
-      ],
-      "model": "gpt-6.1-sol",
-      "service_tier": "ultrafast",
-      "paper_id": "2026-11-17-arxiv-supercell_periodicity_biases_octahedral_tilting_and_energetics_in_high_entropy_perovskite",
-      "paper_title": "Supercell periodicity biases octahedral tilting and energetics in high-entropy perovskite oxides",
-      "paper_date": "2026-11-17",
-      "paper_category": "Perovskite Solar Cells",
-      "generated_at": "2026-11-18T19:47:47",
-      "generator": "openai"
-    }
-  },
-  {
-    "id": "2026-11-16-arxiv-nitrogen_defect_coupling_in_epitaxial_lafeo3_from_structural_reconstruction_to_water_oxida",
-    "arxiv_id": "2611.20614v1",
-    "date": "2026-11-16",
-    "title": "Nitrogen Defect Coupling in Epitaxial LaFeO3 From Structural Reconstruction to Water Oxidation",
-    "authors": "Le Wang, Shan Lin, Min-Ju Choi, Krishna P. Koirala, Mark E. Bowden, Jeffrey A. Dhas",
-    "abstract": "Earth-abundant ABO3-type perovskite oxides provide a versatile platform for understanding how anion chemistry and defects govern electrocatalytic behavior. Here, we use epitaxial LaFeO3-xNy thin films to reveal how dilute N incorporation (<0.8% N/O) couples to defect formation, structural reconstruction, and water oxidation. Nitrogen-plasma-assisted pulsed laser deposition introduces N and is accompanied by reduced oxygen content, localized Fe-metal exsolution, and pronounced lattice expansion, while preserving predominantly Fe3+ in the bulk of the film. Ab initio calculations identify a plausible charge-balanced extended defect configuration involving coupled oxygen and Fe vacancies with substitutional N incorporation, reproducing the experimentally observed lattice expansion while preserving the bulk-average Fe oxidation state. The resulting electronic-state redistribution is accompanied by substantially modified electrical transport and nearly two orders of magnitude higher initial oxygen evolution reaction (OER) activity than undoped LaFeO3. Under OER conditions, however, the highly active as-grown state is metastable: near-surface N depletion and Fe0 oxidation/removal accompany rapid initial activity decay toward a quasi-steady state. pH-dependent kinetics and post-OER anion redistribution are consistent with possible lattice-oxygen participation. These results establish relationships among dilute anion incorporation, coupled defect reconstruction, electronic properties, and electrochemical behavior in perovskite oxides.",
-    "category": "Perovskite Solar Cells",
-    "source": "arXiv",
-    "published": "2026-11-16T06:38:50Z",
-    "updated": "2026-11-16T06:38:50Z",
-    "primary_category": "cond-mat.mtrl-sci",
-    "categories": [
-      "cond-mat.mtrl-sci"
-    ],
-    "links": [
-      {
-        "title": "arXiv",
-        "url": "https://arxiv.org/abs/2611.20614v1"
-      },
-      {
-        "title": "PDF",
-        "url": "https://arxiv.org/pdf/2611.20614v1"
-      }
-    ],
-    "score": 55,
-    "infographic": {
-      "key_insight": "Dilute nitrogen incorporation in epitaxial LaFeO3 couples defect formation and lattice expansion to nearly 100-fold higher initial oxygen evolution activity.",
-      "engineering_relevance": "This water-oxidation study, rather than AI or solar-cell research, suggests anion–defect engineering can enhance earth-abundant perovskite electrocatalysts.",
-      "method": [
-        "Grow epitaxial LaFeO3−xNy films using nitrogen-plasma-assisted pulsed laser deposition.",
-        "Use ab initio calculations to assess coupled nitrogen substitution and oxygen/iron vacancies.",
-        "Evaluate electrical transport, OER kinetics, and post-reaction compositional changes."
-      ],
-      "evidence_signal": "At <0.8% N/O, films show pronounced lattice expansion, predominantly bulk Fe3+, and nearly two orders of magnitude higher initial OER activity than undoped LaFeO3.",
-      "watch_item": "The highly active as-grown state is metastable: near-surface nitrogen depletion and metallic iron oxidation/removal accompany rapid initial activity decay.",
-      "hashtags": [
-        "#PerovskiteOxides",
-        "#DefectEngineering",
-        "#WaterOxidation",
-        "#Electrocatalysis",
-        "#EpitaxialThinFilms"
-      ],
-      "model": "gpt-6.1-sol",
-      "service_tier": "ultrafast",
-      "paper_id": "2026-11-16-arxiv-nitrogen_defect_coupling_in_epitaxial_lafeo3_from_structural_reconstruction_to_water_oxida",
-      "paper_title": "Nitrogen Defect Coupling in Epitaxial LaFeO3 From Structural Reconstruction to Water Oxidation",
-      "paper_date": "2026-11-16",
-      "paper_category": "Perovskite Solar Cells",
-      "generated_at": "2026-11-18T19:47:49",
-      "generator": "openai"
-    }
-  },
-  {
-    "id": "2026-10-27-arxiv-electronic_morphological_decoupling_in_mixed_dimensional_halide_perovskite_heterostructure",
-    "arxiv_id": "2610.37964v1",
-    "date": "2026-10-27",
-    "title": "Electronic-morphological decoupling in mixed-dimensional halide perovskite heterostructures",
-    "authors": "Mahmoud Samadpour, Alireza Fathi Beiraghvandi, Kazem Meraji, Tristan Sachsenweger Ballantyne, Fuxiang Ji, Mahdi Mohammadi",
-    "abstract": "Surface morphology is widely considered an indicator of thin-film quality, with smoother films generally expected to exhibit more uniform optoelectronic properties. Here, we demonstrate that substantial surface evolution does not necessarily lead to increased electronic heterogeneity in mixed-dimensional perovskite heterostructures. We investigate how low-dimensional Ruddlesden-Popper capping layers derived from the sterically hindered 5-tert-butyl-phenanthridinium cation affect the spatial distributions of photoluminescence (PL) characteristics and quasi-Fermi level splitting (QFLS) in 3D perovskites. By combining statistical atomic force microscopy (AFM) analysis with confocal, spatially resolved PL spectroscopy, we correlate surface topography with microscale optoelectronic properties. Although capping increases surface roughness and height asymmetry, it does not increase electronic inhomogeneity. Instead, the heterostructures exhibit enhanced PL, reduced non-radiative recombination, and improved spatial uniformity of radiative QFLS compared with pristine 3D films. Under accelerated aging, this contrast becomes more pronounced: pristine films develop substantial spatial fluctuations in emission and QFLS, whereas capped heterostructures largely preserve their optoelectronic homogeneity. These findings indicate that the low-dimensional capping layer suppresses aging-induced optoelectronic disorder, demonstrating that electronic uniformity can be maintained despite morphological irregularity. This decoupling provides a design principle for developing durable, high-performance perovskite photovoltaics.",
-    "category": "Perovskite Solar Cells",
-    "source": "arXiv",
-    "published": "2026-10-27T20:55:26Z",
-    "updated": "2026-10-27T20:55:26Z",
-    "primary_category": "cond-mat.mtrl-sci",
-    "categories": [
-      "cond-mat.mtrl-sci",
-      "cond-mat.mes-hall"
-    ],
-    "links": [
-      {
-        "title": "arXiv",
-        "url": "https://arxiv.org/abs/2610.37964v1"
-      },
-      {
-        "title": "PDF",
-        "url": "https://arxiv.org/pdf/2610.37964v1"
+        "url": "https://arxiv.org/pdf/2611.24096v1"
       }
     ],
     "score": 54,
     "infographic": {
-      "key_insight": "Low-dimensional capping makes 3D perovskite surfaces rougher while enhancing photoluminescence and preserving electronic uniformity, even under accelerated aging.",
-      "engineering_relevance": "Surface smoothness alone may be an unreliable quality metric when designing durable perovskite solar-cell interfaces.",
+      "key_insight": "Gas-phase anion exchange enables continuous, reversible tuning of visible BIC resonances by more than 40 nm in halide-perovskite metasurfaces.",
+      "engineering_relevance": "The approach enables post-fabrication control of compact lasers and adaptive meta-optics, rather than demonstrating AI or solar-cell performance.",
       "method": [
-        "Form mixed-dimensional heterostructures using 5-tert-butyl-phenanthridinium-derived Ruddlesden–Popper capping layers.",
-        "Combine statistical AFM with confocal, spatially resolved photoluminescence spectroscopy.",
-        "Compare morphology, emission, and quasi-Fermi level splitting in pristine and capped films under accelerated aging."
+        "Fabricate MAPbBr₃ metasurfaces using nanoimprint lithography.",
+        "Expose them to HCl vapor to replace some bromide with chloride, lowering refractive index and blueshifting resonances.",
+        "Apply HBr vapor to reverse the exchange and restore the initial resonance."
       ],
-      "evidence_signal": "Despite increased roughness and height asymmetry, capped films showed enhanced emission, reduced non-radiative recombination, and more uniform radiative quasi-Fermi level splitting than pristine films.",
-      "watch_item": "The abstract does not report device efficiency, quantitative effect sizes, or aging conditions, limiting assessment of practical photovoltaic gains.",
+      "evidence_signal": "The abstract reports greater-than-40-nm BIC resonance tuning, minute-timescale material changes, and continuous reversible tuning of BIC-mediated lasing from the same metasurface.",
+      "watch_item": "Long-term cycling stability and practical handling of corrosive HCl/HBr vapors remain implementation concerns not quantified in the abstract.",
       "hashtags": [
-        "#PerovskiteSolarCells",
-        "#MixedDimensionalPerovskites",
-        "#InterfaceEngineering",
-        "#Photoluminescence",
-        "#PhotovoltaicStability"
+        "#PerovskiteMetasurfaces",
+        "#BoundStatesInTheContinuum",
+        "#AnionExchange",
+        "#TunableLasers",
+        "#ActiveNanophotonics"
       ],
       "model": "gpt-6.1-sol",
       "service_tier": "ultrafast",
-      "paper_id": "2026-10-27-arxiv-electronic_morphological_decoupling_in_mixed_dimensional_halide_perovskite_heterostructure",
-      "paper_title": "Electronic-morphological decoupling in mixed-dimensional halide perovskite heterostructures",
-      "paper_date": "2026-10-27",
+      "paper_id": "2026-11-18-arxiv-gas_induced_reversible_spectral_tuning_of_bound_states_in_the_continuum_in_perovskite_meta",
+      "paper_title": "Gas-induced reversible spectral tuning of bound states in the continuum in perovskite metasurfaces",
+      "paper_date": "2026-11-18",
       "paper_category": "Perovskite Solar Cells",
-      "generated_at": "2026-11-18T19:47:51",
-      "generator": "openai"
-    }
-  },
-  {
-    "id": "2026-10-26-arxiv-impact_of_organic_spacer_cations_on_the_light_and_thermal_stability_of_two_dimensional_lea",
-    "arxiv_id": "2610.35247v1",
-    "date": "2026-10-26",
-    "title": "Impact of organic spacer cations on the light and thermal stability of two-dimensional lead halide perovskites",
-    "authors": "Mahesh Eledath-Changarath, Jesús Ortiga-Fibla, Andrés F. Gualdrón-Reyes, Jesús Rodríguez-Romero, Iván Mora-Seró, Ana Cros",
-    "abstract": "Long-term stability remains a critical challenge limiting the photovoltaic and optoelectronic applications of two-dimensional lead halide perovskites. In these materials, the choice of the organic spacer plays a key role not only in enhancing environmental stability, but also in determining their structural characteristics and carrier dynamics. Here, we present an environmental photo- and thermal-stability analysis of BA2PbI4 and PEA2PbI4 two-dimensional lead halide perovskites by means of confocal micro-Raman and X-ray photoelectron spectroscopy techniques. We have investigated two different organic spacers, n-butylammonium (BA) and 2-phenylethylammonium (PEA), which provide comparable room-temperature luminescence in freshly exfoliated perovskite nanoflakes and degrade similarly through the removal of organic components and fast crystal phase decomposition into PbI2 and Pb0. However, we observed that the PEA organic cation significantly improves crystal morphology and suppresses lattice defects, resulting in slower degradation and enhanced resistance to light and thermal stress under ambient conditions. Our findings indicate that structural and chemical engineering, along with surface passivation and encapsulation strategies, are essential for achieving long-term stability in two-dimensional halide perovskite devices. Nevertheless, optimizing the balance between stability and device performance remains a critical consideration.",
-    "category": "Perovskite Solar Cells",
-    "source": "arXiv",
-    "published": "2026-10-26T11:28:38Z",
-    "updated": "2026-10-26T11:28:38Z",
-    "primary_category": "cond-mat.mtrl-sci",
-    "categories": [
-      "cond-mat.mtrl-sci"
-    ],
-    "links": [
-      {
-        "title": "arXiv",
-        "url": "https://arxiv.org/abs/2610.35247v1"
-      },
-      {
-        "title": "PDF",
-        "url": "https://arxiv.org/pdf/2610.35247v1"
-      }
-    ],
-    "score": 54,
-    "infographic": {
-      "key_insight": "PEA organic spacers slow degradation and improve ambient light and thermal stability relative to BA spacers in two-dimensional lead iodide perovskites.",
-      "engineering_relevance": "Spacer selection can improve perovskite durability, but long-term device stability also requires defect control, surface passivation and encapsulation.",
-      "method": [
-        "Compared BA2PbI4 and PEA2PbI4 nanoflakes under ambient light and thermal stress.",
-        "Probed degradation using confocal micro-Raman and X-ray photoelectron spectroscopy.",
-        "Examined spacer-dependent morphology, lattice defects and decomposition."
-      ],
-      "evidence_signal": "Fresh nanoflakes showed comparable room-temperature luminescence, while PEA-based crystals exhibited better morphology, fewer lattice defects and slower degradation despite shared decomposition pathways to PbI2 and metallic Pb.",
-      "watch_item": "The abstract reports no quantitative stability gains or device-level photovoltaic testing, so improved material durability does not establish longer solar-cell lifetime.",
-      "hashtags": [
-        "#PerovskiteSolarCells",
-        "#2DPerovskites",
-        "#OrganicSpacers",
-        "#MaterialsStability",
-        "#DefectEngineering"
-      ],
-      "model": "gpt-6.1-sol",
-      "service_tier": "ultrafast",
-      "paper_id": "2026-10-26-arxiv-impact_of_organic_spacer_cations_on_the_light_and_thermal_stability_of_two_dimensional_lea",
-      "paper_title": "Impact of organic spacer cations on the light and thermal stability of two-dimensional lead halide perovskites",
-      "paper_date": "2026-10-26",
-      "paper_category": "Perovskite Solar Cells",
-      "generated_at": "2026-11-18T19:47:53",
-      "generator": "openai"
-    }
-  },
-  {
-    "id": "2026-10-22-arxiv-unifying_low_frequency_raman_and_infrared_signatures_across_perovskites",
-    "arxiv_id": "2610.31830v1",
-    "date": "2026-10-22",
-    "title": "Unifying Low-Frequency Raman and Infrared Signatures across Perovskites",
-    "authors": "Ethan Berger, Erik Fransson, Apinya Ngoipala, Lucas Svensson, Priyanka Deswal, Mehmet Baskurt",
-    "abstract": "Perovskites have been studied for a wide range of applications, from oxide-based ferroelectrics to halide-perovskite photovoltaics. Despite their diverse functionalities, these materials share strong lattice anharmonicity arising from structural instabilities such as polar off-centering and octahedral tilting. These anharmonic distortions strongly influence the low-frequency vibrational response and can be observed in infrared (IR) and Raman spectra. However, low-frequency IR and Raman signatures are typically investigated separately, hindering the development of a unified understanding of vibrational spectroscopy across perovskite classes. In this work, we use machine-learning-based molecular dynamics to simulate the IR and Raman spectra of oxide perovskites (SrTiO$_3$ and BaTiO$_3$), halide perovskites (CsPbBr$_3$, CsSnBr$_3$, and CsGeBr$_3$) and double halide perovskites (Cs$_2$AgAlBr$_6$ and Cs$_2$AgBiBr$_6$). By comparing materials exhibiting polar, tilt-driven and mixed instabilities, we find that polar off-centering leads to enhanced low-frequency IR and dielectric responses, whereas nonpolar modes, particularly octahedral tilting, are associated with Raman central peaks. The strength of the low-frequency features also depends on how strongly the underlying modes couple to polarization or dielectric susceptibility. Finally, we show that the dynamics of these instabilities play an important role, with slow polar reorientations shifting the dielectric response to very low frequencies and overdamped tilting modes producing persistent Raman central peaks. These results establish a unified framework connecting low-frequency IR and Raman spectra to the symmetry, coupling and dynamics of their underlying anharmonic lattice instabilities.",
-    "category": "Perovskite Solar Cells",
-    "source": "arXiv",
-    "published": "2026-10-22T19:09:56Z",
-    "updated": "2026-10-22T19:09:56Z",
-    "primary_category": "cond-mat.mtrl-sci",
-    "categories": [
-      "cond-mat.mtrl-sci"
-    ],
-    "links": [
-      {
-        "title": "arXiv",
-        "url": "https://arxiv.org/abs/2610.31830v1"
-      },
-      {
-        "title": "PDF",
-        "url": "https://arxiv.org/pdf/2610.31830v1"
-      }
-    ],
-    "score": 54,
-    "infographic": {
-      "key_insight": "Across perovskites, polar off-centering enhances low-frequency infrared and dielectric responses, while nonpolar octahedral tilting is associated with Raman central peaks.",
-      "engineering_relevance": "Connecting spectral features to lattice instabilities could help interpret structural dynamics in halide-perovskite solar-cell materials, without directly establishing device-performance gains.",
-      "method": [
-        "Use machine-learning-based molecular dynamics to simulate infrared and Raman spectra.",
-        "Compare seven oxide, halide and double-halide perovskites.",
-        "Relate spectral features to instability symmetry, coupling strength and dynamics."
-      ],
-      "evidence_signal": "Simulations across seven perovskites link slow polar reorientations to very-low-frequency dielectric response and overdamped tilting to persistent Raman central peaks.",
-      "watch_item": "The abstract reports no quantitative accuracy benchmarks or solar-cell device validation, so predictive reliability and device implications remain unestablished.",
-      "hashtags": [
-        "#Perovskites",
-        "#MachineLearning",
-        "#MolecularDynamics",
-        "#VibrationalSpectroscopy",
-        "#SolarCellMaterials"
-      ],
-      "model": "gpt-6.1-sol",
-      "service_tier": "ultrafast",
-      "paper_id": "2026-10-22-arxiv-unifying_low_frequency_raman_and_infrared_signatures_across_perovskites",
-      "paper_title": "Unifying Low-Frequency Raman and Infrared Signatures across Perovskites",
-      "paper_date": "2026-10-22",
-      "paper_category": "Perovskite Solar Cells",
-      "generated_at": "2026-11-18T19:47:55",
-      "generator": "openai"
-    }
-  },
-  {
-    "id": "2026-11-01-arxiv-agbis2_near_infrared_absorbers_for_thin_film_tandem_photovoltaics",
-    "arxiv_id": "2611.01797v3",
-    "date": "2026-11-01",
-    "title": "AgBiS2 near-infrared absorbers for thin film tandem photovoltaics",
-    "authors": "Shiling Dong, Yongjie Wang, Hae-Jun Seok, Mengyuan Huang, Edward Newton, Der Ying Chen",
-    "abstract": "AgBiS2 has rapidly risen in efficiency as single-junction photovoltaics (PVs), but its potential for tandem PVs is unexplored. Herein, we perform optical modeling based on the experimental absorption spectrum of AgBiS2, revealing that, as the NIR sub-cell, efficiencies exceeding 47.5% are achievable in triple-junction tandems, superseding tandems using Pb/Sn perovskite NIR cells (44.2%). However, fulfilling this potential requires overcoming the limited transport properties of AgBiS2 nanocrystal films, which constrains film thicknesses to only 30-50 nm, severely restricting NIR response. A solution-phase ligand exchange process is herein developed, allowing one-step deposition of passivated AgBiS2 nanocrystals that maintain efficient charge-carrier extraction despite an order of magnitude increase in film thickness. These films enable 24.0%-efficient four-terminal tandems with visible-light-absorbing lead-halide perovskite sub-cells, and monolithic tandems successfully demonstrating voltage addition. AgBiS2 PVs have high stability, retaining >90% of the original efficiency after 3 months of storage in dry air without encapsulation. This work establishes the significant potential of AgBiS2 as a stable and scalable NIR absorber for tandem PVs.",
-    "category": "Perovskite Solar Cells",
-    "source": "arXiv",
-    "published": "2026-11-01T11:04:35Z",
-    "updated": "2026-11-15T09:52:50Z",
-    "primary_category": "cond-mat.mtrl-sci",
-    "categories": [
-      "cond-mat.mtrl-sci"
-    ],
-    "links": [
-      {
-        "title": "arXiv",
-        "url": "https://arxiv.org/abs/2611.01797v3"
-      },
-      {
-        "title": "PDF",
-        "url": "https://arxiv.org/pdf/2611.01797v3"
-      }
-    ],
-    "score": 52,
-    "infographic": {
-      "key_insight": "Solution-phase ligand exchange enables thicker AgBiS2 near-infrared absorbers, delivering 24.0%-efficient four-terminal tandems with lead-halide perovskite cells.",
-      "engineering_relevance": "Improved carrier extraction in thicker AgBiS2 nanocrystal films supports stronger near-infrared harvesting for stable, scalable thin-film tandem photovoltaics.",
-      "method": [
-        "Model tandem performance using the experimental AgBiS2 absorption spectrum.",
-        "Use solution-phase ligand exchange for one-step deposition of passivated, thicker nanocrystal films.",
-        "Integrate AgBiS2 with visible-light-absorbing perovskite cells in four-terminal and monolithic tandems."
-      ],
-      "evidence_signal": "The abstract reports 24.0% four-terminal tandem efficiency, voltage addition in monolithic tandems, and >90% efficiency retention for AgBiS2 cells after three months in dry air without encapsulation.",
-      "watch_item": "The >47.5% triple-junction efficiency is a modeled potential, not a demonstrated device result; storage stability also does not establish operational durability.",
-      "hashtags": [
-        "#AgBiS2",
-        "#TandemPhotovoltaics",
-        "#PerovskiteSolarCells",
-        "#Nanocrystals",
-        "#NearInfrared"
-      ],
-      "model": "gpt-6.1-sol",
-      "service_tier": "ultrafast",
-      "paper_id": "2026-11-01-arxiv-agbis2_near_infrared_absorbers_for_thin_film_tandem_photovoltaics",
-      "paper_title": "AgBiS2 near-infrared absorbers for thin film tandem photovoltaics",
-      "paper_date": "2026-11-01",
-      "paper_category": "Perovskite Solar Cells",
-      "generated_at": "2026-11-18T19:47:57",
+      "generated_at": "2026-11-19T19:48:28",
       "generator": "openai"
     }
   }
