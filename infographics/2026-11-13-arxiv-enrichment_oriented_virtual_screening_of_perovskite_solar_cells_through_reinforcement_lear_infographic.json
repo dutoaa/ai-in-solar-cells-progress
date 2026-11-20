@@ -1,18 +1,18 @@
 {
   "key_insight": "Surrogate-guided reinforcement learning enriches virtual perovskite solar-cell shortlists with recipes near high-performing measured devices.",
-  "engineering_relevance": "The framework could help prioritize fabrication candidates across a large recipe space, but experimental performance remains unverified.",
+  "engineering_relevance": "The approach could help prioritize candidate compositions, device layers, and processing recipes before costly fabrication.",
   "method": [
-    "Generate device recipes with reinforcement-learning policies guided by a frozen TabPFN surrogate.",
+    "Generate recipes with reinforcement learning guided by a frozen TabPFN surrogate.",
     "Assess neighborhood support using a reference pool of 890 measured devices.",
     "Compare three learned policies with six baselines using 3,000 surrogate evaluations per run."
   ],
-  "evidence_signal": "Five-fold evaluation on 1,846 devices raised mean PCE from 19.68% to 23.74% through top-ten selection; top-100 neighborhood-supported hit rates reached 23% for PPO and 24% for recurrent PPO, versus 2.9% for Pure Random.",
-  "watch_item": "Neighborhood support weakens at stricter similarity thresholds, and the results do not establish experimental gains, seed robustness, or matched-budget advantage.",
+  "evidence_signal": "Five-fold evaluation on 1,846 devices raised top-ten mean PCE from 19.68% to 23.74%; top-100 neighborhood-supported hit rates reached 23–24% for PPO/RPPO versus 2.9% for random screening and 10% for the strongest baselines.",
+  "watch_item": "Neighborhood support is similarity-sensitive, and the results do not establish experimental performance, seed robustness, or matched-budget advantage.",
   "hashtags": [
     "#PerovskiteSolarCells",
-    "#MaterialsDiscovery",
     "#ReinforcementLearning",
     "#VirtualScreening",
+    "#MaterialsDiscovery",
     "#AIForScience"
   ],
   "model": "gpt-6.1-sol",
@@ -21,6 +21,6 @@
   "paper_title": "Enrichment-Oriented Virtual Screening of Perovskite Solar Cells through Reinforcement Learning",
   "paper_date": "2026-11-13",
   "paper_category": "Materials Discovery",
-  "generated_at": "2026-11-19T19:47:43",
+  "generated_at": "2026-11-20T19:28:10",
   "generator": "openai"
 }
