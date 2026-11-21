@@ -1,13 +1,13 @@
 {
-  "key_insight": "Surrogate-guided reinforcement learning enriches virtual perovskite solar-cell shortlists with recipes near high-performing measured devices.",
-  "engineering_relevance": "The approach could help prioritize candidate compositions, device layers, and processing recipes before costly fabrication.",
+  "key_insight": "Surrogate-guided reinforcement learning enriches perovskite recipe shortlists with candidates near high-performing measured devices, without establishing experimental performance.",
+  "engineering_relevance": "The approach could help prioritize solar-cell recipes for fabrication across large composition, device-layer, and processing design spaces.",
   "method": [
-    "Generate recipes with reinforcement learning guided by a frozen TabPFN surrogate.",
-    "Assess neighborhood support using a reference pool of 890 measured devices.",
-    "Compare three learned policies with six baselines using 3,000 surrogate evaluations per run."
+    "Use a frozen Tabular Prior-data Fitted Network (TabPFN) to guide recipe generation.",
+    "Compare three learned policies with six baselines using 3,000 surrogate evaluations per run.",
+    "Assess candidate support through neighborhoods of 890 measured reference devices."
   ],
-  "evidence_signal": "Five-fold evaluation on 1,846 devices raised top-ten mean PCE from 19.68% to 23.74%; top-100 neighborhood-supported hit rates reached 23–24% for PPO/RPPO versus 2.9% for random screening and 10% for the strongest baselines.",
-  "watch_item": "Neighborhood support is similarity-sensitive, and the results do not establish experimental performance, seed robustness, or matched-budget advantage.",
+  "evidence_signal": "In top-100 shortlists, PPO and recurrent PPO achieved neighborhood-supported hit rates of 23% and 24%, versus 2.9% for Pure Random and 10% for the strongest baselines on this metric.",
+  "watch_item": "Support is similarity-sensitive: composition-family matches among 9,000 recipes fell from 65.4% at similarity 0.80 to 11.7% at 0.90; experimental validation, seed robustness, and matched-budget advantage remain unestablished.",
   "hashtags": [
     "#PerovskiteSolarCells",
     "#ReinforcementLearning",
@@ -21,6 +21,6 @@
   "paper_title": "Enrichment-Oriented Virtual Screening of Perovskite Solar Cells through Reinforcement Learning",
   "paper_date": "2026-11-13",
   "paper_category": "Materials Discovery",
-  "generated_at": "2026-11-20T19:28:10",
+  "generated_at": "2026-11-21T18:30:08",
   "generator": "openai"
 }
