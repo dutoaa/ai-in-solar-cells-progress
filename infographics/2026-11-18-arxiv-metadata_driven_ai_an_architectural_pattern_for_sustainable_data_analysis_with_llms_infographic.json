@@ -1,19 +1,19 @@
 {
-  "key_insight": "Metadata-Driven AI keeps raw data away from the LLM and turns each generated analysis into a reusable program, reducing repeated inference.",
-  "engineering_relevance": "For photovoltaic site prospection, this architecture supports analysis over live geospatial APIs while executing generated programs next to the data.",
+  "key_insight": "Metadata-Driven AI uses only metadata to generate reusable analysis programs, keeping actual data away from the LLM and avoiding inference costs on repeat runs.",
+  "engineering_relevance": "For photovoltaic site prospection, this architecture supports analysis over live public APIs while separating LLM code generation from data-local execution.",
   "method": [
-    "Send only metadata—not actual data—across a one-way inference boundary to the LLM.",
+    "Send metadata, not actual data, across a one-way inference boundary to the LLM.",
     "Execute the generated analysis program next to the data.",
-    "Retain and reuse the program without new inference for each run."
+    "Retain the program for reuse without repeated LLM inference."
   ],
-  "evidence_signal": "The abstract reports a cost model, metadata-transfer measurements on public datasets, a small locally hosted model benchmark, and three application demonstrations, including photovoltaic prospection.",
-  "watch_item": "Generated programs still require validation, and changes to data schemas or APIs may require regeneration.",
+  "evidence_signal": "The abstract reports a cost model, metadata-transfer measurements on public datasets, a small locally hosted model benchmark, and three application examples, including photovoltaic prospection.",
+  "watch_item": "Generated programs still need correctness and security validation before execution; the abstract provides no quantitative photovoltaic performance results.",
   "hashtags": [
     "#MetadataDrivenAI",
-    "#LLMArchitecture",
+    "#LLMs",
     "#Photovoltaics",
-    "#GeospatialAnalysis",
-    "#SustainableComputing"
+    "#DataPrivacy",
+    "#ReusableCode"
   ],
   "model": "gpt-6.1-sol",
   "service_tier": "ultrafast",
@@ -21,6 +21,6 @@
   "paper_title": "Metadata-Driven AI: An Architectural Pattern for Sustainable Data Analysis with LLMs",
   "paper_date": "2026-11-18",
   "paper_category": "AI solar cells",
-  "generated_at": "2026-11-21T18:30:33",
+  "generated_at": "2026-11-22T18:53:30",
   "generator": "openai"
 }

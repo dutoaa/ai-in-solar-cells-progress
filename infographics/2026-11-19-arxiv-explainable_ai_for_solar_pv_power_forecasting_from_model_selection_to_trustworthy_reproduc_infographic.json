@@ -1,13 +1,13 @@
 {
   "key_insight": "For day-ahead solar PV forecasting, input feature selection mattered more than the choice among strong algorithms, with the best models achieving 11.6% nRMSE.",
-  "engineering_relevance": "Reproducible evaluation, reference forecasts and calibrated prediction intervals can make PV forecasts more trustworthy for operational deployment.",
+  "engineering_relevance": "Reproducible evaluation, reference forecasts and calibrated uncertainty can make PV forecasts more trustworthy for operational planning.",
   "method": [
     "Combine automated model search with explainable AI.",
-    "Evaluate day-ahead forecasts against smart persistence and examine validation-split effects.",
-    "Calibrate prediction intervals with conformal methods and test SHAP attribution stability."
+    "Compare forecasts against smart persistence and assess validation-split effects.",
+    "Calibrate prediction intervals and test SHAP attribution stability."
   ],
-  "evidence_signal": "On an open dataset from a 16.32 kWp Porto plant using 4 km weather forecasts, a full test year showed roughly half the error of smart persistence and 81.7% coverage for calibrated nominal 80% intervals, versus 64.5% before calibration.",
-  "watch_item": "SHAP rankings changed when correlated inputs were removed, so attributions describe the fitted model rather than the plant's physical behavior.",
+  "evidence_signal": "On a full test year from a 16.32 kWp plant in Porto using 4 km weather forecasts, the best models roughly halved smart-persistence error; conformal calibration raised nominal 80% interval coverage from 64.5% to 81.7%.",
+  "watch_item": "SHAP rankings shifted when correlated inputs were removed, so attributions describe model behavior rather than physical properties of the plant.",
   "hashtags": [
     "#SolarPV",
     "#PowerForecasting",
@@ -21,6 +21,6 @@
   "paper_title": "Explainable AI for Solar PV Power Forecasting: From Model Selection to Trustworthy, Reproducible Deployment",
   "paper_date": "2026-11-19",
   "paper_category": "AI solar cells",
-  "generated_at": "2026-11-21T18:30:21",
+  "generated_at": "2026-11-22T18:53:12",
   "generator": "openai"
 }
