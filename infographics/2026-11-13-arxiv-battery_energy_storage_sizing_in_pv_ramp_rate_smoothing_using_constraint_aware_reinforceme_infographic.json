@@ -1,16 +1,16 @@
 {
-  "key_insight": "Constraint-aware reinforcement learning reduces battery sizing requirements for PV ramp-rate smoothing while maintaining grid-code compliance.",
-  "engineering_relevance": "Co-designing battery capacity and control can reduce storage requirements for managing rapid solar-power fluctuations.",
+  "key_insight": "Constraint-aware reinforcement learning reduces battery sizing needs for PV ramp-rate smoothing while maintaining grid-code compliance.",
+  "engineering_relevance": "Jointly designing battery capacity and control can reduce storage requirements for integrating variable solar generation into the grid.",
   "method": [
     "Learn a causal state-feedback policy from historical PV data without requiring forecasts during deployment.",
-    "Restrict actions using a feasibility interval incorporating ramp-rate, converter-power, and state-of-charge constraints.",
-    "Compare against a full-horizon input-convex neural network optimization benchmark for minimum achievable battery requirements."
+    "Restrict battery actions to a feasibility interval incorporating ramp-rate, converter-power, and state-of-charge constraints.",
+    "Use full-horizon input-convex neural network optimization as a noncausal benchmark for minimum battery requirements."
   ],
-  "evidence_signal": "Across three real-world PV datasets at a 10%/min ramp-rate limit, CARL reduced peak battery power by 8.7–10.4% and energy capacity by 47.5–62.6% relative to conventional ramp-rate control.",
-  "watch_item": "Performance under PV conditions beyond the evaluated datasets remains uncertain; this study addresses PV integration and battery control, not perovskite cell materials.",
+  "evidence_signal": "Across three real-world PV datasets at a 10%/min ramp-rate limit, CARL reduced peak battery power by 8.7–10.4% and energy capacity by 47.5–62.6% versus conventional ramp-rate control while maintaining compliance.",
+  "watch_item": "Generalization to unseen PV variability and real-world battery behavior requires further validation beyond the reported datasets.",
   "hashtags": [
     "#SolarPV",
-    "#BatteryEnergyStorage",
+    "#BatteryStorage",
     "#ReinforcementLearning",
     "#RampRateControl",
     "#GridIntegration"
@@ -21,6 +21,6 @@
   "paper_title": "Battery Energy Storage Sizing in PV Ramp-Rate Smoothing using Constraint-Aware Reinforcement Learning-Based Controller",
   "paper_date": "2026-11-13",
   "paper_category": "Perovskite Solar Cells",
-  "generated_at": "2026-11-22T18:53:24",
+  "generated_at": "2026-11-24T21:47:10",
   "generator": "openai"
 }

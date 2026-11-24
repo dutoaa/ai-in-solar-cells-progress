@@ -1,10 +1,10 @@
 {
-  "key_insight": "Differentiable foundation models enable joint optimization of crystal composition and structure to design semiconductors with band gaps targeted for photovoltaic absorption.",
-  "engineering_relevance": "The approach could accelerate solar-absorber discovery by optimizing band gaps while penalizing energetically unfavorable crystal designs.",
+  "key_insight": "DEFEAT enables gradient-based crystal design by jointly optimizing composition and structure, including candidate semiconductors with band gaps targeted for solar absorption.",
+  "engineering_relevance": "The approach could accelerate photovoltaic absorber discovery by searching elemental choices, atom counts, positions, and lattice geometry together.",
   "method": [
-    "DEFEAT extends pretrained EquiformerV3 to continuous species weights and site occupancies without retraining on fractional data.",
-    "Property gradients and a learned energy penalty jointly update composition, atom count, atomic positions, and lattice vectors.",
-    "SCAN calculations assess candidate band gaps and stability relative to the DFT convex hull."
+    "Extend pretrained EquiformerV3 to continuous species weights and site occupancies without retraining on fractional data.",
+    "Optimize crystals using gradients from fine-tuned property models and a machine-learned energy penalty.",
+    "Validate candidate band gaps and stability with SCAN calculations and assess finite-temperature phase competition."
   ],
   "evidence_signal": "SCAN calculations confirmed ten novel crystal structures with band gaps within 20% of a 1.34 eV target on their respective raw or empirically corrected scales, all within 70 meV/atom of the DFT hull.",
   "watch_item": "Training-functional band-gap bias propagates into designs unless corrected in the objective; target gaps alone do not establish solar-cell performance.",
@@ -21,6 +21,6 @@
   "paper_title": "Inverse design of superconductors and semiconductors with differentiable foundation models",
   "paper_date": "2026-11-06",
   "paper_category": "Materials Discovery",
-  "generated_at": "2026-11-22T18:53:26",
+  "generated_at": "2026-11-24T21:47:12",
   "generator": "openai"
 }

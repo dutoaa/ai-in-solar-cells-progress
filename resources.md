@@ -1,9 +1,17 @@
 # AI solar cells Progress Public Resources
 
-Generated: 2026-11-22
+Generated: 2026-11-24
 Public site: https://dutoaa.github.io/ai-in-solar-cells-progress/
 
-## 1. Evidence-grounded large language models guide perovskite solar cell design and optimization
+## 1. Strain-Induced Tetragonal-to-Cubic Transition in MAPbI$_3$ from Machine-Learned Molecular Dynamics
+
+- Date: 2026-11-23
+- Category: Perovskite Solar Cells
+- arXiv: https://arxiv.org/abs/2611.30348v1
+- PDF: https://arxiv.org/pdf/2611.30348v1
+- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-11-23-arxiv-strain_induced_tetragonal_to_cubic_transition_in_mapbi_3_from_machine_learned_molecular_dy_infographic.json
+
+## 2. Evidence-grounded large language models guide perovskite solar cell design and optimization
 
 - Date: 2026-10-31
 - Category: Device Optimization
@@ -11,7 +19,7 @@ Public site: https://dutoaa.github.io/ai-in-solar-cells-progress/
 - PDF: https://arxiv.org/pdf/2611.00633v2
 - Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-10-31-arxiv-evidence_grounded_large_language_models_guide_perovskite_solar_cell_design_and_optimizatio_infographic.json
 
-## 2. Multiwavelength Photoluminescence as a Non-destructive Probe of Depth-Dependent UV Damage in Perovskite Semiconductors
+## 3. Multiwavelength Photoluminescence as a Non-destructive Probe of Depth-Dependent UV Damage in Perovskite Semiconductors
 
 - Date: 2026-10-26
 - Category: Degradation and Stability
@@ -19,7 +27,15 @@ Public site: https://dutoaa.github.io/ai-in-solar-cells-progress/
 - PDF: https://arxiv.org/pdf/2610.36305v1
 - Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-10-26-arxiv-multiwavelength_photoluminescence_as_a_non_destructive_probe_of_depth_dependent_uv_damage_infographic.json
 
-## 3. Enrichment-Oriented Virtual Screening of Perovskite Solar Cells through Reinforcement Learning
+## 4. Persistent Neutron Irradiation Effects and Partial Recovery in Thin-Film CdS/CdTe Solar Cells
+
+- Date: 2026-11-21
+- Category: Device Optimization
+- arXiv: https://arxiv.org/abs/2611.28472v1
+- PDF: https://arxiv.org/pdf/2611.28472v1
+- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-11-21-arxiv-persistent_neutron_irradiation_effects_and_partial_recovery_in_thin_film_cds_cdte_solar_ce_infographic.json
+
+## 5. Enrichment-Oriented Virtual Screening of Perovskite Solar Cells through Reinforcement Learning
 
 - Date: 2026-11-13
 - Category: Materials Discovery
@@ -27,7 +43,7 @@ Public site: https://dutoaa.github.io/ai-in-solar-cells-progress/
 - PDF: https://arxiv.org/pdf/2611.18043v1
 - Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-11-13-arxiv-enrichment_oriented_virtual_screening_of_perovskite_solar_cells_through_reinforcement_lear_infographic.json
 
-## 4. Hierarchical interfacial anchoring for durable perovskite solar cells
+## 6. Hierarchical interfacial anchoring for durable perovskite solar cells
 
 - Date: 2026-11-10
 - Category: Device Optimization
@@ -35,7 +51,7 @@ Public site: https://dutoaa.github.io/ai-in-solar-cells-progress/
 - PDF: https://arxiv.org/pdf/2611.13746v1
 - Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-11-10-arxiv-hierarchical_interfacial_anchoring_for_durable_perovskite_solar_cells_infographic.json
 
-## 5. Dynamic Molecular Transformation Mediated Crystallization Regulation and Interface Passivation in Tin Based Perovskite Solar Cells
+## 7. Dynamic Molecular Transformation Mediated Crystallization Regulation and Interface Passivation in Tin Based Perovskite Solar Cells
 
 - Date: 2026-11-07
 - Category: Perovskite Solar Cells
@@ -43,23 +59,15 @@ Public site: https://dutoaa.github.io/ai-in-solar-cells-progress/
 - PDF: https://arxiv.org/pdf/2611.10420v1
 - Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-11-07-arxiv-dynamic_molecular_transformation_mediated_crystallization_regulation_and_interface_passiva_infographic.json
 
-## 6. Controlling Surface Chemistry in Tin-Lead Perovskites for High-Efficiency Solar Cells
+## 8. DeepDOSReasoner: Physics-Grounded Reasoning for Density-of-States Prediction and Materials Discovery
 
-- Date: 2026-10-25
-- Category: Perovskite Solar Cells
-- arXiv: https://arxiv.org/abs/2610.34293v1
-- PDF: https://arxiv.org/pdf/2610.34293v1
-- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-10-25-arxiv-controlling_surface_chemistry_in_tin_lead_perovskites_for_high_efficiency_solar_cells_infographic.json
+- Date: 2026-11-22
+- Category: Materials Discovery
+- arXiv: https://arxiv.org/abs/2611.29132v1
+- PDF: https://arxiv.org/pdf/2611.29132v1
+- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-11-22-arxiv-deepdosreasoner_physics_grounded_reasoning_for_density_of_states_prediction_and_materials_infographic.json
 
-## 7. How to Effectively Manage the Energy in Residential Systems: Development and Comparison of Methods
-
-- Date: 2026-11-19
-- Category: Device Optimization
-- arXiv: https://arxiv.org/abs/2611.26412v1
-- PDF: https://arxiv.org/pdf/2611.26412v1
-- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-11-19-arxiv-how_to_effectively_manage_the_energy_in_residential_systems_development_and_comparison_of_infographic.json
-
-## 8. Amorphous selenium-alloyed TeOx thin-film solar cells
+## 9. Amorphous selenium-alloyed TeOx thin-film solar cells
 
 - Date: 2026-10-28
 - Category: Device Optimization
@@ -67,7 +75,7 @@ Public site: https://dutoaa.github.io/ai-in-solar-cells-progress/
 - PDF: https://arxiv.org/pdf/2610.38643v1
 - Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-10-28-arxiv-amorphous_selenium_alloyed_teox_thin_film_solar_cells_infographic.json
 
-## 9. Interpretable machine learning diagnosis of degradation mechanisms in lead-free $RbSn_{0.5}Ge_{0.5}I_{3}$ solar cells from temperature- and illumination-dependent electrical measurements
+## 10. Interpretable machine learning diagnosis of degradation mechanisms in lead-free $RbSn_{0.5}Ge_{0.5}I_{3}$ solar cells from temperature- and illumination-dependent electrical measurements
 
 - Date: 2026-11-12
 - Category: Device Optimization
@@ -75,15 +83,23 @@ Public site: https://dutoaa.github.io/ai-in-solar-cells-progress/
 - PDF: https://arxiv.org/pdf/2611.16750v1
 - Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-11-12-arxiv-interpretable_machine_learning_diagnosis_of_degradation_mechanisms_in_lead_free_rbsn_0_5_g_infographic.json
 
-## 10. Explainable AI for Solar PV Power Forecasting: From Model Selection to Trustworthy, Reproducible Deployment
+## 11. Modeling and analysis of a phase-field model for organic solar cells
 
-- Date: 2026-11-19
-- Category: AI solar cells
-- arXiv: https://arxiv.org/abs/2611.25894v1
-- PDF: https://arxiv.org/pdf/2611.25894v1
-- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-11-19-arxiv-explainable_ai_for_solar_pv_power_forecasting_from_model_selection_to_trustworthy_reproduc_infographic.json
+- Date: 2026-11-23
+- Category: Organic Photovoltaics
+- arXiv: https://arxiv.org/abs/2611.30660v1
+- PDF: https://arxiv.org/pdf/2611.30660v1
+- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-11-23-arxiv-modeling_and_analysis_of_a_phase_field_model_for_organic_solar_cells_infographic.json
 
-## 11. Electronic-morphological decoupling in mixed-dimensional halide perovskite heterostructures
+## 12. Giant magnetic anisotropy in layered polar metal Sr$_3$Co$_2$O$_7$ from Charge-disproportionation orbital unquenching
+
+- Date: 2026-11-22
+- Category: Perovskite Solar Cells
+- arXiv: https://arxiv.org/abs/2611.29742v1
+- PDF: https://arxiv.org/pdf/2611.29742v1
+- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-11-22-arxiv-giant_magnetic_anisotropy_in_layered_polar_metal_sr_3_co_2_o_7_from_charge_disproportionat_infographic.json
+
+## 13. Electronic-morphological decoupling in mixed-dimensional halide perovskite heterostructures
 
 - Date: 2026-10-27
 - Category: Perovskite Solar Cells
@@ -91,7 +107,7 @@ Public site: https://dutoaa.github.io/ai-in-solar-cells-progress/
 - PDF: https://arxiv.org/pdf/2610.37964v1
 - Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-10-27-arxiv-electronic_morphological_decoupling_in_mixed_dimensional_halide_perovskite_heterostructure_infographic.json
 
-## 12. Impact of organic spacer cations on the light and thermal stability of two-dimensional lead halide perovskites
+## 14. Impact of organic spacer cations on the light and thermal stability of two-dimensional lead halide perovskites
 
 - Date: 2026-10-26
 - Category: Perovskite Solar Cells
@@ -99,7 +115,15 @@ Public site: https://dutoaa.github.io/ai-in-solar-cells-progress/
 - PDF: https://arxiv.org/pdf/2610.35247v1
 - Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-10-26-arxiv-impact_of_organic_spacer_cations_on_the_light_and_thermal_stability_of_two_dimensional_lea_infographic.json
 
-## 13. AgBiS2 near-infrared absorbers for thin film tandem photovoltaics
+## 15. How to Effectively Manage the Energy in Residential Systems: Development and Comparison of Methods
+
+- Date: 2026-11-19
+- Category: Device Optimization
+- arXiv: https://arxiv.org/abs/2611.26412v1
+- PDF: https://arxiv.org/pdf/2611.26412v1
+- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-11-19-arxiv-how_to_effectively_manage_the_energy_in_residential_systems_development_and_comparison_of_infographic.json
+
+## 16. AgBiS2 near-infrared absorbers for thin film tandem photovoltaics
 
 - Date: 2026-11-01
 - Category: Perovskite Solar Cells
@@ -107,23 +131,15 @@ Public site: https://dutoaa.github.io/ai-in-solar-cells-progress/
 - PDF: https://arxiv.org/pdf/2611.01797v3
 - Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-11-01-arxiv-agbis2_near_infrared_absorbers_for_thin_film_tandem_photovoltaics_infographic.json
 
-## 14. Properties of [111]-oriented ferroelectric superlattices based on oxides with a perovskite structure
+## 17. Designing Perovskites for Chemical Looping Hydrogen Production
 
-- Date: 2026-11-18
-- Category: Perovskite Solar Cells
-- arXiv: https://arxiv.org/abs/2611.24129v1
-- PDF: https://arxiv.org/pdf/2611.24129v1
-- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-11-18-arxiv-properties_of_111_oriented_ferroelectric_superlattices_based_on_oxides_with_a_perovskite_s_infographic.json
+- Date: 2026-11-20
+- Category: Materials Discovery
+- arXiv: https://arxiv.org/abs/2611.27580v1
+- PDF: https://arxiv.org/pdf/2611.27580v1
+- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-11-20-arxiv-designing_perovskites_for_chemical_looping_hydrogen_production_infographic.json
 
-## 15. Should Belgians Install an Advanced Energy Management System in Their Electrified Dwelling ?
-
-- Date: 2026-11-19
-- Category: Device Optimization
-- arXiv: https://arxiv.org/abs/2611.26441v1
-- PDF: https://arxiv.org/pdf/2611.26441v1
-- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-11-19-arxiv-should_belgians_install_an_advanced_energy_management_system_in_their_electrified_dwelling_infographic.json
-
-## 16. Battery Energy Storage Sizing in PV Ramp-Rate Smoothing using Constraint-Aware Reinforcement Learning-Based Controller
+## 18. Battery Energy Storage Sizing in PV Ramp-Rate Smoothing using Constraint-Aware Reinforcement Learning-Based Controller
 
 - Date: 2026-11-13
 - Category: Perovskite Solar Cells
@@ -131,7 +147,7 @@ Public site: https://dutoaa.github.io/ai-in-solar-cells-progress/
 - PDF: https://arxiv.org/pdf/2611.17612v1
 - Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-11-13-arxiv-battery_energy_storage_sizing_in_pv_ramp_rate_smoothing_using_constraint_aware_reinforceme_infographic.json
 
-## 17. Inverse design of superconductors and semiconductors with differentiable foundation models
+## 19. Inverse design of superconductors and semiconductors with differentiable foundation models
 
 - Date: 2026-11-06
 - Category: Materials Discovery
@@ -139,26 +155,10 @@ Public site: https://dutoaa.github.io/ai-in-solar-cells-progress/
 - PDF: https://arxiv.org/pdf/2611.09572v1
 - Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-11-06-arxiv-inverse_design_of_superconductors_and_semiconductors_with_differentiable_foundation_models_infographic.json
 
-## 18. Origin and hole-density dependence of the intrinsic spin Hall conductivity in inorganic halide perovskites
+## 20. Power Law Transients in Perovskite Photoluminescence
 
-- Date: 2026-11-19
+- Date: 2026-11-20
 - Category: Perovskite Solar Cells
-- arXiv: https://arxiv.org/abs/2611.25488v1
-- PDF: https://arxiv.org/pdf/2611.25488v1
-- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-11-19-arxiv-origin_and_hole_density_dependence_of_the_intrinsic_spin_hall_conductivity_in_inorganic_ha_infographic.json
-
-## 19. Metadata-Driven AI: An Architectural Pattern for Sustainable Data Analysis with LLMs
-
-- Date: 2026-11-18
-- Category: AI solar cells
-- arXiv: https://arxiv.org/abs/2611.24661v1
-- PDF: https://arxiv.org/pdf/2611.24661v1
-- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-11-18-arxiv-metadata_driven_ai_an_architectural_pattern_for_sustainable_data_analysis_with_llms_infographic.json
-
-## 20. Nonideal Absorbers in Hot-Carrier and Hot-Absorber Solar Cells: Losses and Heat Recycling
-
-- Date: 2026-11-18
-- Category: Device Optimization
-- arXiv: https://arxiv.org/abs/2611.24194v1
-- PDF: https://arxiv.org/pdf/2611.24194v1
-- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-11-18-arxiv-nonideal_absorbers_in_hot_carrier_and_hot_absorber_solar_cells_losses_and_heat_recycling_infographic.json
+- arXiv: https://arxiv.org/abs/2611.27163v1
+- PDF: https://arxiv.org/pdf/2611.27163v1
+- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-11-20-arxiv-power_law_transients_in_perovskite_photoluminescence_infographic.json
