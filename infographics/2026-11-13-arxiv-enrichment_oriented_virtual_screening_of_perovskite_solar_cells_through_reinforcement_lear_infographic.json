@@ -1,19 +1,19 @@
 {
-  "key_insight": "Surrogate-guided reinforcement learning enriches virtual perovskite recipe shortlists for candidates near high-performing measured devices.",
-  "engineering_relevance": "The framework could help prioritize perovskite compositions, device layers, and processing recipes before costly fabrication.",
+  "key_insight": "Surrogate-guided reinforcement learning enriches perovskite solar-cell recipe shortlists with candidates near high-performing measured devices, rather than demonstrating new experimental performance.",
+  "engineering_relevance": "The framework could help prioritize recipes for fabrication across large composition, device-layer, and processing search spaces.",
   "method": [
-    "Generate device recipes using reinforcement-learning policies guided by a frozen TabPFN surrogate.",
-    "Assess neighborhood support against 890 measured reference devices.",
+    "Generate candidate recipes using reinforcement-learning policies guided by a frozen TabPFN surrogate.",
+    "Assess neighborhood support against a reference pool of 890 measured devices.",
     "Compare three learned policies with six baselines using 3,000 surrogate evaluations per run."
   ],
-  "evidence_signal": "Five-fold evaluation on 1,846 devices raised mean PCE from 19.68% to 23.74% through top-ten selection; top-100 neighborhood-supported hit rates were 23–24% for PPO/RPPO versus 2.9% for random sampling and 10% for the strongest baselines.",
-  "watch_item": "Neighborhood enrichment does not establish experimental performance, seed robustness, or matched-budget advantage; composition-family coverage also falls sharply at stricter similarity thresholds.",
+  "evidence_signal": "Five-fold evaluation on 1,846 devices raised mean PCE from 19.68% to 23.74% through top-ten selection; top-100 neighborhood-supported hit rates reached 23–24% for PPO/RPPO versus 2.9% for random screening and 10% for the strongest baselines.",
+  "watch_item": "Support weakens at stricter similarity thresholds, and the results do not establish experimental performance, seed robustness, or matched-budget advantage.",
   "hashtags": [
     "#PerovskiteSolarCells",
+    "#MaterialsDiscovery",
     "#ReinforcementLearning",
     "#VirtualScreening",
-    "#MaterialsDiscovery",
-    "#TabPFN"
+    "#SolarEnergy"
   ],
   "model": "gpt-6.1-sol",
   "service_tier": "ultrafast",
@@ -21,6 +21,6 @@
   "paper_title": "Enrichment-Oriented Virtual Screening of Perovskite Solar Cells through Reinforcement Learning",
   "paper_date": "2026-11-13",
   "paper_category": "Materials Discovery",
-  "generated_at": "2026-11-24T21:46:44",
+  "generated_at": "2026-11-25T20:53:39",
   "generator": "openai"
 }
