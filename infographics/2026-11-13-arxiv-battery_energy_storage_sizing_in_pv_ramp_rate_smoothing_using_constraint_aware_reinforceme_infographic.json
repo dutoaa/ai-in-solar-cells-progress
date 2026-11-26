@@ -1,13 +1,13 @@
 {
   "key_insight": "Constraint-aware reinforcement learning reduces battery sizing requirements for PV ramp-rate smoothing while maintaining grid-code compliance.",
-  "engineering_relevance": "Jointly designing battery capacity and control can reduce storage requirements for grid-connected PV systems without requiring forecasts during deployment.",
+  "engineering_relevance": "Jointly designing battery storage and its controller can reduce required power and energy capacity without relying on PV forecasts during deployment.",
   "method": [
-    "Learn a causal state-feedback policy from historical PV data.",
-    "Constrain actions using a feasibility interval incorporating ramp-rate, converter-power, and state-of-charge limits.",
-    "Compare against a full-horizon, noncausal input-convex neural network optimization benchmark."
+    "Learn a causal state-feedback control policy from historical PV data.",
+    "Restrict actions using a feasibility interval incorporating ramp-rate, converter-power, and state-of-charge constraints.",
+    "Compare performance with a full-horizon, noncausal input-convex neural network optimization benchmark."
   ],
   "evidence_signal": "Across three real-world PV datasets at a 10%/min ramp-rate limit, CARL reduced peak battery power by 8.7–10.4% and energy capacity by 47.5–62.6% versus conventional ramp-rate control while maintaining compliance.",
-  "watch_item": "Generalization to unseen PV variability and robustness to real battery and converter dynamics require validation beyond the reported datasets.",
+  "watch_item": "Performance under unseen PV conditions and real-world deployment remains to be established beyond the reported dataset evaluations.",
   "hashtags": [
     "#SolarPV",
     "#BatteryStorage",
@@ -21,6 +21,6 @@
   "paper_title": "Battery Energy Storage Sizing in PV Ramp-Rate Smoothing using Constraint-Aware Reinforcement Learning-Based Controller",
   "paper_date": "2026-11-13",
   "paper_category": "Perovskite Solar Cells",
-  "generated_at": "2026-11-25T20:54:04",
+  "generated_at": "2026-11-26T20:45:33",
   "generator": "openai"
 }

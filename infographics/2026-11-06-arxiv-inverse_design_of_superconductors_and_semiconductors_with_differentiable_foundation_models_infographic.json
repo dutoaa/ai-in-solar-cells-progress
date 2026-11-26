@@ -1,12 +1,12 @@
 {
-  "key_insight": "Differentiable foundation models enable joint optimization of crystal composition and structure toward target properties, including band gaps for photovoltaic absorbers.",
-  "engineering_relevance": "This approach could accelerate solar-absorber candidate discovery by optimizing electronic properties while penalizing energetically unfavorable structures.",
+  "key_insight": "Differentiable foundation models enable joint optimization of crystal composition and structure toward target properties, including band gaps suited to solar absorbers.",
+  "engineering_relevance": "This approach could accelerate photovoltaic materials screening by searching composition, atom count, atomic positions, and lattice vectors together.",
   "method": [
     "DEFEAT extends pretrained EquiformerV3 to continuous species weights and site occupancies without fractional-data retraining.",
-    "Property-model gradients and a learned energy penalty jointly update composition, atom count, atomic positions, and lattice vectors.",
-    "SCAN calculations evaluate photovoltaic candidates against a 1.34 eV band-gap target and DFT stability."
+    "Property-model gradients and a learned energy penalty jointly guide crystal optimization.",
+    "SCAN calculations assess absorber band gaps and stability; quasiharmonic free energies probe finite-temperature phase competition."
   ],
-  "evidence_signal": "SCAN calculations confirmed ten novel structures with gaps within 20% of the target on their respective raw or empirically corrected scales, all within 70 meV/atom of the DFT hull.",
+  "evidence_signal": "SCAN calculations confirm ten novel absorber structures with band gaps within 20% of a 1.34 eV target on their respective raw or empirically corrected scales, all within 70 meV/atom of the DFT hull.",
   "watch_item": "Training-functional band-gap bias propagates into designs unless corrected in the objective; target gaps alone do not establish solar-cell performance.",
   "hashtags": [
     "#AIForMaterials",
@@ -21,6 +21,6 @@
   "paper_title": "Inverse design of superconductors and semiconductors with differentiable foundation models",
   "paper_date": "2026-11-06",
   "paper_category": "Materials Discovery",
-  "generated_at": "2026-11-25T20:54:08",
+  "generated_at": "2026-11-26T20:45:35",
   "generator": "openai"
 }
