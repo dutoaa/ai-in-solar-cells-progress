@@ -1,6 +1,6 @@
 # AI solar cells Progress Public Resources
 
-Generated: 2026-11-26
+Generated: 2026-11-27
 Public site: https://dutoaa.github.io/ai-in-solar-cells-progress/
 
 ## 1. PerovAgent: Autonomous Ligand Design for Halide Perovskite Nanocrystals
@@ -51,21 +51,21 @@ Public site: https://dutoaa.github.io/ai-in-solar-cells-progress/
 - PDF: https://arxiv.org/pdf/2611.30348v1
 - Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-11-23-arxiv-strain_induced_tetragonal_to_cubic_transition_in_mapbi_3_from_machine_learned_molecular_dy_infographic.json
 
-## 7. Persistent Neutron Irradiation Effects and Partial Recovery in Thin-Film CdS/CdTe Solar Cells
+## 7. Interpretable machine learning diagnosis of degradation mechanisms in lead-free $RbSn_{0.5}Ge_{0.5}I_{3}$ solar cells from temperature- and illumination-dependent electrical measurements
+
+- Date: 2026-11-12
+- Category: Device Optimization
+- arXiv: https://arxiv.org/abs/2611.16750v1
+- PDF: https://arxiv.org/pdf/2611.16750v1
+- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-11-12-arxiv-interpretable_machine_learning_diagnosis_of_degradation_mechanisms_in_lead_free_rbsn_0_5_g_infographic.json
+
+## 8. Persistent Neutron Irradiation Effects and Partial Recovery in Thin-Film CdS/CdTe Solar Cells
 
 - Date: 2026-11-21
 - Category: Device Optimization
 - arXiv: https://arxiv.org/abs/2611.28472v1
 - PDF: https://arxiv.org/pdf/2611.28472v1
 - Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-11-21-arxiv-persistent_neutron_irradiation_effects_and_partial_recovery_in_thin_film_cds_cdte_solar_ce_infographic.json
-
-## 8. Amorphous selenium-alloyed TeOx thin-film solar cells
-
-- Date: 2026-10-28
-- Category: Device Optimization
-- arXiv: https://arxiv.org/abs/2610.38643v1
-- PDF: https://arxiv.org/pdf/2610.38643v1
-- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-10-28-arxiv-amorphous_selenium_alloyed_teox_thin_film_solar_cells_infographic.json
 
 ## 9. Effects of Yttrium doping on Proton Conductivity in Ba(Fe, Co, Zr, Y)O$_{3-δ}$ Cathode Materials for Proton Ceramic Fuel Cells
 
@@ -83,13 +83,13 @@ Public site: https://dutoaa.github.io/ai-in-solar-cells-progress/
 - PDF: https://arxiv.org/pdf/2611.29132v1
 - Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-11-22-arxiv-deepdosreasoner_physics_grounded_reasoning_for_density_of_states_prediction_and_materials_infographic.json
 
-## 11. Interpretable machine learning diagnosis of degradation mechanisms in lead-free $RbSn_{0.5}Ge_{0.5}I_{3}$ solar cells from temperature- and illumination-dependent electrical measurements
+## 11. AgBiS2 near-infrared absorbers for thin film tandem photovoltaics
 
-- Date: 2026-11-12
-- Category: Device Optimization
-- arXiv: https://arxiv.org/abs/2611.16750v1
-- PDF: https://arxiv.org/pdf/2611.16750v1
-- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-11-12-arxiv-interpretable_machine_learning_diagnosis_of_degradation_mechanisms_in_lead_free_rbsn_0_5_g_infographic.json
+- Date: 2026-11-01
+- Category: Perovskite Solar Cells
+- arXiv: https://arxiv.org/abs/2611.01797v3
+- PDF: https://arxiv.org/pdf/2611.01797v3
+- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-11-01-arxiv-agbis2_near_infrared_absorbers_for_thin_film_tandem_photovoltaics_infographic.json
 
 ## 12. Lattice Thermal Conductivity of MgO and the MgSiO$_3$ Polymorphs Bridgmanite and Post-Perovskite at Lower-Mantle Conditions Using Fine-Tuned MACE Potentials
 
@@ -99,39 +99,7 @@ Public site: https://dutoaa.github.io/ai-in-solar-cells-progress/
 - PDF: https://arxiv.org/pdf/2611.32761v1
 - Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-11-24-arxiv-lattice_thermal_conductivity_of_mgo_and_the_mgsio_3_polymorphs_bridgmanite_and_post_perovs_infographic.json
 
-## 13. Will national renewable costs continue declining?
-
-- Date: 2026-11-25
-- Category: Manufacturing and Modules
-- arXiv: https://arxiv.org/abs/2611.33978v1
-- PDF: https://arxiv.org/pdf/2611.33978v1
-- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-11-25-arxiv-will_national_renewable_costs_continue_declining_infographic.json
-
-## 14. Electronic-morphological decoupling in mixed-dimensional halide perovskite heterostructures
-
-- Date: 2026-10-27
-- Category: Perovskite Solar Cells
-- arXiv: https://arxiv.org/abs/2610.37964v1
-- PDF: https://arxiv.org/pdf/2610.37964v1
-- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-10-27-arxiv-electronic_morphological_decoupling_in_mixed_dimensional_halide_perovskite_heterostructure_infographic.json
-
-## 15. Spin-vibronic order in Ba$_2$MgReO$_6$
-
-- Date: 2026-11-25
-- Category: Perovskite Solar Cells
-- arXiv: https://arxiv.org/abs/2611.33814v1
-- PDF: https://arxiv.org/pdf/2611.33814v1
-- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-11-25-arxiv-spin_vibronic_order_in_ba_2_mgreo_6_infographic.json
-
-## 16. AgBiS2 near-infrared absorbers for thin film tandem photovoltaics
-
-- Date: 2026-11-01
-- Category: Perovskite Solar Cells
-- arXiv: https://arxiv.org/abs/2611.01797v3
-- PDF: https://arxiv.org/pdf/2611.01797v3
-- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-11-01-arxiv-agbis2_near_infrared_absorbers_for_thin_film_tandem_photovoltaics_infographic.json
-
-## 17. Battery Energy Storage Sizing in PV Ramp-Rate Smoothing using Constraint-Aware Reinforcement Learning-Based Controller
+## 13. Battery Energy Storage Sizing in PV Ramp-Rate Smoothing using Constraint-Aware Reinforcement Learning-Based Controller
 
 - Date: 2026-11-13
 - Category: Perovskite Solar Cells
@@ -139,7 +107,7 @@ Public site: https://dutoaa.github.io/ai-in-solar-cells-progress/
 - PDF: https://arxiv.org/pdf/2611.17612v1
 - Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-11-13-arxiv-battery_energy_storage_sizing_in_pv_ramp_rate_smoothing_using_constraint_aware_reinforceme_infographic.json
 
-## 18. Inverse design of superconductors and semiconductors with differentiable foundation models
+## 14. Inverse design of superconductors and semiconductors with differentiable foundation models
 
 - Date: 2026-11-06
 - Category: Materials Discovery
@@ -147,18 +115,50 @@ Public site: https://dutoaa.github.io/ai-in-solar-cells-progress/
 - PDF: https://arxiv.org/pdf/2611.09572v1
 - Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-11-06-arxiv-inverse_design_of_superconductors_and_semiconductors_with_differentiable_foundation_models_infographic.json
 
-## 19. Modeling and analysis of a phase-field model for organic solar cells
+## 15. Will national renewable costs continue declining?
 
-- Date: 2026-11-23
-- Category: Organic Photovoltaics
-- arXiv: https://arxiv.org/abs/2611.30660v1
-- PDF: https://arxiv.org/pdf/2611.30660v1
-- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-11-23-arxiv-modeling_and_analysis_of_a_phase_field_model_for_organic_solar_cells_infographic.json
+- Date: 2026-11-25
+- Category: Manufacturing and Modules
+- arXiv: https://arxiv.org/abs/2611.33978v1
+- PDF: https://arxiv.org/pdf/2611.33978v1
+- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-11-25-arxiv-will_national_renewable_costs_continue_declining_infographic.json
 
-## 20. Periodic Trends in Oxygen Vacancy Formation Energies Across Binary Main-Group Metal Oxides
+## 16. Spin-vibronic order in Ba$_2$MgReO$_6$
+
+- Date: 2026-11-25
+- Category: Perovskite Solar Cells
+- arXiv: https://arxiv.org/abs/2611.33814v1
+- PDF: https://arxiv.org/pdf/2611.33814v1
+- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-11-25-arxiv-spin_vibronic_order_in_ba_2_mgreo_6_infographic.json
+
+## 17. Periodic Trends in Oxygen Vacancy Formation Energies Across Binary Main-Group Metal Oxides
 
 - Date: 2026-11-11
 - Category: Perovskite Solar Cells
 - arXiv: https://arxiv.org/abs/2611.15297v1
 - PDF: https://arxiv.org/pdf/2611.15297v1
 - Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-11-11-arxiv-periodic_trends_in_oxygen_vacancy_formation_energies_across_binary_main_group_metal_oxides_infographic.json
+
+## 18. Analytical Framework Relating Capacitance-Frequency Measurements and Hysteresis in Perovskite Solar Cells
+
+- Date: 2026-11-09
+- Category: Perovskite Solar Cells
+- arXiv: https://arxiv.org/abs/2611.12115v1
+- PDF: https://arxiv.org/pdf/2611.12115v1
+- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-11-09-arxiv-analytical_framework_relating_capacitance_frequency_measurements_and_hysteresis_in_perovsk_infographic.json
+
+## 19. High-Entropy A-Site Disorder Enhances Oxygen Evolution Reaction Activity and Stability in Nickelate Thin Films
+
+- Date: 2026-11-02
+- Category: Perovskite Solar Cells
+- arXiv: https://arxiv.org/abs/2611.02796v1
+- PDF: https://arxiv.org/pdf/2611.02796v1
+- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-11-02-arxiv-high_entropy_a_site_disorder_enhances_oxygen_evolution_reaction_activity_and_stability_in_infographic.json
+
+## 20. The Utility of Physics-Informed Machine Learning in Solar Power Production Forecasting
+
+- Date: 2026-10-28
+- Category: Device Optimization
+- arXiv: https://arxiv.org/abs/2610.38976v1
+- PDF: https://arxiv.org/pdf/2610.38976v1
+- Infographic JSON: https://dutoaa.github.io/ai-in-solar-cells-progress/infographics/2026-10-28-arxiv-the_utility_of_physics_informed_machine_learning_in_solar_power_production_forecasting_infographic.json
